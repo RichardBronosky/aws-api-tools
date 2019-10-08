@@ -1,0 +1,72 @@
+@import 'src/assets/css/mixins'
+@import 'src/assets/css/variables'
+  
+.gc-balance
+  h1
+    text-transform: uppercase
+    color: $primary-invert
+    font-size: $txt-medium
+    padding: 1rem
+    background-color: $primary
+  .card 
+    margin: 0 auto 
+    padding: 1rem
+  .form-area
+    margin: 0 auto
+    justify-content: center
+    padding: 1rem
+    text-align: center
+    +large-up
+      justify-content: left
+      text-align: left
+      margin-left: 0
+    label
+      text-align: left
+  .grid-x
+    .asterisk
+      font-weight: 600
+      color: $dark-grey
+      margin-bottom: 1rem
+    .error
+      color: $red
+    span
+      padding: 0.5rem 0
+      
+      font-size: $txt-small
+    .asterisk
+      font-size: $txt-xsmall
+      +medium-up
+        font-size: $txt-small
+    .balance
+      text-align: center
+      width: 100%
+      font-size: $txt-medium
+      span
+        color: $green
+        font-weight: 600
+        display: inline
+        font-size: $txt-medium
+      &.zero
+        span
+          color: $red
+          font-weight: 600
+    button
+      width: 15rem
+      height: 2.5rem
+      .loader
+        height: 1.25rem
+        margin: -0.5rem
+    .numbers-image, .gc-image
+      padding: 2rem
+      display: flex
+      justify-content: center
+      align-items: center
+      .small-12
+        max-width: 23rem
+    .numbers-image
+      padding: 1rem
+      +medium-up
+        margin-left: 1rem
+        margin-right: -1rem
+  .accordians 
+    padding: 0 1rem

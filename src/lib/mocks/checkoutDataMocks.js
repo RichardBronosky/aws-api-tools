@@ -1,0 +1,278 @@
+export const order1 = {
+  isPickup: false,
+  isExpress: false,
+  submitted: false,
+  emailSubscribed: true,
+  additionalDirections: 'test',
+  lineItems: [
+    {
+      sku: '26043632',
+      quantity: 2,
+      unitPrice: 174,
+      title: 'Collins Point Brown Accent Chair',
+      deliveryType: 'O',
+      category: 'livingroom',
+      childItems: [],
+    },
+    {
+      sku: '26043633',
+      quantity: 2,
+      unitPrice: 174,
+      title: 'Collins Point Brown Accent Chair2',
+      deliveryType: 'D',
+      category: 'livingroom',
+      childItems: [],
+    },
+    {
+      sku: '26043634',
+      quantity: 2,
+      unitPrice: 174,
+      title: 'Collins Point Brown Accent Chair3',
+      deliveryType: 'U',
+      category: 'livingroom',
+      childItems: [],
+    },
+    {
+      category: 'gift-card',
+      childItems: [],
+      deliveryType: 'T',
+      quantity: 1,
+      sku: '83333333',
+      title: 'Gift Card',
+      unitPrice: 100,
+    },
+  ],
+  createdAt: '2019-05-29T15:20:15.170Z',
+  lastModified: '2019-05-29T17:00:09.305Z',
+  calendarType: 'daily',
+  dDeliveryCharge: 0,
+  deliveryCalendar: [],
+  kDeliveryCharge: 0,
+  paymentInfo: [
+    {
+      authorized: false,
+      paymentType: 'CYBERV2',
+      authorizedAmount: 377.58,
+      paymentProperties: {
+        postback: {
+          req_card_type: '001',
+          decision: 'ACCEPT',
+        },
+      },
+    },
+  ],
+  pickupCalendar: [],
+  pickupWarehouse: '',
+  promotions: {
+    cartTotal: 348,
+    listPriceTotal: 348,
+    salePriceTotal: 348,
+    bonusBuyTotal: 0,
+    totalSavings: 0,
+    lineItems: [
+      {
+        sku: '26043632',
+        quantity: 2,
+        unitPrice: 174,
+        title: 'Collins Point Brown Accent Chair',
+        deliveryType: 'O',
+        category: 'livingroom',
+        childItems: [],
+      },
+    ],
+    promotions: [],
+  },
+  total: 377.58,
+  totalDeliveryCharge: 0,
+  contact: {
+    firstName: 'Tester',
+    lastName: 'Test',
+    email: 'test@test.com',
+    altPhone: '',
+    phone: '4040404040',
+  },
+  payer: {
+    firstName: 'Tester',
+    lastName: 'Test',
+    email: 'test@test.com',
+    altPhone: '',
+    phone: '4040404040',
+    billingDifferent: true,
+    billingSubmitted: false,
+  },
+  deliveryTexts: true,
+  distributionIndex: 1,
+  emailCampaign: true,
+  shippingAddress: {
+    address1: '103 seffner ave',
+    address2: '',
+    city: 'seffner',
+    state: 'fl',
+    zip: '33584',
+    county: 'Hillsborough',
+    country_code: 'US',
+    addressLookup: '',
+    addressLookupSuccess: false,
+    showAddressLookup: false,
+  },
+  billingAddress: {
+    address1: '103 seffner ave',
+    address2: '',
+    city: 'seffner',
+    state: 'fl',
+    zip: '33584',
+    county: 'Hillsborough',
+    country_code: 'US',
+    addressLookup: '',
+    addressLookupSuccess: false,
+    showAddressLookup: false,
+  },
+  additionalDirections: '',
+  deliveryDate: '2019-06-04',
+  shouldCombineUPSWithTruck: true,
+  tax: 29.58,
+  amountDue: 0,
+  cyberSourceSignature: {
+    bill_to_forename: 'Tester',
+    bill_to_surname: 'Test',
+    bill_to_email: 'test@test.com',
+    bill_to_address_line1: '103 seffner ave',
+    bill_to_address_city: 'seffner',
+    bill_to_address_postal_code: '33584',
+    bill_to_address_state: 'FL',
+    bill_to_address_country: 'US',
+    amount: '377.58',
+    currency: 'USD',
+    reference_number: '9d06c1c1-ea10-4b07-82e0-27ae4947e6ef',
+    locale: 'en-us',
+    signed_date_time: '2019-05-29T16:59:55Z',
+    profile_id: 'C43A2464-4A37-4A37-BF2C-6E62CFCEBA41',
+    access_key: '66674d4c4897393fb6941963f6ac6d1a',
+    transaction_uuid: 'd9aa39ff-793c-4157-b017-853ed824ad82',
+    transaction_type: 'create_payment_token',
+    unsigned_field_names: 'payment_method',
+    payment_method: 'card',
+    item_0_name: '26043632',
+    item_0_sku: '26043632',
+    item_0_quantity: 2,
+    item_0_unit_price: '377.58',
+    item_0_taxAmount: '0.00',
+    line_item_count: 1,
+    signed_field_names:
+      'bill_to_forename,bill_to_surname,bill_to_email,bill_to_address_line1,bill_to_address_city,bill_to_address_postal_code,bill_to_address_state,bill_to_address_country,amount,currency,reference_number,locale,signed_date_time,profile_id,access_key,transaction_uuid,transaction_type,unsigned_field_names,item_0_name,item_0_sku,item_0_quantity,item_0_unit_price,item_0_taxAmount,line_item_count,signed_field_names',
+    signature: 'T0y65CK+W73H2uk483GgOHGVWSQmsPSZs3Hi1RR0NKo=',
+  },
+  giftCardInfo: {
+    giftCards: [],
+    useGiftCard: false,
+    giftCardNumber: '',
+    giftCardPin: '',
+    addAnotherCard: false,
+  },
+  orderId: '9d06c1c1-ea10-4b07-82e0-27ae4947e6ef',
+}
+
+export const mockDeliveryCalendar = [
+  {
+    date: '2019-06-04',
+    readable: 'June 04',
+    dayOfWeek: 'Tue',
+    isPickup: true,
+    isStandardDelivery: true,
+    isExpressDelivery: false,
+  },
+  {
+    date: '2019-06-05',
+    readable: 'June 05',
+    dayOfWeek: 'Wed',
+    isPickup: true,
+    isStandardDelivery: true,
+    isExpressDelivery: false,
+  },
+  {
+    date: '2019-06-06',
+    readable: 'June 06',
+    dayOfWeek: 'Thu',
+    isPickup: true,
+    isStandardDelivery: true,
+    isExpressDelivery: false,
+  },
+  {
+    date: '2019-06-07',
+    readable: 'June 07',
+    dayOfWeek: 'Fri',
+    isPickup: true,
+    isStandardDelivery: true,
+    isExpressDelivery: false,
+  },
+]
+
+export const fetchAddressLookupResp = {
+  totalMatches: 136009,
+  count: 9,
+  results: [
+    {
+      suggestion: '4100 Alexandria Pike, Alexandria KY 41001',
+      matched: [[36, 40], [0, 4]],
+      format:
+        'https://api.edq.com/capture/address/v2/format?country=USA&id=15197f6d-d4b7-41ad-bc77-b0d5790baa0a_U40_24_0_0_0%3D4100%24QL4%24GEO0',
+    },
+    {
+      suggestion: '4100 Amy Lou Dr, Alexandria KY 41001',
+      matched: [[31, 35], [0, 4]],
+      format:
+        'https://api.edq.com/capture/address/v2/format?country=USA&id=420547b1-8fac-4d4d-bc9c-776fc6a7b6ff_U40_24_0_0_0%3D4100%24QL4%24GEO0',
+    },
+    {
+      suggestion: '4100 Beiting Dr, Alexandria KY 41001',
+      matched: [[31, 35], [0, 4]],
+      format:
+        'https://api.edq.com/capture/address/v2/format?country=USA&id=61f7eaae-0ad7-4f7f-8cbe-68e126ad190e_U40_24_0_0_0%3D4100%24QL4%24GEO0',
+    },
+    {
+      suggestion: '4100 Ky 915, Alexandria KY 41001',
+      matched: [[27, 31], [0, 4]],
+      format:
+        'https://api.edq.com/capture/address/v2/format?country=USA&id=204b8965-23a8-4d68-a296-5c17e03cd105_U40_24_0_0_0%3D4100%24QL4%24GEO0',
+    },
+    {
+      suggestion: '4100 Licking Pike, Alexandria KY 41001',
+      matched: [[33, 37], [0, 4]],
+      format:
+        'https://api.edq.com/capture/address/v2/format?country=USA&id=ed19c1cb-ce4d-47d8-b967-50f3f43cd3b0_U40_24_0_0_0%3D4100%24QL4%24GEO0',
+    },
+    {
+      suggestion: '4100 Old State Road 2, Alexandria KY 41001',
+      matched: [[37, 41], [0, 4]],
+      format:
+        'https://api.edq.com/capture/address/v2/format?country=USA&id=f67f813f-97e5-4683-9274-579267c53238_U40_24_0_0_0%3D4100%24QL4%24GEO0',
+    },
+    {
+      suggestion: '4100 Persimmon Grove Rd, Alexandria KY 41001',
+      matched: [[39, 43], [0, 4]],
+      format:
+        'https://api.edq.com/capture/address/v2/format?country=USA&id=5cb5e9d7-8cd5-49e0-b2eb-be92c95ca940_U40_24_0_0_0%3D4100%24QL4%24GEO0',
+    },
+    {
+      suggestion: '4100 Sr 10, Alexandria KY 41001',
+      matched: [[26, 30], [0, 4]],
+      format:
+        'https://api.edq.com/capture/address/v2/format?country=USA&id=4edb7aa7-527d-4c0d-a4c7-5534b858e7ac_U40_24_0_0_0%3D4100%24QL4%24GEO0',
+    },
+    {
+      suggestion: '4100 State Route 10, Alexandria KY 41001',
+      matched: [[35, 39], [0, 4]],
+      format:
+        'https://api.edq.com/capture/address/v2/format?country=USA&id=90b44538-006a-488a-bf80-6e0517808017_U40_24_0_0_0%3D4100%24QL4%24GEO0',
+    },
+  ],
+}
+
+export const giftCards1 = [
+  {
+    giftCardNumber: '1111111111111111',
+    giftCardPin: '111111',
+    authorizedAmount: 100,
+    balance: 200,
+  },
+]

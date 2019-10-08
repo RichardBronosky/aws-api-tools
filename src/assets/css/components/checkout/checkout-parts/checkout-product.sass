@@ -1,0 +1,47 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.checkout-product
+  background: $primary-invert
+  height: auto
+  margin: 0 1.5%
+  width: 97%
+  &.separator
+    border-bottom: solid 1px $grey
+  .product-container
+    height: auto
+    width: 100%
+    padding: 1em
+    .checkout-pdp-link
+      .product-image-container
+        height: auto
+        text-align: center
+        margin: 0 2rem 0 -0.8rem
+        .product-image
+          max-width: 5em
+          display: inline-block
+          width: auto
+          height: auto
+      .product-title
+        font-weight: 600
+        color: $dark-grey
+        &:hover
+          color: $primary
+          text-decoration: underline
+    .product-info
+      padding: 0 1rem
+      p
+        color: $dark-grey
+        font-size: $txt-small
+      .checkmark
+        width: 30px
+        margin-top: -0.2em
+    .quantity
+      padding: 0 1rem
+      height: 2em
+    .product-price
+      padding: 0 1rem
+      height: 2em
+      text-align: right
+      font-size: $txt-medium
+      font-weight: 600

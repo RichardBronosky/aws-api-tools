@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppliedGiftCards renders correctly when removing gift card 1`] = `
+<div
+  className="grid-x"
+>
+  <div
+    className="applied-gift-cards small-12"
+  >
+    <h4>
+      Applied Gift Cards
+    </h4>
+    <div
+      className="grid-x"
+    >
+      <div
+        className="small-12 medium-7 large-6 applied-gift-card-container"
+      >
+        <div
+          className="applied-gift-card card"
+        >
+          <button
+            aria-label="Remove Gift Card"
+            className="remove-card"
+            onClick={[Function]}
+            tabIndex="0"
+            value="Remove Gift Card"
+          >
+            <img
+              alt="Removing gift card"
+              className="loader"
+              src="test-file-stub"
+            />
+          </button>
+          <div
+            className="gift-card-info"
+          >
+            <p
+              className="bold left"
+            >
+              Gift Card
+            </p>
+            <p
+              className="number"
+            >
+              - 
+              1111111111111111
+            </p>
+            <br />
+            Will use
+            <p
+              className="bold"
+            >
+              $100
+            </p>
+            of your 
+            <br />
+            <p
+              className="bold left"
+            >
+              $200
+            </p>
+            balance
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AppliedGiftCards renders correctly with default props 1`] = `
+<div
+  className="grid-x"
+>
+  <div
+    className="applied-gift-cards small-12"
+  >
+    <h4>
+      Applied Gift Cards
+    </h4>
+    <div
+      className="grid-x"
+    >
+      <div
+        className="small-12 medium-7 large-6 applied-gift-card-container"
+      >
+        <div
+          className="applied-gift-card card"
+        >
+          <button
+            aria-label="Remove Gift Card"
+            className="remove-card"
+            onClick={[Function]}
+            tabIndex="0"
+            value="Remove Gift Card"
+          >
+            <img
+              alt="close icon"
+              className="icon close"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFFFFF' d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z' /%3E%3C/svg%3E"
+            />
+          </button>
+          <div
+            className="gift-card-info"
+          >
+            <p
+              className="bold left"
+            >
+              Gift Card
+            </p>
+            <p
+              className="number"
+            >
+              - 
+              1111111111111111
+            </p>
+            <br />
+            Will use
+            <p
+              className="bold"
+            >
+              $100
+            </p>
+            of your 
+            <br />
+            <p
+              className="bold left"
+            >
+              $200
+            </p>
+            balance
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,34 @@
+@import '../../mixins'
+@import '../../variables'
+  
+.store-info 
+  .store-name
+    font-size: $txt-xsmall
+    text-transform: unset
+    font-weight: 500
+    margin-bottom: 0.25rem
+    +medium-up
+      margin-bottom: 0.5rem
+      font-size: $txt-small !important
+  .storeAddress
+    font-size: $txt-xsmall
+    +medium-up
+      font-size: $txt-small !important
+    a
+      color: $primary
+      font-size: $txt-xsmall
+      +medium-up
+        font-size: $txt-small !important
+      &:hover
+        text-decoration: underline
+    .store-address-link
+      display: block
+      margin-bottom: -0.5rem
+    .today-hours
+      display: block
+      margin-top: 0.25rem
+      +medium-up
+        margin-top: 0.5rem
+      .day
+        font-weight: 500
+    

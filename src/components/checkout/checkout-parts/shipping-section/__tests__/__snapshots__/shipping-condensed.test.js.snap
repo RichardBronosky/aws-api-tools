@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShippingCondensed renders correctly when address entered manually 1`] = `
+<div
+  className="shipping-condensed"
+>
+  <div
+    className="left-info"
+  >
+    Tester Test
+    <br />
+    
+    1111 Test Street
+     undefined
+    <br />
+    Test City 
+    FL 
+    33584
+  </div>
+  <div
+    className="right-info"
+  >
+    test@test.com
+    <br />
+    4040404040
+    <br />
+    
+  </div>
+</div>
+`;
+
+exports[`ShippingCondensed renders correctly when address looked up from QAS 1`] = `
+<div
+  className="shipping-condensed"
+>
+  <div
+    className="left-info"
+  >
+    Tester Test
+    <br />
+    1111 Test Street
+    <br />
+     Test City FL 33584
+  </div>
+  <div
+    className="right-info"
+  >
+    test@test.com
+    <br />
+    4040404040
+    <br />
+    
+  </div>
+</div>
+`;

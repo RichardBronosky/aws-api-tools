@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SalesContact renders correctly 1`] = `
+Array [
+  <p
+    className="sales-contact-text cell small-12"
+  >
+    Internet Sales Support Staff
+  </p>,
+  <p
+    className="sales-contact-phone cell small-12"
+  >
+    <a
+      href="tel:+18887095380"
+    >
+      1-888-709-5380
+    </a>
+  </p>,
+  <p
+    className="sales-contact-email cell small-12"
+  >
+    <a
+      href="mailto:InternetSalesSupport@roomstogo.com"
+    >
+      internetSalesSupport@roomstogo.com
+    </a>
+  </p>,
+  <p
+    className="cell small-12 sales-contact-times"
+  >
+    Mon - Sat: 9AM - 10PM EST
+  </p>,
+  <p
+    className="cell small-12 sales-contact-times"
+  >
+    Sunday: 11AM - 7PM EST
+  </p>,
+]
+`;

@@ -1,0 +1,78 @@
+@import '../mixins'
+@import '../variables'
+
+input:focus, a:focus, textarea:focus, button:focus, [tabindex]:focus, input:focus + .radio-label
+  outline: 1px dotted #212121
+  outline: 3px auto -webkit-focus-ring-color
+
+input[type="text"], input[type="email"], input[type="tel"]
+  border: solid 1px $grey
+  box-sizing: border-box
+  border-radius: 0px
+  &.invalid
+    border-color: $red
+  &.invalid::placeholder
+    color: $red
+
+// Custom Checkbox
+input[type="checkbox"]
+    -moz-appearance: none
+    -webkit-appearance: none
+    -o-appearance: none
+    border: 0.0625rem solid $grey
+    background-color: $primary-invert
+    transform: scale(1.5)
+    vertical-align: sub
+    border: 0.0625rem solid $grey
+    &:checked
+      background: $primary
+    &:checked:after
+      content: ''
+      position: absolute
+      left: 0.25rem
+      top: 0.0625rem
+      width: 0.25rem
+      height: 0.5rem
+      border: solid $primary-invert
+      border-width: 0 0.125rem 0.125rem 0
+      transform: rotate(45deg)
+    &:hover
+      cursor: pointer
+      border: 0.0625rem solid $primary
+
+// Custom Radio Button
+input[type="radio"]
+  position: absolute
+  opacity: 0
+  cursor: pointer
+  width: 20px
+  height: 20px
+input[type="radio"] + span,
+input[type="radio"] + label
+  &:before
+    content: ""
+    display: inline-block
+    width: 20px
+    height: 20px
+    margin: 0 8px 0 0
+    vertical-align: middle
+    border: 1px solid silver
+    border-radius: 100%
+input[type="radio"]:checked + span:before,
+input[type="radio"]:checked + label:before
+  content: ""
+  background: $red
+  border-color: $grey
+  box-shadow: inset 0 0 1px 3px $primary-invert
+  cursor: pointer
+
+
+// Custom Combo Box
+input[role="combobox"]
+  box-sizing: border-box
+  border: solid 1px $grey
+  border-radius: 0px
+  &.invalid
+    border-color: $red
+  &.invalid::placeholder
+    color: $red

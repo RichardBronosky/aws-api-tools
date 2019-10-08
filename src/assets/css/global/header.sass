@@ -1,0 +1,935 @@
+@import '../mixins'
+@import '../variables'
+
+header
+  width: 100%
+  background: $primary-invert
+  position: fixed
+  z-index: 10
+  top: 0
+  +large-up
+    border-bottom: solid 1px $grey!important
+  +medium-up
+    height: auto
+  +landscape
+    position: absolute
+  +medium-down
+    margin-top: -0.26rem !important
+  a, button
+    cursor: pointer
+    border: none
+    background: none
+  ul, li
+    margin: 0
+    padding: 0
+    list-style: none
+  .head-popout
+    display: none
+    width: 400px
+    position: absolute
+    min-height: 10em
+    border: solid 1px $light-grey
+    background: $primary-invert
+    top: 40px
+    z-index: 2
+    left: 50%
+    margin-left: -200px
+    overflow: auto
+    +landscape
+      position: absolute !important
+    &>*
+      z-index: 1
+  .active
+    .head-popout
+      display: block
+      +large-up
+        border: solid 2px $grey !important
+  .head-wrapper
+    width: 100%
+    max-width: 104rem
+    margin: autoFbold-arrow-link
+  .back-menu
+    padding: 0.65rem
+    border-radius: 0
+    margin-top: -1px
+    width: 100%
+    text-align: left
+    +large-up
+      display: none
+    +medium-down
+      &:hover
+        color: $primary
+    .arrowBack
+      height: 31px
+    span
+      padding: 0.1rem 0 0 0
+      font-size: $txt-medium
+      position: relative
+      top: 0.15rem
+  .head--titlebar
+    top: 0
+    padding: 0
+    background: $primary-invert
+    display: flex
+    justify-content: space-between
+    align-items: center
+    box-sizing: border-box
+    border-bottom: 1px solid $grey
+    margin: 0 auto
+    +large-up
+      border: none
+    &.checkout
+      border-bottom: 0.0625rem solid $grey
+      max-height: unset
+      padding: 0
+    .head--mobile-menu-icon
+      background: none
+      padding: 0
+      border: none
+      height: 70px
+      background-repeat: no-repeat
+      background-position: 50%
+      vertical-align: middle
+      +medium-down
+        display: flex
+      .small-6 
+        max-width: 71px
+      button
+        height: 74px
+        width: 100%
+        +small
+          width: 64px
+        +landscape
+          padding-bottom: 14px
+        i
+          background-size: 40%
+      display: block
+      text-align: left
+      +large-up
+        display: none
+        width: auto
+      .mobile-store-locator
+        width: 100%
+        display: block
+        height: 100%
+        text-align: center
+        .location
+          height: 74px
+          width: 25px
+    &>*
+      background: $primary-invert
+    .head--logo
+      line-height: 0
+      text-align: center
+      &.checkout
+        text-align: left
+        padding-left: 0.5rem
+        +large-up
+          padding-left: 0
+      a
+        display: inline-block
+        margin: auto
+        text-align: center
+        padding: 0.75rem
+        &.checkout
+          padding: 12px 
+      img
+        max-height: 53px
+        margin-top: 0
+        min-width: 25px
+        display: flex
+        justify-content: center 
+        align-content: center
+      .return-to-cart
+        font-size: $txt-medium
+        text-transform: uppercase
+        color: $primary
+        font-weight: 700
+        display: flex
+        justify-content: right
+        align-items: center
+        flex-direction: row-reverse
+        &:hover
+          text-decoration: underline
+    .head--iconbar
+      display: flex
+      justify-content: flex-end
+      padding-top: 5px
+      +landscape
+        padding-top: 0
+        margin-bottom: 3px
+      &>*+*
+        button
+          i
+            border-left: solid 1px $light-grey
+      &>*
+        height: 40px
+        box-sizing: border-box
+        position: relative
+        +landscape
+          position: inherit
+        &.active, &:hover
+          +large-up
+            border-bottom-color: rgb(47, 82, 148)
+      .head--iconbar-icon
+        height: 74px
+        text-align: center
+        max-width: 81px
+        +medium
+          width: 64px
+        +large-up
+          max-width: 185px
+        +landscape
+          margin-top: 0.45rem
+        +medium-down
+          border-left: solid 1px $grey
+        .view-cart
+          display: flex
+          align-items: center
+          justify-content: center
+          .cart-positioning
+            position: relative
+            &.cart
+              .icon
+                +large-up
+                  margin-top: 2px
+              +landscape
+                max-width: 74px
+            .round-blue
+              top: -9px
+              right: -1rem
+        i
+          display: inline-block
+          background-repeat: no-repeat
+          background-position: 50%
+          height: 100%
+          width: 70px
+          +landscape
+            width: 50px
+          +medium-down
+            background-size: 50%
+          +large-up
+            height: 30px
+        +medium-down
+          .head-popout
+            &.active
+              top: -100vh
+          &.active
+            .head-popout
+              width: 100%
+              max-height: calc(100vh - 130px)
+              margin: 0
+              position: fixed
+              top: 71px
+              display: block
+              padding-bottom: 10px
+              transition: top 500ms
+              z-index: -1
+              +medium-down
+                width: 100%
+                margin: 0
+                top: 71px
+                display: block
+                transition: top 500ms
+                z-index: -1
+                min-width: 313px
+              &::after
+                content: ' '
+                height: 2px
+                position: absolute
+                top: calc(100% - 2px)
+                display: block
+                left: 0
+                right: 0
+      .head--iconbar-toggle
+        background: none
+        border: none
+        padding: 0
+        text-align: center
+        height: inherit
+        margin: 0 auto
+        +landscape
+          position: relative
+        &.cart
+          display: flex
+          justify-content: center
+          align-items: center
+        &.location     
+          .icon
+            width: 34px
+            padding: 9px 9px 13px 9px
+            height: auto           
+          .location-text
+            display: inline-block
+            font-size: $txt-xsmall
+            font-weight: 600
+            color: $dark-grey
+            text-align: left
+            vertical-align: middle
+            text-transform: uppercase
+            width: 60px
+            &:hover
+              color: $primary
+              text-decoration: underline
+      button
+        &.head--iconbar-toggle
+         display: flex
+         justify-content: center
+         align-content: center
+         align-items: center
+      .round-blue
+        position: absolute
+        display: inline-block
+        top: 11px
+        right: 0.4rem
+        height: 1.2rem
+        width: 1.2rem
+        border-radius: 0.6rem
+        background: $primary
+        color: $primary-invert
+        font-weight: 800
+        text-align: center
+        font-size: 0.65rem
+        z-index: 1
+        +large-up        
+          right: 0.9rem
+        +landscape
+          position: absolute
+          right: 0
+        p
+          position: relative
+          top: 0.6rem
+          line-height: 0
+          color: $primary-invert
+          font-size: $txt-xsmall
+          font-weight: 700
+        &.hidden
+          opacity: 0
+      .head--iconbar-popout
+        width: 400px
+        max-height: calc(100vh - 86px)
+        overflow: auto
+        position: absolute
+        border: solid 1px $light-grey
+        background: #FFF
+        top: 74px
+        z-index: 2
+        right: -3px
+        margin-left: 0
+        left: auto
+        text-align: center
+        +medium-down
+          border-bottom: 2px solid $grey
+        a
+          display: block
+      .section
+        width: 90%
+        margin: 0px auto
+        padding: 10px 0px
+        border-bottom: 1px solid $grey
+        &:last-child
+          border-bottom: 0px
+          padding-top: 5px
+          text-align: center
+        .subtotal
+          color: red
+          text-transform: uppercase
+          text-align: right
+        .message
+          text-align: center
+        .notice
+          font-size: $txt-small
+          text-align: left
+          a
+            text-transform: uppercase
+            color: rgb(47, 82, 148)
+            font-weight: bold
+            text-decoration: none
+          p
+            font-size: $txt-small
+        .bold-arrow-link
+          text-align: center
+          text-transform: uppercase
+          font-weight: bold
+          display: block
+          color: $dark-grey
+          width: auto
+          text-decoration: none
+          margin: 10px
+          margin-bottom: 0
+          &:hover
+            color: $primary
+        &.no-border
+          border: 0px
+        .form
+          .required
+            float: right
+            font-size: $txt-small
+            margin-bottom: 20px
+          .sign-up
+            width: 100%
+            clear: both
+            margin: 10px auto
+            padding: 10px 0px
+            vertical-align: middle
+            input[type="checkbox"]
+              height: 20px
+              width: 20px
+              display: inline-block
+              vertical-align: middle
+        &.buttons
+          display: flex
+          justify-content: space-between
+          padding-bottom: 0px
+          margin-top: 10px
+          button
+            border: 1px solid $grey
+            width: 49.5%
+            padding: 8px 5px
+            text-align: center
+            box-sizing: border-box
+            font-size: $txt-medium
+            text-transform: uppercase
+            background-color: $primary-invert
+            &.active
+              background-color: rgb(47, 82, 148)
+              color: $primary-invert
+              border: 1px solid rgb(47, 82, 148)
+        .deliver-to
+          text-align: left
+          text-transform: uppercase
+          font-weight: 500
+          h2
+            color: inherit
+            line-height: inherit
+            font-size: inherit
+            font-weight: inherit
+            text-transform: inherit
+          span
+            display: inline
+            width: auto
+            color: $primary
+      .line-item
+        width: 90%
+        margin: 0px auto
+        border-top: 1px solid $grey
+        font-size: $txt-small
+        padding-top: 10px
+        box-sizing: border-box
+        .product
+          display: flex
+          padding: 5px 0
+          .prod-img
+            min-width: 6em
+            min-height: 5em
+            align-items: center
+            img
+              max-width: 6em
+              max-height: 5em
+              width: auto
+              height: auto
+          .prod-details
+            position: relative
+            width: 73%
+            margin-left: 10px
+            .title
+              font-size: $txt-xsmall
+              text-transform: uppercase
+              text-align: left
+              color: $dark-grey
+              &:hover
+                color: $primary
+                text-decoration: underline
+            .qty
+              position: absolute
+              bottom: 0px
+              left: 0px
+            .price
+              position: absolute
+              bottom: 0px
+              right: 0px
+              .strikethrough
+                text-decoration: line-through
+                font-size: $txt-xsmall
+              .strikethrough-sale
+                color: $red
+            .remove
+              position: absolute
+              top: 0px
+              right: 0px
+              color: red
+              text-transform: uppercase
+              line-height: 20px
+              font-size: $txt-xlarge
+        .availability
+          text-align: left
+  .head--navigation
+    overflow-y: auto
+    overflow-x: hidden
+    max-height: calc(100vh - 65px)
+    margin: 0 auto
+    display: none
+    border-left: none
+    border-right: none
+    background: $primary-invert
+    +large-up
+      border-top: solid 1px $grey
+      display: block
+      max-height: 62px
+      min-height: 48px
+    +landscape
+      max-height: calc(100vh - 74px)
+    &.active
+      display: flex
+      flex-wrap: wrap
+      flex-direction: row
+      justify-content: flex-start
+      &:focus
+        outline: none
+    &.wide
+      max-width: 100%
+      width: 100%
+      border-left: none
+      border-right: none
+    .mobile-menu-top-split
+      width: 100%
+      display: none
+      border-top: solid 1px $grey
+      border-radius: 0
+      &.active
+        display: block
+      a
+        text-align: left
+        cursor: pointer
+        width: 50%
+        color: $dark-grey
+        font-size: $txt-small
+        font-weight: 600
+        text-transform: uppercase
+        border: none
+        padding: 0px 10px
+        line-height: 50px
+        display: inline-block
+        box-sizing: border-box
+        +medium-down
+          font-size: $txt-xsmall
+          &:hover
+            color: $primary
+        &+button
+          border-radius: 0
+        img
+          &.icon
+            width: 3rem
+            height: 2rem
+            margin-top: -0.25rem
+            padding: 0.75rem
+            +medium-down
+              padding: 0
+            +landscape
+              padding: 0
+    .header--mobile-subnavigation-container
+      width: 100%
+      border-top: solid 1px $grey
+      border-bottom: solid 1px $grey
+      div
+        max-height: calc(100vh - 130px)
+        overflow-y: auto
+        overflow-x: hidden
+        +landscape
+          max-height: calc(100vh - 100px)
+    .header--mobile-nav-menu-list
+      +medium-down
+        border-bottom: 1px solid $grey !important
+    .header--mobile-nav-menu-list, .head--mobile-navigation-button
+      display: none
+      &.active
+        display: flex
+      &.bottom-links
+        background: $nav-grey
+        margin-top: -0.1em
+        +large-up
+          border-bottom: solid 1px $grey !important
+        .link
+          text-align: left
+          width: 100%
+          padding: 0px 24px
+          line-height: 50px
+          font-size: 0.9rem
+          font-weight: 600
+          text-transform: uppercase
+          border: none
+          border-top: solid 1px #DEDEDE
+          border-radius: 0
+          &:hover
+            text-decoration: underline
+      a
+        text-align: left
+        width: 100%
+        padding: 0px 24px
+        line-height: 50px
+        font-size: $txt-small
+        font-weight: 600
+        text-transform: uppercase
+        border: none
+        border-top: solid 1px $grey
+        border-radius: 0
+        +medium-down
+          &:hover
+            color: $primary
+    .head--navigation-item
+      > a
+        padding: 10px 0
+        &:hover
+          border-bottom: solid 3px $primary!important  
+      &.active > a
+        border-bottom: solid 3px $primary!important
+        color: $primary
+      a.desktop, section.desktop
+        border-bottom: solid 3px
+        border-bottom-color: $primary-invert
+        .link-sales
+          border-right: 1px solid $primary-invert
+        &:hover
+          color: $primary
+      +medium-down
+        &.active
+          display: flex
+          border-top: solid 1px $grey
+        &.section-head
+          a
+            background: $primary
+            padding-left: 1.15rem
+            &.active
+              color: $primary-invert !important
+              &:hover
+                color: $primary-invert !important
+                text-decoration: underline
+        .head--mobile-navigation-button
+          width: 100%
+          cursor: pointer
+          padding: 0px 24px
+          line-height: 50px
+          font-size: $txt-small
+          font-weight: 600
+          text-transform: uppercase
+          background: $primary-invert
+          border-radius: 0
+          text-align: left
+          text-transform: uppercase
+          text-decoration: none
+          position: relative
+          &.active
+            color: $dark-grey !important
+            border: none !important
+            border-top: solid 1px $grey !important
+            &:hover
+              color: $primary !important
+              text-decoration: underline
+          &.heading
+            font-weight: bold
+            font-size: $txt-medium
+          &.final-link
+            padding-left: 1.75rem
+          img
+            width: 33px
+            height: 31px
+            position: absolute
+            right: 0
+            top: 10px
+    ul
+      display: flex
+      margin: auto
+      width: 100%
+      max-width: 1100px
+      +medium-down
+        flex-wrap: wrap
+      li
+        width: 100%
+        display: inline-block
+
+        margin: auto
+        text-transform: uppercase
+        text-align: left
+        +large-up
+          text-align: center
+        &:after
+          content: ' '
+          background: $light-grey
+          width: 1px
+          height: 16px
+          display: block
+          position: absolute
+          left: 0
+          top: 0
+          bottom: 0
+          margin: auto
+        &.active
+          +large-up
+            border-color: rgb(47, 82, 148)
+        &:first-child:after
+          display: none
+        a, section
+          text-decoration: none
+          color: $dark-grey
+
+          display: block
+          font-weight: 600
+          &.sale
+            color: red
+    .head--megamenu
+      display: none
+      position: absolute
+      width: 100%
+      left: 0
+      right: 0
+      z-index: 1
+      margin: auto
+      background: $primary-invert
+      border: solid 1px $light-grey
+      border-top: solid 2px $light-grey
+      box-sizing: border-box
+      +large-up
+        padding: 16px
+        max-width: 104rem
+        box-shadow: -1px 7px 5px 0px rgba(0,0,0,0.27)
+      &.active
+        display: block
+      &.wide
+        max-width: 100%
+        width: 100%
+        border-left: none
+        border-right: none
+      .head-wrapper
+        display: flex
+        align-items: stretch
+        height: 600px
+        +large-wide
+          height: 580px
+        .head--megamenu-left
+          width: 100%
+          margin-right: 20px
+          display: none
+          &.active
+            display: block
+          +large-up
+            width: 22%
+          ul
+            display: block
+            list-style-type: none
+            .active
+              font-weight: bold
+              color: $primary
+            .icon-container
+              display: none
+              &.active
+                display: block
+            li
+              width: 100%
+              margin-right: 32px
+              border-bottom: solid 1px $light-grey
+              &.active
+                font-weight: bold
+                color: $primary
+              &:last-child
+                border-bottom: none
+              a
+                width: 100%
+                display: block
+                text-align: left
+                position: relative
+                padding: 16px 0
+                text-transform: uppercase
+                font-size: $txt-medium
+                &:focus
+                  font-weight: bold
+                  outline: 0
+                  color: $primary
+                .icon-container
+                  position: absolute
+                  right: 0
+                  top: .8rem
+                  bottom: 0
+                  margin: auto
+                  font-size: 1.25em
+                  display: inline-block
+                &:focus, &:hover
+                  font-weight: bold
+                  color: $primary
+        .head--megamenu-right
+          display: none
+          &.active
+            display: flex
+            width: 100%
+            +large-up
+              width: 80%
+          .sub-nav-link-list
+            display: flex
+            flex-flow: column wrap
+            padding: 8px 0
+            +medium-down
+              width: 100%
+              overflow: hidden
+              overflow-y: auto
+              overflow-x: hidden
+              flex-flow: wrap
+            .link-list
+              .link-list-heading
+                display: none
+              ul
+                li
+                  &:nth-child(1)
+                    a
+                      font-weight: bold
+      .head--megamenu-cat-specific
+        display: none
+        position: absolute
+        width: 612px
+        height: 612px
+        bottom: 0px
+        right: 0px
+        padding: 0px
+        margin: 0px
+        text-align: center
+        background-position: 0px calc(100% + 60px)
+        background-size: 100%
+        background-repeat: no-repeat
+        background-clip: border-box
+        z-index: 1
+        +large
+          display: block
+          width: 35%
+          margin: auto
+          bottom: 0
+        +large-wide
+          display: block
+           width: 612px
+        .full-width
+          width: 100%!important
+        &.default-cat
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        &.home-furniture
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        &.living-rooms
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        &.bedrooms
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        &.dining-rooms
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        &.home-accents
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        &.more-rooms
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        &.kids-teens
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        &.outdoor
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        &.mattress
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        &.sale
+          background-image: url('https://images2.roomstogo.com/is/image/roomstogo/lr_sof_1143380p_newportcove_indigo~Cindy-Crawford-Home-Newport-Cove-Indigo-Sofa.jpeg?$PDP_Primary_936x650$')
+        img.icon
+          &.shipping
+            width: 64px
+            padding: 9px
+            +small
+              width: 64px
+            +landscape
+              padding-top: 11px
+              margin-top: 0.95rem
+img.icon
+  &.menu
+    width: 45%
+    +landscape
+      margin-top: 0.9rem
+  &.close
+    width: 55%
+    +landscape
+      margin-top: 0.9rem
+  &.search
+    width: 37%
+    +landscape
+      margin-top: 0.9rem
+  &.location, &.cart
+    width: 30px
+    height: 28px
+    +small
+      width: 64px
+    +landscape
+      height: 30px
+      padding: 0 !important
+  &.shipping
+    width: 64px
+    padding: 9px
+    margin-top: .2rem
+    +small
+      width: 64px
+    +landscape
+      padding-top: 11px
+  &.trash
+    fill: $primary
+  &.faq
+    width: 1.5rem
+    margin: 0 auto
+  &.phone
+    width: 2rem
+    margin: 0 auto
+  &.chat
+    width: 2.2rem
+    margin: 0 auto
+  &.email
+    width: 2rem
+    margin: 0 auto
+  &.store
+    width: 2rem
+
+i.icon
+  display: inline-block
+  background-repeat: no-repeat
+  background-position: center
+  height: 30px
+  width: 70px
+  vertical-align: middle
+  &.profile
+    background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%2064%2080%22%3E%3Ctitle%3Eicon-account%3C%2Ftitle%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Layer_1-2%22%20data-name%3D%22Layer%201%22%3E%3Cpath%20d%3D%22M32%2C0A17%2C17%2C0%2C1%2C0%2C49%2C17%2C17%2C17%2C0%2C0%2C0%2C32%2C0Zm0%2C4A13%2C13%2C0%2C1%2C1%2C19%2C17%2C13%2C13%2C0%2C0%2C1%2C32%2C4Zm0%2C34c-8.68%2C0-16.53%2C2.34-22.34%2C6.25S0%2C53.76%2C0%2C60V78a2.07%2C2.07%2C0%2C0%2C0%2C2%2C2H62a2.07%2C2.07%2C0%2C0%2C0%2C2-2V60c0-6.24-3.85-11.84-9.66-15.75S40.68%2C38%2C32%2C38Zm0%2C4c7.94%2C0%2C15.09%2C2.21%2C20.12%2C5.59S60%2C55.41%2C60%2C60V76H4V60c0-4.59%2C2.84-9%2C7.88-12.41S24.06%2C42%2C32%2C42Z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E')
+  &.checkmark
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E")
+    &.green
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath style='fill:%2300B205' d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E")
+  &.circle
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg aria-hidden='true' data-prefix='far' data-icon='circle' class='svg-inline--fa fa-circle fa-w-16' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='currentColor' d='M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200z'%3E%3C/path%3E%3C/svg%3E")
+.fa-chevron-right
+  font-size: $txt-large
+  position: absolute
+  display: block
+  height: auto
+  width: auto
+  right: 0.5em
+  top: 0.65em
+.fa-chevron-left
+  font-size: $txt-large
+  position: relative
+  display: inline
+  height: auto
+  width: auto
+  left: 0em
+  top: 0em
+.shipping-text
+  display: inline-block
+  font-size: $txt-xsmall
+  font-weight: 600
+  color: $dark-grey
+  text-align: left
+  vertical-align: middle
+  text-transform: uppercase
+.deliveryLocation
+  text-decoration: underline
+.asterisk
+  color: $red
+.create-account, .sign-in
+  display: none
+  &.active
+    display: block
+.location-cell
+  text-align: right
+.store-location-text
+  display: flex

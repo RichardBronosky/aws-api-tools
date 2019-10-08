@@ -1,0 +1,97 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.delivery-date-picker
+  &.express
+    .slider
+      .slick-prev, .slick-next
+        top: 38% !important
+        z-index: 0
+        +large-up
+          top: 13% !important
+  .slider
+    display: block !important
+    .slick-list
+      +landscape
+        width: 90% !important
+        margin: 0 auto
+      +small
+        width: 85% !important
+        margin: 0 auto
+    .slick-prev, .slick-next
+      top: 49% !important
+      +large-up
+        top: 16% !important
+    .slick-slider
+      margin: 0 -1em !important
+      +medium-up
+        margin: 0 -2em !important
+        padding: 0 3rem !important
+      +large-up
+        padding: 0 4rem !important
+      .slick-prev, .slick-next
+        +large-up
+          transform: scale(2,2)
+    .slick-slide
+      padding: 0 0.25em !important
+    .slick-list
+      overflow-y: visible
+      +small
+        padding: 0.66rem 0 !important
+      +landscape
+        padding: 0.5rem 0 !important
+    .slider
+      margin-top: 1.5em !important
+      +medium-down
+        margin-top: 0 !important
+    .date
+      border: solid 1px $grey
+      text-align: center
+      &.selected-date
+        background: $primary
+        p
+          color: $primary-invert
+        &:hover
+          background: $primary
+      &:hover
+        background: $light-grey
+        cursor: pointer
+      .month
+        text-transform: uppercase
+        font-weight: 400
+        font-size: $txt-medium-up
+        +medium-down
+          font-size: $txt-medium
+        +small
+          font-size: $txt-small
+      .day
+        font-weight: 700
+        font-size: 4.2em
+        line-height: 1
+        +medium-down
+          font-size: 250%
+        +small
+          font-size: 220%
+      .weekday, .hours
+        text-transform: uppercase
+        font-weight: 400
+        font-size: $txt-medium
+        margin-top: 0.3em
+        +medium-down
+          font-size: $txt-xsmall
+      .hours
+        padding-top: 0.2rem
+        padding-bottom: 0.5rem
+    .restrictions
+      color: $dark-grey !important
+      font-weight: 400
+      width: 100%
+      text-align: center
+      margin-top: 0.4rem
+      margin-bottom: -2.5rem
+      height: 2.1rem
+      font-size: $txt-small
+      +landscape
+        font-size: $txt-xsmall
+      +small
+        font-size: $txt-mini

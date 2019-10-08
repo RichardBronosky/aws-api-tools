@@ -1,0 +1,25 @@
+@import '../../mixins'
+@import '../../variables'
+
+.order-success
+  .order-delivery-section
+    .delivery-heading, .delivery-info
+      +medium-down
+        font-size: $txt-small
+    .delivery-heading
+      .icon
+        &.shipping
+          width: auto
+          height: 16px
+          padding: 0 .675rem 0 0
+      h4
+        font-weight: 600
+    .delivery-product
+      height: 4rem
+      +medium-up
+        .quantity
+          font-size: $txt-small
+        a
+          p
+            padding: 0
+            font-size: $txt-small

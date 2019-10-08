@@ -1,0 +1,58 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.refinement-pills
+  display: none
+  .current-refinements
+  +large-up
+    width: 100%
+    border-top: 1px solid $grey
+  .current-refinements
+    display: none
+    +large-up
+      width: auto
+      display: block
+      margin-top: 0.625rem
+      top: 3.75rem
+      .ais-ClearRefinements
+        padding-top: .2rem
+        float: left
+        text-transform: capitalize
+        a
+          color: $dark-grey
+          &:hover
+            color: $primary
+        .ais-ClearRefinements-button
+          color: $dark-grey
+          text-transform: capitalize
+          font-size: $txt-medium
+          font-weight: 600
+          &:hover
+            color: $dark-grey
+            cursor: pointer
+      .refinement
+        padding: .2rem .3rem !important
+        font-size: $txt-xsmall
+        +large-up
+          width: auto
+          float: left
+          margin-right: 1rem
+          padding: .5rem .6rem
+          background-color: $primary
+          color: $primary-invert
+          font-size: $txt-medium
+          font-weight: 600
+          border-radius: 0
+          margin-bottom: 0.625rem
+          text-transform: capitalize
+        .refinement-remove
+          cursor: pointer
+          margin-left: 1rem
+          &:before
+            content: 'x'
+            color: $primary-invert
+            font-weight: 800
+            font-size: $txt-medium
+
+.ais-ClearRefinements-button
+  text-transform: capitalize

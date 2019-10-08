@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PromotionContentGroup doesn't render without targetSkus 1`] = `null`;
+
+exports[`PromotionContentGroup renders correctly with targetSkus 1`] = `
+<div
+  className="promotion-content-group"
+>
+  <div
+    inView={true}
+  >
+    <section
+      className="grid-x grid-margin-x grid-margin-y grid-padding-y"
+    >
+      <div
+        className="cell small-12"
+      >
+        <div
+          inView={true}
+        >
+          <div
+            className="banner-with-content center"
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            <div
+              className="banner-button"
+            >
+              <img
+                alt="Shop Umbrella Sale"
+                aria-hidden={null}
+                className="content-image background-blue"
+                role={null}
+                src="undefinedAnnSale_Umbrella1_CONTAINER_1660x350.png?cache-id=3ce7539777e89b8446c591144e989c76"
+              />
+              <div
+                className="banner-content center banner-content-medium"
+              >
+                <div
+                  className="banner-content-wrapper"
+                >
+                  <div
+                    className="banner-content-text promoeumbrellasale1c6r1"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "<br>
+<span style=\\"color:#FFFFFF; font-weight: bold; font-size: 28px;\\">GET A FREE UMBRELLA</span>
+<br>
+<span style=\\"color:#FFFFFF; font-weight: bold; font-size: 28px;\\">WITH SELECT* OUTDOOR PURCHASES OF $999+</span>
+<br>
+<br>
+<span style=\\"color:#FFFFFF; font-weight: bold;\\">*EXCLUDES VENDOR DIRECT.</span>
+<br>",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section
+    className="slider"
+  >
+    <div
+      className="slider-head"
+    >
+      <div
+        className="slider-heading"
+      >
+        <h2>
+          <span
+            className="hide508"
+          >
+             
+          </span>
+          Select Your Bonus Umbrella
+        </h2>
+      </div>
+      <div
+        className="slider-link"
+      />
+    </div>
+  </section>
+</div>
+`;

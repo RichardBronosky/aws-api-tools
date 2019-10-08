@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeclineModal renders correctly while loading 1`] = `
+<div>
+  <div
+    id="content"
+  >
+    <div
+      className="ReactModal__Overlay ReactModal__Overlay--after-open modal-overlay"
+      onClick={[Function]}
+      onMouseDown={[Function]}
+      style={Object {}}
+    >
+      <div
+        aria-label=" Test Declined Modal"
+        className="ReactModal__Content ReactModal__Content--after-open decline-modal"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+        role="dialog"
+        style={Object {}}
+        tabIndex="-1"
+      >
+        <div
+          className="modal-content"
+        >
+          <div
+            className="grid-x"
+          >
+            <div
+              className="text-container small-12"
+            >
+              <span
+                className="msg"
+              >
+                We were unable to authorize your 
+                Test
+                . Please select another payment type and resubmit your order. For help, please call 
+                <a
+                  href="tel:1-888-709-5380"
+                >
+                  1-888-709-5380
+                </a>
+                 Option #1.
+              </span>
+            </div>
+            <button
+              aria-label="Continue to Site"
+              className="blue-action-btn"
+              onClick={[Function]}
+              tabIndex="0"
+              value="Continue to Site"
+            >
+              <img
+                alt="Close Test decline modal"
+                className="loader"
+                src="test-file-stub"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-target-tag-name="DIV"
+    id="target"
+  />
+</div>
+`;
+
+exports[`DeclineModal renders correctly while not loading 1`] = `
+<div>
+  <div
+    id="content"
+  >
+    <div
+      className="ReactModal__Overlay ReactModal__Overlay--after-open modal-overlay"
+      onClick={[Function]}
+      onMouseDown={[Function]}
+      style={Object {}}
+    >
+      <div
+        aria-label=" Test Declined Modal"
+        className="ReactModal__Content ReactModal__Content--after-open decline-modal"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+        role="dialog"
+        style={Object {}}
+        tabIndex="-1"
+      >
+        <div
+          className="modal-content"
+        >
+          <div
+            className="grid-x"
+          >
+            <div
+              className="text-container small-12"
+            >
+              <span
+                className="msg"
+              >
+                We were unable to authorize your 
+                Test
+                . Please select another payment type and resubmit your order. For help, please call 
+                <a
+                  href="tel:1-888-709-5380"
+                >
+                  1-888-709-5380
+                </a>
+                 Option #1.
+              </span>
+            </div>
+            <button
+              aria-label="Continue to Site"
+              className="blue-action-btn"
+              onClick={[Function]}
+              tabIndex="0"
+              value="Continue to Site"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-target-tag-name="DIV"
+    id="target"
+  />
+</div>
+`;

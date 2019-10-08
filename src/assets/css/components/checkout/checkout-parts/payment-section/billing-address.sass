@@ -1,0 +1,69 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.billing-container
+  border-bottom: 1px solid $grey
+  padding-bottom: 0.75em
+  margin-left: 0.6%
+.billing-address
+  margin-top: 0.5em
+  width: 102.2%
+  position: relative
+  height: 100%
+  padding-bottom: 1.5em
+  label
+    width: 100%
+    +medium-up
+      width: 48%!important
+      float: left
+    input
+      width: 100%
+      +medium-up
+        width: 93.5%
+  +small
+    padding-right: 0.5em
+  .required-label
+    margin-bottom: 0.25em
+    +small
+      font-size: $txt-small
+  .invalid-message
+    font-size: $txt-small
+    margin-top: 1rem
+  .submit-billing-container
+    width: 92.5%
+    text-align: right
+    +small
+      width: 98%
+    .submit-billing-btn
+      background-color: $primary
+      color: $primary-invert
+      border-radius: 0px
+      height: 2.5em
+      text-align: center
+      box-sizing: border-box
+      font-size: $txt-medium
+      text-transform: uppercase
+      font-weight: bold
+      min-width: 6.35em
+      margin-top: 1.2em
+      .loader
+        height: 1.7rem
+        margin: -1rem
+        margin-top: -1.2rem
+.billing
+  margin-left: 1.5em
+  padding: 0.5em
+  +medium-down
+    margin-left: 1.4em
+  +small
+    margin-left: 1.3em
+  h4
+    display: inline
+    margin-right: 0.25em
+  .edit-billing-btn
+    display: inline
+    font-size: $txt-small
+    padding: 0 0.25em
+    color: $primary
+    &:hover
+      text-decoration: underline

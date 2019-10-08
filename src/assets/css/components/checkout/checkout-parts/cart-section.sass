@@ -1,0 +1,30 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.cart-section
+  margin-top: 1em
+  background: $primary-invert
+  .product-container
+    display: none
+
+  .cart-section-header
+    margin: 0 1.5%
+    width: 97%
+    height: 3em
+    border-bottom: solid 1px $grey
+    .product-container
+      display: none
+    .cart-section-title
+      font-weight: bold
+      font-size: $txt-large
+      margin: 0.25em 0.5em
+      float: left
+    .edit-cart
+      float: right
+      margin: 0.45em 0.5em
+      text-transform: uppercase
+      color: $primary
+      font-size: $txt-medium-up
+      font-weight: bold
+      &:hover
+        text-decoration: underline

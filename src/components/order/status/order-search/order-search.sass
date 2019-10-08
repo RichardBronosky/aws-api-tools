@@ -1,0 +1,58 @@
+@import 'src/assets/css/mixins'
+@import 'src/assets/css/variables'
+  
+.order-search
+  .order-status-info
+    padding: 1rem
+    h1
+      color: $dark-grey
+      line-height: 1
+      font-size: $txt-large
+      font-weight: 400
+      padding: 0
+      text-align: left
+      margin-bottom: 1rem
+      +large-up
+        font-size: $txt-xlarge
+    p 
+      margin-bottom: 1rem
+    button
+      height: 2.5rem
+      width: 9rem
+      +large-up
+        margin-left: 0 !important
+      .loader
+        height: 1rem
+    span.error
+        font-size: $txt-xsmall
+        color: $red
+    input
+      width: 100% !important
+      .error
+        border-color: $red
+  .help-text
+    +large-up
+      padding: 3rem
+    .background-box
+      padding: 1rem 0
+      border: none
+      border-top: 1px solid $grey
+      text-align: center
+      display: flex
+      flex-direction: column
+      align-content: center
+      justify-content: center
+      height: 100%
+      width: 100%
+      +medium-up
+        border: none
+        border-left: 1px solid $grey
+      h2
+        color: $primary
+        font-weight: 600
+      a 
+        color: $primary
+        text-decoration: underline
+        font-weight: 600
+        &:hover
+          color: $grey

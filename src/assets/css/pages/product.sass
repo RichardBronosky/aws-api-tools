@@ -1,0 +1,372 @@
+@import '../mixins'
+@import '../variables'
+@import '../components/shared/contentful-page.sass'
+
+.pdp-page
+  .product-location
+    font-size: $txt-small
+    margin: 0 auto
+    text-align: center
+    +medium-up
+      margin: 0
+  .product-details-section
+    margin-bottom: 0
+    border-top: 1px solid $grey
+    padding-top: .8rem
+.product-details
+  .includes-slider-container
+    display: block
+    height: auto
+    .card
+      display: block
+      height: 10rem
+      max-width: 100%
+    .slider-image-container
+      .slider-image
+        height: 8rem
+        img
+          height: 90%
+    .slick-next, .slick-prev
+      top: 2.8rem !important
+  .product-alternate-image
+    border: 0.0625rem solid $light-grey
+    border-radius: 0
+    height: 4rem
+    width: 4rem
+    +medium-up
+      height: 5rem
+      width: 8rem
+    img
+      max-height: 3.5rem
+      max-width: 3.5rem
+      width: auto
+      height: auto
+      +medium-up
+        max-height: 4.5rem
+        max-width: 7.5rem
+    &.selected, &:focus
+      border: 0.0625rem solid $primary
+      cursor: pointer
+  .breadcrumb
+    display: none
+    +large-up
+      display: block
+      margin-bottom: 0 !important
+    h1, li
+      color: $dark-grey
+      &:before
+        color: $dark-grey
+    a
+      color: $dark-grey
+      &:hover
+        color: $primary !important
+        text-decoration: underline !important
+  .product-title
+    color: $dark-grey
+    font-weight: 600
+    text-transform: capitalize
+  .product-sku
+    font-size: $txt-small
+    color: $dark-grey
+    font-weight: 400
+    +medium-up
+      margin-top: 0
+  .product-shop-link
+    font-size: $txt-medium
+    color: $dark-grey
+    font-weight: bold
+    text-transform: uppercase
+    float: right
+    margin-top: 21px
+    +large-up
+      margin: 10px
+
+    &:hover
+      color: $primary
+  .product-details-card
+    background-color: $primary-invert
+    margin-bottom: 1rem
+    position: relative
+    
+    .product-info-sticky
+      display: none
+      position: fixed
+      top: 128px
+      z-index: 9
+      max-width: 102rem
+      left: 0
+      right: 0
+      margin: 0 auto
+      +large-up
+        display: block
+      .list-price-container
+        display: flex
+        justify-content: right
+        width: 100%
+      .product-info
+        .product-title
+          text-align: left
+          height: 100%
+          padding: 1rem 0 0 0.625rem
+      .product-pricing
+        .product-price-financing
+          text-align: right
+          height: 100%
+          padding-top: 0.1rem
+          font-size: $txt-medium-up
+        .product-list-financing
+          text-align: right
+          font-size: $txt-small
+          color: $red
+      .product-details-data
+        .product-variation-title
+          margin-bottom: 0rem
+        .product-details-data-image
+          text-align: center
+          padding-top: 0.2rem
+          img
+            height: 3rem
+            width: auto
+            max-height: 100%
+            max-width: 100%
+    .product-tile
+      margin-top: 31px
+      +large-up
+        margin-top: 0
+      .product-variation-title
+        margin-bottom: 1rem
+        text-align: center
+        +medium-up
+          padding: 0
+          border: none
+        .product-variation-image-list
+          height: auto
+          .product-variations
+            justify-content: center
+            .product-variation-title
+              bottom: 0
+      .product-info
+        height: auto
+        margin: 0 auto
+      .product-pricing
+        .product-price-financing
+          font-size: $txt-small
+          text-align: center
+          margin-left: auto
+          margin-right: auto
+          +large-up
+            font-size: $txt-large
+            width: auto
+        .product-list-availability
+          +large-up
+            width: auto
+
+      .product-image
+        text-align: center
+        height: auto
+        margin-bottom: 0
+        width: 100%!important
+        padding: 0
+        .slider
+          height: auto
+          margin-top: 0
+          .slick-slider
+            margin-bottom: 0 !important
+            +large-up
+              min-height: 640px!important
+              display: flex
+              align-content: center
+              align-items: center
+              justify-content: center
+            .slick-next, 
+            .slick-prev
+              display: none
+              +large-up
+                display: block
+        .small-image
+          width: auto !important
+        .zoom-icon
+          height: 1.25rem
+          position: relative
+          bottom: -0.75rem
+          +medium-up
+            height: 2rem
+            bottom: -0.75rem
+
+  .product-in-room
+    .product-details-data
+      min-height: 3.35rem !important
+    .header
+      text-align: center
+    .view-all-link
+      display:flex
+      text-align: center
+      +medium
+        text-align: right
+      +large-up
+        text-align: right
+      a 
+        color: $dark-grey
+    .slick-next, .slick-prev
+      display: none
+    .product-info
+      text-align: center
+      +large-up
+        text-align: left
+    .product-pricing
+      text-align: center
+      +large-up
+        text-align: right
+        margin-right: 0
+      .product-price-financing
+        padding-top: .8rem
+        margin-right: 0
+        .price-tag
+          color: $red
+          font-size: $txt-medium-up
+        .product-financing
+          color: $red
+          font-size: $txt-xsmall
+      .product-list-availability
+        margin-right: 0
+        .buy-now-popup
+          padding-bottom: 0
+          background-color: rgba(255,255,255, 0)
+          .buy-now
+            margin-bottom: 1rem
+            display: inline-block
+            +large-up
+              padding: 0.525rem 2rem
+              top: 10px
+              position: relative
+              margin: 0
+    .slider-head
+      margin: 1rem auto
+    .slick-slider
+      margin: 0.75rem 0 0 0
+      .slick-list
+        padding: 0
+        .slick-track
+          border: 1px solid $grey
+          background-color: white
+        .slick-slide
+          a
+            padding: 1rem 0
+            display: flex !important
+            justify-content: center
+    .product-details-data
+      background-color: white
+      border: 1px solid $grey
+      margin: -.5rem 0 0 0
+      max-width: 104rem
+      height: auto
+     
+        
+      .product-info
+        padding-top: 1rem
+    img
+      margin: auto
+
+
+
+  .product-details-data
+    padding: 0 1rem
+    +medium-up
+    .instock-instore
+      margin-bottom: 2rem
+      justify-content: center
+      .in-stock
+        font-size: $txt-xsmall
+        float: left
+        text-align: center
+        +medium-up
+          text-align: left
+          margin-left: 19px
+        .checkmark
+          display: inline-block
+          background-repeat: no-repeat
+          background-position: center
+          height: 0.9375rem
+          width: 1.625rem
+          +large-up
+            margin-right: 16px
+        .close
+          height: 2.75rem
+          width: 2.5rem
+          cursor: unset
+          &:after
+            background: none
+          &:hover:before
+            transform: scale(1) rotate(45deg)
+            color: $dark-grey
+        .loading
+          width: 8rem
+          height: 2rem
+          position: relative
+          top: 0.7rem
+          background: $light-grey
+          display: inline-block
+      .instore
+        font-size: $txt-small
+        +large-up
+        .see-in-store-button 
+          img
+            margin-right: 11px
+
+    .free-shipping
+      color: $red
+      text-transform: uppercase
+      font-size: $txt-medium
+      font-weight: 600
+      margin-left: 19px
+.product-description-accordian
+  width: 100%
+  .contentful-accordion
+    width: 100%
+    margin-top: 0 !important
+    .contentful-accordion-heading
+      border-top: 0px
+      border-bottom: 0px
+.product-description
+
+  color: $dark-grey
+  .product-text
+    display: flex
+    margin: auto
+    h2
+      padding: 1% 0
+      font-weight: 500
+      font-size: $txt-large
+    .product-sku
+      font-weight: 600
+      margin: 10px 0
+    .product-dimensions
+      margin: .625rem 0
+  .description-image
+    margin: 0 auto
+    text-align: center
+  .product-collection-slider
+    .center
+      text-align: center !important
+    a
+      font-size: $txt-medium-up
+      color: $dark-grey
+      text-transform: uppercase
+      text-align: center
+  .product-images
+    max-width: 34rem
+    max-height: 20rem
+    margin: 0 auto
+  .product-variations
+    margin: 0 auto
+    width: 20rem
+    .slick-prev
+      -webkit-transform: scale(0, 0)!important
+      transform: scale(0, 0)!important
+  .fabric-swatches
+    width: 100%
+    text-align: left
+    button
+      font-size: $txt-medium
+      font-weight: bold
+      text-transform: uppercase

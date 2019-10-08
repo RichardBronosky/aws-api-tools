@@ -1,0 +1,61 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+
+.product-pricing
+  font-weight: 700
+  font-size: $txt-medium!important
+  margin-left: auto
+  margin-right: auto
+  display: -ms-flexbox
+  display: flex
+  -ms-flex-pack: center
+  justify-content: center
+  font-weight: 700
+  font-size: $txt-large
+  margin-left: auto
+  margin-right: auto
+  left: 0.9375rem
+  .product-price
+    text-align: center
+    min-height: 3rem
+  .sale
+    color: $red!important
+  .strikethrough
+    text-decoration: line-through
+    font-size: $txt-small !important
+    margin: 0 !important
+    margin-right: .5rem !important
+    color: $dark-grey !important
+  .strikethrough-sale
+    color: $red
+    margin: 0 !important
+    font-size: $txt-medium-up !important
+
+.plp-grid
+  .product-pricing
+    padding: 0.4375rem 0
+
+.pdp-page
+  .product-pricing
+    +large-up
+      justify-content: right
+    .product-price-financing
+      display: flex
+      align-content: center
+      justify-content: center
+      align-items: center
+      margin-bottom: -5px
+      height: 47px
+      +large-up
+        margin-right: 1rem!important
+      .price-tag
+        font-size: $txt-large
+      .product-list-price
+        margin-top: 0.5rem
+        +large-up
+          text-align: right
+          width: 100%
+          margin-top: 0
+        &.showing-finance
+          margin-top: 0

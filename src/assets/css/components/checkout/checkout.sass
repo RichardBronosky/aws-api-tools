@@ -1,0 +1,62 @@
+@import '../../mixins'
+@import '../../variables'
+
+.checkout-page
+  margin-top: -2.5rem
+  .checkout-page-header
+    margin: 0
+    hewight: 1.25rem
+    h1
+      line-height: 1
+      font-weight: 300
+      font-size: $txt-xlarge
+      color: $dark-grey
+      padding: 0
+      margin-top: 0.8rem
+      margin-bottom: 0.4rem
+      +large-up
+        padding-left: 1rem
+    .if-have-account
+      margin-top: 0.5em
+      font-size: $txt-medium
+      font-weight: 500
+      a
+        font-weight: bold
+        color: $primary
+        &:hover
+          text-decoration: underline
+    .if-not-have-account
+      font-size: $txt-small
+  .checkout-section-steps
+    margin-top: 0 !important
+    .checkout-section-container
+      margin-top: 0
+      +medium-down
+        margin-right: 1em
+  .checkout-container
+    position: -webkit-sticky
+    position: sticky
+    top: 5.25em!important
+    right: 0
+    height: 100%
+    z-index: 1
+    margin-top: 0
+    +large-up
+      max-height: 33rem
+    +medium-down
+      border-top: solid 2px $grey
+      bottom: -1px
+      top: unset !important
+      right: 1em
+      left: 1em
+      width: 100%
+    +small
+      margin-top: 1.5em
+      font-size: $txt-small
+    +landscape
+      margin-top: 1.5em
+      font-size: $txt-small 
+    +ie
+      position: static
+    .bold
+      font-weight: 600

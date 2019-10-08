@@ -1,0 +1,161 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.payment-form
+  border-radius: 5px
+  padding: 0.6em
+  text-align: left
+  .invalid-message
+    margin-bottom: 0
+    text-align: left
+  .hide
+    display: none
+  .billing-address-checkbox
+    margin-left: calc(0.5% + 0.3em)
+  .required-label
+    margin: 0 0 0.5rem 0
+    font-weight: 600
+    +small
+      font-size: $txt-small
+      margin: 0.5em 0 1em 0
+  .state
+    width: 97.5%
+    margin: 0 2.5% 2.8% 0
+    height: 46px
+    +medium-up
+      width: 93.5%
+  .more-payments
+    &:focus
+      outline: none
+  .credit-card-container
+    &:focus
+      outline: none
+    .billing-iframe
+      min-height: 25.5rem
+      &.accepted
+        min-height: 0
+    .credit-card-iframe
+      max-width: 559px
+      padding-left: 0.15rem
+      +medium-up
+        padding-left: 0.37rem
+      &.loading
+        margin-top: 0.75rem
+        margin-left: 0.17rem
+        height: 28.7rem
+        max-width: 554px
+        background: $light-grey
+        border: solid 1px $grey
+        background-image: url("../../../../../images/loader-dark.svg")
+        background-repeat: no-repeat
+        background-position: center
+        +medium-up
+          margin-left: 0.3rem
+  .payment-form-container
+    .payment-type
+      min-height: 3rem
+      background: $dark-grey
+      &:hover
+        background: $medium-grey
+      &.active
+        background: $primary
+        &:hover
+          background: $light-blue
+      &.disabled
+        opacity: 0.25
+        &:hover
+          background: $dark-grey
+      +large-up
+        height: 4rem
+        text-align: center
+        display: table
+        margin: 0.5% 0.5%
+        position: relative
+        max-width: 24%
+        vertical-align: middle
+      .payment-type-text
+        width: 100%
+        display: table
+        font-weight: 700
+        cursor: pointer
+        padding: .2rem
+        text-align: center
+        +ie
+          padding: 1.5rem
+        span
+          display: block
+        &.active
+          background: $primary
+          &:hover
+            background: $light-blue
+      .payment-type-text
+        font-size: $txt-xsmall
+        color: $primary-invert
+        +large-up
+          font-size: $txt-small
+    .more-payment-type
+      height: 6em
+      border: solid 3px $grey
+      text-align: center
+      display: table
+      margin: 0.5% 0.5%
+      position: relative
+      cursor: pointer
+      +large-up
+        max-width: 24%
+      +small
+        height: 5em
+        margin: 0.5% 0
+      &.active
+        border-color: $primary
+      &:hover
+        border-color: $primary
+      &.payment-type-image
+        padding: 1.5em
+        +small
+          padding: 1em
+      &.affirm-disabled
+        background: $grey
+        opacity: 0.7
+        &:hover
+          border-color: $grey
+      .affirm-logo
+        width: 6rem
+        margin-top: 1rem
+        +medium-up
+          margin-top: 1.5rem
+      .help-link
+        width: 100%
+        position: absolute
+        bottom: 0.25em
+        left: 0
+        a
+          font-size: $txt-small
+          color: $primary
+          text-align: center
+          &:hover
+            text-decoration: underline
+    input[type="radio"]
+      margin-right: 1em
+      margin-bottom: 1em
+  .gift-card-container
+    margin-top: 0.6em
+    padding: 0.2em 0
+    margin-left: 0.8%
+    margin-bottom: 1rem
+    width: 99%
+    &.gift-cards-active
+      border-bottom: solid 1px $grey
+    .note
+      margin-top: 0.5rem
+      font-size: $txt-xsmall
+      +medium-up
+        font-size: $txt-small
+    .invalid-message
+      margin-bottom: 0
+      margin-top: 1rem
+
+  input[type="checkbox"]
+    margin-right: 1em
+    margin-left: calc(0.30em)
+    margin-top: 1em

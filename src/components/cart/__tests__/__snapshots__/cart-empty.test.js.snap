@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartEmpty renders correctly 1`] = `
+<div
+  className="cart-empty small-12 large-9"
+  id="empty-cart-title"
+>
+  There are no items in your cart.
+  <a
+    aria-describedby="empty-cart-title"
+    className="blue-action-btn"
+    gtm-action="click"
+    gtm-category="cart-empty"
+    gtm-label="continue shopping"
+    gtm-value={null}
+    href="/"
+    id="empty-cart-continue"
+    onBlur={null}
+    onClick={[Function]}
+    onFocus={null}
+    onKeyDownCapture={null}
+  >
+    Continue Shopping
+  </a>
+</div>
+`;

@@ -1,0 +1,167 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.product-variations
+  .slider
+    margin: 0!important
+    max-width: 253px
+    +large-up
+      min-width: 240px
+      max-width: 300px
+  .variation-heading
+    text-align: center
+    font-weight: 600
+    color: $dark-grey
+    font-size: $txt-xsmall
+    +large-up
+      font-size: $txt-small
+  .product-variations-teams
+    .slick-slider button.slick-prev, .slick-slider button.slick-next
+      top: 37%
+    a
+      display: flex !important
+      justify-content: center
+      img
+        max-height: 45px
+        width: auto
+        height: auto
+        +medium-up
+          transform: scale(1.4)
+    .slick-list 
+      width: 87%
+      margin: 0 auto
+      +large-up
+        width: 100%
+      .slick-slide
+        display: -webkit-flex
+        display: flex
+        -webkit-justify-content: center
+        justify-content: center
+        -webkit-align-items: center
+        align-items: center
+        margin: auto
+        width: auto
+  .product-variation-info
+    text-align: center
+    margin-bottom: 0.75rem
+    &.hidden
+      visibility: hidden
+  .product-variation-swatches
+    justify-content: center
+    &.list
+      +large-up
+        margin-left: 16%
+      &:first-child
+        text-align: left
+      &:last-child:not(:only-child)
+        text-align: right
+    .product-variation-list
+      .variation-slider
+        display: flex 
+        justify-content: center
+        max-width: 150px
+        margin: 0 auto
+        .slick-slider
+          margin: 0
+          padding: 0
+          +large-up
+            padding: 0 2rem
+          .slick-list
+            padding: 0
+            .slick-slide
+              padding: 0
+          .slick-next,
+          .slick-prev
+            height: auto!important
+            top: 25%
+          .slick-prev
+            left: -21px
+            +large-up
+              left: 0
+          .slick-next
+            right: -21px
+            +large-up
+              right: 0
+      .product-variation-image
+        justify-content: center
+        text-align: center
+        padding: .25rem
+        border: 1px solid transparent
+        cursor: pointer
+        width: 100%
+        p, span
+          font-size: $txt-mini
+          color: $dark-grey
+          display: block
+          font-weight: bold
+        span.text-only
+          font-size: $txt-xsmall
+          padding: 4px
+        &.active
+          img, span.text-only
+            border: 2px solid $primary
+            padding: 4px
+            font-size: $txt-xsmall
+        img
+          &:hover
+            border: 2px solid $primary
+        img
+          width: auto
+          max-width: 2.25rem
+          max-height: 2.25rem
+          margin: 0 auto
+        .product-variations
+          justify-content: center
+          .product-variation-title
+            bottom: 0
+    .product-variation-image-list
+      .slick-list
+        +medium-down
+        width: 86%
+        margin: 0 auto
+.product-variations-teams
+  padding-top: 1em
+  border-top: 1px solid $grey
+  .slider
+    max-width: 100%
+    .slick-slide
+      min-height: 160px
+      border-bottom: 3px solid transparent
+      &:hover, &:focus-within
+        border-bottom: 3px solid $primary
+      h5, span
+        position: absolute
+        bottom: 0
+        padding-bottom: 2px
+        max-width: 5rem
+        text-align: center
+        font-size: .7rem
+        color: $dark-grey
+.size-variation
+  .slick-slide 
+    padding: .1em
+    min-width: 55px
+    h5, span
+      min-height: 3rem
+  .slick-track
+    width: 300px
+      
+  img
+    display: none
+  h5, span
+    display: -webkit-flex !important
+    display: flex !important
+    -webkit-align-items: center
+    align-items: center
+    -webkit-justify-content: center
+    justify-content: center
+    border: solid 2px #DEDEDE
+    cursor: pointer
+    text-align: center
+    color: $dark-grey
+    font-weight: 600
+    &.active
+      border: solid 2px $light-blue
+    &:hover
+      border: solid 2px $light-blue
+

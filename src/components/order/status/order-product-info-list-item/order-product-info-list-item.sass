@@ -1,0 +1,23 @@
+@import 'src/assets/css/mixins'
+@import 'src/assets/css/variables'
+  
+.order-product-info-list-item
+  .order-status-product-info-headings
+    border-bottom: 1px solid $grey
+    padding: 0.35rem 0
+    .order-status-heading
+      text-align: left
+      +small
+        font-size: $txt-small
+      +medium-up
+        text-align: center
+      &.large-7
+        text-align: left
+      p
+        font-size: $txt-small
+        +small
+          font-size: $txt-xsmall
+    .subtotal
+      text-align: left
+      +medium-up
+        text-align: right

@@ -1,0 +1,82 @@
+@import '../mixins'
+@import '../variables'
+
+
+
+.ais-SearchBox-resetIcon
+  +ie
+    display: none
+
+.ais-SortBy
+  &:after
+    +ie
+      display: none!important
+
+.product-image-link
+  +ie 
+    display: block!important
+.product-image
+  +ie 
+    display: block
+  img
+    +ie
+      width: auto
+
+.head--titlebar
+  +medium-up
+    +ie
+      width: 80 !important
+
+.signup-email
+    +ie
+      padding: 10 !important
+
+.head--logo
+  img
+    +ie 
+      max-width: 367px!important
+      min-width: 20px!important
+
+.quantity-select
+  width: 15%!important
+
+
+.banner-buttons
+  +ie 
+    justify-content: center!important
+.plp-grid
+  .product-image
+    +ie
+      display: block!important
+      img
+        +ie  
+          display: block!important
+          width: auto!important
+.slider
+  .plp-grid
+    .product-image
+      +ie
+        display: block!important
+      img
+        +ie 
+          width: auto!important
+          
+
+
+@supports (-ms-ime-align:auto) 
+  .sticky
+    position: relative!important
+  .banner-buttons 
+    justify-content: center!important
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+  .slick-prev, .slick-next
+    +medium-up
+      top: 38%
+      width: 1.75rem
+
+@supports (-webkit-overflow-scrolling: touch)
+  select,
+  textarea,
+  input 
+    font-size: 16px

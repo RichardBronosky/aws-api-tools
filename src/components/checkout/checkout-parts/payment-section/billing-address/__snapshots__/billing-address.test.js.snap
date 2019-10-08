@@ -1,0 +1,1406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BillingAddress renders correctly when billing submitted 1`] = `
+<div
+  className="billing-container"
+>
+  <input
+    aria-label="Edit Billing Address"
+    checked={false}
+    className="billing-address-checkbox"
+    label="Edit Billing Address"
+    name="Edit Billing Address"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  Billing address same as shipping
+  <div
+    className="billing"
+  >
+    <h4>
+      Billing Information
+    </h4>
+    (
+    <button
+      aria-label="Edit Billing Address"
+      className="edit-billing-btn"
+      onClick={[Function]}
+      tabIndex="0"
+      value="Edit Billing Address"
+    >
+      Edit Billing Address
+    </button>
+    )
+    <div
+      className="left-info"
+    >
+      Tester Test
+      <br />
+      103 seffner ave
+      <br />
+      seffner 
+      fl 
+      33584
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BillingAddress renders correctly while loading 1`] = `
+<div
+  className="billing-container"
+>
+  <input
+    aria-label="Edit Billing Address"
+    checked={false}
+    className="billing-address-checkbox"
+    label="Edit Billing Address"
+    name="Edit Billing Address"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  Billing address same as shipping
+  <div
+    className="billing-address"
+  >
+    <label
+      className="label firstName"
+      htmlFor="firstName"
+    >
+      First Name*
+       
+      <input
+        aria-invalid={false}
+        aria-required={true}
+        checked={false}
+        id="firstName"
+        name="First Name"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="First Name"
+        type="text"
+        value="Tester"
+      />
+      <span />
+    </label>
+    <label
+      className="label lastName"
+      htmlFor="lastName"
+    >
+      Last Name*
+       
+      <input
+        aria-invalid={false}
+        aria-required={true}
+        checked={false}
+        id="lastName"
+        name="Last Name"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Last Name"
+        type="text"
+        value="Test"
+      />
+      <span />
+    </label>
+    <label
+      className="label address1"
+      htmlFor="address1"
+    >
+      Street Address*
+       
+      <input
+        aria-invalid={true}
+        aria-required={true}
+        checked={false}
+        className="street"
+        id="address1"
+        name="Street Address"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Street Address"
+        type="text"
+        value="103 seffner ave"
+      />
+      <span />
+    </label>
+    <label
+      className="label address2"
+      htmlFor="address2"
+    >
+      Apt, Suite, Etc
+       
+      <input
+        aria-invalid={null}
+        checked={false}
+        className="apt"
+        id="address2"
+        name="Apt, Suite, Etc"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Apt, Suite, Etc"
+        type="text"
+        value=""
+      />
+      <span />
+    </label>
+    <label
+      className="label city"
+      htmlFor="city"
+    >
+      City*
+       
+      <input
+        aria-invalid={true}
+        aria-required={true}
+        checked={false}
+        className="city"
+        id="city"
+        name="City"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="City"
+        type="text"
+        value="seffner"
+      />
+      <span />
+    </label>
+    <label
+      className="label state"
+      htmlFor="state"
+    >
+      <p>
+        State*
+      </p>
+      <select
+        aria-label="State*"
+        className="state"
+        name="state"
+        onChange={[Function]}
+        value="FL"
+      >
+        <option
+          value="AZ"
+        >
+          AZ
+        </option>
+        <option
+          value="AL"
+        >
+          AL
+        </option>
+        <option
+          value="AK"
+        >
+          AK
+        </option>
+        <option
+          value="AR"
+        >
+          AR
+        </option>
+        <option
+          value="CA"
+        >
+          CA
+        </option>
+        <option
+          value="CO"
+        >
+          CO
+        </option>
+        <option
+          value="CT"
+        >
+          CT
+        </option>
+        <option
+          value="DC"
+        >
+          DC
+        </option>
+        <option
+          value="DE"
+        >
+          DE
+        </option>
+        <option
+          value="FL"
+        >
+          FL
+        </option>
+        <option
+          value="GA"
+        >
+          GA
+        </option>
+        <option
+          value="HI"
+        >
+          HI
+        </option>
+        <option
+          value="ID"
+        >
+          ID
+        </option>
+        <option
+          value="IL"
+        >
+          IL
+        </option>
+        <option
+          value="IN"
+        >
+          IN
+        </option>
+        <option
+          value="IA"
+        >
+          IA
+        </option>
+        <option
+          value="KS"
+        >
+          KS
+        </option>
+        <option
+          value="KY"
+        >
+          KY
+        </option>
+        <option
+          value="LA"
+        >
+          LA
+        </option>
+        <option
+          value="ME"
+        >
+          ME
+        </option>
+        <option
+          value="MD"
+        >
+          MD
+        </option>
+        <option
+          value="MA"
+        >
+          MA
+        </option>
+        <option
+          value="MI"
+        >
+          MI
+        </option>
+        <option
+          value="MN"
+        >
+          MN
+        </option>
+        <option
+          value="MS"
+        >
+          MS
+        </option>
+        <option
+          value="MO"
+        >
+          MO
+        </option>
+        <option
+          value="MT"
+        >
+          MT
+        </option>
+        <option
+          value="NE"
+        >
+          NE
+        </option>
+        <option
+          value="NV"
+        >
+          NV
+        </option>
+        <option
+          value="NH"
+        >
+          NH
+        </option>
+        <option
+          value="NJ"
+        >
+          NJ
+        </option>
+        <option
+          value="NM"
+        >
+          NM
+        </option>
+        <option
+          value="NY"
+        >
+          NY
+        </option>
+        <option
+          value="NC"
+        >
+          NC
+        </option>
+        <option
+          value="ND"
+        >
+          ND
+        </option>
+        <option
+          value="OH"
+        >
+          OH
+        </option>
+        <option
+          value="OK"
+        >
+          OK
+        </option>
+        <option
+          value="OR"
+        >
+          OR
+        </option>
+        <option
+          value="PA"
+        >
+          PA
+        </option>
+        <option
+          value="RI"
+        >
+          RI
+        </option>
+        <option
+          value="SC"
+        >
+          SC
+        </option>
+        <option
+          value="SD"
+        >
+          SD
+        </option>
+        <option
+          value="TN"
+        >
+          TN
+        </option>
+        <option
+          value="TX"
+        >
+          TX
+        </option>
+        <option
+          value="UT"
+        >
+          UT
+        </option>
+        <option
+          value="VT"
+        >
+          VT
+        </option>
+        <option
+          value="VA"
+        >
+          VA
+        </option>
+        <option
+          value="WA"
+        >
+          WA
+        </option>
+        <option
+          value="WV"
+        >
+          WV
+        </option>
+        <option
+          value="WI"
+        >
+          WI
+        </option>
+        <option
+          value="WY"
+        >
+          WY
+        </option>
+      </select>
+    </label>
+    <label
+      className="label zip"
+      htmlFor="zip"
+    >
+      Zip*
+       
+      <input
+        aria-invalid={true}
+        aria-required={true}
+        checked={false}
+        className="zip"
+        id="zip"
+        name="Zip"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Zip"
+        type="text"
+        value="33584"
+      />
+      <span />
+    </label>
+    <div
+      className="submit-billing-container"
+    >
+      <button
+        aria-label="Submit"
+        className="submit-billing-btn"
+        onClick={[Function]}
+        tabIndex="0"
+        value="Submit"
+      >
+        <img
+          alt="Submitting new billing address"
+          className="loader"
+          src="test-file-stub"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BillingAddress renders correctly with invalid fields 1`] = `
+<div
+  className="billing-container"
+>
+  <input
+    aria-label="Edit Billing Address"
+    checked={false}
+    className="billing-address-checkbox"
+    label="Edit Billing Address"
+    name="Edit Billing Address"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  Billing address same as shipping
+  <div
+    className="billing-address"
+  >
+    <p
+      className="invalid-message"
+    >
+      *Invalid
+       
+      first name
+    </p>
+    <label
+      className="label firstName"
+      htmlFor="firstName"
+    >
+      First Name*
+       
+      <input
+        aria-invalid={true}
+        aria-required={true}
+        checked={false}
+        className="invalid"
+        id="firstName"
+        name="First Name"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="First Name"
+        type="text"
+        value="Tester"
+      />
+      <span />
+    </label>
+    <label
+      className="label lastName"
+      htmlFor="lastName"
+    >
+      Last Name*
+       
+      <input
+        aria-invalid={false}
+        aria-required={true}
+        checked={false}
+        id="lastName"
+        name="Last Name"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Last Name"
+        type="text"
+        value="Test"
+      />
+      <span />
+    </label>
+    <label
+      className="label address1"
+      htmlFor="address1"
+    >
+      Street Address*
+       
+      <input
+        aria-invalid={true}
+        aria-required={true}
+        checked={false}
+        className="street"
+        id="address1"
+        name="Street Address"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Street Address"
+        type="text"
+        value="103 seffner ave"
+      />
+      <span />
+    </label>
+    <label
+      className="label address2"
+      htmlFor="address2"
+    >
+      Apt, Suite, Etc
+       
+      <input
+        aria-invalid={null}
+        checked={false}
+        className="apt"
+        id="address2"
+        name="Apt, Suite, Etc"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Apt, Suite, Etc"
+        type="text"
+        value=""
+      />
+      <span />
+    </label>
+    <label
+      className="label city"
+      htmlFor="city"
+    >
+      City*
+       
+      <input
+        aria-invalid={true}
+        aria-required={true}
+        checked={false}
+        className="city"
+        id="city"
+        name="City"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="City"
+        type="text"
+        value="seffner"
+      />
+      <span />
+    </label>
+    <label
+      className="label state"
+      htmlFor="state"
+    >
+      <p>
+        State*
+      </p>
+      <select
+        aria-label="State*"
+        className="state"
+        name="state"
+        onChange={[Function]}
+        value="FL"
+      >
+        <option
+          value="AZ"
+        >
+          AZ
+        </option>
+        <option
+          value="AL"
+        >
+          AL
+        </option>
+        <option
+          value="AK"
+        >
+          AK
+        </option>
+        <option
+          value="AR"
+        >
+          AR
+        </option>
+        <option
+          value="CA"
+        >
+          CA
+        </option>
+        <option
+          value="CO"
+        >
+          CO
+        </option>
+        <option
+          value="CT"
+        >
+          CT
+        </option>
+        <option
+          value="DC"
+        >
+          DC
+        </option>
+        <option
+          value="DE"
+        >
+          DE
+        </option>
+        <option
+          value="FL"
+        >
+          FL
+        </option>
+        <option
+          value="GA"
+        >
+          GA
+        </option>
+        <option
+          value="HI"
+        >
+          HI
+        </option>
+        <option
+          value="ID"
+        >
+          ID
+        </option>
+        <option
+          value="IL"
+        >
+          IL
+        </option>
+        <option
+          value="IN"
+        >
+          IN
+        </option>
+        <option
+          value="IA"
+        >
+          IA
+        </option>
+        <option
+          value="KS"
+        >
+          KS
+        </option>
+        <option
+          value="KY"
+        >
+          KY
+        </option>
+        <option
+          value="LA"
+        >
+          LA
+        </option>
+        <option
+          value="ME"
+        >
+          ME
+        </option>
+        <option
+          value="MD"
+        >
+          MD
+        </option>
+        <option
+          value="MA"
+        >
+          MA
+        </option>
+        <option
+          value="MI"
+        >
+          MI
+        </option>
+        <option
+          value="MN"
+        >
+          MN
+        </option>
+        <option
+          value="MS"
+        >
+          MS
+        </option>
+        <option
+          value="MO"
+        >
+          MO
+        </option>
+        <option
+          value="MT"
+        >
+          MT
+        </option>
+        <option
+          value="NE"
+        >
+          NE
+        </option>
+        <option
+          value="NV"
+        >
+          NV
+        </option>
+        <option
+          value="NH"
+        >
+          NH
+        </option>
+        <option
+          value="NJ"
+        >
+          NJ
+        </option>
+        <option
+          value="NM"
+        >
+          NM
+        </option>
+        <option
+          value="NY"
+        >
+          NY
+        </option>
+        <option
+          value="NC"
+        >
+          NC
+        </option>
+        <option
+          value="ND"
+        >
+          ND
+        </option>
+        <option
+          value="OH"
+        >
+          OH
+        </option>
+        <option
+          value="OK"
+        >
+          OK
+        </option>
+        <option
+          value="OR"
+        >
+          OR
+        </option>
+        <option
+          value="PA"
+        >
+          PA
+        </option>
+        <option
+          value="RI"
+        >
+          RI
+        </option>
+        <option
+          value="SC"
+        >
+          SC
+        </option>
+        <option
+          value="SD"
+        >
+          SD
+        </option>
+        <option
+          value="TN"
+        >
+          TN
+        </option>
+        <option
+          value="TX"
+        >
+          TX
+        </option>
+        <option
+          value="UT"
+        >
+          UT
+        </option>
+        <option
+          value="VT"
+        >
+          VT
+        </option>
+        <option
+          value="VA"
+        >
+          VA
+        </option>
+        <option
+          value="WA"
+        >
+          WA
+        </option>
+        <option
+          value="WV"
+        >
+          WV
+        </option>
+        <option
+          value="WI"
+        >
+          WI
+        </option>
+        <option
+          value="WY"
+        >
+          WY
+        </option>
+      </select>
+    </label>
+    <label
+      className="label zip"
+      htmlFor="zip"
+    >
+      Zip*
+       
+      <input
+        aria-invalid={true}
+        aria-required={true}
+        checked={false}
+        className="zip"
+        id="zip"
+        name="Zip"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Zip"
+        type="text"
+        value="33584"
+      />
+      <span />
+    </label>
+    <div
+      className="submit-billing-container"
+    >
+      <button
+        aria-label="Submit"
+        className="submit-billing-btn"
+        onClick={[Function]}
+        tabIndex="0"
+        value="Submit"
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BillingAddress renders correctly with when user selects billing different and has not submitted 1`] = `
+<div
+  className="billing-container"
+>
+  <input
+    aria-label="Edit Billing Address"
+    checked={false}
+    className="billing-address-checkbox"
+    label="Edit Billing Address"
+    name="Edit Billing Address"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  Billing address same as shipping
+  <div
+    className="billing-address"
+  >
+    <label
+      className="label firstName"
+      htmlFor="firstName"
+    >
+      First Name*
+       
+      <input
+        aria-invalid={false}
+        aria-required={true}
+        checked={false}
+        id="firstName"
+        name="First Name"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="First Name"
+        type="text"
+        value="Tester"
+      />
+      <span />
+    </label>
+    <label
+      className="label lastName"
+      htmlFor="lastName"
+    >
+      Last Name*
+       
+      <input
+        aria-invalid={false}
+        aria-required={true}
+        checked={false}
+        id="lastName"
+        name="Last Name"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Last Name"
+        type="text"
+        value="Test"
+      />
+      <span />
+    </label>
+    <label
+      className="label address1"
+      htmlFor="address1"
+    >
+      Street Address*
+       
+      <input
+        aria-invalid={true}
+        aria-required={true}
+        checked={false}
+        className="street"
+        id="address1"
+        name="Street Address"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Street Address"
+        type="text"
+        value="103 seffner ave"
+      />
+      <span />
+    </label>
+    <label
+      className="label address2"
+      htmlFor="address2"
+    >
+      Apt, Suite, Etc
+       
+      <input
+        aria-invalid={null}
+        checked={false}
+        className="apt"
+        id="address2"
+        name="Apt, Suite, Etc"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Apt, Suite, Etc"
+        type="text"
+        value=""
+      />
+      <span />
+    </label>
+    <label
+      className="label city"
+      htmlFor="city"
+    >
+      City*
+       
+      <input
+        aria-invalid={true}
+        aria-required={true}
+        checked={false}
+        className="city"
+        id="city"
+        name="City"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="City"
+        type="text"
+        value="seffner"
+      />
+      <span />
+    </label>
+    <label
+      className="label state"
+      htmlFor="state"
+    >
+      <p>
+        State*
+      </p>
+      <select
+        aria-label="State*"
+        className="state"
+        name="state"
+        onChange={[Function]}
+        value="FL"
+      >
+        <option
+          value="AZ"
+        >
+          AZ
+        </option>
+        <option
+          value="AL"
+        >
+          AL
+        </option>
+        <option
+          value="AK"
+        >
+          AK
+        </option>
+        <option
+          value="AR"
+        >
+          AR
+        </option>
+        <option
+          value="CA"
+        >
+          CA
+        </option>
+        <option
+          value="CO"
+        >
+          CO
+        </option>
+        <option
+          value="CT"
+        >
+          CT
+        </option>
+        <option
+          value="DC"
+        >
+          DC
+        </option>
+        <option
+          value="DE"
+        >
+          DE
+        </option>
+        <option
+          value="FL"
+        >
+          FL
+        </option>
+        <option
+          value="GA"
+        >
+          GA
+        </option>
+        <option
+          value="HI"
+        >
+          HI
+        </option>
+        <option
+          value="ID"
+        >
+          ID
+        </option>
+        <option
+          value="IL"
+        >
+          IL
+        </option>
+        <option
+          value="IN"
+        >
+          IN
+        </option>
+        <option
+          value="IA"
+        >
+          IA
+        </option>
+        <option
+          value="KS"
+        >
+          KS
+        </option>
+        <option
+          value="KY"
+        >
+          KY
+        </option>
+        <option
+          value="LA"
+        >
+          LA
+        </option>
+        <option
+          value="ME"
+        >
+          ME
+        </option>
+        <option
+          value="MD"
+        >
+          MD
+        </option>
+        <option
+          value="MA"
+        >
+          MA
+        </option>
+        <option
+          value="MI"
+        >
+          MI
+        </option>
+        <option
+          value="MN"
+        >
+          MN
+        </option>
+        <option
+          value="MS"
+        >
+          MS
+        </option>
+        <option
+          value="MO"
+        >
+          MO
+        </option>
+        <option
+          value="MT"
+        >
+          MT
+        </option>
+        <option
+          value="NE"
+        >
+          NE
+        </option>
+        <option
+          value="NV"
+        >
+          NV
+        </option>
+        <option
+          value="NH"
+        >
+          NH
+        </option>
+        <option
+          value="NJ"
+        >
+          NJ
+        </option>
+        <option
+          value="NM"
+        >
+          NM
+        </option>
+        <option
+          value="NY"
+        >
+          NY
+        </option>
+        <option
+          value="NC"
+        >
+          NC
+        </option>
+        <option
+          value="ND"
+        >
+          ND
+        </option>
+        <option
+          value="OH"
+        >
+          OH
+        </option>
+        <option
+          value="OK"
+        >
+          OK
+        </option>
+        <option
+          value="OR"
+        >
+          OR
+        </option>
+        <option
+          value="PA"
+        >
+          PA
+        </option>
+        <option
+          value="RI"
+        >
+          RI
+        </option>
+        <option
+          value="SC"
+        >
+          SC
+        </option>
+        <option
+          value="SD"
+        >
+          SD
+        </option>
+        <option
+          value="TN"
+        >
+          TN
+        </option>
+        <option
+          value="TX"
+        >
+          TX
+        </option>
+        <option
+          value="UT"
+        >
+          UT
+        </option>
+        <option
+          value="VT"
+        >
+          VT
+        </option>
+        <option
+          value="VA"
+        >
+          VA
+        </option>
+        <option
+          value="WA"
+        >
+          WA
+        </option>
+        <option
+          value="WV"
+        >
+          WV
+        </option>
+        <option
+          value="WI"
+        >
+          WI
+        </option>
+        <option
+          value="WY"
+        >
+          WY
+        </option>
+      </select>
+    </label>
+    <label
+      className="label zip"
+      htmlFor="zip"
+    >
+      Zip*
+       
+      <input
+        aria-invalid={true}
+        aria-required={true}
+        checked={false}
+        className="zip"
+        id="zip"
+        name="Zip"
+        onChange={[Function]}
+        onClick={[Function]}
+        placeholder="Zip"
+        type="text"
+        value="33584"
+      />
+      <span />
+    </label>
+    <div
+      className="submit-billing-container"
+    >
+      <button
+        aria-label="Submit"
+        className="submit-billing-btn"
+        onClick={[Function]}
+        tabIndex="0"
+        value="Submit"
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BillingAddress renders correctly with when user selects billing different and has submitted 1`] = `
+<div
+  className="billing-container"
+>
+  <input
+    aria-label="Edit Billing Address"
+    checked={false}
+    className="billing-address-checkbox"
+    label="Edit Billing Address"
+    name="Edit Billing Address"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  Billing address same as shipping
+  <div
+    className="billing"
+  >
+    <h4>
+      Billing Information
+    </h4>
+    (
+    <button
+      aria-label="Edit Billing Address"
+      className="edit-billing-btn"
+      onClick={[Function]}
+      tabIndex="0"
+      value="Edit Billing Address"
+    >
+      Edit Billing Address
+    </button>
+    )
+    <div
+      className="left-info"
+    >
+      Tester Test
+      <br />
+      103 seffner ave
+      <br />
+      seffner 
+      fl 
+      33584
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BillingAddress renders correctly with when user selects billing not different and has not submitted 1`] = `
+<div
+  className="billing-container"
+>
+  <input
+    aria-label="Edit Billing Address"
+    checked={true}
+    className="billing-address-checkbox"
+    label="Edit Billing Address"
+    name="Edit Billing Address"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  Billing address same as shipping
+</div>
+`;

@@ -1,0 +1,98 @@
+@import '../../mixins'
+@import '../../variables'
+.cart-shipping
+  .product-location
+    justify-content: flex-start
+.product-location
+  justify-content: center
+  align-items: center
+  margin: auto
+  width: auto
+  display: flex
+  +medium-up
+    justify-content: flex-start
+  .shipping
+    margin-top: -0.2em
+    width: 60px!important
+  .delivery-info
+    .shipping 
+      +landscape
+        margin-top: 0rem
+    p
+      float: right
+      font-size: $txt-xsmall
+      font-weight: 600
+      max-width: 250px
+      text-align: left
+    .location-button
+      margin-left: 0.25em
+      margin-right: 0.25em
+      font-weight: 600
+      font-size: $txt-xsmall
+      text-align: left
+      color: $primary
+      &:hover, &.active
+        text-decoration: underline
+    .free-shipping
+      color: $red
+      text-transform: uppercase
+      font-size: $txt-medium
+      font-size: 600
+.pdp-page
+  .product-location
+    margin: 0 auto
+    .delivery-info
+      font-size: $txt-xsmall
+  .in-store
+    font-size: .9rem
+    font-weight: 600
+    img
+      margin-right: -15px
+.ais-InfiniteHits-item, .plp-grid
+  .delivery-info
+    margin: 0 auto
+.product-location-popout
+  background: $primary-invert
+  position: relative
+  max-width: 22em
+  height: auto
+  min-height: 8.5em
+  margin-bottom: -7.75em
+  overflow-y: visible
+  border: solid 2px $grey
+  padding: 10px
+  margin-left: 0
+  top: -1em
+  left: auto
+  text-align: center
+  z-index: 2
+  min-width: 19rem
+  &.error
+    height: 11em
+    p
+      font-size: $txt-xsmall
+  .form
+    position: absolute
+    z-index: 1
+    width: 94%
+  .close-modal
+    position: absolute
+    top: -1.45em
+    right: -1.45em
+    background: $primary
+    width: 3em
+    height: 3em
+    border-radius: 50%
+    z-index: 4
+    &:hover
+      background: $light-blue
+    .close
+      position: absolute
+      top: 0
+      right: 0
+      left: 0
+      bottom: 0
+      width: 2.5em
+      height: 2.5em
+      margin: auto
+      background-size: 100% !important

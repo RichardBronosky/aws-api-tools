@@ -1,0 +1,96 @@
+@import '../../variables'
+@import '../../mixins'
+
+.sale-flag,
+.item-count
+  position: absolute
+  z-index: 5
+  background-color: $red
+  color: $primary-invert
+  text-transform: uppercase
+  font-weight: 700
+  font-size: $txt-medium-up
+  text-align: center
+  padding: .5rem 1.25rem
+.sale-flag
+.item-count
+  background: $primary
+  right: 0
+  z-index: 200
+.promo-flag
+      font-size: $txt-small
+      cursor: pointer
+      left: -16px
+      height: 38px
+      &:before
+        content: ""
+        height: 0
+        width: 0
+        display: block
+        position: absolute
+        bottom: -15px
+        left: 1px
+        border-top: 15px solid #aa0d15
+        border-left: 15px solid transparent
+      &:after
+        content: ""
+        height: 0
+        width: 0
+        display: block
+        position: absolute
+        top: 0
+        right: -23px
+        border-top: 19px solid #eb141f
+        border-bottom: 19px solid #eb141f
+        border-right: 25px solid transparent
+        border-left: 25px solid transparent
+      .promo-text
+        &:hover
+          cursor: pointer
+          text-decoration: underline
+
+.promotions-heading
+  font-size: 20px
+  position: relative
+  display: inline-block
+  text-align: center
+  &:after
+    content: ''
+    position: absolute
+    border-style: solid
+  &:before
+    content: ''
+    position: absolute
+    border-style: solid
+
+.text
+  display: inline-block
+  padding: 0.5rem 0
+  width: 100%
+  line-height: 1.2em
+  background: #0053A0
+  position: relative
+  color: #ffffff
+  +large-wide
+    min-width: 105.1%
+    margin-left: -2.6rem
+  &:before, &:after
+    +large-wide
+      content: ''
+      position: absolute
+      border-style: solid
+
+
+.text
+  &:before
+    top: 100%
+    left: 0
+    border-width: 0 2em .5em 0
+    border-color: transparent #487299 transparent transparent
+  &:after
+    top: 100% 
+    right: 0
+    border-width: .5em 2em 0 0
+    border-color: #487299 transparent transparent transparent
+
+

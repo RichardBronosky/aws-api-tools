@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollectionTile renders correctly when isMobile is false and there is no mobile image 1`] = `
+<div
+  className="collection-tile"
+>
+  <div
+    className="collection-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image?cache-id=&h=550"
+    />
+  </div>
+  <div
+    className="collection-name"
+  >
+    Test Collection Tile
+  </div>
+  <div
+    className="collection-description"
+  >
+    Test Collection Tile Description
+  </div>
+  <div
+    className="collection-link-text"
+  >
+    VIEW THE COLLECTION &gt;&gt;
+  </div>
+</div>
+`;
+
+exports[`CollectionTile renders correctly when isMobile is true 1`] = `
+<div
+  className="collection-tile"
+>
+  <div
+    className="collection-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image-mobile?cache-id=&h=350"
+    />
+  </div>
+  <div
+    className="collection-name"
+  >
+    Test Collection Tile
+  </div>
+  <div
+    className="collection-description"
+  >
+    Test Collection Tile Description
+  </div>
+  <div
+    className="collection-link-text"
+  >
+    VIEW THE COLLECTION &gt;&gt;
+  </div>
+</div>
+`;
+
+exports[`CollectionTile renders correctly when isMobile is true and there is no image or mobile image 1`] = `
+<div
+  className="collection-tile"
+>
+  <div
+    className="collection-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src=""
+    />
+  </div>
+  <div
+    className="collection-name"
+  >
+    Test Collection Tile
+  </div>
+  <div
+    className="collection-description"
+  >
+    Test Collection Tile Description
+  </div>
+  <div
+    className="collection-link-text"
+  >
+    VIEW THE COLLECTION &gt;&gt;
+  </div>
+</div>
+`;
+
+exports[`CollectionTile renders correctly when isMobile is true and there is no mobile image 1`] = `
+<div
+  className="collection-tile"
+>
+  <div
+    className="collection-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image?cache-id=&h=550"
+    />
+  </div>
+  <div
+    className="collection-name"
+  >
+    Test Collection Tile
+  </div>
+  <div
+    className="collection-description"
+  >
+    Test Collection Tile Description
+  </div>
+  <div
+    className="collection-link-text"
+  >
+    VIEW THE COLLECTION &gt;&gt;
+  </div>
+</div>
+`;
+
+exports[`CollectionTile renders correctly with default props 1`] = `
+<div
+  className="collection-tile"
+>
+  <div
+    className="collection-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image?cache-id=&h=550"
+    />
+  </div>
+  <div
+    className="collection-name"
+  >
+    Test Collection Tile
+  </div>
+  <div
+    className="collection-description"
+  >
+    Test Collection Tile Description
+  </div>
+  <div
+    className="collection-link-text"
+  >
+    VIEW THE COLLECTION &gt;&gt;
+  </div>
+</div>
+`;

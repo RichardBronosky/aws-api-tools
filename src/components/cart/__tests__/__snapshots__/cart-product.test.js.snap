@@ -1,0 +1,2350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartProduct renders correctly when product has active add-ons 1`] = `
+<div
+  className="cart-product cell small-12 separator"
+>
+  <div
+    className="product-container cart-image-title-container grid-x "
+  >
+    <div
+      className="product-image-container small-6 large-4"
+    >
+      <a
+        aria-hidden={true}
+        aria-label={null}
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <img
+          alt="Adaire Brown Side Table"
+          className="product-image"
+          src="http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090&h=150"
+        />
+      </a>
+    </div>
+    <div
+      className="product-info small-6  large-5"
+    >
+      <a
+        aria-label={null}
+        className="product-title"
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Adaire Brown Side Table",
+            }
+          }
+          id="ariaId_1"
+        />
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <div
+              className="loading"
+            />
+            
+          </div>
+        </div>
+      </a>
+      <p
+        className="sku-text"
+      >
+        SKU: 
+        23122360
+      </p>
+    </div>
+    <div
+      className="product-bar large-3"
+    >
+      <div
+        className="grid-x "
+      >
+        <div
+          className="small-6 center"
+        >
+          <div
+            className="grid-x"
+          >
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    aria-describedby="ariaId_1"
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <button
+                aria-describedby="ariaId_1"
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="small-6"
+        >
+          <div
+            className="price-container"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="grid-x cart-addons small-12 medium-6 large-8 large-offset-4"
+    >
+      <div
+        className="addon-header add small-12 "
+      >
+        Add:
+      </div>
+      <ul
+        className="addon-group grid-x"
+      >
+        <div
+          className="small-12 addon-row"
+        >
+          <span>
+            Twin Bunkie Boards
+             (
+            2
+            )
+             
+            $199.96
+          </span>
+          <input
+            checked={true}
+            name="Twin Bunkie Boards"
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      className="mobile cell medium-6"
+    >
+      <div
+        className="small-12 medium-1"
+      >
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <i
+              className="icon checkmark"
+            />
+            IN STOCK
+          </div>
+        </div>
+        <div
+          className="price-container grid-x"
+        >
+          <div
+            className="small-6 medium-3 medium-offset-6 grid-x"
+          >
+            <div
+              className="small-12 left"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 left"
+            >
+              <button
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            className="small-6 medium-3 center"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CartProduct renders correctly when product has items in room 1`] = `
+<div
+  className="cart-product cell small-12 separator"
+>
+  <div
+    className="product-container cart-image-title-container grid-x "
+  >
+    <div
+      className="product-image-container small-6 large-4"
+    >
+      <a
+        aria-hidden={true}
+        aria-label={null}
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <img
+          alt="Adaire Brown Side Table"
+          className="product-image"
+          src="http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090&h=150"
+        />
+      </a>
+    </div>
+    <div
+      className="product-info small-6  large-5"
+    >
+      <a
+        aria-label={null}
+        className="product-title"
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Adaire Brown Side Table",
+            }
+          }
+          id="ariaId_1"
+        />
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <div
+              className="loading"
+            />
+            
+          </div>
+        </div>
+      </a>
+      <p
+        className="sku-text"
+      >
+        SKU: 
+        23122360
+      </p>
+    </div>
+    <div
+      className="product-bar large-3"
+    >
+      <div
+        className="grid-x "
+      >
+        <div
+          className="small-6 center"
+        >
+          <div
+            className="grid-x"
+          >
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    aria-describedby="ariaId_1"
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <button
+                aria-describedby="ariaId_1"
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="small-6"
+        >
+          <div
+            className="price-container"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="grid-x cart-addons small-12 medium-6 large-8 large-offset-4"
+    >
+      <div
+        className="addon-required"
+      >
+        <p>
+          Twin Bunkie Boards
+           (
+          2
+          ) 
+          <span
+            className="addon-declined"
+          >
+            Declined
+          </span>
+        </p>
+        <button
+          className="bunkie-board addon-learn-more"
+          gtm-action="click"
+          gtm-category="bunkie-board-modal"
+          gtm-label="cart"
+          onClick={[Function]}
+        >
+          What is a bunkie board? ⓘ
+        </button>
+      </div>
+      <div
+        className="addon-header add small-12 "
+      >
+        Add:
+      </div>
+      <ul
+        className="addon-group grid-x"
+      >
+        <div
+          className="small-12 addon-row"
+        >
+          <span>
+            Twin Bunkie Boards
+             (
+            2
+            )
+             
+            $199.96
+          </span>
+          <input
+            checked={false}
+            name="Twin Bunkie Boards"
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      className="includes-slider-container small-12"
+    >
+      <section
+        className="slider small"
+      >
+        <div
+          className="slider-head"
+        >
+          <div
+            className="slider-heading"
+          >
+            <h2>
+              <span
+                className="hide508"
+              >
+                 
+              </span>
+              Includes:
+            </h2>
+          </div>
+          <div
+            className="slider-link"
+          />
+        </div>
+      </section>
+    </div>
+    <div
+      className="mobile cell medium-6"
+    >
+      <div
+        className="small-12 medium-1"
+      >
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <i
+              className="icon checkmark"
+            />
+            IN STOCK
+          </div>
+        </div>
+        <div
+          className="price-container grid-x"
+        >
+          <div
+            className="small-6 medium-3 medium-offset-6 grid-x"
+          >
+            <div
+              className="small-12 left"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 left"
+            >
+              <button
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            className="small-6 medium-3 center"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CartProduct renders correctly when product unavailable due to region 1`] = `
+<div
+  className="cart-product cell small-12 separator"
+>
+  <div
+    className="not-available-msg"
+    id="region_23122360"
+  >
+    Not Available in your region
+  </div>
+  <div
+    className="product-container cart-image-title-container grid-x "
+  >
+    <div
+      className="product-image-container small-6 large-4"
+    >
+      <a
+        aria-hidden={true}
+        aria-label={null}
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <img
+          alt="Adaire Brown Side Table"
+          className="product-image"
+          src="http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090&h=150"
+        />
+      </a>
+    </div>
+    <div
+      className="product-info small-6  large-5"
+    >
+      <a
+        aria-label={null}
+        className="product-title not-available"
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Adaire Brown Side Table",
+            }
+          }
+          id="ariaId_1"
+        />
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <div
+              className="loading"
+            />
+            
+          </div>
+        </div>
+      </a>
+      <p
+        className="sku-text"
+      >
+        SKU: 
+        23122360
+      </p>
+    </div>
+    <div
+      className="product-bar large-3"
+    >
+      <div
+        className="grid-x "
+      >
+        <div
+          className="small-6 center"
+        >
+          <div
+            className="grid-x"
+          >
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    aria-describedby="ariaId_1"
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <button
+                aria-describedby="ariaId_1"
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="small-6"
+        >
+          <div
+            className="price-container"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="grid-x cart-addons small-12 medium-6 large-8 large-offset-4"
+    >
+      <div
+        className="addon-required"
+      >
+        <p>
+          Twin Bunkie Boards
+           (
+          2
+          ) 
+          <span
+            className="addon-declined"
+          >
+            Declined
+          </span>
+        </p>
+        <button
+          className="bunkie-board addon-learn-more"
+          gtm-action="click"
+          gtm-category="bunkie-board-modal"
+          gtm-label="cart"
+          onClick={[Function]}
+        >
+          What is a bunkie board? ⓘ
+        </button>
+      </div>
+      <div
+        className="addon-header add small-12 "
+      >
+        Add:
+      </div>
+      <ul
+        className="addon-group grid-x"
+      >
+        <div
+          className="small-12 addon-row"
+        >
+          <span>
+            Twin Bunkie Boards
+             (
+            2
+            )
+             
+            $199.96
+          </span>
+          <input
+            checked={false}
+            name="Twin Bunkie Boards"
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      className="mobile cell medium-6"
+    >
+      <div
+        className="small-12 medium-1"
+      >
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <i
+              className="icon checkmark"
+            />
+            IN STOCK
+          </div>
+        </div>
+        <div
+          className="price-container grid-x"
+        >
+          <div
+            className="small-6 medium-3 medium-offset-6 grid-x"
+          >
+            <div
+              className="small-12 left"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 left"
+            >
+              <button
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            className="small-6 medium-3 center"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CartProduct renders correctly when product unavailable due to stock 1`] = `
+<div
+  className="cart-product cell small-12 separator"
+>
+  <div
+    className="not-available-msg"
+    id="stock_23122360"
+  >
+    Out of Stock
+  </div>
+  <div
+    className="product-container cart-image-title-container grid-x "
+  >
+    <div
+      className="product-image-container small-6 large-4"
+    >
+      <a
+        aria-hidden={true}
+        aria-label={null}
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <img
+          alt="Adaire Brown Side Table"
+          className="product-image"
+          src="http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090&h=150"
+        />
+      </a>
+    </div>
+    <div
+      className="product-info small-6  large-5"
+    >
+      <a
+        aria-label={null}
+        className="product-title not-available"
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Adaire Brown Side Table",
+            }
+          }
+          id="ariaId_1"
+        />
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <div
+              className="loading"
+            />
+            
+          </div>
+        </div>
+      </a>
+      <p
+        className="sku-text"
+      >
+        SKU: 
+        23122360
+      </p>
+    </div>
+    <div
+      className="product-bar large-3"
+    >
+      <div
+        className="grid-x "
+      >
+        <div
+          className="small-6 center"
+        >
+          <div
+            className="grid-x"
+          >
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    aria-describedby="ariaId_1"
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <button
+                aria-describedby="ariaId_1"
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="small-6"
+        >
+          <div
+            className="price-container"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="grid-x cart-addons small-12 medium-6 large-8 large-offset-4"
+    >
+      <div
+        className="addon-required"
+      >
+        <p>
+          Twin Bunkie Boards
+           (
+          2
+          ) 
+          <span
+            className="addon-declined"
+          >
+            Declined
+          </span>
+        </p>
+        <button
+          className="bunkie-board addon-learn-more"
+          gtm-action="click"
+          gtm-category="bunkie-board-modal"
+          gtm-label="cart"
+          onClick={[Function]}
+        >
+          What is a bunkie board? ⓘ
+        </button>
+      </div>
+      <div
+        className="addon-header add small-12 "
+      >
+        Add:
+      </div>
+      <ul
+        className="addon-group grid-x"
+      >
+        <div
+          className="small-12 addon-row"
+        >
+          <span>
+            Twin Bunkie Boards
+             (
+            2
+            )
+             
+            $199.96
+          </span>
+          <input
+            checked={false}
+            name="Twin Bunkie Boards"
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      className="mobile cell medium-6"
+    >
+      <div
+        className="small-12 medium-1"
+      >
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <i
+              className="icon checkmark"
+            />
+            IN STOCK
+          </div>
+        </div>
+        <div
+          className="price-container grid-x"
+        >
+          <div
+            className="small-6 medium-3 medium-offset-6 grid-x"
+          >
+            <div
+              className="small-12 left"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 left"
+            >
+              <button
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            className="small-6 medium-3 center"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CartProduct renders correctly with finance 1`] = `
+<div
+  className="cart-product cell small-12 separator"
+>
+  <div
+    className="product-container cart-image-title-container grid-x "
+  >
+    <div
+      className="product-image-container small-6 large-4"
+    >
+      <a
+        aria-hidden={true}
+        aria-label={null}
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <img
+          alt="Adaire Brown Side Table"
+          className="product-image"
+          src="http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090&h=150"
+        />
+      </a>
+    </div>
+    <div
+      className="product-info small-6  large-5"
+    >
+      <a
+        aria-label={null}
+        className="product-title"
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Adaire Brown Side Table",
+            }
+          }
+          id="ariaId_1"
+        />
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <div
+              className="loading"
+            />
+            
+          </div>
+        </div>
+      </a>
+      <p
+        className="sku-text"
+      >
+        SKU: 
+        23122360
+      </p>
+    </div>
+    <div
+      className="product-bar large-3"
+    >
+      <div
+        className="grid-x "
+      >
+        <div
+          className="small-6 center"
+        >
+          <div
+            className="grid-x"
+          >
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    aria-describedby="ariaId_1"
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <button
+                aria-describedby="ariaId_1"
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="small-6"
+        >
+          <div
+            className="price-container show-finance"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+              <p
+                className="product-financing"
+              >
+                $15
+                 a month*
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="grid-x cart-addons small-12 medium-6 large-8 large-offset-4"
+    >
+      <div
+        className="addon-required"
+      >
+        <p>
+          Twin Bunkie Boards
+           (
+          2
+          ) 
+          <span
+            className="addon-declined"
+          >
+            Declined
+          </span>
+        </p>
+        <button
+          className="bunkie-board addon-learn-more"
+          gtm-action="click"
+          gtm-category="bunkie-board-modal"
+          gtm-label="cart"
+          onClick={[Function]}
+        >
+          What is a bunkie board? ⓘ
+        </button>
+      </div>
+      <div
+        className="addon-header add small-12 "
+      >
+        Add:
+      </div>
+      <ul
+        className="addon-group grid-x"
+      >
+        <div
+          className="small-12 addon-row"
+        >
+          <span>
+            Twin Bunkie Boards
+             (
+            2
+            )
+             
+            $199.96
+          </span>
+          <input
+            checked={false}
+            name="Twin Bunkie Boards"
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      className="mobile cell medium-6"
+    >
+      <div
+        className="small-12 medium-1"
+      >
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <i
+              className="icon checkmark"
+            />
+            IN STOCK
+          </div>
+        </div>
+        <div
+          className="price-container grid-x"
+        >
+          <div
+            className="small-6 medium-3 medium-offset-6 grid-x"
+          >
+            <div
+              className="small-12 left"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 left"
+            >
+              <button
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            className="small-6 medium-3 center"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+              <p
+                className="product-financing"
+              >
+                $15
+                 a month*
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CartProduct renders correctly without finance 1`] = `
+<div
+  className="cart-product cell small-12 separator"
+>
+  <div
+    className="product-container cart-image-title-container grid-x "
+  >
+    <div
+      className="product-image-container small-6 large-4"
+    >
+      <a
+        aria-hidden={true}
+        aria-label={null}
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <img
+          alt="Adaire Brown Side Table"
+          className="product-image"
+          src="http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090&h=150"
+        />
+      </a>
+    </div>
+    <div
+      className="product-info small-6  large-5"
+    >
+      <a
+        aria-label={null}
+        className="product-title"
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Adaire Brown Side Table",
+            }
+          }
+          id="ariaId_1"
+        />
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <div
+              className="loading"
+            />
+            
+          </div>
+        </div>
+      </a>
+      <p
+        className="sku-text"
+      >
+        SKU: 
+        23122360
+      </p>
+    </div>
+    <div
+      className="product-bar large-3"
+    >
+      <div
+        className="grid-x "
+      >
+        <div
+          className="small-6 center"
+        >
+          <div
+            className="grid-x"
+          >
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    aria-describedby="ariaId_1"
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 dropdown-remove"
+            >
+              <button
+                aria-describedby="ariaId_1"
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="small-6"
+        >
+          <div
+            className="price-container"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="grid-x cart-addons small-12 medium-6 large-8 large-offset-4"
+    >
+      <div
+        className="addon-required"
+      >
+        <p>
+          Twin Bunkie Boards
+           (
+          2
+          ) 
+          <span
+            className="addon-declined"
+          >
+            Declined
+          </span>
+        </p>
+        <button
+          className="bunkie-board addon-learn-more"
+          gtm-action="click"
+          gtm-category="bunkie-board-modal"
+          gtm-label="cart"
+          onClick={[Function]}
+        >
+          What is a bunkie board? ⓘ
+        </button>
+      </div>
+      <div
+        className="addon-header add small-12 "
+      >
+        Add:
+      </div>
+      <ul
+        className="addon-group grid-x"
+      >
+        <div
+          className="small-12 addon-row"
+        >
+          <span>
+            Twin Bunkie Boards
+             (
+            2
+            )
+             
+            $199.96
+          </span>
+          <input
+            checked={false}
+            name="Twin Bunkie Boards"
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      className="mobile cell medium-6"
+    >
+      <div
+        className="small-12 medium-1"
+      >
+        <div
+          className="cart-shipping"
+        >
+          <div
+            className="in-stock instore cell small-12"
+          />
+          <div
+            className="in-stock cell small-12"
+          >
+            <i
+              className="icon checkmark"
+            />
+            IN STOCK
+          </div>
+        </div>
+        <div
+          className="price-container grid-x"
+        >
+          <div
+            className="small-6 medium-3 medium-offset-6 grid-x"
+          >
+            <div
+              className="small-12 left"
+            >
+              <div
+                className="quantity-select"
+              >
+                <label>
+                  Quantity Select
+                  <select
+                    onChange={[Function]}
+                    value={2}
+                  >
+                    <option
+                      value={1}
+                    >
+                      1
+                    </option>
+                    <option
+                      value={2}
+                    >
+                      2
+                    </option>
+                    <option
+                      value={3}
+                    >
+                      3
+                    </option>
+                    <option
+                      value={4}
+                    >
+                      4
+                    </option>
+                    <option
+                      value={5}
+                    >
+                      5
+                    </option>
+                    <option
+                      value={6}
+                    >
+                      6
+                    </option>
+                    <option
+                      value={7}
+                    >
+                      7
+                    </option>
+                    <option
+                      value={8}
+                    >
+                      8
+                    </option>
+                    <option
+                      value={9}
+                    >
+                      9
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10
+                    </option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              className="small-12 left"
+            >
+              <button
+                className="remove-btn"
+                onClick={[Function]}
+                value="Remove From Cart"
+              >
+                remove 
+                <span
+                  className="hide508"
+                >
+                  
+                   from cart
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            className="small-6 medium-3 center"
+          >
+            <div
+              className="pricing-box"
+            >
+              <div
+                className="product-price"
+              >
+                <p
+                  className="strikethrough-sale"
+                >
+                  $559.98
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

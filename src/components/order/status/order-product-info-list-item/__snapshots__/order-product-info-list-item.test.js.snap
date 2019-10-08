@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderProductInfoListItem renders correctly when classname does not exist 1`] = `
+<div
+  className="grid-x cell small-12 order-product-info-list-item"
+>
+  <div
+    className="grid-x cell small-12 order-status-product-info-headings"
+  >
+    <div
+      className="order-status-heading cell small-12 medium-4 large-7 null"
+    >
+      Louie Gray Twin Loft Bed with Desk and Bookcase
+      <p>
+        SKU: 3611163P
+      </p>
+    </div>
+    <div
+      className="order-status-heading cell small-12 medium-2 large-1"
+    >
+      1
+    </div>
+    <div
+      className="order-status-heading cell small-12 medium-3 large-2"
+    >
+      $444
+    </div>
+    <div
+      className="order-status-heading subtotal cell small-12 medium-3 large-2"
+    >
+      $444
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OrderProductInfoListItem renders correctly when product does not exist 1`] = `null`;
+
+exports[`OrderProductInfoListItem renders correctly with default props 1`] = `
+<div
+  className="grid-x cell small-12 order-product-info-list-item"
+>
+  <div
+    className="grid-x cell small-12 order-status-product-info-headings"
+  >
+    <div
+      className="order-status-heading cell small-12 medium-4 large-7 test classname"
+    >
+      Louie Gray Twin Loft Bed with Desk and Bookcase
+      <p>
+        SKU: 3611163P
+      </p>
+    </div>
+    <div
+      className="order-status-heading cell small-12 medium-2 large-1"
+    >
+      1
+    </div>
+    <div
+      className="order-status-heading cell small-12 medium-3 large-2"
+    >
+      $444
+    </div>
+    <div
+      className="order-status-heading subtotal cell small-12 medium-3 large-2"
+    >
+      $444
+    </div>
+  </div>
+</div>
+`;

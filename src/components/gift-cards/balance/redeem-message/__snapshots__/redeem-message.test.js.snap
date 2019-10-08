@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RedeemMessage renders correctly 1`] = `
+<div
+  className="redeem-message"
+>
+  <a
+    aria-describedby="purchase-gift-card"
+    className="small-12 period"
+    gtm-action="click"
+    gtm-category="gift card"
+    gtm-label="purchase gift card"
+    gtm-value={null}
+    href="/gift-cards/purchase"
+    onBlur={null}
+    onClick={[Function]}
+    onFocus={null}
+    onKeyDownCapture={null}
+  >
+    Purchase Gift Card 
+  </a>
+  <span>
+    Redeem your Gift Card
+    <a
+      aria-describedby="redeem-gift-card-online"
+      className="small-12"
+      gtm-action="click"
+      gtm-category="gift card"
+      gtm-label="online"
+      gtm-value={null}
+      href="/"
+      onBlur={null}
+      onClick={[Function]}
+      onFocus={null}
+      onKeyDownCapture={null}
+    >
+       online 
+    </a>
+    or in your nearest
+    <a
+      aria-describedby="redeem-gift-card-in-showroom"
+      className="small-12 period"
+      gtm-action="click"
+      gtm-category="gift card"
+      gtm-label="showroom"
+      gtm-value={null}
+      href="/stores"
+      onBlur={null}
+      onClick={[Function]}
+      onFocus={null}
+      onKeyDownCapture={null}
+    >
+       showroom
+    </a>
+    .
+  </span>
+</div>
+`;

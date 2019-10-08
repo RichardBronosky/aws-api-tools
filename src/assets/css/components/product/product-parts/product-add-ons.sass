@@ -1,0 +1,108 @@
+@import '../../../mixins'
+@import '../../../variables'
+  
+.product-addons
+  padding: 1rem 0
+  text-align: left
+  .required-addons,
+  .non-required-addon
+    .addon-heading
+      text-align: left
+      padding: 0 0.5rem
+      .addon-learn-more
+        font-size: 0.8rem
+        text-decoration: underline
+        margin-top: 0.5rem
+        &:hover
+          color: $primary
+      .info-modal
+        font-weight: 600
+        font-size: $txt-medium
+        text-align: left
+        color: $primary
+        &:hover, &.active
+          text-decoration: underline
+    .addons
+      padding-bottom: 1rem
+    .required-addon
+      width: 100%
+      padding: 0
+      +large-up
+        padding-bottom: 0.75rem
+      legend
+        display: none
+      .radio-option
+        display: inline-block
+        min-width: 37%
+        padding: 0 0.5rem   
+        .radio-label
+          margin-top: 0.1rem
+          font-weight: 600
+          font-size: $txt-small
+          &:before
+            width: 15px
+            height: 15px
+          +medium-up
+            font-size: $txt-small
+            &:before
+              width: 20px
+              height: 20px
+          +large-up
+            font-size: $txt-medium
+          .grid-y
+            display: inline-flex
+            .small-12
+              color: $dark-grey
+              text-align: left
+              font-size: $txt-small
+              +medium-up
+                font-size: $txt-small
+              +large-up
+                font-size: $txt-medium
+            .price
+              color: $red
+              font-size: $txt-xsmall
+              +medium-up
+                font-size: $txt-small
+  .product-addon-block
+    display: inline
+    padding: 0 0.5rem
+    .checkbox
+      .small-1
+        text-align: right
+        padding-right: 2rem
+  .addon-heading
+    font-size: 1rem
+    font-weight: 600
+    text-align: center
+    padding-bottom: .5rem!important
+  .product-addons-label-price
+    padding-left: 3px
+    label
+      position: relative
+      top: -7px
+      line-height: 1
+      a
+        color: $dark-grey
+        font-weight: 600
+        font-size: $txt-small
+        &:hover
+          text-decoration: underline
+      span
+        color: $dark-grey
+        font-weight: 600
+        font-size: $txt-small
+      .required
+        color: $red
+        &:hover
+          text-decoration: none
+    .product-addons-price
+      position: relative
+      top: -10px
+      font-size: $txt-xsmall
+      &.required
+        color: $red
+    .title
+      margin-left: 1rem
+      font-weight: 500
+      font-size: 1rem

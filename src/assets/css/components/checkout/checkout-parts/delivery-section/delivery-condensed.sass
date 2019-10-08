@@ -1,0 +1,34 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.delivery-condensed
+  text-align: left
+  margin-left: 1em
+  .provided-instructions-container
+    padding: 0.5em 0
+    .provided-instructions
+      display: inline
+      margin-right: 0.4em
+      &.bold
+        font-weight: 600
+  .deliver-section, .shipped-section
+    margin-bottom: 1rem
+    margin-right: 5%
+    +medium-down
+      border-bottom: solid 1px $grey
+    h3
+      font-weight: 600
+      text-align: left
+    h4
+      p, div
+        display: inline
+        padding-right: 0.25em
+        +small
+          font-size: $txt-small
+        &.bold
+          display: inline-block
+          font-weight: 600
+    .distribution-center-button
+      font-size: $txt-medium
+  .distribution-center-popup
+    padding-right: 0 !important

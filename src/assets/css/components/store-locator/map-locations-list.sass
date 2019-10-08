@@ -1,0 +1,70 @@
+@import '../../mixins'
+@import '../../variables'
+  
+.locations
+  display: block
+  border-top: solid 1px #ccc
+  height: calc(70vh - 10rem)
+  overflow: auto
+  +medium-up
+    height: calc(100% - 7.75rem)
+  +large-up
+    display: block
+    height: calc(100% - 5.25rem)
+  .locationRow
+    display: flex
+    text-align: left
+    align-items: top
+    color: #000
+    cursor: pointer
+    font-size: .9em
+    margin: 15px
+    border-bottom: 1px solid #ccc
+    .imgCol
+      padding: 0px 10px
+      padding-top: 13px
+      +medium-up
+        padding-top: 20px
+    .addrCol
+      padding: 10px
+      .storeName
+        font-size: $txt-small
+        text-transform: uppercase
+        font-weight: bold
+        +medium-up
+          font-size: $txt-medium
+      .phone, .address
+        a
+          color: $primary
+          font-size: $txt-small
+          &:hover
+            text-decoration: underline
+        +medium-up
+          font-size: $txt-medium
+    .hours
+      margin-top: 20px
+      .special-closings
+        p
+          font-size: $txt-xsmall
+          font-weight: 600
+          color: $red
+          +medium-up
+            font-size: $txt-small   
+      .heading
+        font-weight: bold 
+        text-transform: uppercase
+        margin-bottom: 0px  
+        font-size: $txt-xsmall   
+        +medium-up
+          font-size: $txt-small       
+      .hour
+        font-size: $txt-xsmall   
+        +medium-up
+          font-size: $txt-small  
+        &.hidden
+          display: none
+        .day
+          font-weight: bold
+          font-size: $txt-xsmall   
+          +medium-up
+            font-size: $txt-small  

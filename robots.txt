@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+sitemap: https://www.roomstogo.com/sitemap.xml

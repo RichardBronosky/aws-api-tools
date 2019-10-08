@@ -1,0 +1,41 @@
+@import 'src/assets/css/mixins'
+@import 'src/assets/css/variables'
+  
+.order-product-info-list
+  .order-status-product-info-headings-main
+    font-size: $txt-medium
+    font-weight: 600
+    width: 100%
+    border-top: solid
+    border-color: $primary
+    padding: 0.5rem 0
+    background: $grey
+    padding-left: 0.25rem
+    +large-up
+      font-size: $txt-medium-up
+    .order-status-heading
+      text-align: left
+      +medium-up
+        text-align: center
+      &.large-7
+        text-align: left
+  .order-status-product-info-items
+    padding: 0.5rem
+  .order-status-product-info-totals
+    font-weight: 600
+    padding: 0.5rem
+    .balance
+      .order-status-heading
+        border-top: solid
+        border-color: $primary
+        background: $grey
+        padding: 0.5rem
+        &.small-3
+          padding: 0
+          padding-top: 0.5rem
+          padding-right: 0.5rem
+    .order-status-heading
+      padding-right: 0.5rem
+      text-align: left
+      +medium-up
+        text-align: right

@@ -1,0 +1,597 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditOptions renders correctly when finance plan has 0 as threshold 1`] = `
+<div
+  className="grid-container"
+>
+  <div
+    className="grid-x card options-info"
+  >
+    <div
+      className="small-12 cell grid-x"
+    >
+      <div
+        className="cell medium-4"
+      >
+        <img
+          alt=""
+          aria-hidden="true"
+          role="presentation"
+          src="undefinedshopOnline.jpg"
+        />
+      </div>
+      <div
+        className="cell medium-8"
+      >
+        <div
+          className="top-info"
+        >
+          <h2>
+            Open A Rooms To Go Account - Credit Extended by Synchrony Bank
+          </h2>
+          <p>
+            With a Rooms To Go account, you will be able to take advantage of exclusive financing offers in your area. Click below to fillout our online application.
+          </p>
+          <div
+            className="cell medium-6 "
+          >
+            <form
+              id="creditApplnForm"
+              method="POST"
+              name="frmApplicationTermsCond"
+              target="_blank"
+            >
+              <input
+                id="uniqueId"
+                name="uniqueId"
+                type="hidden"
+              />
+              <input
+                id="postbackRefId"
+                name="postbackRefId"
+                type="hidden"
+                value="test-id"
+              />
+              <input
+                name="pcgc"
+                type="hidden"
+              />
+              <input
+                name="mid"
+                type="hidden"
+              />
+              <input
+                aria-label="Continue with online application (opens in new window)"
+                className="blue-action-btn"
+                data-seo="applyFinance"
+                id="applyFinance"
+                role="link"
+                type="submit"
+                value="Continue with online application"
+              />
+            </form>
+            <p>
+              Please note that online finance offers may be different from advertised credit promotions available in showrooms.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div
+          className="mid-banner"
+        >
+          <button
+            className="link no-margin"
+            onClick={[Function]}
+          >
+            <span
+              className="plantitle"
+            >
+              Interest free financing for 60 months*
+            </span>
+            <span
+              className="plantext"
+            >
+              On purchases priced at $999.99 and up made with your Rooms To Go credit card through 10/14/19. 
+            </span>
+            <span
+              className="plantext"
+            >
+              Equal Monthly Payments required for 60 months.* Monthly payments shown are only applicable with this special financing offer.
+            </span>
+            <span
+              className="plantext"
+            >
+              Rooms To Go requires a down payment equal to sales tax and delivery.
+            </span>
+            <span
+              className="plantext click-here"
+            >
+              Click Here for More Details &gt;
+            </span>
+          </button>
+        </div>
+        <hr />
+        <div
+          className="bottom-info grid-x"
+        >
+          <div
+            className="cell medium-8"
+          >
+            <p>
+              Manage Your Existing Rooms To Go Account
+            </p>
+            <p>
+              If you already have a Rooms To Go account and would like to access it,
+            </p>
+            <p>
+              please enter the first six digits of your account number below.
+            </p>
+            <div
+              className="login-list"
+            >
+              <h3>
+                Logging in allows you to:
+              </h3>
+              <ul>
+                <li>
+                  Pay your Bill
+                </li>
+                <li>
+                  Check your available balance
+                </li>
+                <li>
+                  Manage your account
+                </li>
+              </ul>
+            </div>
+            <div
+              className="account-number-lookup cell grid-x"
+            >
+              <div
+                className="cell medium-12"
+              >
+                <label
+                  htmlFor="accountNumber"
+                >
+                  First Six Digits of Your Account Number
+                </label>
+              </div>
+              <input
+                aria-label="accountNumber"
+                aria-required="true"
+                className="login-field"
+                id="accountNumber"
+                name="accountNumber"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Account Number"
+                type="form"
+              />
+              <button
+                className="account-btn"
+                gtm-action="account-login"
+                gtm-category="account-input-form"
+                id="account-btn"
+                name="account-btn"
+                onClick={[Function]}
+                value="account-number-submit"
+              >
+                GO
+              </button>
+            </div>
+          </div>
+          <div
+            className="cell medium-4 cc-img"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              role="presentation"
+              src="undefinedrtg-credit-cards-l.gif"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CreditOptions renders correctly with an account error 1`] = `
+<div
+  className="grid-container"
+>
+  <div
+    className="grid-x card options-info"
+  >
+    <div
+      className="small-12 cell grid-x"
+    >
+      <div
+        className="cell medium-4"
+      >
+        <img
+          alt=""
+          aria-hidden="true"
+          role="presentation"
+          src="undefinedshopOnline.jpg"
+        />
+      </div>
+      <div
+        className="cell medium-8"
+      >
+        <div
+          className="top-info"
+        >
+          <h2>
+            Open A Rooms To Go Account - Credit Extended by Synchrony Bank
+          </h2>
+          <p>
+            With a Rooms To Go account, you will be able to take advantage of exclusive financing offers in your area. Click below to fillout our online application.
+          </p>
+          <div
+            className="cell medium-6 "
+          >
+            <form
+              id="creditApplnForm"
+              method="POST"
+              name="frmApplicationTermsCond"
+              target="_blank"
+            >
+              <input
+                id="uniqueId"
+                name="uniqueId"
+                type="hidden"
+              />
+              <input
+                id="postbackRefId"
+                name="postbackRefId"
+                type="hidden"
+                value="test-id"
+              />
+              <input
+                name="pcgc"
+                type="hidden"
+              />
+              <input
+                name="mid"
+                type="hidden"
+              />
+              <input
+                aria-label="Continue with online application (opens in new window)"
+                className="blue-action-btn"
+                data-seo="applyFinance"
+                id="applyFinance"
+                role="link"
+                type="submit"
+                value="Continue with online application"
+              />
+            </form>
+            <p>
+              Please note that online finance offers may be different from advertised credit promotions available in showrooms.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div
+          className="mid-banner"
+        >
+          <button
+            className="link no-margin"
+            onClick={[Function]}
+          >
+            <span
+              className="plantitle"
+            >
+              Interest free financing for 60 months*
+            </span>
+            <span
+              className="plantext"
+            >
+              On purchases priced at $999.99 and up made with your Rooms To Go credit card through 10/14/19. 
+            </span>
+            <span
+              className="plantext"
+            >
+              Equal Monthly Payments required for 60 months.* Monthly payments shown are only applicable with this special financing offer.
+            </span>
+            <span
+              className="plantext"
+            >
+              Rooms To Go requires a down payment equal to sales tax and delivery.
+            </span>
+            <span
+              className="plantext click-here"
+            >
+              Click Here for More Details &gt;
+            </span>
+          </button>
+        </div>
+        <hr />
+        <div
+          className="bottom-info grid-x"
+        >
+          <div
+            className="cell medium-8"
+          >
+            <p>
+              Manage Your Existing Rooms To Go Account
+            </p>
+            <p>
+              If you already have a Rooms To Go account and would like to access it,
+            </p>
+            <p>
+              please enter the first six digits of your account number below.
+            </p>
+            <div
+              className="login-list"
+            >
+              <h3>
+                Logging in allows you to:
+              </h3>
+              <ul>
+                <li>
+                  Pay your Bill
+                </li>
+                <li>
+                  Check your available balance
+                </li>
+                <li>
+                  Manage your account
+                </li>
+              </ul>
+            </div>
+            <div
+              className="account-number-lookup cell grid-x"
+            >
+              <div
+                className="cell medium-12"
+              >
+                <label
+                  htmlFor="accountNumber"
+                >
+                  First Six Digits of Your Account Number
+                </label>
+              </div>
+              <p
+                className="error"
+              >
+                test error
+              </p>
+              <input
+                aria-label="accountNumber"
+                aria-required="true"
+                className="login-field"
+                id="accountNumber"
+                name="accountNumber"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Account Number"
+                type="form"
+              />
+              <button
+                className="account-btn"
+                gtm-action="account-login"
+                gtm-category="account-input-form"
+                id="account-btn"
+                name="account-btn"
+                onClick={[Function]}
+                value="account-number-submit"
+              >
+                GO
+              </button>
+            </div>
+          </div>
+          <div
+            className="cell medium-4 cc-img"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              role="presentation"
+              src="undefinedrtg-credit-cards-l.gif"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CreditOptions renders correctly with default props 1`] = `
+<div
+  className="grid-container"
+>
+  <div
+    className="grid-x card options-info"
+  >
+    <div
+      className="small-12 cell grid-x"
+    >
+      <div
+        className="cell medium-4"
+      >
+        <img
+          alt=""
+          aria-hidden="true"
+          role="presentation"
+          src="undefinedshopOnline.jpg"
+        />
+      </div>
+      <div
+        className="cell medium-8"
+      >
+        <div
+          className="top-info"
+        >
+          <h2>
+            Open A Rooms To Go Account - Credit Extended by Synchrony Bank
+          </h2>
+          <p>
+            With a Rooms To Go account, you will be able to take advantage of exclusive financing offers in your area. Click below to fillout our online application.
+          </p>
+          <div
+            className="cell medium-6 "
+          >
+            <form
+              id="creditApplnForm"
+              method="POST"
+              name="frmApplicationTermsCond"
+              target="_blank"
+            >
+              <input
+                id="uniqueId"
+                name="uniqueId"
+                type="hidden"
+              />
+              <input
+                id="postbackRefId"
+                name="postbackRefId"
+                type="hidden"
+                value="test-id"
+              />
+              <input
+                name="pcgc"
+                type="hidden"
+              />
+              <input
+                name="mid"
+                type="hidden"
+              />
+              <input
+                aria-label="Continue with online application (opens in new window)"
+                className="blue-action-btn"
+                data-seo="applyFinance"
+                id="applyFinance"
+                role="link"
+                type="submit"
+                value="Continue with online application"
+              />
+            </form>
+            <p>
+              Please note that online finance offers may be different from advertised credit promotions available in showrooms.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div
+          className="mid-banner"
+        >
+          <button
+            className="link no-margin"
+            onClick={[Function]}
+          >
+            <span
+              className="plantitle"
+            >
+              Interest free financing for 60 months*
+            </span>
+            <span
+              className="plantext"
+            >
+              On purchases priced at $999.99 and up made with your Rooms To Go credit card through 10/14/19. 
+            </span>
+            <span
+              className="plantext"
+            >
+              Equal Monthly Payments required for 60 months.* Monthly payments shown are only applicable with this special financing offer.
+            </span>
+            <span
+              className="plantext"
+            >
+              Rooms To Go requires a down payment equal to sales tax and delivery.
+            </span>
+            <span
+              className="plantext click-here"
+            >
+              Click Here for More Details &gt;
+            </span>
+          </button>
+        </div>
+        <hr />
+        <div
+          className="bottom-info grid-x"
+        >
+          <div
+            className="cell medium-8"
+          >
+            <p>
+              Manage Your Existing Rooms To Go Account
+            </p>
+            <p>
+              If you already have a Rooms To Go account and would like to access it,
+            </p>
+            <p>
+              please enter the first six digits of your account number below.
+            </p>
+            <div
+              className="login-list"
+            >
+              <h3>
+                Logging in allows you to:
+              </h3>
+              <ul>
+                <li>
+                  Pay your Bill
+                </li>
+                <li>
+                  Check your available balance
+                </li>
+                <li>
+                  Manage your account
+                </li>
+              </ul>
+            </div>
+            <div
+              className="account-number-lookup cell grid-x"
+            >
+              <div
+                className="cell medium-12"
+              >
+                <label
+                  htmlFor="accountNumber"
+                >
+                  First Six Digits of Your Account Number
+                </label>
+              </div>
+              <input
+                aria-label="accountNumber"
+                aria-required="true"
+                className="login-field"
+                id="accountNumber"
+                name="accountNumber"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Account Number"
+                type="form"
+              />
+              <button
+                className="account-btn"
+                gtm-action="account-login"
+                gtm-category="account-input-form"
+                id="account-btn"
+                name="account-btn"
+                onClick={[Function]}
+                value="account-number-submit"
+              >
+                GO
+              </button>
+            </div>
+          </div>
+          <div
+            className="cell medium-4 cc-img"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              role="presentation"
+              src="undefinedrtg-credit-cards-l.gif"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

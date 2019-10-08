@@ -1,0 +1,53 @@
+$small: 639px
+$medium: 768px
+$large-max: 1024px
+$large-min: 1025px
+$x-large: 1670px
+
+=screen($min, $max)
+  @media only screen and (min-width: $min) and (max-width: $max)
+    @content
+
+=small
+  @media only screen and (max-width: $small)
+    @content
+
+=small-up
+  @media only screen and (min-width: $small)
+    @content
+
+=landscape
+  @media only screen and (min-device-width: 374px) and (max-device-width: 850px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)
+    @content
+
+=medium-down
+  @media only screen and (max-width: $large-max)
+    @content
+
+=medium
+  @media only screen and (min-width: $small) and (max-width: $medium)
+    @content
+
+=medium-up
+  @media only screen and (min-width: $medium)
+    @content
+
+=large
+  @media only screen and (min-width: $large-min) and (max-width: $x-large)
+    @content
+
+=large-up
+  @media only screen and (min-width: $large-min)
+    @content
+
+=large-wide
+  @media only screen and (min-width: $x-large)
+    @content
+
+=ie
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+    @content
+
+@mixin focus-508 
+  &:focus
+    outline: solid 3px -webkit-focus-ring-color

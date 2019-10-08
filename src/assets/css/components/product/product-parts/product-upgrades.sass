@@ -1,0 +1,103 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+
+.upgrade-section
+  .product-addons
+    justify-content: center
+    .addon-heading
+      font-size: 1rem
+      font-weight: 600
+      text-align: center
+    .addons
+      .slider
+        margin-top: 0px
+        max-width: 100%
+        .slick-next,
+        .slick-prev
+          height: 100% !important
+          top: 0 !important
+          transform: scale(1, 1)
+        .slick-next
+          +large-up
+            right: 4% !important
+        .slick-prev
+          +large-up
+            left: 4% !important
+        .slick-list
+          width: 87%
+          margin: 0 auto
+          
+        .upgrade-link
+          display: flex!important
+          align-items: center
+          justify-content: center
+          border: solid 2px #DEDEDE
+          cursor: pointer
+          text-align: center
+          font-size: $txt-small
+          color: $dark-grey
+          font-weight: 600
+          max-width: 38rem
+          margin: 0 auto
+          +large-up
+            min-height: 7rem
+          &.active
+            border: solid 2px $light-blue
+            .upgrade-price
+              display: none
+            .checkmark
+              display: block
+          &:hover
+            border: solid 2px $light-blue
+          .has-title
+            .upgradeTitle
+              font-size: $txt-mini
+              background-color: #0053A0
+              color: #ffffff
+              border: 0
+              text-align: center
+              box-sizing: border-box
+              font-size: 0.7rem
+              text-transform: uppercase
+              padding: 0.625rem 1.625rem
+              margin: 0 auto
+              margin-top: 0px
+              margin-bottom: 0px
+              border-radius: 0
+              cursor: pointer
+              font-weight: bold
+            .included
+              min-height: 5rem
+              display: flex
+              align-items: center
+              .includes-heading
+                text-align: right
+                padding-right: 1rem
+              .upgrade-includes
+                display: flex
+                flex-direction: column
+                margin: .3rem 0
+                border-left: 1px solid #dedede
+                align-items: center
+                height: 100%
+                p
+                  text-align: left
+                  padding-left: 1rem
+                  font-size: $txt-xsmall
+                  width: 100%
+              .upgrade-price
+                margin-top: .5rem
+                height: 30px
+          .no-title
+            .upgrade-includes
+              margin: 0 auto
+          i 
+            display: none
+            height: 25px !important
+
+    .addons
+      .title
+        margin-left: 1rem
+        font-weight: 500
+        font-size: 1rem

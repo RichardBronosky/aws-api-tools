@@ -1,0 +1,111 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.gift-card
+  margin-bottom: 1rem
+  margin-top: 0.5rem
+  +medium-up
+    margin-bottom: 1.5rem
+    margin-top: 1rem
+  p
+    font-size: $txt-xsmall
+  .gift-card-number
+    width: 85%
+    +medium-down
+      width: 100%
+  .gift-card-pin
+    width: 55%
+    +medium-down
+      width: 100%
+  input[type="text"]
+    line-height: 20px
+    padding: 10px
+    +medium-down
+      width: 100% !important
+  .apply-gift-card-btn
+    background-color: $primary
+    color: $primary-invert
+    border-radius: 0px
+    height: 2.5em
+    text-align: center
+    box-sizing: border-box
+    font-size: $txt-medium
+    text-transform: uppercase
+    font-weight: bold
+    position: relative
+    top: 1em
+    min-width: 12.35em
+    +medium-down
+      top: 0.5rem
+      width: 100% !important
+    &.cancel
+      width: 10%
+      margin: 0.25em 5%
+      min-width: 6.35em
+      +medium-down
+        margin: 0.25em 0
+    .loader
+      height: 1.5rem
+      width: 1.5rem
+  .error
+    color: $red
+    margin-bottom: 1rem
+    font-size: $txt-small
+
+.applied-gift-cards
+  margin-top: 0.25em
+  h4
+    display: inline
+    font-weight: 600
+  .applied-gift-card-container
+    max-width: 21em
+    .applied-gift-card
+      width: 95%
+      margin-top: 0.5em
+      padding: 1em
+      display: flex
+      align-items: center
+      font-size: $txt-small
+      +small
+        font-size: $txt-small
+      .gift-card-info
+        display: inline-block
+        margin-left: 1em
+      .number
+        display: inline
+        font-size: inherit
+      .bold
+        font-weight: 700
+        display: inline
+        margin: 0 0.25em
+        font-size: inherit
+        &.left
+          margin-left: 0
+      .remove-card
+        background: $primary
+        width: 3.25em
+        height: 3.25em
+        border-radius: 50%
+        &:hover
+          background: $light-blue
+        .loader
+          height: 1.5rem
+          width: 1.5rem
+        .close
+          position: relative
+          top: 0
+          right: 0
+          left: 0
+          bottom: 0
+          width: 2.75em
+          height: 2.75em
+          margin: auto
+          background-size: 100% !important
+  .add-another-card
+    color: $primary
+    font-size: $txt-xsmall
+    &:before
+      content: '+'
+      margin-right: 0.25em
+    &:hover
+      text-decoration: underline

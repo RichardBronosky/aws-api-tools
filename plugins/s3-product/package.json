@@ -1,0 +1,21 @@
+{
+  "name": "s3-product",
+  "version": "1.0.0",
+  "author": "Jon Molinaro <jmolinaro@roomstogo.com>",
+  "description": "Pull all product data from S3",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.395.0",
+    "node-fetch": "^2.3.0",
+    "query-string": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoomstoGoDigital/roomstogatsby/plugins/s3-product"
+  }
+}

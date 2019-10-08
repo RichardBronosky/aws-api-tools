@@ -1,0 +1,94 @@
+@import '../../mixins'
+@import '../../variables'
+
+.search-wrapper
+  margin-top: 1rem
+.ais-InfiniteHits-item
+  min-width: 12.5rem
+  margin: 1.938rem 0
+.shopIcon
+  width: 59px
+  height: auto
+  margin-top: -.4em
+.product-tile, .product-description-pricing-mobile
+  background-color: $primary-invert
+  position: relative
+  hr
+   position: absolute
+   bottom: 10%
+  .product-details-data
+    padding: 0 1rem
+
+  .item
+    .product-variation-title a
+      display: block
+    .sale-flag
+      left: 0
+    .product-image-link
+      min-height: 14rem
+      display: flex
+      justify-content: center
+      width: 100%
+      align-content: center
+      align-items: center
+      +medium-up
+        min-height: 17.65rem
+      +large-up
+        min-height: 21.125rem
+      +large-wide
+        min-height: 25.7rem
+    .product-title
+      color: $dark-grey
+      font-weight: 600
+      padding: 0 .2rem 0rem .2rem
+      line-height: 1
+      text-align: center
+      font-size: 1rem
+      display: block
+      &.link
+        &:hover
+          color: $primary
+    .product-financing
+      color: $red
+      font-weight: 600
+      margin-left: 0
+      margin-right: 0
+      text-align: center
+      font-size: $txt-small
+      +large-up
+        position: relative
+    .product-image
+      width: 95% 
+      margin: auto
+      padding: 1rem
+      vertical-align: middle
+      img
+        display: flex
+        max-height: 550px
+        justify-content: center
+        align-items: center
+        margin: auto
+        width: auto
+        height: 385
+        +ie
+          width: 100%
+      &.loading
+        margin: 0 auto
+        height: 100px
+        background-image: url("../../../images/loader-dark.svg")
+        background-repeat: no-repeat
+        background-position: center
+      .zoomIcon
+        display: none
+        +large-up
+          display: block
+          position: absolute
+          top: 365px
+          color: $medium-grey
+          font-size: 2.5rem
+          font-weight: 300
+
+.pdp-page
+  .item
+    .product-title
+      padding: 0 .2rem 1rem .2rem

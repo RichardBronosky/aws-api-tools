@@ -1,0 +1,84 @@
+@import '../../mixins'
+@import '../../variables'
+
+.options-info
+  margin-top: 1.5rem
+  button
+    .plantitle, .plantext
+      display: block
+      color: $primary-invert
+    .plantitle
+      font-weight: 600
+      font-size: 1.5rem
+      text-transform: uppercase
+      margin-bottom: 1rem
+    .plantext
+      font-size: 1rem
+      line-height: 1.3
+  .top-info,
+  .mid-banner,
+  .bottom-info,
+    padding: 1rem
+  .top-info
+    h2 
+      color: $primary
+      font-weight: 600
+    .blue-action-btn
+      margin: 1rem 0
+      +small
+        font-size: $txt-xsmall
+      +medium-up
+        width: 400px
+  .mid-banner
+    background: $primary
+    text-align: center
+    +medium-up
+      width: 80%
+      margin: 0 auto
+    h2 , p 
+      color: $primary-invert
+    h2 
+      font-weight: 600
+      margin-bottom: 1rem
+    p 
+      line-height: 1.3
+    .red 
+      color: $primary-invert
+      &:hover
+        text-decoration: underline
+    .click-here
+      display: flex
+      justify-content: center
+      padding-top: 1rem
+      font-size: $txt-medium
+      font-weight: bold
+  .bottom-info
+    .login-list
+      margin: 1rem 0
+      h3
+        color: $primary
+        font-weight: 600
+      ul 
+        li 
+          list-style: inside disc
+    .cc-img
+      justify-content: center
+      align-items: center
+      margin: 0 auto
+      display: flex
+      img 
+        width: 60%
+        +small
+          margin-top: 1rem
+    .login-field
+      height: 40px 
+      padding: 0 .5rem
+    .account-btn
+      background: $red
+      color: $primary-invert
+      padding: .5rem
+    .error
+      display: block
+      width: 100%
+      color: $red
+      font-size: $txt-xsmall

@@ -1,0 +1,22 @@
+[
+  {
+      "componentChunkName": "component---src-pages-search-jsx",
+      "path": "/search",
+      "matchPath": "/search/*"
+  },
+  {
+    "componentChunkName": "component---src-pages-furniture-product-jsx",
+    "path": "/furniture/product",
+    "matchPath": "/furniture/product/*"
+  },
+  {
+    "componentChunkName": "component---src-pages-order-success-jsx",
+    "path": "/order/success",
+    "matchPath": "/order/success/*"
+  },
+  {
+    "componentChunkName": "component---src-pages-cart-jsx",
+    "path": "/cart",
+    "matchPath": "/cart/*"
+  }
+]

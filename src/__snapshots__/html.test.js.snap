@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HTML renders correctly 1`] = `
+<html
+  lang="en"
+  test1="html_attribute"
+>
+  <head>
+    <meta
+      charSet="utf-8"
+    />
+    <meta
+      content="ie=edge"
+      httpEquiv="x-ua-compatible"
+    />
+    <meta
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="viewport"
+    />
+    <div>
+      test head comp
+    </div>
+  </head>
+  <body
+    test2="body_attribute"
+  >
+    <div>
+      test pre pody
+    </div>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions"
+      className="hide508"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+      id="aria-announce"
+      role="status"
+    />
+    <div
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "test_body",
+        }
+      }
+      id="___gatsby"
+    />
+    <div>
+      test post pody
+    </div>
+  </body>
+</html>
+`;

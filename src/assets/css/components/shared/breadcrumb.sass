@@ -1,0 +1,44 @@
+@import '../../mixins'
+@import '../../variables'
+
+.breadcrumbs-list
+  position: relative
+  text-align: center
+  left: 0
+  padding: 0.3125rem 0
+  list-style: none
+  padding-left: .9rem
+  +large-up
+    text-align: left
+    padding: 0.625rem 0
+  h1
+    display: inline
+    padding: 0
+    font-size: $txt-xsmall
+    color: $primary-invert
+    +medium-up
+      font-size: $txt-small
+  li
+    display: inline
+    font-size: $txt-xsmall
+    color: $primary-invert
+    +medium-up
+      font-size: $txt-small
+    a
+      text-decoration: none
+      font-size: $txt-xsmall
+      color: $primary-invert
+      +medium-up
+        font-size: $txt-small
+    span
+      font-size: $txt-medium
+
+
+.breadcrumbs-list li+li:before
+  padding: 0.5rem
+  color: $primary-invert
+  content: ">"
+
+.breadcrumbs-list li a:hover
+  color: $primary-invert
+  text-decoration: none

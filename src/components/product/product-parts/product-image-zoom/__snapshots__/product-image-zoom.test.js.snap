@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImageZoom renders correctly with product and image 1`] = `
+<div
+  aria-describedby="imageZoomInstructions"
+  aria-pressed="false"
+  className="product-image cell small-10"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="button"
+  tabIndex="0"
+>
+  <img
+    alt="Adaire Brown Side Table"
+    className="small-image"
+    src="www.test-imagesrc.rtg.com/image.png&h=550"
+  />
+  <img
+    alt="zoom icon"
+    className="zoom-icon"
+    src={Object {}}
+  />
+</div>
+`;
+
+exports[`ProductImageZoom renders correctly with product and image when zoomed 1`] = `
+Array [
+  <div
+    aria-describedby="imageZoomInstructions"
+    aria-pressed="false"
+    className="product-image cell small-10"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <img
+      alt="Adaire Brown Side Table"
+      className="small-image"
+      src="www.test-imagesrc.rtg.com/image.png&h=550"
+    />
+    <img
+      alt="zoom icon"
+      className="zoom-icon"
+      src={Object {}}
+    />
+  </div>,
+  <div />,
+]
+`;

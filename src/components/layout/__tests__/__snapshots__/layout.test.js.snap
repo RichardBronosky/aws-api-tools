@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders correctly with default props 1`] = `
+<div>
+  <a
+    className="skip"
+    href="#content"
+  >
+    Skip to Main Content
+  </a>
+  <div
+    className="browser-detect"
+  />
+  <InstantSearchRouter>
+    <LayoutChildren />
+  </InstantSearchRouter>
+</div>
+`;

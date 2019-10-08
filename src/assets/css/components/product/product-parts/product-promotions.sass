@@ -1,0 +1,188 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.promotions
+  .promo-savings-container
+    margin-top: 1rem
+    +large-up
+      margin-top: 0
+  .product-price, .promo-total-savings
+    font-size: $txt-medium
+    text-align: center
+  .promo-total-savings
+    font-size: $txt-medium
+    color: $primary
+    font-weight: 700
+    text-align: center
+  .strikethrough
+    font-size: $txt-small
+    text-decoration: line-through
+    margin-top: -0.5rem
+    font-weight: 400
+  .strikethrough-sale
+    font-size: $txt-medium-up
+    font-weight: 700
+    color: $red
+    margin-left: .3em
+  .product-financing
+    font-size: $txt-small
+    text-align: center
+    color: $red
+    text-transform: uppercase
+  .promotions-heading
+    color: $primary-invert
+    font-size: $txt-medium
+    font-weight: bold
+    display: block
+    text-align: center
+    +large-up
+      font-size: $txt-medium-up
+    .text
+      padding: .5rem
+  .promotions-container
+    .button-grid
+      width: 50%
+      border-top: 3px solid $primary
+      margin: 0 auto
+      margin-top: -.1rem
+      .more-offers-expander
+        position: relative
+        text-align: center
+        background: $primary
+        box-shadow: 0 15px $primary
+        width: 161px
+        padding-top: 8px
+        padding-bottom: 5px
+        margin: auto
+        display: block
+        color: #fff
+        font-size: $txt-small
+        margin-bottom: 2rem
+        font-weight: bold
+        &:before 
+          content: ""
+          position: absolute
+          bottom: -15px
+          border-left: 80px solid transparent
+          border-right: 80px solid transparent
+          border-bottom: 10px solid #F7F7F7
+          left: 50%
+          position: absolute
+          transform: translateX(-50%)
+        img
+          width: 1.75rem
+          margin-left: 0.5rem
+          margin-top: -0.2rem
+    .card
+      display: flex
+    .promotion-entry
+      padding: 1rem
+      width: 100%
+      +medium-up
+        
+      +large-up
+        padding: 1rem 0 1rem 4%
+      .plus
+        text-align: center 
+        font-weight: 1000
+        margin: 0 auto
+        +medium-up
+          font-size: 3vw
+        +large
+          margin: 5.5% 0
+        +large-wide
+          margin: 3.5% 0
+      .card
+        display: flex
+      .promotion-product
+        height: auto
+        margin-bottom: 0
+        max-height: 100%
+        padding: 1rem
+        position: relative
+        +large-up
+          height: 130px
+          padding: .5rem
+          margin: 1.5% 0
+        .promotion-image-container
+          height: 100%
+          padding-right: .5rem
+          display: flex
+          +large-up
+            float: left
+            height: 100%
+          img
+            object-fit: contain
+            max-height: 53px
+            +large-up
+              max-height: 150px
+        .promo-count
+          position: absolute
+          background: $primary
+          color: white
+          padding: .5rem
+          font-size: .7rem
+          font-weight: bold
+          text-transform: uppercase
+          top: 0
+          right: 0
+        .promotion-title-container
+          height: 60%
+          display: flex
+          align-items: center
+          +large-up
+            height: 100%
+            padding: .5rem
+          .product-price
+            font-size: $txt-small
+            font-weight: 500
+            text-align: left
+            +medium-up
+              font-size: $txt-medium
+            .strikethrough-sale
+              +small
+                font-size: $txt-medium
+          .promo-title
+            font-size: $txt-small
+            font-weight: 600
+            display: block
+            color: $dark-grey
+      .promo-savings-container
+        height: auto
+        justify-content: center
+        align-content: center
+        align-items: center
+      .buy-now-popup
+        background: none
+        display: flex
+        height: auto
+        align-content: center
+        width: 100%
+        .buy-now
+          display: flex
+          justify-content: center
+          align-items:  center
+          background-color: $red
+          margin-top: .5rem
+          margin-bottom: 0
+          width: 100%
+          +medium-up
+            padding: 1rem 1rem
+          +large-up
+            padding: 1rem 0
+            width: 80%
+          &:hover
+            background-color: #c10f18
+      .promo-messaging
+        display: flex
+        text-align: center
+        justify-content: center
+        font-size: .7rem
+    #promo-accordion
+      width: 100%
+      .promotion-entry
+        border-bottom: 1px solid $grey
+        &:first-child
+          border-top: 1px solid $grey
+        &:last-child
+          border: none

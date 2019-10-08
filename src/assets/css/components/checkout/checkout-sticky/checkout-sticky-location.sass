@@ -1,0 +1,39 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.cart-location
+  margin-bottom: 1.4em
+  .delivery-info
+    font-size: $txt-small
+    .location-button
+      color: $primary !important
+      margin-left: 0.25em
+      margin-right: 0.25em
+      font-size: $txt-small
+      text-align: left
+      text-transform: uppercase
+      &:hover, &.active
+        text-decoration: underline
+
+.location-popout
+  background: $primary-invert
+  position: relative
+  width: 22em
+  height: 8.5em
+  margin-bottom: -7.75em
+  overflow-y: visible
+  border: solid 2px $grey
+  padding: 10px
+  margin-left: 0
+  top: -1.5em
+  left: -2.55em
+  text-align: center
+  z-index: 1
+  +medium-down
+    left: -1.75em
+  &.error
+    height: 11em
+  .form
+    position: absolute
+    z-index: 1
+    width: 94%

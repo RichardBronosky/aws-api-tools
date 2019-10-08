@@ -1,0 +1,132 @@
+@import '../mixins'
+@import '../variables'
+@import '../components/shared/contentful-page.sass'
+
+.store-location
+  background: $primary-invert
+  width: 100%
+  margin: 0 auto
+  padding: 2rem
+  padding-top: 0.75rem
+  .loc-info
+    font-size: $txt-small
+    padding-bottom: 0.75rem
+    +large-up
+      font-size: $txt-medium
+    .phone-link
+      color: $primary
+      display: inline-block
+      font-size: $txt-small
+      +large-up
+        font-size: $txt-medium
+      &:hover
+        text-decoration: underline
+    .today
+      margin-left: 1rem
+      font-weight: 600
+  .map-container
+    width: 100%
+    .map
+      position: relative !important
+      width: 100% !important
+      height: 12rem !important
+      +medium-up
+        width: 49% !important
+        height: 20rem !important
+  .store-image-container
+    position: relative
+    width: 100%
+    min-height: 160px
+    border: 1px solid #ccc
+    margin-left: 0
+    margin-top: 1rem
+    +medium-up
+      margin-left: 2%
+      margin-top: 0
+      width: 49%
+      min-height: 300px
+      height: 20rem
+    .store-image
+      width: 100%
+      height: 100%
+      object-fit: contain
+  .section-heading
+    margin-bottom: 0.25rem
+    width: 100%
+    display: block
+    font-size: 1.1rem
+    text-transform: unset
+    font-weight: 600
+  .section-container
+    width: 32.9%
+    min-width: 250px
+    display: inline-block
+    margin-top: 1.5rem
+    &.fullwidth
+      width: 100%
+    span, p
+      font-size: $txt-small
+    .directions
+      p
+        margin-top: 1rem
+        padding-right: 1rem
+    .description
+      p
+        margin-top: 0.5rem
+        font-size: $txt-small
+        +large-up
+          font-size: $txt-medium
+    .faqs
+      p
+        margin-bottom: 0.5rem
+        font-size: $txt-small
+        +large-up
+          font-size: $txt-medium
+      ul 
+        +medium-up
+          display: flex
+        li:nth-child(n+2)
+          +medium-up
+            margin-left: 2.5rem
+      h3
+        font-weight: 600
+    .hour
+      display: block
+      width: 100%
+      .day
+        width: 50%
+        float: left
+        font-size: $txt-small
+      .time
+        width: 50%
+        float: right
+        font-size: $txt-small
+    .special-closings
+      p
+        font-size: $txt-small
+        color: $red
+        font-weight: 600
+        margin-top: 0.5rem
+    ul
+      list-style-type: disc
+      padding-left: 1rem
+      .hood
+        float: left
+        width: 100%
+        font-size: $txt-small
+        +medium-up
+          width: 50%
+      .hood:nth-child(n+11)
+        float: right
+
+.stores-breadcrumb
+  .breadcrumb
+    ul
+      li
+        &:before
+          color: $dark-grey !important
+        a, h1
+          color: $dark-grey !important
+          &:hover
+            color: $primary !important
+            text-decoration: underline

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutEmpty renders correctly 1`] = `
+<div
+  className="checkout-empty small-12 large-9"
+>
+  <h1>
+    CHECKOUT
+  </h1>
+  There are no items in your cart. You are unable to checkout.
+  <a
+    className="blue-action-btn"
+    gtm-action="click"
+    gtm-category="checkout-empty"
+    gtm-label="continue shopping"
+    gtm-value={null}
+    href="/"
+    onBlur={null}
+    onClick={[Function]}
+    onFocus={null}
+    onKeyDownCapture={null}
+    title="Continue Shopping"
+  >
+    Continue Shopping
+  </a>
+</div>
+`;

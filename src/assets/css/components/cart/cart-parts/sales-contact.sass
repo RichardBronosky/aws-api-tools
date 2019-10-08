@@ -1,0 +1,26 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.sales-contact-info
+  padding: 1rem
+  font-size: $txt-small
+  margin-top: 0 !important
+  .sales-contact-text
+    font-weight: 700
+    margin-bottom: 1rem
+  .sales-contact-phone
+    a
+      color: $dark-grey
+      font-weight: 700
+      &:hover
+        color: $primary
+        text-decoration: underline
+  .sales-contact-email
+    a
+      font-size: $txt-xsmall
+      color: $dark-grey
+      &:hover
+        color: $primary
+        text-decoration: underline
+  .sales-contact-times
+    font-size: $txt-xsmall

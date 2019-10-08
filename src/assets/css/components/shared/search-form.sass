@@ -1,0 +1,61 @@
+@import '../../mixins'
+@import '../../variables'
+
+.search-form
+  width: auto
+  border-bottom: 0.0625rem solid $light-grey
+  vertical-align: middle
+  background: $primary-invert
+  display: none
+  text-align: center
+  +large-up
+    max-width: 22em
+    text-align: auto
+  &.active
+    display: block
+  &.searchmobile
+    +large-up
+      display: none
+  .sidebar
+    background: $primary-invert
+  form
+    padding: 0.5rem
+    width: 100%
+    +large-up
+      padding: 0.5rem 0
+    label
+      display: none
+    input
+      line-height: 1.25rem
+      padding: 0.75rem 0
+      width: 100%
+      font-size: $txt-medium
+      border: none
+      border-bottom: 0.0625rem solid $grey !important
+      +large-up
+        font-size: $txt-medium
+        font-weight: 600
+        border: none
+        max-width: 100%
+        padding: 0.75rem 0.5rem
+    button
+      color: transparent
+      text-decoration: none
+      border-bottom: 0.0625rem solid $light-grey
+      background: none
+      +large-up
+        border: none
+
+.sidebar
+  background: $primary-invert
+
+.ais-RefinementList-count,
+.ais-ToggleRefinement-count
+  padding: 0.1rem 0.4rem
+  font-size: $txt-small
+  color: $primary
+  background-color: $primary-invert
+  border-radius: 0.5rem
+  h5
+    font-weight: bold
+    padding: 0.625rem

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCardBanner renders correctly 1`] = `
+<div
+  className="credit-card-banner cell small-12"
+>
+  <div
+    className="grid-x"
+  >
+    <img
+      alt="Rooms To Go Credit Card"
+      className="credit-card-image small-4 large-2"
+      src="undefinedrtg-cc.png"
+    />
+    <div
+      className="cell small-12 large-7"
+    >
+      <strong>
+        36 Months Test Plan
+      </strong>
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Test marketing message",
+          }
+        }
+      />
+    </div>
+    <div
+      className="small-12 large-3 buttons-wrapper"
+    >
+      Apply Now
+      <button
+        className="info-modal credit-learn-more"
+        gtm-action="learn more"
+        gtm-category="credit-card"
+        gtm-label="cart"
+        onClick={[Function]}
+      >
+        Learn more
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutStep renders delivery step correctly 1`] = `
+<div
+  className="section"
+>
+  <div
+    className="section-header"
+  >
+    <i
+      className="icon circle"
+    >
+      <p
+        className="section-number"
+      >
+        2
+      </p>
+    </i>
+    <h2
+      className="section-title"
+    >
+      Delivery
+    </h2>
+    <button
+      aria-label="Complete shipping step before proceeding to Delivery"
+      className="edit-btn disabled"
+      disabled={true}
+      onClick={[Function]}
+      value="Edit"
+    >
+      EDIT 
+      <span
+        className="hide508"
+      >
+        Delivery
+      </span>
+    </button>
+  </div>
+  <div
+    className="section-content"
+  />
+</div>
+`;
+
+exports[`CheckoutStep renders payment step correctly 1`] = `
+<div
+  className="section"
+>
+  <div
+    className="section-header"
+  >
+    <i
+      className="icon circle"
+    >
+      <p
+        className="section-number"
+      >
+        3
+      </p>
+    </i>
+    <h2
+      className="section-title"
+    >
+      Payment
+    </h2>
+    <button
+      aria-label="Complete delivery step before proceeding to Payment"
+      className="edit-btn disabled"
+      disabled={true}
+      onClick={[Function]}
+      value="Edit"
+    >
+      EDIT 
+      <span
+        className="hide508"
+      >
+        Payment
+      </span>
+    </button>
+  </div>
+  <div
+    className="section-content"
+  />
+</div>
+`;
+
+exports[`CheckoutStep renders review step correctly 1`] = `
+<div
+  className="section"
+>
+  <div
+    className="section-header"
+  >
+    <i
+      className="icon circle"
+    >
+      <p
+        className="section-number"
+      >
+        4
+      </p>
+    </i>
+    <h2
+      className="section-title"
+    >
+      Review Order
+    </h2>
+    <button
+      aria-label="Complete payment step before proceeding to Review Order"
+      className="edit-btn disabled"
+      disabled={true}
+      onClick={[Function]}
+      value="Edit"
+    >
+      EDIT 
+      <span
+        className="hide508"
+      >
+        Review Order
+      </span>
+    </button>
+  </div>
+  <div
+    className="section-content"
+  />
+</div>
+`;
+
+exports[`CheckoutStep renders shipping step correctly 1`] = `
+<div
+  className="section"
+>
+  <div
+    className="section-header"
+  >
+    <i
+      className="icon circle"
+    >
+      <p
+        className="section-number"
+      >
+        1
+      </p>
+    </i>
+    <h2
+      className="section-title"
+    >
+      Shipping Address
+    </h2>
+  </div>
+  <div
+    className="section-content"
+  >
+    <form
+      className="shipping-form"
+    >
+      <p
+        className="required-label"
+      >
+        *Asterisks indicate required fields in the form below
+      </p>
+      <label
+        className="label firstName"
+        htmlFor="firstName"
+      >
+        First Name*
+         
+        <input
+          aria-invalid={false}
+          aria-required={true}
+          checked={false}
+          id="firstName"
+          name="First Name"
+          onChange={[Function]}
+          onClick={[Function]}
+          placeholder="First Name"
+          type="text"
+          value=""
+        />
+        <span />
+      </label>
+      <label
+        className="label lastName"
+        htmlFor="lastName"
+      >
+        Last Name*
+         
+        <input
+          aria-invalid={false}
+          aria-required={true}
+          checked={false}
+          id="lastName"
+          name="Last Name"
+          onChange={[Function]}
+          onClick={[Function]}
+          placeholder="Last Name"
+          type="text"
+          value=""
+        />
+        <span />
+      </label>
+      <span
+        className="hide508"
+        id="addressInstructions"
+      >
+        Start typing to receive address suggestions.
+      </span>
+      <span
+        className="hide508"
+        id="addressInstructions"
+      >
+        Start typing to receive address suggestions.
+      </span>
+      <label
+        htmlFor="address"
+      >
+        <span
+          className="address-label"
+        >
+          Address
+          <span
+            className="hide508"
+          >
+             Lookup
+          </span>
+          *
+        </span>
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+            }
+          }
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="addressSuggest"
+            aria-describedby="addressInstructions"
+            aria-expanded={false}
+            aria-haspopup="listbox"
+            aria-label="Address Lookup"
+            aria-required={true}
+            autoComplete="new-password"
+            className="address-lookup-input"
+            name="address-lookup"
+            onBlur={[Function]}
+            onBlurCapture={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Address Lookup*"
+            role="combobox"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="manual-address"
+        >
+          <a
+            onClick={[Function]}
+            role="button"
+            tabIndex="0"
+          >
+            Enter address manually.
+          </a>
+        </div>
+      </label>
+      <label
+        className="label phone"
+        htmlFor="phone"
+      >
+        Phone Number*
+         
+        <span
+          className="hide508"
+        >
+          Numbers and hyphens only
+        </span>
+        <input
+          aria-invalid={false}
+          aria-required={true}
+          checked={false}
+          id="phone"
+          name="Phone Number"
+          onChange={[Function]}
+          onClick={[Function]}
+          placeholder="Phone Number"
+          type="tel"
+          value=""
+        />
+        <span />
+      </label>
+      <label
+        className="label altPhone"
+        htmlFor="altPhone"
+      >
+        Alternate Phone
+         
+        <input
+          aria-invalid={null}
+          checked={false}
+          id="altPhone"
+          name="Alternate Phone"
+          onChange={[Function]}
+          onClick={[Function]}
+          placeholder="Alternate Phone"
+          type="tel"
+          value=""
+        />
+        <span />
+      </label>
+      <label
+        className="label email"
+        htmlFor="email"
+      >
+        Email*
+         
+        <input
+          aria-invalid={false}
+          aria-required={true}
+          checked={false}
+          id="email"
+          name="Email"
+          onChange={[Function]}
+          onClick={[Function]}
+          placeholder="Email"
+          type="email"
+          value=""
+        />
+        <span />
+      </label>
+      <fieldset
+        className="text-me-container"
+      >
+        <legend
+          className="text-me-label"
+        >
+          Text me delivery time frames
+        </legend>
+        <input
+          aria-invalid={null}
+          checked={true}
+          className="text-me"
+          id="deliveryTexts"
+          name="text-me"
+          onChange={[Function]}
+          onClick={[Function]}
+          placeholder=""
+          type="radio"
+          value={true}
+        />
+        <span>
+          <span
+            className="radio-label"
+          >
+            Yes
+          </span>
+        </span>
+        <input
+          aria-invalid={null}
+          checked={false}
+          className="text-me"
+          id="deliveryTexts"
+          name="text-me"
+          onChange={[Function]}
+          onClick={[Function]}
+          placeholder=""
+          type="radio"
+          value={false}
+        />
+        <span>
+          <span
+            className="radio-label"
+          >
+            No
+          </span>
+        </span>
+      </fieldset>
+      <br />
+      <div
+        className="checkbox-container"
+      >
+        <input
+          aria-invalid={null}
+          checked={true}
+          className="text-me"
+          id="emailCampaign"
+          name="Sign up for Rooms To Go email promotions and news letters"
+          onChange={[Function]}
+          onClick={[Function]}
+          placeholder=""
+          type="checkbox"
+          value=""
+        />
+        <span>
+          <p>
+            Sign up for Rooms To Go email promotions and news letters
+          </p>
+        </span>
+      </div>
+    </form>
+    <div
+      className="btn-container"
+    >
+      <button
+        className="continue-btn"
+        onClick={[Function]}
+        value="Continue"
+      >
+        Continue
+      </button>
+    </div>
+  </div>
+</div>
+`;

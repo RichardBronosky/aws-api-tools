@@ -1,0 +1,38 @@
+@import '../../mixins'
+@import '../../variables'
+
+.plp-pagination
+  width: 100%
+  padding-bottom: 1.5rem
+  display: flex
+  justify-content: center
+  nav
+    &:focus
+      outline: none
+  nav > a
+    float: left
+    color: $primary
+    cursor: pointer
+    &.arrow
+      font-size: 3rem
+      margin-top: -1.4rem
+  ul
+    float: left
+    display: flex
+    justify-content: center
+    align-items: center
+    span
+      font-size: 1.75rem
+      font-weight: 300
+    a, span
+      cursor: pointer
+      margin: 0 2rem
+      color: $primary
+      font-size: $txt-large
+      font-weight: 400
+      &.active-page
+        font-weight: 800
+      &:hover
+        opacity: 0.7
+      +small
+        margin: 0 1rem

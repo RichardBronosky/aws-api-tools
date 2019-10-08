@@ -1,0 +1,159 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+#cardNumber
+  border: 1px solid red !important
+
+.credit-card-microform-container
+  max-width: 559px
+  height: 340px
+  margin-top: 2em
+  border: solid 1px $grey
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  +small
+    margin-top: 1rem
+  .microform-inner-container
+    height: 100%
+    width: 100%
+    padding: 1rem
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    +small
+      padding: 0.5rem
+    .microform-header
+      width: 100%
+      border-bottom: 1px solid $grey
+      display: flex
+      +small
+        display: block
+        text-align: center
+      .payment-header
+        padding-left: 0
+        display: block
+        color: black
+        font-size: $txt-medium-up
+        margin: auto
+        margin-left: 0
+        +small
+          padding: 0
+          font-size: $txt-medium
+      img
+        width: auto
+    .invalid-card
+      font-size: 0.85rem
+      margin: 0
+      margin-top: 0.5rem
+      color: red
+      display: flex
+      flex-direction: column
+      justify-content: center
+      +small
+        margin-top: 0.1rem
+        flex-grow: 1
+      &.hidden
+        visibility: hidden
+    overflow: hidden
+    &.hidden
+      display: none
+    .microform-form-container
+      flex-grow: 2
+    iframe
+      height: 40px !important
+      border: 1px solid $grey !important
+      padding: 3px 5px
+      padding: 10px
+    .card-input
+      width: 8rem
+      margin: 0
+      margin-right: 1rem
+      display: inline-block
+      +small
+        width: 5.5rem
+      &.card-number
+        width: 100%
+      label
+        font-size: $txt-mini
+      input, select
+        width: 100%
+        display: block
+        height: 40px !important
+        border: 1px solid $grey
+        padding: 10px
+      select
+        font-size: 0.85rem
+    #submit-card-btn
+      background: $primary
+      color: white
+      font-size: 1.3rem
+      padding: 1rem
+      margin-top: 0.25rem
+  .message
+    margin: 1rem 0
+  .try-again
+    font-size: 1rem
+    color: $primary
+    &:hover
+      text-decoration: underline
+  .loading-icon
+    height: 100%
+    width: 100%
+    background: $light-grey
+    background-image: url("../../../../../images/loader-dark.svg")
+    background-repeat: no-repeat
+    background-position: center
+  .success-icon
+    width: 3.7rem
+    height: 3.7rem
+    padding: 0.25rem
+    .checkmark
+      margin: auto
+      width: 3.1rem
+      height: 3.1rem
+      border-radius: 50%
+      display: block
+      stroke-width: 4
+      stroke: #fff
+      stroke-miterlimit: 10
+      box-shadow: inset 0em 0em 0em #00ab67
+      -webkit-animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+      animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+    .checkmark-circle
+      stroke-dasharray: 166
+      stroke-dashoffset: 166
+      stroke-width: 2
+      stroke-miterlimit: 10
+      stroke: $green
+      fill: none
+      animation: stroke .6s $curve forwards
+    .checkmark-check
+      transform-origin: 50% 50%
+      stroke-dasharray: 48
+      stroke-dashoffset: 48
+      animation: stroke .3s $curve .8s forwards      
+  .error-icon
+    display: block !important
+    height: 50px !important
+    width: 50px !important
+    margin: 0.25rem
+    margin-left: -0.25rem
+    left: 0 !important
+    &:before
+      background: red
+      border-radius: 100%
+      height: 100%
+      width: 100%
+      color: $primary-invert
+      font-size: 75px
+      top: 0
+      left: 0
+      line-height: 0.61
+      text-align: center
+    &:after
+      transform: unset
+    &:hover:before
+      transform: scale(1) rotate(45deg)
+      font-size: 75px

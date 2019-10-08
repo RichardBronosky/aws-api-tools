@@ -1,0 +1,34 @@
+@import 'src/assets/css/mixins'
+@import 'src/assets/css/variables'
+
+.credit-card-banner
+  padding: 2em
+  background: $primary-invert
+  .buttons-wrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+  .grid-x
+    margin-top: 0.25rem
+    .credit-card-image
+      width: 6.5em
+      height: 4.1875em
+      margin-right: 1em
+      margin-bottom: 1em
+    h3
+      text-transform: uppercase
+      font-weight: 600
+    .blue-action-btn, .link-action-btn
+      float: right
+      margin-top: 0.75rem
+      padding: 0.8rem
+      border: 0px
+      height: 3em
+      +large-up
+        width: 10em
+    .credit-learn-more
+      font-size: 0.8rem
+      text-decoration: underline
+      margin-top: 0.5rem
+      &:hover
+        color: $primary

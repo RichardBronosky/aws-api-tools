@@ -1,0 +1,98 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.rooms-to-go-credit-container
+  margin-left: 0.5%
+  &:focus
+    outline: none
+  .dont-have-rtg
+    padding: 0.75em 0
+    p
+      display: inline
+      margin-right: 0.5rem
+    .credit-card-image
+      width: 3.5em
+      margin-top: -0.2rem
+    .apply-link
+      color: $primary
+      margin-left: 0.5em
+      font-weight: 600
+      &:hover
+        text-decoration: underline
+  .financing-container
+    border-top: solid 1px $grey
+    border-right: solid 1px $grey
+    border-left: solid 1px $grey
+    .financing-section
+      padding: 1em
+      border-bottom: solid 1px $grey
+      min-height: 4.5em
+      .bold
+        font-weight: 600
+        display: inline
+        &.margin
+          margin-right: 0.25rem
+        +small
+          font-size: $txt-small
+      .radio-label
+        .sub-text
+          font-size: $txt-xsmall
+          +medium-up
+            font-size: $txt-small
+            margin-left: 1.8rem
+        .remove-btn
+          font-size: $txt-medium
+          text-decoration: underline
+          margin-left: 0.5rem
+          &:hover
+            color: $primary
+      .finance
+        margin-top: 1em
+        +large-up
+          border: solid 1px $grey
+          padding: 1em
+        &.short
+          padding-left: 0
+        p
+          +small
+            font-size: $txt-small
+        .financing-step
+          font-weight: 600
+          font-size: $txt-medium
+          text-decoration: underline
+          margin-bottom: 0.5em
+        .billing-container
+          margin-left: 0
+    .loader
+      float: right
+      margin-left: 0.75rem
+      margin-top: 0.2rem
+      width: 2.3rem
+      height: 2.3rem
+    .checkmark
+      float: right
+      margin-left: 0.75rem
+      margin-top: 0.2rem
+      width: 2.3rem
+      height: 2.3rem
+      border-radius: 50%
+      display: block
+      stroke-width: 4
+      stroke: #fff
+      stroke-miterlimit: 10
+      box-shadow: inset 0em 0em 0em #00ab67
+      -webkit-animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+      animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+    .checkmark-circle
+      stroke-dasharray: 166
+      stroke-dashoffset: 166
+      stroke-width: 2
+      stroke-miterlimit: 10
+      stroke: $green
+      fill: none
+      animation: stroke .6s $curve forwards
+    .checkmark-check
+      transform-origin: 50% 50%
+      stroke-dasharray: 48
+      stroke-dashoffset: 48
+      animation: stroke .3s $curve .8s forwards

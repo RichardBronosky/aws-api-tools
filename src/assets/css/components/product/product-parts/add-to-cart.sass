@@ -1,0 +1,136 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+
+.buy-now-popup
+  font-weight: bold
+  padding-bottom: 0.3125rem
+  background-color: $primary-invert
+  margin-left: auto
+  margin-right: auto
+  text-transform: uppercase
+  border-radius: 0
+  .instock-instore
+    +landscape 
+      min-height: 2.5rem
+    .in-stock
+      display: none
+    .see-in-store-button
+      display: none
+    .product-location
+      margin: 0 auto
+
+  .buy-now
+    background-color: $primary
+    color: $primary-invert
+    border: 0
+    text-align: center
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    font-size: $txt-small
+    text-transform: uppercase
+    padding: 0.625rem 2.625rem
+    margin: 0 auto
+    border-radius: 0
+    cursor: pointer
+    font-weight: bold
+    margin-top: .5rem
+    margin-bottom: .5rem
+    +large-wide
+      padding: 0.625rem 5.0625rem
+    &.unavailable
+      background: $grey
+      padding: 0.625rem 1.625rem
+      &:hover
+        background: $grey
+    &:hover
+      background: $light-blue
+    &:focus
+      text-decoration: underline
+
+// Product tiles for the grid
+
+.plp-grid
+  .buy-button
+    text-align: center
+    .buy-now-popup
+      +large-up
+        display: none
+        width: 100%
+        left: 0
+        right: 0
+        position: absolute
+        background-color: $primary-invert
+        box-shadow: 0 20px 20px #AFAFAF
+        z-index: 9!important
+    .more-info
+      line-height: 1
+      display: inline-block
+      background-color: $primary-invert
+      color: $primary
+    button.buy-now, .more-info
+      +medium-down
+        padding-left: 0
+        padding-right: 0
+        width: 100%
+        border: 1px solid $primary
+      +medium
+        font-size: 1.5vw
+      +small
+        font-size: 3vw
+
+  &:hover
+    .buy-now-popup
+      +large-up
+        display: inline-block
+  &.focused
+    .buy-now-popup
+      +large-up
+        display: inline-block
+
+
+// Product tiles for the Description Paqe
+.pdp-page
+  .list-price-container
+    position: fixed
+    bottom: 0
+    width: 100%
+    background: white
+    border-top: 1px solid $grey
+    width: 100vw
+    left: 50%
+    right: 50%
+    margin-left: -50vw
+    margin-right: -50vw
+    z-index: 2
+    +large-up
+      position: static
+      margin: 0 auto
+      margin-right: 0
+      border: none
+    +large-up
+      position: static
+      border-top: 0px
+  .product-list-availability
+    text-align: center
+    +large-up
+      padding-bottom: 0
+    .buy-now-popup
+      -webkit-box-shadow: none
+      -moz-box-shadow: none
+      box-shadow: none
+      display: block
+      margin: 0 auto
+      padding: 0
+      .buy-now
+        padding: 0.825rem 2rem
+      .instock-instore
+        display: none
+
+// Product tiles for the Slick Slider
+.slick-slide
+  .buy-now-popup
+    display: block!important
+    bottom: 0
+    box-shadow: none !important
+    background: rgba(0,0,0,0.0)!important

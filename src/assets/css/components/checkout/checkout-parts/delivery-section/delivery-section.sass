@@ -1,0 +1,106 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.delivery-section
+  text-align: left
+  width: 98.5%
+  +medium-up
+    margin-bottom: 1rem
+  .delivery-form
+    border-bottom: solid 1px $grey
+    padding: 0.6em 0.6em 0 0.6em
+    .professional-delivery-text
+      +large-up
+        padding-top: .625rem
+    h3
+      font-weight: bold
+      text-align: left
+      margin-bottom: .7rem
+      +small
+        font-size: $txt-small
+    h4
+      margin-top: 0.5em
+      p
+        display: inline
+        padding: 0 0 0 0.25em
+        &.bold
+          font-weight: 600
+    input[type="text"]
+      margin: 1.5em 1em 0.5em 1em
+      line-height: 20px
+      padding: 10px
+      border-radius: 5px
+    .shipping
+      width: 60px
+      float: left
+    .shipping-box
+      width: 30px
+    .delivery-radio-container
+      padding: 0.5rem
+      font-size: $txt-small
+      h4
+        font-weight: 600
+        font-size: $txt-large
+      p
+        font-size: $txt-medium
+      .text-disclaimer
+        font-size: $txt-small
+      .radio-btn
+        max-width: 1em
+        min-width: 1em
+      .bold
+        display: inline-block
+        font-weight: 600
+        font-size: $txt-small
+        &:first-child
+          margin-bottom: .5em
+        &.delivery-cost
+          font-size: 1.15rem
+          margin: 0.5rem 0
+          +medium-up
+            margin: 1rem 0
+      .change-delivery-btn
+        color: $primary
+        font-size: $txt-small
+        font-weight: 600
+        margin-top: 0.25rem
+        &:hover
+          text-decoration: underline
+      .help-us
+        max-width: 100%
+        min-width: 100%
+        max-height: 5em
+        min-height: 5em
+        margin: 0px
+        border-color: $grey
+        resize: none
+      .char-limit
+        float: right
+        margin-right: 0.1em
+        font-size: $txt-small
+      .text-label
+        margin-left: 0.1em
+        font-size: $txt-small
+
+    .delivery-product-container
+      border: none
+      &.no-border
+        border: none !important
+      +large-up
+        padding-right: 1em
+        border-right: solid 1px $grey
+
+    .date-picker-container
+      text-align: center
+      +small
+        margin-left: -0.7em
+      .date-picker-wrapper
+        width: 18.92em
+        margin: auto
+
+.automated-message
+  text-align: left
+  font-size: $txt-xsmall !important
+  margin-left: 1em
+  +large-up
+    margin-left: 0

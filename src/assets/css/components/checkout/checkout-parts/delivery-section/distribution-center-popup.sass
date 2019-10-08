@@ -1,0 +1,44 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.distribution-center-popup
+  display: inline
+  position: relative
+  .distribution-center-button
+    font-size: $txt-small
+    color: $primary
+    font-weight: 400
+    text-align: left
+    &:hover
+      text-decoration: underline
+    +small
+      font-size: $txt-xsmall
+  .popup
+    background: #ffffff
+    position: absolute
+    min-width: 13rem
+    min-height: 6.5em
+    overflow-y: visible
+    border: solid 2px #DEDEDE
+    padding: 10px
+    margin-left: 0
+    top: 1.25rem
+    left: -5.75rem
+    z-index: 10
+    p
+      display: inline-block !important
+      margin-bottom: 0.25rem
+      font-size: $txt-small
+    a
+      padding-left: 0.25rem
+      color: $primary
+      font-size: $txt-small
+      &:hover
+        text-decoration: underline
+    &.container
+      width: 100%
+      height: auto
+      margin: 0 auto
+      padding: 0.5rem
+      display: block
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)

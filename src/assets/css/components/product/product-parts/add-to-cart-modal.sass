@@ -1,0 +1,342 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.add-to-cart-modal
+  &:focus
+    outline: none
+  .close-modal
+    position: absolute
+    top: -1.5em
+    right: -2em
+    background: $primary
+    width: 4em
+    height: 4em
+    border-radius: 50%
+    &:hover
+      background: $light-blue
+    +landscape
+      top: -2em
+    .close
+      position: absolute
+      top: 0
+      right: 0
+      left: 0
+      bottom: 0
+      width: 3em
+      height: 3em
+      margin: auto
+      background-size: 100% !important
+  .modal-title
+    margin: 1rem
+    text-align: center
+    h2
+      font-weight: normal
+  .modal-content
+    background-color: $light-grey
+    border: solid $grey 0.4em
+    width: 93%
+    position: fixed
+    right: auto
+    bottom: auto
+    left: 50%
+    top: 50%
+    transform: translate(-50%,-50%)
+    height: 90%
+    max-height: 600px
+    +medium-up
+      width: 70%
+      max-width: 800px  
+    +landscape
+      height: 90%
+    +large-up
+      height: auto !important
+    .card
+      width: 100%
+      height: 100%
+      margin: 0 auto
+      padding: 1rem
+      display: flex
+      align-content: center
+      +large-up
+        padding: 1.5rem
+      .required-addon
+        width: 100%
+        text-align: center
+        padding: 0
+        .addon-learn-more
+          font-size: 0.8rem
+          text-decoration: underline
+          margin-top: 0.5rem
+          &:hover
+            color: $primary
+        +large-up
+          padding: 1rem 0 0.75rem 0
+        +small
+          padding-bottom: 0.8rem
+        legend
+          display: none
+        .radio-option
+          display: inline-block
+          &.accept
+            padding: 0 0.5rem
+            +large-up
+              padding: 0 1.5rem
+          .radio-label
+            font-size: $txt-xsmall
+            font-weight: 600
+            margin-top: 0.1rem
+            &:before
+              width: 15px
+              height: 15px
+            +large-up
+              font-size: $txt-medium
+              &:before
+                width: 20px
+                height: 20px
+            .grid-y
+              display: inline-flex
+              .small-12
+                text-align: left
+                font-size: $txt-xsmall
+                +large-up
+                  font-size: $txt-medium
+              .price
+                color: $red
+                font-size: $txt-xsmall
+                +large-up
+                  font-size: $txt-small
+    .out-of-stock, .unable
+      text-align: center
+      color: $red
+      margin: 0 auto
+      font-weight: 600
+      font-size: $txt-medium
+    .unable
+      text-transform: uppercase
+      width: 100%
+      display: block
+      margin-bottom: 0.5rem
+      font-size: $txt-large
+      &.black
+        color: $dark-grey
+    .in-stock
+      text-align: center
+      +medium-up
+        text-align: left
+      .checkmark
+        width: 33px
+        height: 30px
+      .close
+        height: 2rem
+        width: 2rem
+        cursor: unset
+        font-size: 35px
+        &:after
+          background: none
+        &:before
+          font-size: 35px
+        &:hover:before
+          transform: scale(1) rotate(45deg)
+          color: $dark-grey
+          font-size: 35px
+      .in-store
+        float: right
+        font-size: $txt-small
+        img
+          width: 33px
+          height: 30px
+          padding: 0
+          margin-right: 5px
+    .added-to-cart-checkmark
+      font-size: $txt-medium
+      margin: 0rem auto !important
+      margin-bottom: 3rem
+      text-align: center
+      margin-bottom: 1rem
+      +medium-up
+        font-size: $txt-xlarge
+      h3
+        display: inline
+        text-transform: uppercase
+        color: $green
+        margin: 0 auto
+        line-height: 1
+        +medium-up
+          line-height: 3
+          line-height: normal
+      .savings-text
+        display: block
+        font-size: $txt-medium
+        text-transform: uppercase
+        font-weight: 600
+        .savings-amount
+          color: $red
+    .add-to-cart-modal-products
+      overflow-y: auto
+      overflow-x: hidden
+      width: 100%
+      padding: 0 0.5rem
+      margin: 0
+      +small
+        border: solid 1px $grey
+      +large-up
+        max-height: 400px
+      +landscape
+        max-height: 145px
+      .addons
+        padding-top: 1.5rem
+        +small
+          border-top: solid 2px $grey
+      .modal-mid
+        margin-top: 1rem
+        +large-up
+          margin-bottom: 1rem
+        &.active-addon
+          position: relative
+          top: -1rem
+          margin-top: 0
+          height: auto
+          display: flex
+          align-items: center
+          .modal-pricing
+            +small
+              text-align: left
+            .product-title
+              font-size: $txt-xsmall
+              text-align: left
+          .product-pricing
+            font-size: $txt-small !important
+            &.strikethrough
+              display: inline
+              text-decoration: line-through
+              font-weight: 400
+            &.sale
+              margin-left: 0.25rem
+              display: inline
+              color: $red
+              font-size: $txt-medium !important
+              font-weight: 600
+          .addon-image
+            +small
+              max-width: 3rem
+              max-height: 3rem
+              margin-bottom: 0!important
+
+          legend
+            display: none
+        &.grid-x
+          height: auto
+        .horizontal-center
+          flex-flow: row-reverse
+          .modal-product-image
+            height: 100%
+            width: auto!important
+            margin-bottom: 1rem
+            +medium-up
+              border: 0.0625rem solid $grey
+              padding: 0.625rem
+              width: 7.5rem
+              margin-bottom: 0
+    .modal-pricing
+      margin-bottom: 0!important
+      .product-title
+        font-size: $txt-small
+        color: $dark-grey
+        font-weight: 600
+        text-transform: capitalize
+        text-align: center
+        display: flex
+
+        +medium-up
+          text-align: left
+          font-size: $txt-medium
+      .product-pricing
+        font-size: $txt-medium
+        +medium-up
+          justify-content: left
+        &.strikethrough
+          margin-top: 0.35rem !important
+        &.strikethrough-sale
+          color: $red
+      .instore
+        display: none
+      .product-location
+        display: none
+        .delivery-info
+
+          .shipping
+            float: left
+            margin-top: -0.4em
+          p
+            float: left
+    .continue-shopping, .info-modal
+      color: $primary
+      border: 0em
+      width: 100%
+      text-align: center
+      box-sizing: border-box
+      font-size: $txt-small
+      text-transform: uppercase
+      border-radius: 0
+      cursor: pointer
+      padding: 0.9375rem
+      +medium-up
+        font-size: $txt-medium
+        width: 80%
+        padding: 1.125rem
+        float: right
+        padding-right: 0
+      &:hover
+        text-decoration: underline
+    p
+      width: 100%
+    .info-modal
+      text-transform: unset
+      float: none
+      display: block
+      margin: 0 auto
+      padding: 0
+    .checkout
+      background-color: $primary
+      color: $primary-invert
+      border: 0em
+      width: 100%
+      padding: 0.9375rem
+      text-align: center
+      box-sizing: border-box
+      font-size: $txt-small
+      text-transform: uppercase
+      border-radius: 0
+      display: block
+      +medium-up
+        font-size: $txt-medium
+        width: 80%
+      &:hover
+        background-color: $light-blue
+      +focus-508
+      &.unavailable
+        background: $grey
+        &:hover
+          background: $grey
+    .slider
+      display: none 
+      +large-up
+        display: block
+        margin-top: 1em!important
+      .product-tile
+        max-width: 360px
+        .product-image-link
+          min-height: 15.125rem!important
+          max-height: 15.125rem!important
+          .product-image
+            img
+              max-height: 200px!important
+
+
+
+
+
+
+
+
+

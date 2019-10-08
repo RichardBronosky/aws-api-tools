@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@shared/*": ["./src/components/shared/*"],
+      "@helpers/*": ["./src/lib/helpers/*"],
+      "@services/*": ["./src/lib/services/*"],
+      "@mocks/*": ["./src/lib/mocks/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@sass/*": ["./src/assets/css/*"],
+      "@images/*": ["./src/assets/images/*"],
+      "@comp-sass/*": ["./src/assets/css/components/*"],
+      "@templates/*": ["./src/templates/*"],
+      "@redux/*": ["./src/redux/*"]
+    }
+  }
+}

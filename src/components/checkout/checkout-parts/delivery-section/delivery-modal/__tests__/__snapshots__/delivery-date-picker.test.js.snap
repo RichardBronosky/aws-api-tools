@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeliveryDatePicker renders correctly when express delivery date selected 1`] = `
+<div
+  className="delivery-date-picker express"
+>
+  <section
+    className="slider"
+  >
+    <div
+      className="slider-head"
+    >
+      <div
+        className="slider-heading"
+      >
+        
+      </div>
+      <div
+        className="slider-link"
+      />
+    </div>
+  </section>
+</div>
+`;
+
+exports[`DeliveryDatePicker renders correctly when not pickup or express delivery date selected 1`] = `
+<div
+  className="delivery-date-picker"
+>
+  <section
+    className="slider"
+  >
+    <div
+      className="slider-head"
+    >
+      <div
+        className="slider-heading"
+      >
+        
+      </div>
+      <div
+        className="slider-link"
+      />
+    </div>
+  </section>
+</div>
+`;
+
+exports[`DeliveryDatePicker renders correctly when pickup date selected 1`] = `
+<div
+  className="delivery-date-picker"
+>
+  <section
+    className="slider"
+  >
+    <div
+      className="slider-head"
+    >
+      <div
+        className="slider-heading"
+      >
+        
+      </div>
+      <div
+        className="slider-link"
+      />
+    </div>
+  </section>
+</div>
+`;

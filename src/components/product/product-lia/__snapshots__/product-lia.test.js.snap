@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductLIA renders correctly if product is available in store 1`] = `
+Array [
+  <div
+    className="product-lia grid-x"
+  >
+    <div
+      className="product-img small-12 large-6"
+    >
+      <span
+        className="product-image"
+      >
+        <img
+          alt="Adaire Brown Side Table"
+          className="small-image"
+          src="http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090&h=385"
+        />
+      </span>
+    </div>
+    <div
+      className="product-desc small-12 large-6"
+    >
+      <h1
+        className="product-title"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Adaire Brown Side Table",
+          }
+        }
+      />
+      <span
+        className="price"
+      >
+        $
+        279.99
+      </span>
+      <a
+        className="blue-action-btn"
+        gtm-action="click"
+        gtm-category="product-lia"
+        gtm-label="buy now"
+        gtm-value={null}
+        href="/"
+        onClick={[Function]}
+      >
+        Buy Now
+      </a>
+      <h2>
+        product description
+      </h2>
+      <div>
+        <p
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Legend has it that King Arthur's sword Excalibur was forged on a mythical islanda place where grapevines were said to grow amongst wild apple trees. This meeting of wood and metal was the inspiration behind our bold new Adaire side table. Each piece is crafted with slats of acacia wood in angled patterns, creating a rustic look offset by modern metal legs and sleek handles. Customer assembly is required. Customer assembly is required.",
+            }
+          }
+        />
+      </div>
+      <div
+        className="small-12"
+      >
+        <div
+          className=" product-dim-sku"
+        >
+          Dimensions: 23"l x 23"w x 24"h
+        </div>
+      </div>
+      <div
+        className="small-12 product-dim-sku"
+      >
+        SKU: 
+        23122360
+      </div>
+    </div>
+    <div
+      className="map"
+    >
+      <div>
+        <div />
+        <div>
+          <div
+            className="store-info"
+          >
+            <h2
+              className="store-name"
+            />
+            <div
+              className="storeAddress"
+            >
+              <a
+                className="store-address-link"
+                gtm-action="Directions store map click"
+                gtm-category="store locator"
+                gtm-label="Directions to store"
+                gtm-value={null}
+                href="https://www.google.com/maps/dir/?api=1&origin=Current+Location&destination=undefined,undefined"
+                onClick={[Function]}
+                target="_blank"
+                title="Directions to undefined"
+              >
+                <br />
+                , 
+                 
+              </a>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="store-info-lia"
+    >
+      <span
+        className="on-display"
+      >
+        On display to order at:
+      </span>
+      <a
+        className="store-link"
+        gtm-action="click"
+        gtm-category="store"
+        gtm-label="Alpharetta - Showroom"
+        gtm-value={null}
+        href="/stores/georgia/alpharetta-showroom-1703"
+        onClick={[Function]}
+      >
+        Alpharetta - Showroom
+      </a>
+      <span
+        className="info-field"
+      >
+        10845 HAYNES BRIDGE RD
+      </span>
+      <span
+        className="info-field"
+      >
+        Alpharetta
+        , 
+        GA
+        , 
+        30022
+      </span>
+      <a
+        className="store-link"
+        gtm-action="call store click"
+        gtm-category="store-locator"
+        gtm-label="Alpharetta Showroom"
+        gtm-value={null}
+        href="tel:770-664-0100"
+        onClick={[Function]}
+        title="Call Alpharetta Showroom Store"
+      >
+        770-664-0100
+      </a>
+      <span
+        className="today"
+      >
+        <span
+          className="bold"
+        >
+          Today: 
+        </span>
+        Open from 10:00am to 9:00pm
+      </span>
+      <span
+        className="tomorrow"
+      >
+        <span
+          className="bold"
+        >
+          Tomorrow: 
+        </span>
+        Open from 10:00am to 9:00pm
+      </span>
+      <button
+        className="see-in-store-button grid-x"
+        onClick={[Function]}
+      >
+        <div
+          className="small-12"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            className="icon location"
+            role="presentation"
+            src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%2052.44%2075.69%22%20fill%3D%22%232f5294%22%3E%3Ctitle%3Eicon-location%3C%2Ftitle%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Layer_1-2%22%20data-name%3D%22Layer%201%22%3E%3Cpath%20d%3D%22M52.44%2C26.22A26.22%2C26.22%2C0%2C0%2C0%2C0%2C26.22q0%2C.66%2C0%2C1.32c0%2C.44%2C0%2C.87%2C0%2C1.32C0%2C43.34%2C26.22%2C75.69%2C26.22%2C75.69S52.44%2C43.34%2C52.44%2C28.86q0-.67%2C0-1.32T52.44%2C26.22ZM26.22%2C39.52A12.17%2C12.17%2C0%2C1%2C1%2C38.39%2C27.35h0A12.17%2C12.17%2C0%2C0%2C1%2C26.22%2C39.52Z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          />
+          Change Location &gt;
+        </div>
+      </button>
+    </div>
+  </div>,
+  <script
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "{ 
+    \\"@context\\": \\"http://schema.org/\\",
+    \\"@type\\": \\"Product\\",
+    \\"name\\": \\"Adaire Brown Side Table\\",
+    \\"image\\": \\"http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090,http://images.rtg-dev.com/adaire-brown-side-table_23122360_alt-image-1?cache-id=d9eb8ed838154a8d6d59e699d3a8f94a,http://images.rtg-dev.com/adaire-brown-side-table_23122360_alt-image-2?cache-id=fade3f3f0020c0462b73618a3de9ced8,http://images.rtg-dev.com/adaire-brown-side-table_23122360_alt-image-3?cache-id=0dc792fe59668f81446dde858d303efa\\",
+    \\"description\\": \\"Legend has it that King Arthur's sword Excalibur was forged on a mythical islanda place where grapevines were said to grow amongst wild apple trees. This meeting of wood and metal was the inspiration behind our bold new Adaire side table. Each piece is crafted with slats of acacia wood in angled patterns, creating a rustic look offset by modern metal legs and sleek handles. Customer assembly is required. Customer assembly is required.\\",
+    \\"sku\\": \\"23122360\\",
+    \\"brand\\": {
+      \\"@type\\": \\"Thing\\",
+      \\"name\\": \\"Rooms To Go\\"
+    },
+    \\"offers\\": {
+      \\"@type\\": \\"Offer\\",
+      \\"url\\": \\"http://localhost/furniture/product/adaire-brown-side-table/23122360\\",
+      \\"priceCurrency\\": \\"USD\\",
+      \\"price\\": \\"279.99\\",
+      \\"itemCondition\\": \\"http://schema.org/NewCondition\\",
+      \\"seller\\": {
+        \\"@type\\": \\"Organization\\",
+        \\"name\\": \\"Rooms To Go\\"
+      }
+    }
+  }",
+      }
+    }
+    type="application/ld+json"
+  />,
+]
+`;
+
+exports[`ProductLIA renders correctly if product is not available in store 1`] = `
+Array [
+  <div
+    className="product-lia grid-x"
+  >
+    <div
+      className="product-img small-12 large-6"
+    >
+      <span
+        className="product-image"
+      >
+        <img
+          alt="Adaire Brown Side Table"
+          className="small-image"
+          src="http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090&h=385"
+        />
+      </span>
+    </div>
+    <div
+      className="product-desc small-12 large-6"
+    >
+      <h1
+        className="product-title"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Adaire Brown Side Table",
+          }
+        }
+      />
+      <span
+        className="price"
+      >
+        $
+        279.99
+      </span>
+      <a
+        className="blue-action-btn"
+        gtm-action="click"
+        gtm-category="product-lia"
+        gtm-label="buy now"
+        gtm-value={null}
+        href="/"
+        onClick={[Function]}
+      >
+        Buy Now
+      </a>
+      <h2>
+        product description
+      </h2>
+      <div>
+        <p
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Legend has it that King Arthur's sword Excalibur was forged on a mythical islanda place where grapevines were said to grow amongst wild apple trees. This meeting of wood and metal was the inspiration behind our bold new Adaire side table. Each piece is crafted with slats of acacia wood in angled patterns, creating a rustic look offset by modern metal legs and sleek handles. Customer assembly is required. Customer assembly is required.",
+            }
+          }
+        />
+      </div>
+      <div
+        className="small-12"
+      >
+        <div
+          className=" product-dim-sku"
+        >
+          Dimensions: 23"l x 23"w x 24"h
+        </div>
+      </div>
+      <div
+        className="small-12 product-dim-sku"
+      >
+        SKU: 
+        23122360
+      </div>
+    </div>
+    <div
+      className="store-info-lia"
+    >
+      <span
+        className="info-field"
+      >
+        Not available for display or order at:
+      </span>
+      <a
+        className="store-link"
+        gtm-action="click"
+        gtm-category="store"
+        gtm-label="Alpharetta - Showroom"
+        gtm-value={null}
+        href="/stores/georgia/alpharetta-showroom-1703"
+        onClick={[Function]}
+      >
+        Alpharetta - Showroom
+      </a>
+      <button
+        className="see-in-store-button grid-x"
+        onClick={[Function]}
+      >
+        <div
+          className="small-12"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            className="icon location"
+            role="presentation"
+            src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%2052.44%2075.69%22%20fill%3D%22%232f5294%22%3E%3Ctitle%3Eicon-location%3C%2Ftitle%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Layer_1-2%22%20data-name%3D%22Layer%201%22%3E%3Cpath%20d%3D%22M52.44%2C26.22A26.22%2C26.22%2C0%2C0%2C0%2C0%2C26.22q0%2C.66%2C0%2C1.32c0%2C.44%2C0%2C.87%2C0%2C1.32C0%2C43.34%2C26.22%2C75.69%2C26.22%2C75.69S52.44%2C43.34%2C52.44%2C28.86q0-.67%2C0-1.32T52.44%2C26.22ZM26.22%2C39.52A12.17%2C12.17%2C0%2C1%2C1%2C38.39%2C27.35h0A12.17%2C12.17%2C0%2C0%2C1%2C26.22%2C39.52Z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          />
+          Change Location &gt;
+        </div>
+      </button>
+    </div>
+  </div>,
+  <script
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "{ 
+    \\"@context\\": \\"http://schema.org/\\",
+    \\"@type\\": \\"Product\\",
+    \\"name\\": \\"Adaire Brown Side Table\\",
+    \\"image\\": \\"http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090,http://images.rtg-dev.com/adaire-brown-side-table_23122360_alt-image-1?cache-id=d9eb8ed838154a8d6d59e699d3a8f94a,http://images.rtg-dev.com/adaire-brown-side-table_23122360_alt-image-2?cache-id=fade3f3f0020c0462b73618a3de9ced8,http://images.rtg-dev.com/adaire-brown-side-table_23122360_alt-image-3?cache-id=0dc792fe59668f81446dde858d303efa\\",
+    \\"description\\": \\"Legend has it that King Arthur's sword Excalibur was forged on a mythical islanda place where grapevines were said to grow amongst wild apple trees. This meeting of wood and metal was the inspiration behind our bold new Adaire side table. Each piece is crafted with slats of acacia wood in angled patterns, creating a rustic look offset by modern metal legs and sleek handles. Customer assembly is required. Customer assembly is required.\\",
+    \\"sku\\": \\"23122360\\",
+    \\"brand\\": {
+      \\"@type\\": \\"Thing\\",
+      \\"name\\": \\"Rooms To Go\\"
+    },
+    \\"offers\\": {
+      \\"@type\\": \\"Offer\\",
+      \\"url\\": \\"http://localhost/furniture/product/adaire-brown-side-table/23122360\\",
+      \\"priceCurrency\\": \\"USD\\",
+      \\"price\\": \\"279.99\\",
+      \\"itemCondition\\": \\"http://schema.org/NewCondition\\",
+      \\"seller\\": {
+        \\"@type\\": \\"Organization\\",
+        \\"name\\": \\"Rooms To Go\\"
+      }
+    }
+  }",
+      }
+    }
+    type="application/ld+json"
+  />,
+]
+`;

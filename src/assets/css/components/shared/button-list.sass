@@ -1,0 +1,32 @@
+@import '../../_variables'
+@import '../../_mixins'
+
+.contentful-button-list
+  .display-icon
+    width: auto
+    height: auto
+    min-width: 0rem
+    .button-text // Needed to override .button-text below if icon present
+      font-size: $txt-xsmall
+  .button-text
+    text-align: left
+    font-size: 80%
+    font-weight: 600
+    &.top
+      text-align: center
+    &.left
+      padding-left: 1rem
+    &.right
+      padding-right: 1rem
+  .button-icon-image
+    &.top
+      width: 100%
+    &.left
+      float:left
+    &.right
+    img
+      max-width: $icon-max-width
+      max-height: $icon-max-height
+  h2
+    margin: 1rem
+    text-align: center

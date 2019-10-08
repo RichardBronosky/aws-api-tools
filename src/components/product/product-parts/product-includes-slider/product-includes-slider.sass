@@ -1,0 +1,66 @@
+@import 'src/assets/css/mixins'
+@import 'src/assets/css/variables'
+
+.includes-slider-container
+  margin: 0 auto
+  border-bottom: 1px solid $grey
+  border-top: 1px solid $grey
+  +large-up
+    border: none
+    max-width: 1000px
+  +medium-down
+    margin: 0 auto
+    margin-top: 1rem
+  .slider
+    +medium-down
+      margin-top: 0.5rem
+    .slick-slide
+      div
+        width: 90%
+        margin: 0 auto
+    .slick-list
+      +medium-down
+        padding: 0.75rem 0
+    .slick-next, .slick-prev
+      top: -0.2rem !important
+  .card
+    margin: 0 auto
+    display: flex
+    height: 4rem
+    max-width: 204px
+    &:hover
+      transform: scale(1.01)
+    .slider-image-container
+      width: auto
+      height: 40%
+      display: flex
+      justify-content: center
+      padding: .5rem
+      margin-top: .5rem
+      
+      .slider-image
+        display: flex
+        justify-content: center
+        width: auto
+        height: 3em
+        margin: 0 auto
+        display: flex
+        img
+          object-fit: contain
+          max-height: 300px
+          +medium-up
+            margin: 0 auto
+
+    .slider-title
+      text-align: center
+      font-size: 0.6rem
+      color: $dark-grey
+      height: 3rem
+      display: flex
+      justify-content: center
+      align-items: center
+      font-weight: 600
+      height: 100%
+      padding: .2rem
+      &:hover
+        color: $primary

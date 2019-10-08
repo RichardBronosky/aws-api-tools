@@ -1,0 +1,19 @@
+# Project dependencies
+.cache
+.history
+node_modules
+yarn-error.log
+
+# Build directory
+public/*
+coverage/*
+.DS_Store
+.env.development
+env.development
+.env.production
+env.production
+src/lib/generators/data/finance-plan-feed.json
+src/lib/generators/data/store-hours-feed.json
+coverage/
+test_results
+.history/*

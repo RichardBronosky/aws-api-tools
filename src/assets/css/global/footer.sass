@@ -1,0 +1,300 @@
+@import '../mixins'
+@import '../variables'
+
+footer
+  display: block
+  vertical-align: baseline
+  background-color: $primary-invert
+  width: 100%
+  margin: 0 auto
+  margin-top: 1.5rem
+  clear: both
+  border-top: 0.0625rem solid $grey
+
+  nav
+    border: 0
+    padding-bottom: 1.875rem
+    display: flex!important
+    width: 95%
+    margin: 0 auto
+    flex-wrap: wrap-reverse
+    +medium
+     padding: 0px 43px
+     flex-wrap: wrap
+    +large-up
+      padding: 0
+      flex-wrap: wrap
+      
+    .menu-col
+      width: 50%
+      padding: 10px
+      box-sizing: border-box
+      +large-up
+        display: inline-block
+        width: 50%
+      +large-up
+        width: 20%
+      .heading
+        i
+          display: none
+        text-transform: uppercase
+        font-weight: bold
+        line-height: 1.875rem
+        font-size: $txt-medium
+      a
+        line-height: 2.1875rem
+        display: block
+        color: $dark-grey
+        text-decoration: none
+
+        &:hover
+          color: $primary
+          text-decoration: underline
+      p
+        display: block
+        line-height: 2rem
+        margin-bottom: 1.5rem
+        margin-top: .5rem
+      &:last-child
+        +small
+          width: 100%
+  .bottom-row
+    background-color: $primary-invert
+    width: 100%
+    display: block
+    .left, .right
+      height: auto
+      padding: 1.5rem 0
+      display: inline-block
+      width: 100%
+      vertical-align: middle
+      box-sizing: border-box
+      float: none
+      +large-up
+        padding: 2rem 1.5rem 1.5rem 1.5rem
+        margin-bottom: 1rem
+        height: 120px
+        border-bottom: 1px solid $grey
+        width: 50%
+      .cc-img
+        float: left
+        margin-right: 10px
+
+    .left
+      +large-up
+        border-right: 1px solid $grey
+    .right
+      text-align: right
+      border-top: 1px solid $grey
+      border-bottom: 1px solid $grey
+      padding: 1rem 0
+      +large-up
+        padding: 1rem 1.5rem 1.5rem 1.5rem
+        border-top: none
+      +medium-down
+        text-align: center
+      .email-label
+        text-align: left
+        font-size: $txt-small
+        margin-bottom: 0.5rem
+        +medium-down
+          width: 90%
+          margin: 0 auto
+      form
+        text-align: left
+        margin-top: -0.5em
+        +medium-down
+          width: 90%
+          margin: 0 auto
+        .error
+          color: $red
+          font-size: $txt-xsmall    
+          margin-bottom: -0.2rem
+        .success
+          color: $green
+          font-size: $txt-xsmall
+          margin-bottom: -0.2rem
+        .email-container, .zip-container
+          width: 100%
+          display: block
+          +large-up
+            margin: 0 auto
+            display: inline-block
+            width: 59.5%
+            margin-right: 0.5%
+        .zip-container
+          +large-up
+            width: 19.5%
+        label
+          width: 100%
+        .signup-email, .signup-zip
+          display: block
+          width: 100%
+          height: 2.07rem
+          padding: 6px
+          border: 1px solid $grey
+          margin: 0
+        .signup-btn
+          font-size: $txt-xsmall !important
+          display: block
+          width: 100%
+          background-color: $primary
+          color: $primary-invert
+          font-weight: bold
+          font-size: $txt-medium
+          height: 2.07rem
+          margin-top: 0.5rem
+          text-transform: uppercase
+          +large-up
+            display: inline-block
+            width: 20%
+            margin: 0
+          &:hover
+            background-color: $light-blue
+          +focus-508
+          .loader
+            height: 1.25rem
+  .social-icons
+    display: inline-block
+    width: 25%
+    vertical-align: middle
+  .get-app
+    display: inline-block
+    width: 25%
+    vertical-align: middle
+    text-align: center
+  .payment-methods
+    display: inline-block
+    width: 25%
+    vertical-align: middle
+  .social-media
+    padding-top: 0
+    +large-up
+      border-top: 0.0625rem solid $grey
+      padding-top: 1.25rem
+      padding-bottom: 1.25rem
+    .social-icons
+      text-align: center
+      +large-up
+
+      .icon
+        display: flex
+        justify-content: space-evenly
+        width: 3.125rem
+        height: 3.125rem
+        text-align: center
+        vertical-align: middle
+        display: inline-block
+        background-size: contain
+        background-repeat: no-repeat
+        border: 0.0625rem solid $light-grey
+        background-position: center
+        padding: 0.8375rem
+        border-radius: 50%
+        background-origin: content-box
+        margin-top: 1.25em
+
+
+        img
+          margin-top: -0.45em
+          margin-left: 0.12em
+          &.fb
+            width: 50%
+    .get-app
+      .icon
+        background-color: rgb(47, 82, 148)
+        border-color: rgb(47, 82, 148)
+        padding: 0.67em
+        width: 50px
+        height: 50px
+        text-align: center
+        vertical-align: middle
+        display: inline-block
+        background-size: contain
+        background-repeat: no-repeat
+        border: 1px solid $grey
+        background-position: center
+        border-radius: 50%
+        background-origin: content-box
+        margin: 20px
+        &:hover
+          background-color: $light-blue
+          border-color: $light-blue
+        +focus-508
+        img
+          height: 1.75em
+          margin-left: 0.064em
+      span
+        display: inline-block
+        line-height: 1.25rem
+    .payment-methods
+      text-align: center
+      padding: 10px 0px
+
+  .blue-row
+    padding: 20px 20px
+    box-sizing: border-box
+    background-color: $primary
+    width: 100%
+    color: $primary-invert
+    padding: 2.5rem 0
+    .rtg-logo
+      padding: 20px 0px
+      margin: 0px
+      +large-up
+        display: inline-block
+        vertical-align: middle
+        margin-right: 1.875rem
+      img.desktop
+        width: 6.25rem
+      img.mobile
+        display: block
+        width: 200px
+        +large-up
+          display: none
+    .notices
+      padding-left: 0px
+      padding: 20px 0px
+      border-left: 0px
+      width: 100%
+      border-bottom: 1px solid #fff
+      +large-up
+        display: inline-block
+        vertical-align: middle
+        padding-left: 1.875rem
+        border-left: 1px solid $light-grey
+        border-bottom: none
+        width: 59%
+      a
+        color: $primary-invert
+        text-decoration: none
+        &:hover
+          text-decoration: underline
+      p.first
+        line-height: 30px
+        padding-bottom: 0.625rem
+    .logos
+      float: none
+      margin-right: 0px
+      padding: 20px 0px
+      +large-up
+        padding: 0
+        display: inline-block
+        vertical-align: middle
+        float: right
+        margin-right: 3.125rem
+      img
+        vertical-align: middle
+        width: 5.625rem
+        margin: 0.625rem
+  .credit-learn-more
+    font-size: 0.8rem
+    padding: 5px 10px
+    margin: 5px 0 0 0
+    &.link 
+      text-decoration: underline
+      margin-top: 0.5rem
+      width: 100%
+      &:hover
+        color: $primary
+

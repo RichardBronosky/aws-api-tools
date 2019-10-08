@@ -1,0 +1,33 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.review-form
+  text-align: left
+  width: 97.5%
+  margin-bottom: 1em
+  margin-left: 1em
+  font-size: $txt-small
+  .invalid
+    color: $red
+    margin-top: 1rem
+  .checkbox-container
+    margin-top: 1.75em
+    display: inline-block
+    margin-right: 3em
+    margin-bottom: 1.2em
+    p
+      display: inline
+    input[type="checkbox"]
+      float: left
+      width: 0.8125rem
+      height: 0.8125rem
+      margin-top: 0.5em
+    .text-container
+      display: block
+      width: 90%
+      margin-left: 1.75em
+      .accept-link
+        color: $primary
+        margin-left: 0.25em
+        &:hover
+          text-decoration: underline

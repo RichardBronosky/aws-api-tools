@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderList renders correctly when heading does not exist 1`] = `
+<div
+  className="order-list"
+>
+  <div
+    className="grid-x cell small-12"
+  >
+    <h2 />
+    <div
+      className="grid-x cell small-12 order-status-headings-top"
+    >
+      <div
+        className="order-status-heading cell large-2"
+      >
+        Order #
+      </div>
+      <div
+        className="order-status-heading cell large-2"
+      >
+        Order Placed
+      </div>
+      <div
+        className="order-status-heading cell large-2"
+      >
+        Total
+      </div>
+      <div
+        className="order-status-heading cell large-2"
+      >
+        Balance
+      </div>
+      <div
+        className="order-status-heading cell large-2"
+      >
+        Status
+      </div>
+      <div
+        className="order-status-heading cell large-2"
+      />
+    </div>
+    <div
+      className="grid-x cell small-12 order-status-orders"
+    >
+      <div
+        className="grid-x cell small-12 order-status-order-group"
+      >
+        <div
+          className="mobile left small-6"
+        >
+           Order Number: 
+        </div>
+        <div
+          className="order-status-order cell small-6 large-2"
+        >
+           
+          14000136I
+        </div>
+        <div
+          className="mobile small-6 left"
+        >
+           Order Placed: 
+        </div>
+        <div
+          className="order-status-order cell small-6 large-2"
+        >
+           
+          8/4/2019
+        </div>
+        <div
+          className="mobile small-6 left"
+        >
+          Total: 
+        </div>
+        <div
+          className="order-status-order cell small-6 large-2"
+        >
+           
+          $638.95
+        </div>
+        <div
+          className="mobile small-6 left"
+        >
+          Balance: 
+        </div>
+        <div
+          className="order-status-order cell small-6 large-2"
+        >
+           
+          $0
+        </div>
+        <div
+          className="mobile small-6 left"
+        >
+          Status: 
+        </div>
+        <div
+          className="order-status-order cell small-6 large-2"
+        >
+           
+          Open
+        </div>
+        <div
+          className="order-status-order cell small-12 large-2"
+        >
+          <button
+            className="primary"
+            onClick={[Function]}
+          >
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OrderList renders correctly when orderList does not exist 1`] = `
+<div
+  className="order-list"
+/>
+`;
+
+exports[`OrderList renders correctly with default props 1`] = `
+<div
+  className="order-list"
+>
+  <div
+    className="grid-x cell small-12"
+  >
+    <h2>
+      test heading
+    </h2>
+    <div
+      className="grid-x cell small-12 order-status-headings-top"
+    >
+      <div
+        className="order-status-heading cell large-2"
+      >
+        Order #
+      </div>
+      <div
+        className="order-status-heading cell large-2"
+      >
+        Order Placed
+      </div>
+      <div
+        className="order-status-heading cell large-2"
+      >
+        Total
+      </div>
+      <div
+        className="order-status-heading cell large-2"
+      >
+        Balance
+      </div>
+      <div
+        className="order-status-heading cell large-2"
+      >
+        Status
+      </div>
+      <div
+        className="order-status-heading cell large-2"
+      />
+    </div>
+    <div
+      className="grid-x cell small-12 order-status-orders"
+    >
+      <div
+        className="grid-x cell small-12 order-status-order-group"
+      >
+        <div
+          className="mobile left small-6"
+        >
+           Order Number: 
+        </div>
+        <div
+          className="order-status-order cell small-6 large-2"
+        >
+           
+          14000136I
+        </div>
+        <div
+          className="mobile small-6 left"
+        >
+           Order Placed: 
+        </div>
+        <div
+          className="order-status-order cell small-6 large-2"
+        >
+           
+          8/4/2019
+        </div>
+        <div
+          className="mobile small-6 left"
+        >
+          Total: 
+        </div>
+        <div
+          className="order-status-order cell small-6 large-2"
+        >
+           
+          $638.95
+        </div>
+        <div
+          className="mobile small-6 left"
+        >
+          Balance: 
+        </div>
+        <div
+          className="order-status-order cell small-6 large-2"
+        >
+           
+          $0
+        </div>
+        <div
+          className="mobile small-6 left"
+        >
+          Status: 
+        </div>
+        <div
+          className="order-status-order cell small-6 large-2"
+        >
+           
+          Open
+        </div>
+        <div
+          className="order-status-order cell small-12 large-2"
+        >
+          <button
+            className="primary"
+            onClick={[Function]}
+          >
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

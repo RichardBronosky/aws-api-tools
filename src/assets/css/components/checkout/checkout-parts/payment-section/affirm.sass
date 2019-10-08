@@ -1,0 +1,22 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.affirm-button
+  height: 40px
+  width: 97.5%
+  padding: 0.25rem 1rem
+  background-color: $primary
+  color: $primary-invert
+  font-weight: bold
+  padding-top: 0.5rem
+  +medium-up
+    width: 13rem
+    position: relative
+    right: 1.5%
+  &:hover
+    background-color: $light-blue
+  +focus-508
+  img
+    margin-top: -0.2rem
+    margin-left: 0.1rem
+    max-height: 70%

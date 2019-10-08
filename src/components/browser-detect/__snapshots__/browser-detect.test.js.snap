@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrowserDetect renders correctly when modal closed 1`] = `
+<div
+  className="browser-detect"
+>
+  <div>
+    <div>
+      <div
+        id="content"
+      />
+      <div
+        data-target-tag-name="DIV"
+        id="target"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BrowserDetect renders correctly when modal open and unsupported Chrome browser 1`] = `
+<div
+  className="browser-detect"
+>
+  <div>
+    <div>
+      <div
+        id="content"
+      >
+        <div
+          className="ReactModal__Overlay ReactModal__Overlay--after-open modal-overlay"
+          onClick={[Function]}
+          onMouseDown={[Function]}
+          style={Object {}}
+        >
+          <div
+            aria-label="Browser Unsupported Modal"
+            className="ReactModal__Content ReactModal__Content--after-open browser-unsupported"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            role="dialog"
+            style={Object {}}
+            tabIndex="-1"
+          >
+            <div
+              className="modal-content"
+            >
+              <div
+                className="grid-x"
+              >
+                <img
+                  alt="Chrome Logo"
+                  className="browser-logo small-12"
+                  src="https://www.google.com/chrome/static/images/chrome-logo.svg"
+                />
+                <div
+                  className="text-container small-12"
+                >
+                  <span
+                    className="msg"
+                  >
+                    We notice you are running 
+                    Chrome 10
+                    . Please be aware that this site supports 
+                    Chrome 66.0
+                    + and may not run correctly on your version.
+                  </span>
+                  <span
+                    className="msg"
+                  >
+                    If you would like to upgrade to the latest version of 
+                    Chrome
+                     please click
+                    <a
+                      className="upgrade"
+                      gtm-action="click"
+                      gtm-category="unsupported-browser"
+                      gtm-label="Download Chrome"
+                      gtm-value={null}
+                      href="https://www.google.com/chrome/"
+                      onClick={[Function]}
+                      title="Download Chrome"
+                    >
+                      here
+                    </a>
+                    .
+                  </span>
+                </div>
+                <button
+                  aria-label="Continue to Site"
+                  className="blue-action-btn"
+                  onClick={[MockFunction]}
+                  tabIndex="0"
+                  value="Continue to Site"
+                >
+                  Continue to Site
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-target-tag-name="DIV"
+        id="target"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BrowserDetect renders correctly when modal open and unsupported IE browser 1`] = `
+<div
+  className="browser-detect"
+>
+  <div>
+    <div>
+      <div
+        id="content"
+      >
+        <div
+          className="ReactModal__Overlay ReactModal__Overlay--after-open modal-overlay"
+          onClick={[Function]}
+          onMouseDown={[Function]}
+          style={Object {}}
+        >
+          <div
+            aria-label="Browser Unsupported Modal"
+            className="ReactModal__Content ReactModal__Content--after-open browser-unsupported"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            role="dialog"
+            style={Object {}}
+            tabIndex="-1"
+          >
+            <div
+              className="modal-content"
+            >
+              <div
+                className="grid-x"
+              >
+                <img
+                  alt="Internet Explorer Logo"
+                  className="browser-logo small-12"
+                  src="https://c.s-microsoft.com/en-us/CMSImages/ie_symbol_clr_56x56.png?version=73aa5bf1-0743-11e7-8f71-718675c983bf"
+                />
+                <div
+                  className="text-container small-12"
+                >
+                  <span
+                    className="msg"
+                  >
+                    We notice you are running 
+                    Internet Explorer 10
+                    . Please be aware that this site supports 
+                    Internet Explorer 11.0
+                    + and may not run correctly on your version.
+                  </span>
+                  <span
+                    className="msg"
+                  >
+                    If you would like to upgrade to the latest version of 
+                    Internet Explorer
+                     please click
+                    <a
+                      className="upgrade"
+                      gtm-action="click"
+                      gtm-category="unsupported-browser"
+                      gtm-label="Download Internet Explorer"
+                      gtm-value={null}
+                      href="https://windows.microsoft.com/en-us/internet-explorer/download-ie"
+                      onClick={[Function]}
+                      title="Download Internet Explorer"
+                    >
+                      here
+                    </a>
+                    .
+                  </span>
+                </div>
+                <button
+                  aria-label="Continue to Site"
+                  className="blue-action-btn"
+                  onClick={[MockFunction]}
+                  tabIndex="0"
+                  value="Continue to Site"
+                >
+                  Continue to Site
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-target-tag-name="DIV"
+        id="target"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BrowserDetect renders correctly when modal open and unsupported browser and isMobile 1`] = `
+<div
+  className="browser-detect"
+/>
+`;

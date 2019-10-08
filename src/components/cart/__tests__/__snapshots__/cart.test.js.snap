@@ -1,0 +1,899 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart renders correctly when all skus available 1`] = `
+<div
+  className="cart-page"
+>
+  <h1
+    id="main-cart-title"
+    tabIndex="-1"
+  >
+    CART
+  </h1>
+  <div
+    className="grid-x"
+  >
+    <div
+      className="cart-product-list-container small-12 medium-12 large-9 grid-x grid-padding-y"
+    >
+      <CartProduct
+        activeAddons={null}
+        index={0}
+        onAddActiveAddon={[MockFunction]}
+        onRemoveActiveAddon={[MockFunction]}
+        price={279.99}
+        product={
+          Object {
+            "category": "tables",
+            "delivery_type": "O",
+            "free_shipping": true,
+            "list_price": 349.99,
+            "on_sale": true,
+            "price": 279.99,
+            "primary_image": "http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090",
+            "shipping_cost_code": Object {
+              "FL": "VD71",
+              "SE": "VD71",
+              "TX": "VD71",
+            },
+            "sku": "23122360",
+            "strikethrough": Object {
+              "FL": true,
+              "OM": true,
+              "SE": true,
+              "TX": true,
+            },
+            "title": "Adaire Brown Side Table",
+          }
+        }
+        productCount={2}
+        quantity={1}
+      />
+      <CartProduct
+        activeAddons={null}
+        index={1}
+        onAddActiveAddon={[MockFunction]}
+        onRemoveActiveAddon={[MockFunction]}
+        price={1199.99}
+        product={
+          Object {
+            "category": "livingroom",
+            "delivery_type": "D",
+            "free_shipping": false,
+            "list_price": 1299.99,
+            "on_sale": true,
+            "package_skus": Object {
+              "FL": Array [
+                Object {
+                  "price": "248.65",
+                  "quantity": "1",
+                  "sku": "12316762",
+                },
+                Object {
+                  "price": "185.62",
+                  "quantity": "4",
+                  "sku": "12116768",
+                },
+                Object {
+                  "price": "223.71",
+                  "quantity": "1",
+                  "sku": "12216760",
+                },
+                Object {
+                  "price": "73.16",
+                  "quantity": "1",
+                  "sku": "12516766",
+                },
+              ],
+              "SE": Array [
+                Object {
+                  "price": "208.43",
+                  "quantity": 1,
+                  "sku": "12216760",
+                },
+                Object {
+                  "price": "172.94",
+                  "quantity": 4,
+                  "sku": "12116768",
+                },
+                Object {
+                  "price": "231.63",
+                  "quantity": 1,
+                  "sku": "12316762",
+                },
+                Object {
+                  "price": "68.17",
+                  "quantity": 1,
+                  "sku": "12516766",
+                },
+              ],
+              "TX": Array [
+                Object {
+                  "price": "231.63",
+                  "quantity": "1",
+                  "sku": "12316762",
+                },
+                Object {
+                  "price": "208.43",
+                  "quantity": "1",
+                  "sku": "12216760",
+                },
+                Object {
+                  "price": "68.17",
+                  "quantity": "1",
+                  "sku": "12516766",
+                },
+                Object {
+                  "price": "172.94",
+                  "quantity": "4",
+                  "sku": "12116768",
+                },
+              ],
+            },
+            "price": 1199.99,
+            "primary_image": "http://images.rtg-dev.com/laney-park-dark-gray-7-pc-sectional_1141677P_image-room?cache-id=a7e194ec3ebbb82c6482c801d3971efc",
+            "shipping_cost_code": Object {
+              "FL": "ROOM",
+              "SE": "ROOM",
+              "TX": "ROOM",
+            },
+            "sku": "1141677P",
+            "title": "Laney Park Dark Gray 7 Pc Sectional",
+          }
+        }
+        productCount={2}
+        quantity={3}
+      />
+      <PromotionContentGroup
+        isCart={true}
+        targetSkus={Array []}
+      />
+      <div
+        className="cart-bottom-checkout cell small-12 grid-x"
+      >
+        <div
+          className="cell large-8 payment-methods"
+        >
+          <PaymentMethods />
+        </div>
+        <CheckoutSticky
+          cart={
+            Object {
+              "cartItems": Array [
+                Object {
+                  "activeAddons": null,
+                  "price": 279.99,
+                  "product": Object {
+                    "category": "tables",
+                    "delivery_type": "O",
+                    "free_shipping": true,
+                    "list_price": 349.99,
+                    "on_sale": true,
+                    "price": 279.99,
+                    "primary_image": "http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090",
+                    "shipping_cost_code": Object {
+                      "FL": "VD71",
+                      "SE": "VD71",
+                      "TX": "VD71",
+                    },
+                    "sku": "23122360",
+                    "strikethrough": Object {
+                      "FL": true,
+                      "OM": true,
+                      "SE": true,
+                      "TX": true,
+                    },
+                    "title": "Adaire Brown Side Table",
+                  },
+                  "quantity": 1,
+                  "sku": "23122360",
+                },
+                Object {
+                  "activeAddons": null,
+                  "price": 1199.99,
+                  "product": Object {
+                    "category": "livingroom",
+                    "delivery_type": "D",
+                    "free_shipping": false,
+                    "list_price": 1299.99,
+                    "on_sale": true,
+                    "package_skus": Object {
+                      "FL": Array [
+                        Object {
+                          "price": "248.65",
+                          "quantity": "1",
+                          "sku": "12316762",
+                        },
+                        Object {
+                          "price": "185.62",
+                          "quantity": "4",
+                          "sku": "12116768",
+                        },
+                        Object {
+                          "price": "223.71",
+                          "quantity": "1",
+                          "sku": "12216760",
+                        },
+                        Object {
+                          "price": "73.16",
+                          "quantity": "1",
+                          "sku": "12516766",
+                        },
+                      ],
+                      "SE": Array [
+                        Object {
+                          "price": "208.43",
+                          "quantity": 1,
+                          "sku": "12216760",
+                        },
+                        Object {
+                          "price": "172.94",
+                          "quantity": 4,
+                          "sku": "12116768",
+                        },
+                        Object {
+                          "price": "231.63",
+                          "quantity": 1,
+                          "sku": "12316762",
+                        },
+                        Object {
+                          "price": "68.17",
+                          "quantity": 1,
+                          "sku": "12516766",
+                        },
+                      ],
+                      "TX": Array [
+                        Object {
+                          "price": "231.63",
+                          "quantity": "1",
+                          "sku": "12316762",
+                        },
+                        Object {
+                          "price": "208.43",
+                          "quantity": "1",
+                          "sku": "12216760",
+                        },
+                        Object {
+                          "price": "68.17",
+                          "quantity": "1",
+                          "sku": "12516766",
+                        },
+                        Object {
+                          "price": "172.94",
+                          "quantity": "4",
+                          "sku": "12116768",
+                        },
+                      ],
+                    },
+                    "price": 1199.99,
+                    "primary_image": "http://images.rtg-dev.com/laney-park-dark-gray-7-pc-sectional_1141677P_image-room?cache-id=a7e194ec3ebbb82c6482c801d3971efc",
+                    "shipping_cost_code": Object {
+                      "FL": "ROOM",
+                      "SE": "ROOM",
+                      "TX": "ROOM",
+                    },
+                    "sku": "1141677P",
+                    "title": "Laney Park Dark Gray 7 Pc Sectional",
+                  },
+                  "quantity": 3,
+                  "sku": "1141677P",
+                },
+              ],
+            }
+          }
+          discount={0}
+          onlyButtons={true}
+          productsAvailable={true}
+          removeUnavailableItems={[Function]}
+          showPayPal={false}
+        />
+      </div>
+      <p
+        className="financing-disclaimer cell small-12"
+      >
+        *when paying with a rooms to go credit card
+      </p>
+      <CreditCardBanner />
+      <CondensedContact />
+    </div>
+    <div
+      className="checkout-container cell small-12 large-2 grid-margin-y"
+    >
+      <CheckoutSticky
+        cart={
+          Object {
+            "cartItems": Array [
+              Object {
+                "activeAddons": null,
+                "price": 279.99,
+                "product": Object {
+                  "category": "tables",
+                  "delivery_type": "O",
+                  "free_shipping": true,
+                  "list_price": 349.99,
+                  "on_sale": true,
+                  "price": 279.99,
+                  "primary_image": "http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090",
+                  "shipping_cost_code": Object {
+                    "FL": "VD71",
+                    "SE": "VD71",
+                    "TX": "VD71",
+                  },
+                  "sku": "23122360",
+                  "strikethrough": Object {
+                    "FL": true,
+                    "OM": true,
+                    "SE": true,
+                    "TX": true,
+                  },
+                  "title": "Adaire Brown Side Table",
+                },
+                "quantity": 1,
+                "sku": "23122360",
+              },
+              Object {
+                "activeAddons": null,
+                "price": 1199.99,
+                "product": Object {
+                  "category": "livingroom",
+                  "delivery_type": "D",
+                  "free_shipping": false,
+                  "list_price": 1299.99,
+                  "on_sale": true,
+                  "package_skus": Object {
+                    "FL": Array [
+                      Object {
+                        "price": "248.65",
+                        "quantity": "1",
+                        "sku": "12316762",
+                      },
+                      Object {
+                        "price": "185.62",
+                        "quantity": "4",
+                        "sku": "12116768",
+                      },
+                      Object {
+                        "price": "223.71",
+                        "quantity": "1",
+                        "sku": "12216760",
+                      },
+                      Object {
+                        "price": "73.16",
+                        "quantity": "1",
+                        "sku": "12516766",
+                      },
+                    ],
+                    "SE": Array [
+                      Object {
+                        "price": "208.43",
+                        "quantity": 1,
+                        "sku": "12216760",
+                      },
+                      Object {
+                        "price": "172.94",
+                        "quantity": 4,
+                        "sku": "12116768",
+                      },
+                      Object {
+                        "price": "231.63",
+                        "quantity": 1,
+                        "sku": "12316762",
+                      },
+                      Object {
+                        "price": "68.17",
+                        "quantity": 1,
+                        "sku": "12516766",
+                      },
+                    ],
+                    "TX": Array [
+                      Object {
+                        "price": "231.63",
+                        "quantity": "1",
+                        "sku": "12316762",
+                      },
+                      Object {
+                        "price": "208.43",
+                        "quantity": "1",
+                        "sku": "12216760",
+                      },
+                      Object {
+                        "price": "68.17",
+                        "quantity": "1",
+                        "sku": "12516766",
+                      },
+                      Object {
+                        "price": "172.94",
+                        "quantity": "4",
+                        "sku": "12116768",
+                      },
+                    ],
+                  },
+                  "price": 1199.99,
+                  "primary_image": "http://images.rtg-dev.com/laney-park-dark-gray-7-pc-sectional_1141677P_image-room?cache-id=a7e194ec3ebbb82c6482c801d3971efc",
+                  "shipping_cost_code": Object {
+                    "FL": "ROOM",
+                    "SE": "ROOM",
+                    "TX": "ROOM",
+                  },
+                  "sku": "1141677P",
+                  "title": "Laney Park Dark Gray 7 Pc Sectional",
+                },
+                "quantity": 3,
+                "sku": "1141677P",
+              },
+            ],
+          }
+        }
+        discount={0}
+        isMobile={false}
+        productsAvailable={true}
+        removeUnavailableItems={[Function]}
+        rightSticky={true}
+        showPayPal={false}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cart renders correctly when cart is empty 1`] = `
+<div
+  className="cart-page"
+>
+  <h1
+    id="main-cart-title"
+    tabIndex="-1"
+  >
+    CART
+  </h1>
+  <div
+    className="grid-x"
+  >
+    <div
+      className="cart-product-list-container small-12 medium-12 large-9 grid-x grid-padding-y"
+    >
+      <CartEmpty />
+      <CondensedContact />
+    </div>
+    <div
+      className="checkout-container cell small-12 large-2 grid-margin-y"
+    />
+  </div>
+</div>
+`;
+
+exports[`Cart renders correctly when skus not available 1`] = `
+<div
+  className="cart-page"
+>
+  <h1
+    id="main-cart-title"
+    tabIndex="-1"
+  >
+    CART
+  </h1>
+  <div
+    className="grid-x"
+  >
+    <div
+      className="cart-product-list-container small-12 medium-12 large-9 grid-x grid-padding-y"
+    >
+      <CartProduct
+        activeAddons={null}
+        index={0}
+        onAddActiveAddon={[MockFunction]}
+        onRemoveActiveAddon={[MockFunction]}
+        price={279.99}
+        product={
+          Object {
+            "category": "tables",
+            "delivery_type": "O",
+            "free_shipping": true,
+            "list_price": 349.99,
+            "on_sale": true,
+            "price": 279.99,
+            "primary_image": "http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090",
+            "shipping_cost_code": Object {
+              "FL": "VD71",
+              "SE": "VD71",
+              "TX": "VD71",
+            },
+            "sku": "23122360",
+            "strikethrough": Object {
+              "FL": true,
+              "OM": true,
+              "SE": true,
+              "TX": true,
+            },
+            "title": "Adaire Brown Side Table",
+          }
+        }
+        productCount={2}
+        quantity={1}
+      />
+      <CartProduct
+        activeAddons={null}
+        index={1}
+        onAddActiveAddon={[MockFunction]}
+        onRemoveActiveAddon={[MockFunction]}
+        price={1199.99}
+        product={
+          Object {
+            "category": "livingroom",
+            "delivery_type": "D",
+            "free_shipping": false,
+            "list_price": 1299.99,
+            "on_sale": true,
+            "package_skus": Object {
+              "FL": Array [
+                Object {
+                  "price": "248.65",
+                  "quantity": "1",
+                  "sku": "12316762",
+                },
+                Object {
+                  "price": "185.62",
+                  "quantity": "4",
+                  "sku": "12116768",
+                },
+                Object {
+                  "price": "223.71",
+                  "quantity": "1",
+                  "sku": "12216760",
+                },
+                Object {
+                  "price": "73.16",
+                  "quantity": "1",
+                  "sku": "12516766",
+                },
+              ],
+              "SE": Array [
+                Object {
+                  "price": "208.43",
+                  "quantity": 1,
+                  "sku": "12216760",
+                },
+                Object {
+                  "price": "172.94",
+                  "quantity": 4,
+                  "sku": "12116768",
+                },
+                Object {
+                  "price": "231.63",
+                  "quantity": 1,
+                  "sku": "12316762",
+                },
+                Object {
+                  "price": "68.17",
+                  "quantity": 1,
+                  "sku": "12516766",
+                },
+              ],
+              "TX": Array [
+                Object {
+                  "price": "231.63",
+                  "quantity": "1",
+                  "sku": "12316762",
+                },
+                Object {
+                  "price": "208.43",
+                  "quantity": "1",
+                  "sku": "12216760",
+                },
+                Object {
+                  "price": "68.17",
+                  "quantity": "1",
+                  "sku": "12516766",
+                },
+                Object {
+                  "price": "172.94",
+                  "quantity": "4",
+                  "sku": "12116768",
+                },
+              ],
+            },
+            "price": 1199.99,
+            "primary_image": "http://images.rtg-dev.com/laney-park-dark-gray-7-pc-sectional_1141677P_image-room?cache-id=a7e194ec3ebbb82c6482c801d3971efc",
+            "shipping_cost_code": Object {
+              "FL": "ROOM",
+              "SE": "ROOM",
+              "TX": "ROOM",
+            },
+            "sku": "1141677P",
+            "title": "Laney Park Dark Gray 7 Pc Sectional",
+          }
+        }
+        productCount={2}
+        quantity={3}
+      />
+      <PromotionContentGroup
+        isCart={true}
+        targetSkus={Array []}
+      />
+      <div
+        className="cart-bottom-checkout cell small-12 grid-x"
+      >
+        <div
+          className="cell large-8 payment-methods"
+        >
+          <PaymentMethods />
+        </div>
+        <CheckoutSticky
+          cart={
+            Object {
+              "cartItems": Array [
+                Object {
+                  "activeAddons": null,
+                  "price": 279.99,
+                  "product": Object {
+                    "category": "tables",
+                    "delivery_type": "O",
+                    "free_shipping": true,
+                    "list_price": 349.99,
+                    "on_sale": true,
+                    "price": 279.99,
+                    "primary_image": "http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090",
+                    "shipping_cost_code": Object {
+                      "FL": "VD71",
+                      "SE": "VD71",
+                      "TX": "VD71",
+                    },
+                    "sku": "23122360",
+                    "strikethrough": Object {
+                      "FL": true,
+                      "OM": true,
+                      "SE": true,
+                      "TX": true,
+                    },
+                    "title": "Adaire Brown Side Table",
+                  },
+                  "quantity": 1,
+                  "sku": "23122360",
+                },
+                Object {
+                  "activeAddons": null,
+                  "price": 1199.99,
+                  "product": Object {
+                    "category": "livingroom",
+                    "delivery_type": "D",
+                    "free_shipping": false,
+                    "list_price": 1299.99,
+                    "on_sale": true,
+                    "package_skus": Object {
+                      "FL": Array [
+                        Object {
+                          "price": "248.65",
+                          "quantity": "1",
+                          "sku": "12316762",
+                        },
+                        Object {
+                          "price": "185.62",
+                          "quantity": "4",
+                          "sku": "12116768",
+                        },
+                        Object {
+                          "price": "223.71",
+                          "quantity": "1",
+                          "sku": "12216760",
+                        },
+                        Object {
+                          "price": "73.16",
+                          "quantity": "1",
+                          "sku": "12516766",
+                        },
+                      ],
+                      "SE": Array [
+                        Object {
+                          "price": "208.43",
+                          "quantity": 1,
+                          "sku": "12216760",
+                        },
+                        Object {
+                          "price": "172.94",
+                          "quantity": 4,
+                          "sku": "12116768",
+                        },
+                        Object {
+                          "price": "231.63",
+                          "quantity": 1,
+                          "sku": "12316762",
+                        },
+                        Object {
+                          "price": "68.17",
+                          "quantity": 1,
+                          "sku": "12516766",
+                        },
+                      ],
+                      "TX": Array [
+                        Object {
+                          "price": "231.63",
+                          "quantity": "1",
+                          "sku": "12316762",
+                        },
+                        Object {
+                          "price": "208.43",
+                          "quantity": "1",
+                          "sku": "12216760",
+                        },
+                        Object {
+                          "price": "68.17",
+                          "quantity": "1",
+                          "sku": "12516766",
+                        },
+                        Object {
+                          "price": "172.94",
+                          "quantity": "4",
+                          "sku": "12116768",
+                        },
+                      ],
+                    },
+                    "price": 1199.99,
+                    "primary_image": "http://images.rtg-dev.com/laney-park-dark-gray-7-pc-sectional_1141677P_image-room?cache-id=a7e194ec3ebbb82c6482c801d3971efc",
+                    "shipping_cost_code": Object {
+                      "FL": "ROOM",
+                      "SE": "ROOM",
+                      "TX": "ROOM",
+                    },
+                    "sku": "1141677P",
+                    "title": "Laney Park Dark Gray 7 Pc Sectional",
+                  },
+                  "quantity": 3,
+                  "sku": "1141677P",
+                },
+              ],
+            }
+          }
+          discount={0}
+          onlyButtons={true}
+          productsAvailable={false}
+          removeUnavailableItems={[Function]}
+          showPayPal={false}
+        />
+      </div>
+      <p
+        className="financing-disclaimer cell small-12"
+      >
+        *when paying with a rooms to go credit card
+      </p>
+      <CreditCardBanner />
+      <CondensedContact />
+    </div>
+    <div
+      className="checkout-container cell small-12 large-2 grid-margin-y"
+    >
+      <CheckoutSticky
+        cart={
+          Object {
+            "cartItems": Array [
+              Object {
+                "activeAddons": null,
+                "price": 279.99,
+                "product": Object {
+                  "category": "tables",
+                  "delivery_type": "O",
+                  "free_shipping": true,
+                  "list_price": 349.99,
+                  "on_sale": true,
+                  "price": 279.99,
+                  "primary_image": "http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090",
+                  "shipping_cost_code": Object {
+                    "FL": "VD71",
+                    "SE": "VD71",
+                    "TX": "VD71",
+                  },
+                  "sku": "23122360",
+                  "strikethrough": Object {
+                    "FL": true,
+                    "OM": true,
+                    "SE": true,
+                    "TX": true,
+                  },
+                  "title": "Adaire Brown Side Table",
+                },
+                "quantity": 1,
+                "sku": "23122360",
+              },
+              Object {
+                "activeAddons": null,
+                "price": 1199.99,
+                "product": Object {
+                  "category": "livingroom",
+                  "delivery_type": "D",
+                  "free_shipping": false,
+                  "list_price": 1299.99,
+                  "on_sale": true,
+                  "package_skus": Object {
+                    "FL": Array [
+                      Object {
+                        "price": "248.65",
+                        "quantity": "1",
+                        "sku": "12316762",
+                      },
+                      Object {
+                        "price": "185.62",
+                        "quantity": "4",
+                        "sku": "12116768",
+                      },
+                      Object {
+                        "price": "223.71",
+                        "quantity": "1",
+                        "sku": "12216760",
+                      },
+                      Object {
+                        "price": "73.16",
+                        "quantity": "1",
+                        "sku": "12516766",
+                      },
+                    ],
+                    "SE": Array [
+                      Object {
+                        "price": "208.43",
+                        "quantity": 1,
+                        "sku": "12216760",
+                      },
+                      Object {
+                        "price": "172.94",
+                        "quantity": 4,
+                        "sku": "12116768",
+                      },
+                      Object {
+                        "price": "231.63",
+                        "quantity": 1,
+                        "sku": "12316762",
+                      },
+                      Object {
+                        "price": "68.17",
+                        "quantity": 1,
+                        "sku": "12516766",
+                      },
+                    ],
+                    "TX": Array [
+                      Object {
+                        "price": "231.63",
+                        "quantity": "1",
+                        "sku": "12316762",
+                      },
+                      Object {
+                        "price": "208.43",
+                        "quantity": "1",
+                        "sku": "12216760",
+                      },
+                      Object {
+                        "price": "68.17",
+                        "quantity": "1",
+                        "sku": "12516766",
+                      },
+                      Object {
+                        "price": "172.94",
+                        "quantity": "4",
+                        "sku": "12116768",
+                      },
+                    ],
+                  },
+                  "price": 1199.99,
+                  "primary_image": "http://images.rtg-dev.com/laney-park-dark-gray-7-pc-sectional_1141677P_image-room?cache-id=a7e194ec3ebbb82c6482c801d3971efc",
+                  "shipping_cost_code": Object {
+                    "FL": "ROOM",
+                    "SE": "ROOM",
+                    "TX": "ROOM",
+                  },
+                  "sku": "1141677P",
+                  "title": "Laney Park Dark Gray 7 Pc Sectional",
+                },
+                "quantity": 3,
+                "sku": "1141677P",
+              },
+            ],
+          }
+        }
+        discount={0}
+        isMobile={false}
+        productsAvailable={false}
+        removeUnavailableItems={[Function]}
+        rightSticky={true}
+        showPayPal={false}
+      />
+    </div>
+  </div>
+</div>
+`;

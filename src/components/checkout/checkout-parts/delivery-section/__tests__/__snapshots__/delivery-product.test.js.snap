@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeliveryProduct renders correctly when product does not have an image 1`] = `
+<div
+  className="delivery-product"
+>
+  <div
+    className="product-container grid-x"
+  >
+    <div
+      className="product-info small-9"
+    >
+      <a
+        aria-label="Adaire Brown Side Table"
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <p>
+          Adaire Brown Side Table
+        </p>
+      </a>
+    </div>
+    <div
+      className="quantity small-2"
+    >
+      QTY: 
+       2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DeliveryProduct renders correctly when product is a required add-on 1`] = `
+<div
+  className="delivery-product"
+>
+  <div
+    className="product-container grid-x"
+  >
+    <div
+      className="product-image-container small-2 large-4"
+    />
+    <div
+      className="product-info small-6 large-5"
+    >
+      <a
+        aria-label="Adaire Brown Side Table"
+        disabled={true}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href={null}
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <p>
+          Adaire Brown Side Table
+        </p>
+      </a>
+    </div>
+    <div
+      className="quantity small-2"
+    >
+      QTY: 
+       2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DeliveryProduct renders correctly when product is last index of cart 1`] = `
+<div
+  className="delivery-product separator"
+>
+  <div
+    className="product-container grid-x"
+  >
+    <div
+      className="product-image-container small-2 large-4"
+    >
+      <a
+        aria-label="Adaire Brown Side Table"
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <img
+          alt="Adaire Brown Side Table"
+          className="product-image"
+          src="http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090&h=150"
+        />
+      </a>
+    </div>
+    <div
+      className="product-info small-6 large-5"
+    >
+      <a
+        aria-label="Adaire Brown Side Table"
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <p>
+          Adaire Brown Side Table
+        </p>
+      </a>
+    </div>
+    <div
+      className="quantity small-2"
+    >
+      QTY: 
+       2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DeliveryProduct renders correctly when product is not last index of cart 1`] = `
+<div
+  className="delivery-product"
+>
+  <div
+    className="product-container grid-x"
+  >
+    <div
+      className="product-image-container small-2 large-4"
+    >
+      <a
+        aria-label="Adaire Brown Side Table"
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <img
+          alt="Adaire Brown Side Table"
+          className="product-image"
+          src="http://images.rtg-dev.com/adaire-brown-side-table_23122360_image-item?cache-id=81c2298dd5804701ca610022d0a4d090&h=150"
+        />
+      </a>
+    </div>
+    <div
+      className="product-info small-6 large-5"
+    >
+      <a
+        aria-label="Adaire Brown Side Table"
+        disabled={false}
+        gtm-action={null}
+        gtm-category={null}
+        gtm-label="/furniture/product/adaire-brown-side-table/23122360"
+        gtm-value={null}
+        href="/furniture/product/adaire-brown-side-table/23122360"
+        onClick={[Function]}
+        title="Adaire Brown Side Table"
+      >
+        <p>
+          Adaire Brown Side Table
+        </p>
+      </a>
+    </div>
+    <div
+      className="quantity small-2"
+    >
+      QTY: 
+       2
+    </div>
+  </div>
+</div>
+`;

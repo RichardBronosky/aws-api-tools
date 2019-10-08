@@ -1,0 +1,29 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+input[type="text"], input[type="email"], input[type="tel"]
+  width: 47.5%
+  margin: 0 2.5% 2.5% 0
+  line-height: 20px
+  padding: 10px
+  +small
+    width: 97.5% !important
+.address-lookup-input
+  width: 95% !important
+  margin: 0 2.5% 0 0 !important
+  +medium-up
+    width: 93.5% !important
+.manual-address
+  font-weight: bold 
+  color: $primary
+  width: 50%!important
+  cursor: pointer
+  float: right
+  margin-bottom: .5rem
+  a 
+    font-size: $txt-xsmall
+    &:hover
+      text-decoration: underline
+input[type="checkbox"]
+  width: 0.8125rem
+  height: 0.8125rem

@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryTile renders correctly when isMobile is false and is collapsed 1`] = `
+<div
+  className="category-tile category-small"
+>
+  <span
+    className="category-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image?cache-id=&h=250"
+    />
+  </span>
+  <div
+    className="category-name"
+    style={
+      Object {
+        "color": "#333",
+      }
+    }
+  >
+    test-category-tile
+  </div>
+</div>
+`;
+
+exports[`CategoryTile renders correctly when isMobile is false and is collapsed and collapsed image top 1`] = `
+<div
+  className="category-tile category-small category-small-image-top"
+>
+  <span
+    className="category-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image?cache-id=&h=250"
+    />
+  </span>
+  <div
+    className="category-name"
+    style={
+      Object {
+        "color": "#333",
+      }
+    }
+  >
+    test-category-tile
+  </div>
+</div>
+`;
+
+exports[`CategoryTile renders correctly when isMobile is false and is collapsed image top 1`] = `
+<div
+  className="category-tile category-small-image-top"
+>
+  <span
+    className="category-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image?cache-id=&h=550"
+    />
+  </span>
+  <div
+    className="category-name"
+    style={
+      Object {
+        "color": "#333",
+      }
+    }
+  >
+    test-category-tile
+  </div>
+</div>
+`;
+
+exports[`CategoryTile renders correctly when isMobile is false and is on sale 1`] = `
+<div
+  className="category-tile"
+>
+  <span
+    className=" sale-flag"
+    onClick={[Function]}
+  >
+    Sale
+  </span>
+  <span
+    className="category-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image?cache-id=&h=550"
+    />
+  </span>
+  <div
+    className="category-name"
+    style={
+      Object {
+        "color": "#333",
+      }
+    }
+  >
+    test-category-tile
+  </div>
+</div>
+`;
+
+exports[`CategoryTile renders correctly when isMobile is false and there is no mobile image 1`] = `
+<div
+  className="category-tile"
+>
+  <span
+    className="category-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image?cache-id=&h=550"
+    />
+  </span>
+  <div
+    className="category-name"
+    style={
+      Object {
+        "color": "#333",
+      }
+    }
+  >
+    test-category-tile
+  </div>
+</div>
+`;
+
+exports[`CategoryTile renders correctly when isMobile is true 1`] = `
+<div
+  className="category-tile"
+>
+  <span
+    className="category-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image-mobile?cache-id=&h=350"
+    />
+  </span>
+  <div
+    className="category-name"
+    style={
+      Object {
+        "color": "#333",
+      }
+    }
+  >
+    test-category-tile
+  </div>
+</div>
+`;
+
+exports[`CategoryTile renders correctly when isMobile is true and there is no image or mobile image 1`] = `
+<div
+  className="category-tile"
+>
+  <span
+    className="category-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src=""
+    />
+  </span>
+  <div
+    className="category-name"
+    style={
+      Object {
+        "color": "#333",
+      }
+    }
+  >
+    test-category-tile
+  </div>
+</div>
+`;
+
+exports[`CategoryTile renders correctly when isMobile is true and there is no mobile image 1`] = `
+<div
+  className="category-tile"
+>
+  <span
+    className="category-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image?cache-id=&h=550"
+    />
+  </span>
+  <div
+    className="category-name"
+    style={
+      Object {
+        "color": "#333",
+      }
+    }
+  >
+    test-category-tile
+  </div>
+</div>
+`;
+
+exports[`CategoryTile renders correctly with default props 1`] = `
+<div
+  className="category-tile"
+>
+  <span
+    className="category-image"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      role="presentation"
+      src="undefinedtest-image?cache-id=&h=550"
+    />
+  </span>
+  <div
+    className="category-name"
+    style={
+      Object {
+        "color": "#333",
+      }
+    }
+  >
+    test-category-tile
+  </div>
+</div>
+`;

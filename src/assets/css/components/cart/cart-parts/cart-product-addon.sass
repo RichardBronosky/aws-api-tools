@@ -1,0 +1,44 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+
+.cart-addons
+  .addon-learn-more
+    font-size: 0.8rem
+    text-decoration: underline
+    margin-top: 0.5rem
+    &:hover
+      color: $primary
+  .addon-required .info-modal
+    font-size: $txt-medium
+    color: $primary
+    text-decoration: underline
+  .addon-declined
+    color: $red
+    margin: 0 1rem
+    font-size: $txt-medium
+    +small
+      font-size: $txt-xsmall
+  .addon-group
+    margin: 0 auto
+    min-width: 300px
+    width: 70%
+    +small
+      padding: .5rem 0
+      border-top: 1px solid $grey
+      border-bottom: 1px solid $grey
+      width: 80%
+    +large-up
+      margin: 1px
+    .addon-row
+      margin: 0.5rem 0
+    input
+        float: right
+        margin-left: 10px
+    a
+      color: $dark-grey
+      font-size: $txt-medium
+      +small
+        font-size: $txt-xsmall
+      &:hover
+        text-decoration: underline

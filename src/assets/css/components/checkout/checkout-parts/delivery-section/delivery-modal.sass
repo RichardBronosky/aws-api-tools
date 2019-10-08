@@ -1,0 +1,226 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.modal
+  color: $dark-grey
+  p
+    line-height: 1.15
+  &:focus
+    outline: none
+  .close-modal
+    position: absolute
+    top: -2em
+    right: -1.75em
+    background: $primary
+    width: 4em
+    height: 4em
+    border-radius: 50%
+    +landscape
+      top: -1.5em
+      right: -1.5em
+    +small
+      top: -1.4em
+      right: -1.1em
+      width: 3.5em
+      height: 3.5em
+    .close
+      position: absolute
+      top: 0
+      right: 0
+      left: 0
+      bottom: 0
+      width: 3em
+      height: 3em
+      margin: auto
+      background-size: 100% !important
+  .modal-content
+    background-color: $light-grey
+    border: solid $grey 0.4rem
+    width: 70%
+    position: fixed
+    right: auto
+    bottom: auto
+    left: 50%
+    top: 50%
+    transform: translate(-50%,-50%)
+    min-width: 60rem
+    max-width: 60rem
+    +landscape
+      height: 90%
+      max-height: 90% !important
+    +medium-down
+      min-width: 10rem
+      width: 95%
+      max-height: 85%
+    .grid-x
+      height: 100%
+      .update-container
+        text-align: center
+        padding-top: 0.75rem
+        +landscape
+          position: fixed
+          bottom: 0rem
+          width: 100%
+          height: 3.75rem
+          background: $light-grey
+          padding: 0.5rem
+        .error
+          color: $red
+          font-size: $txt-small
+          margin-top: 0
+          margin-bottom: 1rem
+          +medium-up
+            margin-top: -1rem
+            font-size: $txt-medium
+        .update-delivery
+          background-color: $primary
+          color: $primary-invert
+          border: 0
+          width: 90%
+          padding: 0.9375rem
+          text-align: center
+          box-sizing: border-box
+          font-size: $txt-small
+          text-transform: uppercase
+          border-radius: 0
+          font-weight: 700
+          font-size: $txt-medium
+          margin-bottom: 0.75rem
+          +medium-up
+            width: 15rem
+            padding: 0.75rem
+            margin-bottom: 1.5rem
+          &:hover
+            background-color: $light-blue
+          +focus-508
+          .loader
+            height: 26px
+            margin-top: -5px
+            margin-bottom: -5px
+      .content-container
+        width: 100%
+        height: 100%
+        overflow-y: auto
+        overflow-x: hidden
+        max-height: 71.25vh
+        +landscape
+          max-height: 83.25vh
+        .card
+          width: 100%
+          height: 100%
+          margin: 0 auto
+          padding: .5rem
+          display: flex
+          align-content: center
+          overflow: auto
+        .title
+          font-size: $txt-medium
+          margin: 0rem auto !important
+          margin-bottom: 3rem
+          text-align: center
+          +medium-up
+            font-size: $txt-xlarge
+            width: 20rem
+          h2
+            display: inline
+            font-weight: 400
+            margin: 0 auto
+            line-height: 3
+            +medium-up
+              line-height: 4
+              margin-left: 1.25rem
+        .radio-container
+          background: $primary-invert
+          text-align: left !important
+          padding: 0rem 1rem
+          overflow: hidden
+          +medium-up
+            padding: 1rem 2rem
+            margin-bottom: 1.5rem
+          +landscape
+            margin-bottom: 3.75rem
+          .text-me
+            position: absolute
+            +landscape
+              position: relative
+              top: 6px
+              right: -25px
+          .icon
+            &.shipping
+              margin-left: -0.5em
+            &.store
+              margin-left: 0.3rem
+              margin-right: 0.5rem
+          .divider
+            border-bottom: solid 1px $medium-grey
+            margin-top: 1rem
+            margin-bottom: 1rem
+            +landscape
+              margin-top: 0
+        .cell
+          text-align: center
+        .delivery-selection
+          line-height: 2
+          +medium-down
+            font-size: $txt-small
+          +large-up
+            display: inline
+          .bold
+            font-weight: 700
+            margin-left: 1.75rem
+            font-size: $txt-small
+            +small
+              font-size: $txt-xsmall
+            &.inline
+              display: inline
+              margin: 0
+              margin-right: 0.25rem
+              font-size: $txt-small
+              +medium-up
+                font-size: $txt-medium
+            .expressWhy
+              color: $primary
+              text-decoration: underline
+          .margin-left
+            display: inline
+            margin-left: 0.25rem
+          .automated-message
+            margin-left: 1.75rem
+            margin-top: 0.5rem
+            max-width: 100%
+            font-size: $txt-xsmall
+          .prof-delivery
+            font-size: $txt-small
+            +medium-down
+              margin-left: 1.75rem
+            +small
+              font-size: $txt-xsmall
+            +large-up
+              width: 90%
+              display: inline-block
+          .delivered-on
+            margin-left: 1.75rem
+            display: inline
+            font-size: $txt-small
+            +small
+              font-size: $txt-xsmall
+          .note
+            width: 100%
+            text-align: center
+            font-size: $txt-small
+            +small
+              font-size: $txt-xsmall
+          .pick-up-list
+            margin-left: 1.2rem
+            padding-left: 0
+            list-style-type: disc
+            line-height: 1rem
+            font-size: $txt-xsmall
+            +medium-up
+              font-size: $txt-small
+              line-height: 1.5rem
+          .pick-up-list-head
+            margin: 0.5rem 0
+            font-size: $txt-xsmall
+            +medium-up
+              font-size: $txt-small

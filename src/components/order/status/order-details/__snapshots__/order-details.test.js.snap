@@ -1,0 +1,1173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderDetails renders correctly when order doesn't have other payment methods 1`] = `
+<div
+  className="grid-x cell small-12 order-details"
+>
+  <div
+    className="grid-x cell small-12 order-status-detailed-header"
+  >
+    <div
+      className="cell small-12 medium-6 large-6 order-number"
+    >
+      <h2>
+        Order # 14000136I
+      </h2>
+      <p
+        className="ordered-on"
+      >
+        Ordered on Sunday, August 04, 2019
+      </p>
+    </div>
+    <div
+      className="cell small-12 medium-6 large-6"
+    >
+      <button
+        className="primary"
+        onClick={[Function]}
+      >
+        &lt; Back to Orders
+      </button>
+    </div>
+  </div>
+  <div
+    className="grid-x cell small-12 order-status-payment-history"
+  >
+    <div
+      className="cell small-12"
+    >
+      <h3>
+        Payment History
+      </h3>
+    </div>
+    <div
+      className="grid-x cell small-12 medium-6 large-6"
+    >
+      <div
+        className="payment-section"
+      >
+        <div
+          className="cell small-12"
+        >
+          <strong>
+            RTG Finance
+          </strong>
+        </div>
+        <div
+          className="cell small-12"
+        >
+          $600
+           (
+          <button
+            aria-controls="finance-details-accordion"
+            aria-expanded={false}
+            className="finance-details-expander"
+            onClick={[Function]}
+            tabIndex="0"
+          >
+            see details
+          </button>
+          )
+        </div>
+        <div
+          id="finance-details-accordion"
+        />
+      </div>
+    </div>
+    <div
+      className="cell small-12 medium-6 large-6"
+    >
+      <span>
+        <strong>
+          Note: 
+        </strong>
+        Delivery dates on orders with an open balance are subject to change. Call Customer Care if you need help at 
+        <a
+          href="tel:(800)-766-6786"
+        >
+          (800)-766-6786
+        </a>
+        .
+      </span>
+    </div>
+  </div>
+  <div
+    className="grid-x cell small-12 order-status-delivery-setup"
+  >
+    <div
+      className="cell small-12"
+    >
+      <h3>
+        Delivery & Setup
+      </h3>
+    </div>
+    <div
+      className="grid-x cell small-12 medium-6 large-6"
+    >
+      <div
+        className="cell small-12 bold"
+      >
+        <strong>
+          SHIPPED TO
+        </strong>
+      </div>
+      <div
+        className="cell small-12"
+      >
+        <p>
+          SARAH
+           
+          SMITH
+        </p>
+        <div
+          className="order-status-delivery-address"
+        >
+          <p>
+            1112 MARSH TRAIL CIR
+          </p>
+          <p>
+            
+          </p>
+          <p>
+            ATLANTA
+            , 
+            GA
+            , 
+            30328
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="cell small-12 medium-6"
+    >
+      <strong>
+        Scheduled Delivery Date
+      </strong>
+      <p>
+        Contact Customer Service to Schedule a Delivery Date - 
+        <a
+          href="tel:(800)-766-6786"
+        >
+          (800)-766-6786
+        </a>
+      </p>
+    </div>
+  </div>
+  <div
+    className="grid-x cell small-12 order-status-product-info"
+  >
+    <div
+      className="grid-x cell small-12 order-product-info-list"
+    >
+      <div
+        className="grid-x cell small-12 order-status-product-info-headings-main"
+      >
+        <div
+          className="order-status-heading cell small-12 medium-4 large-7"
+        >
+          Product Information
+        </div>
+        <div
+          className="order-status-heading cell small-12 medium-2 large-1"
+        >
+          Qty.
+        </div>
+        <div
+          className="order-status-heading cell small-12 medium-3 large-2"
+        >
+          Price
+        </div>
+        <div
+          className="order-status-heading cell small-12 medium-3 large-2"
+        >
+          Subtotal
+        </div>
+      </div>
+      <div
+        className="grid-x cell small-12 order-status-product-info-items"
+      >
+        <div
+          className="grid-x cell small-12 order-product-info-list-item"
+        >
+          <div
+            className="grid-x cell small-12 order-status-product-info-headings"
+          >
+            <div
+              className="order-status-heading cell small-12 medium-4 large-7 undefined"
+            >
+              Louie Gray Twin Loft Bed with Desk and Bookcase
+              <p>
+                SKU: 3611163P
+              </p>
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-2 large-1"
+            >
+              1
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-3 large-2"
+            >
+              $444
+            </div>
+            <div
+              className="order-status-heading subtotal cell small-12 medium-3 large-2"
+            >
+              $444
+            </div>
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12 order-product-info-list-item"
+        >
+          <div
+            className="grid-x cell small-12 order-status-product-info-headings"
+          >
+            <div
+              className="order-status-heading cell small-12 medium-4 large-7 undefined"
+            >
+              Mattie Gray Chevron Bean Bag Chair
+              <p>
+                SKU: 38096613
+              </p>
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-2 large-1"
+            >
+              1
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-3 large-2"
+            >
+              $29
+            </div>
+            <div
+              className="order-status-heading subtotal cell small-12 medium-3 large-2"
+            >
+              $29
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="order-status-product-info-totals grid-x cell small-12"
+      >
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Sub Total
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $518.96
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Delivery & Shipping
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $119.99
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Tax
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $45.96
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Total
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $638.95
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12 balance"
+        >
+          <div
+            className="cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            <strong>
+              Balance:
+            </strong>
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            <strong>
+              $0
+            </strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OrderDetails renders correctly when order exists 1`] = `
+<div
+  className="grid-x cell small-12 order-details"
+>
+  <div
+    className="grid-x cell small-12 order-status-detailed-header"
+  >
+    <div
+      className="cell small-12 medium-6 large-6 order-number"
+    >
+      <h2>
+        Order # 14000136I
+      </h2>
+      <p
+        className="ordered-on"
+      >
+        Ordered on Sunday, August 04, 2019
+      </p>
+    </div>
+    <div
+      className="cell small-12 medium-6 large-6"
+    >
+      <button
+        className="primary"
+        onClick={[Function]}
+      >
+        &lt; Back to Orders
+      </button>
+    </div>
+  </div>
+  <div
+    className="grid-x cell small-12 order-status-payment-history"
+  >
+    <div
+      className="cell small-12"
+    >
+      <h3>
+        Payment History
+      </h3>
+    </div>
+    <div
+      className="grid-x cell small-12 medium-6 large-6"
+    >
+      <div
+        className="payment-section"
+      >
+        <div
+          className="cell small-12"
+        >
+          <strong>
+            Other Payments
+          </strong>
+        </div>
+        <div
+          className="cell small-12"
+        >
+          $38.95
+           
+          (
+          <button
+            aria-controls="other-payment-details-accordion"
+            aria-expanded={false}
+            className="other-payment-details-expander"
+            onClick={[Function]}
+            tabIndex="0"
+          >
+            see details
+          </button>
+          )
+        </div>
+        <div
+          id="other-payment-details-accordion"
+        />
+      </div>
+      <div
+        className="payment-section"
+      >
+        <div
+          className="cell small-12"
+        >
+          <strong>
+            RTG Finance
+          </strong>
+        </div>
+        <div
+          className="cell small-12"
+        >
+          $600
+           (
+          <button
+            aria-controls="finance-details-accordion"
+            aria-expanded={false}
+            className="finance-details-expander"
+            onClick={[Function]}
+            tabIndex="0"
+          >
+            see details
+          </button>
+          )
+        </div>
+        <div
+          id="finance-details-accordion"
+        />
+      </div>
+    </div>
+    <div
+      className="cell small-12 medium-6 large-6"
+    >
+      <span>
+        <strong>
+          Note: 
+        </strong>
+        Delivery dates on orders with an open balance are subject to change. Call Customer Care if you need help at 
+        <a
+          href="tel:(800)-766-6786"
+        >
+          (800)-766-6786
+        </a>
+        .
+      </span>
+    </div>
+  </div>
+  <div
+    className="grid-x cell small-12 order-status-delivery-setup"
+  >
+    <div
+      className="cell small-12"
+    >
+      <h3>
+        Delivery & Setup
+      </h3>
+    </div>
+    <div
+      className="grid-x cell small-12 medium-6 large-6"
+    >
+      <div
+        className="cell small-12 bold"
+      >
+        <strong>
+          SHIPPED TO
+        </strong>
+      </div>
+      <div
+        className="cell small-12"
+      >
+        <p>
+          SARAH
+           
+          SMITH
+        </p>
+        <div
+          className="order-status-delivery-address"
+        >
+          <p>
+            1112 MARSH TRAIL CIR
+          </p>
+          <p>
+            
+          </p>
+          <p>
+            ATLANTA
+            , 
+            GA
+            , 
+            30328
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="cell small-12 medium-6"
+    >
+      <strong>
+        Scheduled Delivery Date
+      </strong>
+      <p>
+        Contact Customer Service to Schedule a Delivery Date - 
+        <a
+          href="tel:(800)-766-6786"
+        >
+          (800)-766-6786
+        </a>
+      </p>
+    </div>
+  </div>
+  <div
+    className="grid-x cell small-12 order-status-product-info"
+  >
+    <div
+      className="grid-x cell small-12 order-product-info-list"
+    >
+      <div
+        className="grid-x cell small-12 order-status-product-info-headings-main"
+      >
+        <div
+          className="order-status-heading cell small-12 medium-4 large-7"
+        >
+          Product Information
+        </div>
+        <div
+          className="order-status-heading cell small-12 medium-2 large-1"
+        >
+          Qty.
+        </div>
+        <div
+          className="order-status-heading cell small-12 medium-3 large-2"
+        >
+          Price
+        </div>
+        <div
+          className="order-status-heading cell small-12 medium-3 large-2"
+        >
+          Subtotal
+        </div>
+      </div>
+      <div
+        className="grid-x cell small-12 order-status-product-info-items"
+      >
+        <div
+          className="grid-x cell small-12 order-product-info-list-item"
+        >
+          <div
+            className="grid-x cell small-12 order-status-product-info-headings"
+          >
+            <div
+              className="order-status-heading cell small-12 medium-4 large-7 undefined"
+            >
+              Louie Gray Twin Loft Bed with Desk and Bookcase
+              <p>
+                SKU: 3611163P
+              </p>
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-2 large-1"
+            >
+              1
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-3 large-2"
+            >
+              $444
+            </div>
+            <div
+              className="order-status-heading subtotal cell small-12 medium-3 large-2"
+            >
+              $444
+            </div>
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12 order-product-info-list-item"
+        >
+          <div
+            className="grid-x cell small-12 order-status-product-info-headings"
+          >
+            <div
+              className="order-status-heading cell small-12 medium-4 large-7 undefined"
+            >
+              Mattie Gray Chevron Bean Bag Chair
+              <p>
+                SKU: 38096613
+              </p>
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-2 large-1"
+            >
+              1
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-3 large-2"
+            >
+              $29
+            </div>
+            <div
+              className="order-status-heading subtotal cell small-12 medium-3 large-2"
+            >
+              $29
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="order-status-product-info-totals grid-x cell small-12"
+      >
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Sub Total
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $518.96
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Delivery & Shipping
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $119.99
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Tax
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $45.96
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Total
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $638.95
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12 balance"
+        >
+          <div
+            className="cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            <strong>
+              Balance:
+            </strong>
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            <strong>
+              $0
+            </strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OrderDetails renders correctly when order exists and payment details expanded 1`] = `
+<div
+  className="grid-x cell small-12 order-details"
+>
+  <div
+    className="grid-x cell small-12 order-status-detailed-header"
+  >
+    <div
+      className="cell small-12 medium-6 large-6 order-number"
+    >
+      <h2>
+        Order # 14000136I
+      </h2>
+      <p
+        className="ordered-on"
+      >
+        Ordered on Sunday, August 04, 2019
+      </p>
+    </div>
+    <div
+      className="cell small-12 medium-6 large-6"
+    >
+      <button
+        className="primary"
+        onClick={[Function]}
+      >
+        &lt; Back to Orders
+      </button>
+    </div>
+  </div>
+  <div
+    className="grid-x cell small-12 order-status-payment-history"
+  >
+    <div
+      className="cell small-12"
+    >
+      <h3>
+        Payment History
+      </h3>
+    </div>
+    <div
+      className="grid-x cell small-12 medium-6 large-6"
+    >
+      <div
+        className="payment-section"
+      >
+        <div
+          className="cell small-12"
+        >
+          <strong>
+            Other Payments
+          </strong>
+        </div>
+        <div
+          className="cell small-12"
+        >
+          $38.95
+           
+          (
+          <button
+            aria-controls="other-payment-details-accordion"
+            aria-expanded={true}
+            className="other-payment-details-expander"
+            onClick={[Function]}
+            tabIndex="0"
+          >
+            hide details
+          </button>
+          )
+        </div>
+        <div
+          id="other-payment-details-accordion"
+        >
+          <div
+            className="payment"
+          >
+            <div>
+              <div
+                className="cell small-12"
+              >
+                 
+                8/4/2019
+                 
+              </div>
+              <div
+                className="cell small-12"
+              >
+                 
+                Visa
+                 
+              </div>
+              <div
+                className="cell small-12"
+              >
+                $37
+              </div>
+            </div>
+          </div>
+          <div
+            className="payment"
+          >
+            <div>
+              <div
+                className="cell small-12"
+              >
+                 
+                8/4/2019
+                 
+              </div>
+              <div
+                className="cell small-12"
+              >
+                 
+                Gift Card
+                 
+              </div>
+              <div
+                className="cell small-12"
+              >
+                $1.95
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="payment-section"
+      >
+        <div
+          className="cell small-12"
+        >
+          <strong>
+            RTG Finance
+          </strong>
+        </div>
+        <div
+          className="cell small-12"
+        >
+          $600
+           (
+          <button
+            aria-controls="finance-details-accordion"
+            aria-expanded={true}
+            className="finance-details-expander"
+            onClick={[Function]}
+            tabIndex="0"
+          >
+            hide details
+          </button>
+          )
+        </div>
+        <div
+          id="finance-details-accordion"
+        >
+          <div
+            className="payment"
+          >
+            <div
+              className="cell small-12"
+            >
+              8/4/2019
+            </div>
+            <div
+              className="cell small-12"
+            >
+              $600
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="cell small-12 medium-6 large-6"
+    >
+      <span>
+        <strong>
+          Note: 
+        </strong>
+        Delivery dates on orders with an open balance are subject to change. Call Customer Care if you need help at 
+        <a
+          href="tel:(800)-766-6786"
+        >
+          (800)-766-6786
+        </a>
+        .
+      </span>
+    </div>
+  </div>
+  <div
+    className="grid-x cell small-12 order-status-delivery-setup"
+  >
+    <div
+      className="cell small-12"
+    >
+      <h3>
+        Delivery & Setup
+      </h3>
+    </div>
+    <div
+      className="grid-x cell small-12 medium-6 large-6"
+    >
+      <div
+        className="cell small-12 bold"
+      >
+        <strong>
+          SHIPPED TO
+        </strong>
+      </div>
+      <div
+        className="cell small-12"
+      >
+        <p>
+          SARAH
+           
+          SMITH
+        </p>
+        <div
+          className="order-status-delivery-address"
+        >
+          <p>
+            1112 MARSH TRAIL CIR
+          </p>
+          <p>
+            
+          </p>
+          <p>
+            ATLANTA
+            , 
+            GA
+            , 
+            30328
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="cell small-12 medium-6"
+    >
+      <strong>
+        Scheduled Delivery Date
+      </strong>
+      <p>
+        Contact Customer Service to Schedule a Delivery Date - 
+        <a
+          href="tel:(800)-766-6786"
+        >
+          (800)-766-6786
+        </a>
+      </p>
+    </div>
+  </div>
+  <div
+    className="grid-x cell small-12 order-status-product-info"
+  >
+    <div
+      className="grid-x cell small-12 order-product-info-list"
+    >
+      <div
+        className="grid-x cell small-12 order-status-product-info-headings-main"
+      >
+        <div
+          className="order-status-heading cell small-12 medium-4 large-7"
+        >
+          Product Information
+        </div>
+        <div
+          className="order-status-heading cell small-12 medium-2 large-1"
+        >
+          Qty.
+        </div>
+        <div
+          className="order-status-heading cell small-12 medium-3 large-2"
+        >
+          Price
+        </div>
+        <div
+          className="order-status-heading cell small-12 medium-3 large-2"
+        >
+          Subtotal
+        </div>
+      </div>
+      <div
+        className="grid-x cell small-12 order-status-product-info-items"
+      >
+        <div
+          className="grid-x cell small-12 order-product-info-list-item"
+        >
+          <div
+            className="grid-x cell small-12 order-status-product-info-headings"
+          >
+            <div
+              className="order-status-heading cell small-12 medium-4 large-7 undefined"
+            >
+              Louie Gray Twin Loft Bed with Desk and Bookcase
+              <p>
+                SKU: 3611163P
+              </p>
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-2 large-1"
+            >
+              1
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-3 large-2"
+            >
+              $444
+            </div>
+            <div
+              className="order-status-heading subtotal cell small-12 medium-3 large-2"
+            >
+              $444
+            </div>
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12 order-product-info-list-item"
+        >
+          <div
+            className="grid-x cell small-12 order-status-product-info-headings"
+          >
+            <div
+              className="order-status-heading cell small-12 medium-4 large-7 undefined"
+            >
+              Mattie Gray Chevron Bean Bag Chair
+              <p>
+                SKU: 38096613
+              </p>
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-2 large-1"
+            >
+              1
+            </div>
+            <div
+              className="order-status-heading cell small-12 medium-3 large-2"
+            >
+              $29
+            </div>
+            <div
+              className="order-status-heading subtotal cell small-12 medium-3 large-2"
+            >
+              $29
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="order-status-product-info-totals grid-x cell small-12"
+      >
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Sub Total
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $518.96
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Delivery & Shipping
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $119.99
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Tax
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $45.96
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12"
+        >
+          <div
+            className="order-status-heading cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            Total
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            $638.95
+          </div>
+        </div>
+        <div
+          className="grid-x cell small-12 balance"
+        >
+          <div
+            className="cell large-8"
+          />
+          <div
+            className="order-status-heading cell small-9 large-2"
+          >
+            <strong>
+              Balance:
+            </strong>
+          </div>
+          <div
+            className="order-status-heading cell small-3 large-2"
+          >
+            <strong>
+              $0
+            </strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

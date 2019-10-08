@@ -1,0 +1,58 @@
+@import 'src/assets/css/mixins'
+@import 'src/assets/css/variables'
+
+.category-tile
+  background-color: $primary-invert
+  a
+    background-color: $primary-invert
+  .category-name
+    text-align: center
+    padding: 10px
+    display: block
+    text-transform: uppercase
+    font-weight: 600
+    line-height: 1
+    font-size: 1rem
+    color: $dark-grey
+  &.category-small
+    .sale-flag
+        padding: .1rem 1em
+    .card
+      min-height: 7rem
+      display: inline-flex
+      align-items: center
+    a
+      min-height: 0
+    .category-image
+      width: 50%
+      margin: 0
+    .category-name
+      text-align: center
+      padding: 0
+      width: 45%
+  &.category-small-image-top
+    margin: 0 auto
+    width: 84%
+    +large-up
+      width: 100%
+    a
+      min-height: 0
+    .card
+      display: block
+    .category-image
+      width: 100%
+      padding-top: 0.5rem
+      min-height: 0
+      display: flex
+      img
+        display: block
+        margin: 0 auto
+        max-height: 4.5rem
+        width: auto
+    .category-name
+      padding: 0.25rem
+
+.category-small-image-top
+  .category-name
+    text-align: center
+    width: 100%!important

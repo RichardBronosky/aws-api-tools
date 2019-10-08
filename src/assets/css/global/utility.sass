@@ -1,0 +1,54 @@
+@import '../mixins'
+@import '../variables'
+
+.capitalize
+  text-transform: capitalize
+.uppercase
+  text-transform: uppercase
+
+.desktop
+  display: none !important
+  +large-up
+    display: block !important
+.tablet
+  display: none !important
+  +medium
+    display: block !important
+.mobile
+  display: none !important
+  +medium-down
+    display: block !important
+
+.hide
+  display: none !important
+.hide508
+  width: 1px
+  height: 1px
+  position: absolute
+  clip: rect(1px 1px 1px 1px)
+  clip: rect(1px, 1px, 1px, 1px)
+  overflow: hidden
+  white-space: nowrap
+.show
+  display: block !important
+  
+.left
+  float: left
+.right
+  float: right
+.center
+  margin: 0 auto
+
+.full-width
+    width: 100vw
+    margin-left: calc(-50vw + 50%)
+    position: relative
+
+.border-top
+  border-top: 1px solid $grey
+.border-right
+  border-right: 1px solid $grey
+
+.sticky
+  position: sticky
+  top: 0

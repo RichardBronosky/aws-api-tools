@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveFromCart renders correctly 1`] = `
+<button
+  className="remove-btn"
+  onClick={[Function]}
+  value="Remove From Cart"
+>
+  remove 
+  <span
+    className="hide508"
+  >
+    
+     from cart
+  </span>
+</button>
+`;
+
+exports[`RemoveFromCart renders correctly when in header 1`] = `
+<button
+  className="close"
+  onClick={[Function]}
+  value="Remove From Cart"
+>
+  
+  <span
+    className="hide508"
+  >
+    remove
+     from cart
+  </span>
+</button>
+`;

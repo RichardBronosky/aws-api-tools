@@ -1,0 +1,58 @@
+@import '../../mixins'
+@import '../../variables'
+
+.contentful-accordion
+  text-align: left
+  margin-top: 1rem !important
+  h1, h2, h3
+    font-weight: 600
+    font-size: $txt-medium
+  strong
+    font-weight: bold
+  .contentful-accordion-heading
+    color: $dark-grey
+    padding: 1rem
+    font-size: $txt-medium
+    font-weight: 600
+    cursor: pointer
+    text-transform: uppercase
+    border-top: 0.0625rem solid $grey
+    border-bottom: 0.0625em solid $grey
+    clear: both
+    margin-bottom: 0
+    +large-up
+      margin-bottom: 1.25rem
+    i
+      transform: rotate(45deg)
+      border: solid $dark-grey
+      border-width: 0 0.1875rem 0.1875rem 0
+      display: inline-block
+      padding: 0.1875rem
+      float: right
+      margin-top: 0.625rem
+      &.active
+        transform: rotate(-135deg)
+  .contentful-accordion-content
+    display: none
+    padding: 0 1.25rem
+    margin-bottom: 1rem
+    &.active
+      display: block
+    p
+      margin: 1rem 0
+  &.small
+    margin-top: 0!important
+    margin-bottom: 0!important
+    .heading
+      font-size: $txt-large
+      text-decoration: uppercase
+    .contentful-accordion-heading
+      border: none
+      margin-bottom: 0!important
+      padding: 0!important
+      span 
+        list-style-type: circle
+        text-decoration: underline
+        list-style-position: inside
+        &:before
+          content: "\00b7"

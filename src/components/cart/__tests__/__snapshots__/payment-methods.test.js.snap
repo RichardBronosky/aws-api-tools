@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentMethods renders correctly 1`] = `
+Array [
+  <h4
+    className="bold"
+  >
+    We Accept
+  </h4>,
+  <img
+    alt="Accepted payment types: Discover, Mastercard, Visa, Amex, Rooms to go Credit, PayPal, Affirm"
+    className="paymentLogos"
+    src="test-file-stub"
+  />,
+]
+`;

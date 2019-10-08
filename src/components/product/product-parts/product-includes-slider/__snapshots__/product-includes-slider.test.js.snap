@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductIncludesSlider renders correctly with items in room 1`] = `
+<div
+  className="includes-slider-container small-12"
+>
+  <section
+    className="slider small"
+  >
+    <div
+      className="slider-head"
+    >
+      <div
+        className="slider-heading"
+      >
+        <h2>
+          <span
+            className="hide508"
+          >
+             
+          </span>
+          test heading
+        </h2>
+      </div>
+      <div
+        className="slider-link"
+      />
+    </div>
+  </section>
+</div>
+`;

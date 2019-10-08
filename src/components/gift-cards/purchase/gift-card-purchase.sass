@@ -1,0 +1,53 @@
+@import '../../../assets/css/mixins'
+@import '../../../assets/css/variables'
+
+.gc-page
+  margin-top: 2rem
+  h1 
+    font-size: $txt-medium
+    padding: 10px 
+.gc-header
+  text-transform: uppercase
+  color: $primary-invert
+  font-size: $txt-large
+  padding: 0
+  background-color: $primary
+  
+.gc-wrapper
+  display: flex
+  flex-direction: column-reverse
+  +large-up
+    flex-direction: row
+  .gc-right
+    padding: 1rem
+    p
+      color: #666
+      font-size: $txt-medium
+      padding-bottom: 1rem
+
+
+  .gc-content-wrapper
+    margin: 2rem 0
+    display: flex
+    +small
+      flex-direction: column
+    .gc-add-to-cart-wrapper
+      display: flex
+      flex-direction: column
+      justify-content: center
+
+
+  .gift-card-tile
+    height: 400px
+    max-width: 303px
+    display: flex
+    margin: 0 auto
+    .gc-image
+      padding: 6%
+    .gc-label
+      font-size: $txt-large
+      text-align: center
+      margin-bottom: 1em
+    .blue-action-btn
+      width: 80%
+      margin: 0 auto

@@ -1,0 +1,27 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+
+.see-in-store-button
+  font-size: $txt-medium
+  font-weight: bold
+  text-transform: uppercase
+  position: relative
+  margin-top: -.9rem
+  margin: 0 auto
+  color: $primary
+  &:hover
+    text-decoration: underline
+  +medium-up
+    margin-left: -6px
+  +large-up
+    float: none
+
+  img.location
+    +landscape
+      margin-top: 0px!important
+  .location
+    width: 35px!important
+    padding: 8px 4px!important
+    height: 35px!important
+  

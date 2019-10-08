@@ -1,0 +1,44 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.quantity-select
+  font-size: 0 !important
+  border: 1px solid
+  box-shadow: none
+  background: transparent
+  background-image: none
+  background-image: none
+  -webkit-appearance: none
+  width: 9%
+  outline: none
+  border-radius: 0
+  font-size: 0
+  position: relative
+  text-align: center
+  min-width: 62px
+  label
+    font-size: 0 !important
+  select
+    font-size: $txt-medium-up
+    font-weight: 200
+    max-width: 100%
+    padding: 8px 24px 8px 10px
+    border: none
+    background-color: transparent
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+  select::-ms-expand
+    display: none
+
+  &:after
+    content: " "
+    position: absolute
+    top: 50%
+    margin-top: -2px
+    right: 8px
+    width: 0
+    height: 0
+    border-left: 5px solid transparent
+    border-right: 5px solid transparent
+    border-top: 5px solid $dark-grey

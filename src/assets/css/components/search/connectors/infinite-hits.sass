@@ -1,0 +1,53 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.search-wrapper
+  width: 100%
+  outline: none !important
+
+.ais-InfiniteHits
+  margin-bottom: 3% !important
+  margin-top: 1rem !important
+
+.ais-InfiniteHits-list
+  display: flex
+  flex-wrap: wrap
+  +large-up
+    padding: 0
+
+.ais-InfiniteHits-item
+  width: calc(100% - 15px)
+  margin: 0 0 0.625rem 0.625rem
+  display: inline-block
+  +medium-up
+    width: calc(50% - 15px)
+    margin: 0 0 2.0625rem 1.25rem
+  +large-up
+    width: calc(100%)
+    padding: 0
+
+
+.load-button
+  width: 100%
+  text-align: center
+  position: relative
+  button
+    background-color: $primary
+    color: $primary-invert
+    width: 75%
+    padding: 1.25rem
+    font-size: $txt-medium
+    font-weight: bold
+    margin: 1.25rem
+    margin-left: 2.5%
+    border-radius: 0
+    &:hover
+      background-color: $light-blue
+    +focus-508
+    +large-up
+      width: 15%
+      margin-left: 1.5rem
+  &.active
+    display: inline-block
+  .skip
+    left: 60% !important

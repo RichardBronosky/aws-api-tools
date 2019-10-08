@@ -1,0 +1,264 @@
+@import '../../mixins'
+@import '../../variables'
+
+
+.filters-dropdown
+  position: relative
+  +large-up
+    height: 4.8rem
+  
+
+.display-none
+  +large-up
+    display: none
+
+.search-toggle-filter
+  display: none
+  &.active
+    display: block
+    +large-up
+      display: flex
+      background-color: $primary-invert
+      border-left: 0.0625rem solid #DEDEDE
+      border-right: 0.0625rem solid #DEDEDE
+      border-bottom: 0.0625rem solid #DEDEDE
+      padding: 1px
+.filter-btn
+  display: none
+  width: 29%
+  text-transform: uppercase
+  height: 2rem
+  border: 0.0625rem solid $light-grey
+  border-radius: 0rem
+  background-color: $primary-invert
+  border: 0.0625rem solid $grey
+  position: absolute
+  bottom: -2.625rem
+  z-index: 9
+  &.active
+    display: block
+    +large-up
+      display: none
+
+.mobileFilterActive
+  position: fixed
+  height: 100vh !important
+  overflow: auto
+  z-index: 11
+  width: 100vw
+  overflow-x: hidden
+  right: 0
+  left: 0
+  top: 0
+
+  +large-up
+    z-index: 9
+    top: -4.1875rem
+    height: auto!important
+    overflow: visible
+    width: 100%
+    left: 0.0625rem
+    left: 0.0625rem
+
+.desktopFilterActive
+  position: absolute
+  height: 100vh !important
+  right: 0
+  width: 100%
+  z-index: 9
+  height: 3.75rem !important
+  overflow: visible
+  +large-up
+    display: flex
+    justify-content: space-between
+
+.search-filters-container
+  width: 0
+
+.search-filters
+  display: none
+  max-height: 6.25rem
+  z-index: 9
+  width: 0
+  background-color: transparent!important
+  box-shadow: none
+  padding: 0
+  text-align: left
+  &.active
+    display: block
+  +large-up
+    padding: 0.625rem 0
+.mobile-filter-head
+  position: relative
+  height: auto
+  width: 100%
+  margin: 0 auto!important
+  padding-top: 0.625rem
+  padding-bottom: 0.625rem
+  border-bottom: 0.0625rem solid $grey
+  +large-up
+    height: 4.6875rem
+    width: 100%
+    height: auto!important
+    min-height: 3.75rem!important
+    border-bottom: 0.0625rem solid $grey
+    margin-left: 0
+    margin-right: 0
+    padding-bottom: 0
+    padding-top: 0
+    top: 0
+    border-bottom: 0.0625rem solid $grey
+  .filter-by-card
+    .ais-ClearRefinements
+      position: absolute
+      right: 1.75rem
+      top: 7rem
+      a
+        color: $dark-grey
+        &:hover
+          color: $primary
+    .filter-by-card
+        display: none
+  .dropdown
+    float: left
+    background-color: $primary-invert
+    width: 100%
+    z-index: 10
+    +large-up
+      width: auto
+      flex-grow: 1
+      margin-left: 0.1%
+      margin-right: 0.1%
+      border: 0.0625rem solid $grey
+    .done-button
+      background-color: $primary
+      color: $primary-invert
+      border: 0rem
+      width: 95%
+      padding: 1.25rem
+      text-align: center
+      box-sizing: border-box
+      font-size: $txt-medium
+      text-transform: uppercase
+      border-radius: 0rem
+      margin: 1.25rem
+      margin-left: 2.5%
+      +large-up
+        display: none
+    .dropbtn
+        padding: 6% 6%
+        width: 100%
+        background-color: $primary-invert
+        color: $dark-grey
+        padding: 1rem
+        font-size: $txt-small
+        border: 0.0625rem solid $light-grey
+        cursor: pointer
+        text-align: left
+        line-height: 1.5
+        +large-up
+          padding-left: .5em
+          padding-right: .5em
+          border-radius: 0
+        &:hover
+          .dropdown-content
+            display: block
+        div
+          text-align: right
+          float: right
+          display: none
+          &.active
+            display: block
+            width: 10px
+          .subSearchIsActive
+            width: 12.5rem
+          .fa-chevron-up, .fa-chevron-down
+            font-size: $txt-medium
+          +medium-down
+            margin-right: 1.5%
+    .current-refinements
+      width: auto
+      display: block
+      margin-top: 0.625rem
+      margin-left: 1em
+      top: 3.75rem
+      .ais-ClearRefinements
+        display: none
+        a
+          color: $dark-grey
+          &:hover
+            color: $primary
+      .refinement
+        width: auto
+        float: left
+        margin-right: 1rem
+        padding: .3rem .4rem
+        background-color: $primary
+        color: $primary-invert
+        font-size: $txt-xsmall
+        font-weight: 600
+        border-radius: 0
+        margin-bottom: 0.625rem
+        text-transform: capitalize
+        +large-up
+          width: auto
+          float: left
+          margin-right: 1rem
+          padding: .5rem .6rem
+          background-color: $primary
+          color: $primary-invert
+          font-size: $txt-medium!important
+          font-weight: 600
+          border-radius: 0
+          margin-bottom: .625rem
+          font-size: $txt-medium
+          padding: .5rem .6rem
+        .refinement-remove
+          cursor: pointer
+          margin-left: 1rem
+          &:before
+            content: 'x'
+            color: $primary-invert
+            font-weight: 800
+            font-size: $txt-medium
+
+
+.ais-RefinementList-list
+  +medium-down
+    margin-left: 0.4em
+  .ais-RefinementList-item
+    margin: 0.625rem
+    +large-up
+      position: relative
+    &.color_family
+      width: 2rem
+    .ais-RefinementList-checkbox
+      -moz-appearance: none
+      -webkit-appearance: none
+      -o-appearance: none
+      transform: scale(1.8)
+      vertical-align: sub
+      border: 0.0625rem solid $grey
+      width: 0.8125rem
+      height: 0.8125rem
+      background-color: $primary-invert
+      &:hover
+        border: 1px solid $primary
+      &.checked
+        background: $primary
+      &.checked:after
+        content: ''
+        position: absolute
+        left: 0.25rem
+        top: 0.0625rem
+        width: 0.25rem
+        height: 0.5rem
+        border: solid $primary-invert
+        border-width: 0 0.125rem 0.125rem 0
+        transform: rotate(45deg)
+    .ais-RefinementList-labelText
+      font-size: $txt-small
+      +large-up
+        margin-left: 1.5rem
+    .ais-RefinementList-count
+      display: none

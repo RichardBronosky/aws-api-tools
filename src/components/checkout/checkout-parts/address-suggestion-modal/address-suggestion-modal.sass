@@ -1,0 +1,84 @@
+@import 'src/assets/css/mixins'
+@import 'src/assets/css/variables'
+
+.address-suggestion-modal
+  .modal-content
+    background-color: white
+    border: solid $grey 0.4rem
+    width: 90%
+    position: fixed
+    right: auto
+    bottom: auto
+    left: 50%
+    top: 50%
+    transform: translate(-50%,-50%)
+    max-width: 45rem
+    padding: 0.5rem
+    +landscape
+      height: 90%
+      max-height: 90% !important
+    .modal-title
+      font-size: $txt-medium
+      font-weight: 600
+      display: block
+      margin-bottom: 0.5rem
+    .grid-x
+      background: $nav-grey
+      padding: 1rem
+      margin-top: 0.5rem
+      .medium-6
+        padding: 0 0.75rem
+        .address
+          display: block
+      .accept-btn, .keep-btn
+        width: 100%
+        color: white
+        height: 2.5rem
+        font-weight: 600
+        font-size: $txt-small
+        margin-top: 1rem
+        &:hover
+          opacity: 0.85
+      .accept-btn
+        background: $red
+        +small
+          margin-bottom: 1rem
+      .keep-btn
+        background: $primary
+  .go-back
+    padding-top: 1rem
+    color: $primary
+    font-size: $txt-xsmall
+    margin-left: 0.3rem
+    &:hover
+      text-decoration: underline
+    +medium-up
+      font-size: $txt-small
+  .close-modal
+    position: absolute
+    top: -2em
+    right: -1.75em
+    background: $primary
+    width: 4em
+    height: 4em
+    border-radius: 50%
+    +landscape
+      top: -1.5em
+      right: -1.5em
+    +small
+      top: -1.4em
+      right: -1.1em
+      width: 3.5em
+      height: 3.5em
+    &:hover
+      opacity: 0.85
+    .close
+      position: absolute
+      top: 0
+      right: 0
+      left: 0
+      bottom: 0
+      width: 3em
+      height: 3em
+      margin: auto
+      background-size: 100% !important

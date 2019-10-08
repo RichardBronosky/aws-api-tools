@@ -1,0 +1,65 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.product-lia
+  padding: 1rem 0
+  .product-img, .product-desc
+    padding: 1rem
+    +medium-up
+      padding: 1rem 3rem
+    +large-up
+      padding: 3rem
+  .product-img
+    text-align: center
+  .product-desc
+    .product-title
+      font-size: $txt-large
+      color: $dark-grey
+      padding: 0
+    .blue-action-btn
+      display: block
+      margin: 1rem 0
+    .price
+      display: block
+      width: 100%
+      text-align: center
+      font-size: $txt-large
+      color: $red
+      font-weight: 600
+      +large-up
+        text-align: left
+    .product-dim-sku
+      color: $dark-grey
+      margin: 0.5rem 0
+  .map
+    width: 100%
+    margin: 0 1rem 0 1rem
+    +medium-up
+      width: 48.5%
+      margin: 0 0 0 3rem
+  .store-info-lia
+    display: block
+    width: 100%
+    margin: 1rem 1rem 0 1rem
+    +medium-up
+      width: 35%
+      margin: 0 3rem 0 1.5rem
+    .store-link
+      color: $primary
+      &:hover
+        text-decoration: underline
+    .on-display
+      display: block
+      margin-bottom: 0.5rem
+    .info-field
+      display: block
+    .see-in-store-button
+      margin: 0
+    .today
+      display: block
+      margin-top: 1rem
+    .tomorrow
+      display: block
+      margin-bottom: 1rem
+    .bold
+      font-weight: 600

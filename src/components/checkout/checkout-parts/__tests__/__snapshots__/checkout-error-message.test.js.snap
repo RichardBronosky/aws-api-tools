@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutErrorMessage does not render without invalid fields or custom message 1`] = `null`;
+
+exports[`CheckoutErrorMessage renders correctly with 1 invalid field 1`] = `
+<p
+  className="invalid-message"
+>
+  *Invalid
+   
+  phone
+</p>
+`;
+
+exports[`CheckoutErrorMessage renders correctly with 2 invalid fields 1`] = `
+<p
+  className="invalid-message"
+>
+  *Invalid
+   
+  first name 
+  and phone
+</p>
+`;
+
+exports[`CheckoutErrorMessage renders correctly with 3 invalid fields 1`] = `
+<p
+  className="invalid-message"
+>
+  *Invalid
+   
+  first name, 
+  last name, 
+  and phone
+</p>
+`;
+
+exports[`CheckoutErrorMessage renders correctly with 4 invalid fields 1`] = `
+<p
+  className="invalid-message"
+>
+  *Invalid
+   
+  first name, 
+  last name, 
+  phone, 
+  and zip
+</p>
+`;
+
+exports[`CheckoutErrorMessage renders correctly with custom error message and invalid fields (should not show invalid fields) 1`] = `
+<p
+  className="invalid-message"
+>
+  *
+  Test error message
+</p>
+`;
+
+exports[`CheckoutErrorMessage renders correctly with custom error message and no invalid fields 1`] = `
+<p
+  className="invalid-message"
+>
+  *
+  Test error message
+</p>
+`;

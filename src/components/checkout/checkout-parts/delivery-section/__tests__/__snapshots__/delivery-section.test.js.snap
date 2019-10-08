@@ -1,0 +1,1857 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeliverySection renders correctly when express date selected 1`] = `
+<div
+  className="delivery-section"
+>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+       
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping"
+        role="presentation"
+        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%2096.4%2049.1%22%3E%3Ctitle%3Eicon-shipping%3C%2Ftitle%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Layer_1-2%22%20data-name%3D%22Layer%201%22%3E%3Cpath%20d%3D%22M26.3%2C43.2H33a1.27%2C1.27%2C0%2C0%2C0%2C.6-.1%2C7%2C7%2C0%2C0%2C0%2C13.8.1h28a7%2C7%2C0%2C0%2C0%2C13.8%2C0h5.5a1.75%2C1.75%2C0%2C0%2C0%2C1.7-1.7V22.8c0-4.8-1.3-8.7-3.9-11.5a12.75%2C12.75%2C0%2C0%2C0-9.5-4H73V1.7A1.75%2C1.75%2C0%2C0%2C0%2C71.3%2C0h-45a1.75%2C1.75%2C0%2C0%2C0-1.7%2C1.7V41.5A1.75%2C1.75%2C0%2C0%2C0%2C26.3%2C43.2Zm56%2C2.4A3.6%2C3.6%2C0%2C1%2C1%2C85.9%2C42%2C3.59%2C3.59%2C0%2C0%2C1%2C82.3%2C45.6ZM73%2C10.7H83c6.2%2C0%2C10%2C4.6%2C10%2C12v17H88.9A7.14%2C7.14%2C0%2C0%2C0%2C82.3%2C35a7%2C7%2C0%2C0%2C0-6.6%2C4.7H73.1v-29ZM40.6%2C45.6A3.6%2C3.6%2C0%2C1%2C1%2C44.2%2C42%2C3.72%2C3.72%2C0%2C0%2C1%2C40.6%2C45.6ZM28%2C3.4H69.5V39.7H47.8a1.27%2C1.27%2C0%2C0%2C0-.6.1A7%2C7%2C0%2C0%2C0%2C40.5%2C35a7.12%2C7.12%2C0%2C0%2C0-6.7%2C4.9%2C1.88%2C1.88%2C0%2C0%2C0-.8-.2H28ZM0%2C11.8a1.75%2C1.75%2C0%2C0%2C1%2C1.7-1.7H18.1a1.7%2C1.7%2C0%2C0%2C1%2C0%2C3.4H1.7A1.75%2C1.75%2C0%2C0%2C1%2C0%2C11.8ZM18.1%2C23.3H4.3a1.7%2C1.7%2C0%2C0%2C1%2C0-3.4H18.1a1.7%2C1.7%2C0%2C0%2C1%2C0%2C3.4Zm-13.2%2C8a1.75%2C1.75%2C0%2C0%2C1%2C1.7-1.7H18A1.7%2C1.7%2C0%2C1%2C1%2C18%2C33H6.6A1.63%2C1.63%2C0%2C0%2C1%2C4.9%2C31.3Z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+      />
+      <p
+        className="professional-delivery-text"
+      >
+        Professional Rooms To Go Delivery & Set-Up
+      </p>
+    </h3>
+    <div
+      className="delivery-product-container small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair2"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair2"
+            >
+              <p>
+                Collins Point Brown Accent Chair2
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-radio-container small-12 large-5"
+    >
+      <p>
+        Professional delivery & set-up to any room
+      </p>
+      Delivered on: 
+      <p
+        className="bold margin-left"
+      >
+        Tuesday, June 04, 2019
+      </p>
+      <br />
+      <p
+        className="bold margin-left"
+      >
+        Between 7AM - 10PM
+      </p>
+      <br />
+      <p
+        className="automated-message desktop"
+      >
+        No advance call ahead.
+      </p>
+      <p
+        className="bold delivery-cost"
+      >
+        EXPRESS: $0 - 
+        <button
+          aria-label="Change Delivery Date"
+          className="change-delivery-btn"
+          onClick={[Function]}
+          value="Change Delivery Date"
+        >
+          More Delivery & Pickup Options
+        </button>
+      </p>
+      <br />
+      <label
+        className="text-label"
+        htmlFor="tell us how to deliver"
+      >
+        Help us find your home (e.g. directions, gate code, etc.)
+      </label>
+      <textarea
+        aria-label="tell us how to deliver"
+        className="help-us"
+        maxLength="100"
+        name="tell us how to deliver"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <p
+        className="char-limit"
+      >
+        0
+        /100
+      </p>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        shipping directly from vendor
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair/26043632"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair/26043632"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair"
+            >
+              <p>
+                Collins Point Brown Accent Chair
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door via UPS
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        ships via UPS
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair3"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair3"
+            >
+              <p>
+                Collins Point Brown Accent Chair3
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door via USPS
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        ships via USPS
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Gift Card"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/gift-card/83333333"
+              gtm-value={null}
+              href="/furniture/product/gift-card/83333333"
+              onClick={[Function]}
+              title="Gift Card"
+            >
+              <p>
+                Gift Card
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             1
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`DeliverySection renders correctly when not payment is current checkout step 1`] = `
+Array [
+  <div
+    className="delivery-condensed grid-x"
+  >
+    <div
+      className="deliver-section small-12 large-5"
+    >
+      <h3>
+        Professional Delivery from Rooms To Go
+      </h3>
+      <h4
+        className="small-12"
+      >
+        <p
+          className="bold"
+        >
+          *
+          
+          $
+          0
+        </p>
+        <p>
+          estimated delivery: 
+        </p>
+        <p
+          className="bold"
+        >
+          Tuesday, June 04, 2019
+        </p>
+      </h4>
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-info small-9"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair2"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair2"
+            >
+              <p>
+                Collins Point Brown Accent Chair2
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="shipped-section small-12 large-5"
+    >
+      <h3>
+        Shipped to Your Door from Vendor
+      </h3>
+      <h4
+        className="small-12"
+      >
+        <p
+          className="bold"
+        >
+          FREE
+        </p>
+        <p>
+          Should arrive in 7-10 business days
+        </p>
+      </h4>
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-info small-9"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair/26043632"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair/26043632"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair"
+            >
+              <p>
+                Collins Point Brown Accent Chair
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div
+      className="shipped-section small-12 large-5"
+    >
+      <h3>
+        Shipped to Your Door via UPS
+      </h3>
+      <h4
+        className="small-12"
+      >
+        <p
+          className="bold"
+        >
+          FREE
+        </p>
+        <p>
+          Should arrive in 7-10 business days
+        </p>
+      </h4>
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-info small-9"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair3"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair3"
+            >
+              <p>
+                Collins Point Brown Accent Chair3
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div
+      className="shipped-section small-12 large-5"
+    >
+      <h3>
+        Shipped to Your Door via USPS
+      </h3>
+      <h4
+        className="small-12"
+      >
+        <p
+          className="bold"
+        >
+          FREE
+        </p>
+        <p>
+          
+        </p>
+      </h4>
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-info small-9"
+          >
+            <a
+              aria-label="Gift Card"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/gift-card/83333333"
+              gtm-value={null}
+              href="/furniture/product/gift-card/83333333"
+              onClick={[Function]}
+              title="Gift Card"
+            >
+              <p>
+                Gift Card
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             1
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+  </div>,
+  <p
+    className="automated-message mobile"
+  >
+    *Our automated system will call 2 days prior to notify you of the estimated delivery window.
+  </p>,
+]
+`;
+
+exports[`DeliverySection renders correctly when not shipping is current checkout step 1`] = `null`;
+
+exports[`DeliverySection renders correctly when pickup date selected 1`] = `
+<div
+  className="delivery-section"
+>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+       
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping"
+        role="presentation"
+        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%2096.4%2049.1%22%3E%3Ctitle%3Eicon-shipping%3C%2Ftitle%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Layer_1-2%22%20data-name%3D%22Layer%201%22%3E%3Cpath%20d%3D%22M26.3%2C43.2H33a1.27%2C1.27%2C0%2C0%2C0%2C.6-.1%2C7%2C7%2C0%2C0%2C0%2C13.8.1h28a7%2C7%2C0%2C0%2C0%2C13.8%2C0h5.5a1.75%2C1.75%2C0%2C0%2C0%2C1.7-1.7V22.8c0-4.8-1.3-8.7-3.9-11.5a12.75%2C12.75%2C0%2C0%2C0-9.5-4H73V1.7A1.75%2C1.75%2C0%2C0%2C0%2C71.3%2C0h-45a1.75%2C1.75%2C0%2C0%2C0-1.7%2C1.7V41.5A1.75%2C1.75%2C0%2C0%2C0%2C26.3%2C43.2Zm56%2C2.4A3.6%2C3.6%2C0%2C1%2C1%2C85.9%2C42%2C3.59%2C3.59%2C0%2C0%2C1%2C82.3%2C45.6ZM73%2C10.7H83c6.2%2C0%2C10%2C4.6%2C10%2C12v17H88.9A7.14%2C7.14%2C0%2C0%2C0%2C82.3%2C35a7%2C7%2C0%2C0%2C0-6.6%2C4.7H73.1v-29ZM40.6%2C45.6A3.6%2C3.6%2C0%2C1%2C1%2C44.2%2C42%2C3.72%2C3.72%2C0%2C0%2C1%2C40.6%2C45.6ZM28%2C3.4H69.5V39.7H47.8a1.27%2C1.27%2C0%2C0%2C0-.6.1A7%2C7%2C0%2C0%2C0%2C40.5%2C35a7.12%2C7.12%2C0%2C0%2C0-6.7%2C4.9%2C1.88%2C1.88%2C0%2C0%2C0-.8-.2H28ZM0%2C11.8a1.75%2C1.75%2C0%2C0%2C1%2C1.7-1.7H18.1a1.7%2C1.7%2C0%2C0%2C1%2C0%2C3.4H1.7A1.75%2C1.75%2C0%2C0%2C1%2C0%2C11.8ZM18.1%2C23.3H4.3a1.7%2C1.7%2C0%2C0%2C1%2C0-3.4H18.1a1.7%2C1.7%2C0%2C0%2C1%2C0%2C3.4Zm-13.2%2C8a1.75%2C1.75%2C0%2C0%2C1%2C1.7-1.7H18A1.7%2C1.7%2C0%2C1%2C1%2C18%2C33H6.6A1.63%2C1.63%2C0%2C0%2C1%2C4.9%2C31.3Z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+      />
+      <p
+        className="professional-delivery-text"
+      >
+        Professional Rooms To Go Delivery & Set-Up
+      </p>
+    </h3>
+    <div
+      className="delivery-product-container small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair2"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair2"
+            >
+              <p>
+                Collins Point Brown Accent Chair2
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-radio-container small-12 large-5"
+    >
+      Pick-up from 
+      <div
+        className="distribution-center-popup"
+      >
+        <button
+          alt="undefined Distribution Center"
+          aria-expanded={false}
+          className="distribution-center-button"
+          onClick={[Function]}
+          tabIndex="0"
+        >
+          undefined Distribution Center
+        </button>
+      </div>
+       
+      on: 
+      <p
+        className="bold margin-left"
+      >
+        Tuesday, June 04, 2019
+      </p>
+      <br />
+      <p
+        className="bold delivery-cost"
+      >
+        
+        <button
+          aria-label="Change Delivery Date"
+          className="change-delivery-btn"
+          onClick={[Function]}
+          value="Change Delivery Date"
+        >
+          More Delivery & Pickup Options
+        </button>
+      </p>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        shipping directly from vendor
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair/26043632"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair/26043632"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair"
+            >
+              <p>
+                Collins Point Brown Accent Chair
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door via UPS
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        ships via UPS
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair3"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair3"
+            >
+              <p>
+                Collins Point Brown Accent Chair3
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door via USPS
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        ships via USPS
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Gift Card"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/gift-card/83333333"
+              gtm-value={null}
+              href="/furniture/product/gift-card/83333333"
+              onClick={[Function]}
+              title="Gift Card"
+            >
+              <p>
+                Gift Card
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             1
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`DeliverySection renders correctly when updateDelivery error 1`] = `
+<div
+  className="delivery-section"
+>
+  <p
+    className="invalid-message"
+  >
+    *
+    There was an issue proceeding through checkout. Please refresh and try again.
+  </p>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+       
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping"
+        role="presentation"
+        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%2096.4%2049.1%22%3E%3Ctitle%3Eicon-shipping%3C%2Ftitle%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Layer_1-2%22%20data-name%3D%22Layer%201%22%3E%3Cpath%20d%3D%22M26.3%2C43.2H33a1.27%2C1.27%2C0%2C0%2C0%2C.6-.1%2C7%2C7%2C0%2C0%2C0%2C13.8.1h28a7%2C7%2C0%2C0%2C0%2C13.8%2C0h5.5a1.75%2C1.75%2C0%2C0%2C0%2C1.7-1.7V22.8c0-4.8-1.3-8.7-3.9-11.5a12.75%2C12.75%2C0%2C0%2C0-9.5-4H73V1.7A1.75%2C1.75%2C0%2C0%2C0%2C71.3%2C0h-45a1.75%2C1.75%2C0%2C0%2C0-1.7%2C1.7V41.5A1.75%2C1.75%2C0%2C0%2C0%2C26.3%2C43.2Zm56%2C2.4A3.6%2C3.6%2C0%2C1%2C1%2C85.9%2C42%2C3.59%2C3.59%2C0%2C0%2C1%2C82.3%2C45.6ZM73%2C10.7H83c6.2%2C0%2C10%2C4.6%2C10%2C12v17H88.9A7.14%2C7.14%2C0%2C0%2C0%2C82.3%2C35a7%2C7%2C0%2C0%2C0-6.6%2C4.7H73.1v-29ZM40.6%2C45.6A3.6%2C3.6%2C0%2C1%2C1%2C44.2%2C42%2C3.72%2C3.72%2C0%2C0%2C1%2C40.6%2C45.6ZM28%2C3.4H69.5V39.7H47.8a1.27%2C1.27%2C0%2C0%2C0-.6.1A7%2C7%2C0%2C0%2C0%2C40.5%2C35a7.12%2C7.12%2C0%2C0%2C0-6.7%2C4.9%2C1.88%2C1.88%2C0%2C0%2C0-.8-.2H28ZM0%2C11.8a1.75%2C1.75%2C0%2C0%2C1%2C1.7-1.7H18.1a1.7%2C1.7%2C0%2C0%2C1%2C0%2C3.4H1.7A1.75%2C1.75%2C0%2C0%2C1%2C0%2C11.8ZM18.1%2C23.3H4.3a1.7%2C1.7%2C0%2C0%2C1%2C0-3.4H18.1a1.7%2C1.7%2C0%2C0%2C1%2C0%2C3.4Zm-13.2%2C8a1.75%2C1.75%2C0%2C0%2C1%2C1.7-1.7H18A1.7%2C1.7%2C0%2C1%2C1%2C18%2C33H6.6A1.63%2C1.63%2C0%2C0%2C1%2C4.9%2C31.3Z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+      />
+      <p
+        className="professional-delivery-text"
+      >
+        Professional Rooms To Go Delivery & Set-Up
+      </p>
+    </h3>
+    <div
+      className="delivery-product-container small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair2"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair2"
+            >
+              <p>
+                Collins Point Brown Accent Chair2
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-radio-container small-12 large-5"
+    >
+      <p>
+        Professional delivery & set-up to any room
+      </p>
+      Delivered on: 
+      <p
+        className="bold margin-left"
+      >
+        Tuesday, June 04, 2019
+      </p>
+      <br />
+      <p
+        className="bold margin-left"
+      >
+        4 hour delivery window
+      </p>
+      <br />
+      <p
+        className="automated-message desktop"
+      >
+        Our automated system will call 2 days prior to notify you of the estimated delivery window.
+      </p>
+      <p
+        className="bold delivery-cost"
+      >
+        $0 - 
+        <button
+          aria-label="Change Delivery Date"
+          className="change-delivery-btn"
+          onClick={[Function]}
+          value="Change Delivery Date"
+        >
+          More Delivery & Pickup Options
+        </button>
+      </p>
+      <br />
+      <label
+        className="text-label"
+        htmlFor="tell us how to deliver"
+      >
+        Help us find your home (e.g. directions, gate code, etc.)
+      </label>
+      <textarea
+        aria-label="tell us how to deliver"
+        className="help-us"
+        maxLength="100"
+        name="tell us how to deliver"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <p
+        className="char-limit"
+      >
+        0
+        /100
+      </p>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        shipping directly from vendor
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair/26043632"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair/26043632"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair"
+            >
+              <p>
+                Collins Point Brown Accent Chair
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door via UPS
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        ships via UPS
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair3"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair3"
+            >
+              <p>
+                Collins Point Brown Accent Chair3
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door via USPS
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        ships via USPS
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Gift Card"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/gift-card/83333333"
+              gtm-value={null}
+              href="/furniture/product/gift-card/83333333"
+              onClick={[Function]}
+              title="Gift Card"
+            >
+              <p>
+                Gift Card
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             1
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`DeliverySection renders correctly with default props 1`] = `
+<div
+  className="delivery-section"
+>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+       
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping"
+        role="presentation"
+        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%2096.4%2049.1%22%3E%3Ctitle%3Eicon-shipping%3C%2Ftitle%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Layer_1-2%22%20data-name%3D%22Layer%201%22%3E%3Cpath%20d%3D%22M26.3%2C43.2H33a1.27%2C1.27%2C0%2C0%2C0%2C.6-.1%2C7%2C7%2C0%2C0%2C0%2C13.8.1h28a7%2C7%2C0%2C0%2C0%2C13.8%2C0h5.5a1.75%2C1.75%2C0%2C0%2C0%2C1.7-1.7V22.8c0-4.8-1.3-8.7-3.9-11.5a12.75%2C12.75%2C0%2C0%2C0-9.5-4H73V1.7A1.75%2C1.75%2C0%2C0%2C0%2C71.3%2C0h-45a1.75%2C1.75%2C0%2C0%2C0-1.7%2C1.7V41.5A1.75%2C1.75%2C0%2C0%2C0%2C26.3%2C43.2Zm56%2C2.4A3.6%2C3.6%2C0%2C1%2C1%2C85.9%2C42%2C3.59%2C3.59%2C0%2C0%2C1%2C82.3%2C45.6ZM73%2C10.7H83c6.2%2C0%2C10%2C4.6%2C10%2C12v17H88.9A7.14%2C7.14%2C0%2C0%2C0%2C82.3%2C35a7%2C7%2C0%2C0%2C0-6.6%2C4.7H73.1v-29ZM40.6%2C45.6A3.6%2C3.6%2C0%2C1%2C1%2C44.2%2C42%2C3.72%2C3.72%2C0%2C0%2C1%2C40.6%2C45.6ZM28%2C3.4H69.5V39.7H47.8a1.27%2C1.27%2C0%2C0%2C0-.6.1A7%2C7%2C0%2C0%2C0%2C40.5%2C35a7.12%2C7.12%2C0%2C0%2C0-6.7%2C4.9%2C1.88%2C1.88%2C0%2C0%2C0-.8-.2H28ZM0%2C11.8a1.75%2C1.75%2C0%2C0%2C1%2C1.7-1.7H18.1a1.7%2C1.7%2C0%2C0%2C1%2C0%2C3.4H1.7A1.75%2C1.75%2C0%2C0%2C1%2C0%2C11.8ZM18.1%2C23.3H4.3a1.7%2C1.7%2C0%2C0%2C1%2C0-3.4H18.1a1.7%2C1.7%2C0%2C0%2C1%2C0%2C3.4Zm-13.2%2C8a1.75%2C1.75%2C0%2C0%2C1%2C1.7-1.7H18A1.7%2C1.7%2C0%2C1%2C1%2C18%2C33H6.6A1.63%2C1.63%2C0%2C0%2C1%2C4.9%2C31.3Z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+      />
+      <p
+        className="professional-delivery-text"
+      >
+        Professional Rooms To Go Delivery & Set-Up
+      </p>
+    </h3>
+    <div
+      className="delivery-product-container small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair2"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair2"
+            >
+              <p>
+                Collins Point Brown Accent Chair2
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-radio-container small-12 large-5"
+    >
+      <p>
+        Professional delivery & set-up to any room
+      </p>
+      Delivered on: 
+      <p
+        className="bold margin-left"
+      >
+        Tuesday, June 04, 2019
+      </p>
+      <br />
+      <p
+        className="bold margin-left"
+      >
+        4 hour delivery window
+      </p>
+      <br />
+      <p
+        className="automated-message desktop"
+      >
+        Our automated system will call 2 days prior to notify you of the estimated delivery window.
+      </p>
+      <p
+        className="bold delivery-cost"
+      >
+        $0 - 
+        <button
+          aria-label="Change Delivery Date"
+          className="change-delivery-btn"
+          onClick={[Function]}
+          value="Change Delivery Date"
+        >
+          More Delivery & Pickup Options
+        </button>
+      </p>
+      <br />
+      <label
+        className="text-label"
+        htmlFor="tell us how to deliver"
+      >
+        Help us find your home (e.g. directions, gate code, etc.)
+      </label>
+      <textarea
+        aria-label="tell us how to deliver"
+        className="help-us"
+        maxLength="100"
+        name="tell us how to deliver"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <p
+        className="char-limit"
+      >
+        0
+        /100
+      </p>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        shipping directly from vendor
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair/26043632"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair/26043632"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair"
+            >
+              <p>
+                Collins Point Brown Accent Chair
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door via UPS
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        ships via UPS
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair3"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair3"
+            >
+              <p>
+                Collins Point Brown Accent Chair3
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door via USPS
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        ships via USPS
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Gift Card"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/gift-card/83333333"
+              gtm-value={null}
+              href="/furniture/product/gift-card/83333333"
+              onClick={[Function]}
+              title="Gift Card"
+            >
+              <p>
+                Gift Card
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             1
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`DeliverySection renders correctly with weekly calendar type 1`] = `
+<div
+  className="delivery-section"
+>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+       
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping"
+        role="presentation"
+        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%2096.4%2049.1%22%3E%3Ctitle%3Eicon-shipping%3C%2Ftitle%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Layer_1-2%22%20data-name%3D%22Layer%201%22%3E%3Cpath%20d%3D%22M26.3%2C43.2H33a1.27%2C1.27%2C0%2C0%2C0%2C.6-.1%2C7%2C7%2C0%2C0%2C0%2C13.8.1h28a7%2C7%2C0%2C0%2C0%2C13.8%2C0h5.5a1.75%2C1.75%2C0%2C0%2C0%2C1.7-1.7V22.8c0-4.8-1.3-8.7-3.9-11.5a12.75%2C12.75%2C0%2C0%2C0-9.5-4H73V1.7A1.75%2C1.75%2C0%2C0%2C0%2C71.3%2C0h-45a1.75%2C1.75%2C0%2C0%2C0-1.7%2C1.7V41.5A1.75%2C1.75%2C0%2C0%2C0%2C26.3%2C43.2Zm56%2C2.4A3.6%2C3.6%2C0%2C1%2C1%2C85.9%2C42%2C3.59%2C3.59%2C0%2C0%2C1%2C82.3%2C45.6ZM73%2C10.7H83c6.2%2C0%2C10%2C4.6%2C10%2C12v17H88.9A7.14%2C7.14%2C0%2C0%2C0%2C82.3%2C35a7%2C7%2C0%2C0%2C0-6.6%2C4.7H73.1v-29ZM40.6%2C45.6A3.6%2C3.6%2C0%2C1%2C1%2C44.2%2C42%2C3.72%2C3.72%2C0%2C0%2C1%2C40.6%2C45.6ZM28%2C3.4H69.5V39.7H47.8a1.27%2C1.27%2C0%2C0%2C0-.6.1A7%2C7%2C0%2C0%2C0%2C40.5%2C35a7.12%2C7.12%2C0%2C0%2C0-6.7%2C4.9%2C1.88%2C1.88%2C0%2C0%2C0-.8-.2H28ZM0%2C11.8a1.75%2C1.75%2C0%2C0%2C1%2C1.7-1.7H18.1a1.7%2C1.7%2C0%2C0%2C1%2C0%2C3.4H1.7A1.75%2C1.75%2C0%2C0%2C1%2C0%2C11.8ZM18.1%2C23.3H4.3a1.7%2C1.7%2C0%2C0%2C1%2C0-3.4H18.1a1.7%2C1.7%2C0%2C0%2C1%2C0%2C3.4Zm-13.2%2C8a1.75%2C1.75%2C0%2C0%2C1%2C1.7-1.7H18A1.7%2C1.7%2C0%2C1%2C1%2C18%2C33H6.6A1.63%2C1.63%2C0%2C0%2C1%2C4.9%2C31.3Z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+      />
+      <p
+        className="professional-delivery-text"
+      >
+        Professional Rooms To Go Delivery & Set-Up
+      </p>
+    </h3>
+    <div
+      className="delivery-product-container small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair2"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair2/26043633"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair2"
+            >
+              <p>
+                Collins Point Brown Accent Chair2
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-radio-container small-12 large-5"
+    >
+      <p>
+        Professional delivery & set-up to any room
+      </p>
+      Leaving our warehouse on: 
+      <p
+        className="bold margin-left"
+      >
+        Tuesday, June 04, 2019
+      </p>
+      <br />
+      <p
+        className="bold margin-left"
+      >
+        4 hour delivery window
+      </p>
+      <br />
+      <p
+        className="automated-message desktop"
+      >
+        You will receive a call on the Thursday prior to the date that you selected. This call will identify the specific date and time that your merchandise will be delivered, within 12 days from the Monday you choose for your departure date.
+      </p>
+      <p
+        className="bold delivery-cost"
+      >
+        $0 - 
+        <button
+          aria-label="Change Delivery Date"
+          className="change-delivery-btn"
+          onClick={[Function]}
+          value="Change Delivery Date"
+        >
+          More Delivery & Pickup Options
+        </button>
+      </p>
+      <br />
+      <label
+        className="text-label"
+        htmlFor="tell us how to deliver"
+      >
+        Help us find your home (e.g. directions, gate code, etc.)
+      </label>
+      <textarea
+        aria-label="tell us how to deliver"
+        className="help-us"
+        maxLength="100"
+        name="tell us how to deliver"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <p
+        className="char-limit"
+      >
+        0
+        /100
+      </p>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        shipping directly from vendor
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair/26043632"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair/26043632"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair"
+            >
+              <p>
+                Collins Point Brown Accent Chair
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door via UPS
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        ships via UPS
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Collins Point Brown Accent Chair3"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              gtm-value={null}
+              href="/furniture/product/collins-point-brown-accent-chair3/26043634"
+              onClick={[Function]}
+              title="Collins Point Brown Accent Chair3"
+            >
+              <p>
+                Collins Point Brown Accent Chair3
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             2
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <form
+    className="delivery-form grid-x"
+  >
+    <h3
+      className="small-12"
+    >
+      Shipped to your door via USPS
+    </h3>
+    <h4
+      className="small-12"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        className="icon shipping-box"
+        role="presentation"
+        src="test-file-stub"
+      />
+      <p
+        className="bold"
+      >
+        FREE
+      </p>
+      <p>
+        ships via USPS
+      </p>
+    </h4>
+    <div
+      className="delivery-product-container no-border small-12 medium-9 large-7"
+    >
+      <div
+        className="delivery-product"
+      >
+        <div
+          className="product-container grid-x"
+        >
+          <div
+            className="product-image-container small-2 large-4"
+          />
+          <div
+            className="product-info small-6 large-5"
+          >
+            <a
+              aria-label="Gift Card"
+              gtm-action={null}
+              gtm-category={null}
+              gtm-label="/furniture/product/gift-card/83333333"
+              gtm-value={null}
+              href="/furniture/product/gift-card/83333333"
+              onClick={[Function]}
+              title="Gift Card"
+            >
+              <p>
+                Gift Card
+              </p>
+            </a>
+          </div>
+          <div
+            className="quantity small-2"
+          >
+            QTY: 
+             1
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

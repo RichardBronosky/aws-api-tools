@@ -1,0 +1,202 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.shipping-form
+  text-align: left
+  width: 101.5%
+  +small
+    width: 95%
+    padding: 1rem
+  +large-up
+    padding: 0
+  select.state
+    border: 1px solid $grey
+  .state
+    width: 95%
+    margin: 0 2.5% 2.8%  0
+    height: 45px
+    +medium-down
+      margin-bottom: 1.5rem
+    +small
+      width: 97.5%
+    &.invalid
+      color: $red
+      border-color: $red
+  .address-selected
+    width: 93.5% !important
+    padding: 1rem 1rem 0 1rem
+    margin-bottom: 2.5%
+    margin-top: 1rem
+    float: left
+    margin-right: 20px
+    +small
+      font-size: 70%
+    +large-up
+      width: 57.5% !important
+      margin-bottom: 1.5%
+    svg
+      float: left !important
+      margin-right: 1rem
+      margin-bottom: 0
+      height: 2.6rem
+      width: 2.6rem
+      +small
+        margin-top: 0
+    p 
+      font-size: $txt-small
+      width: 50%
+      float: left
+      +small
+        width: 70%
+    .change-address-btn
+      background-color: $primary
+      color: $primary-invert
+      border-radius: 0
+      padding: 12px
+      text-align: center
+      box-sizing: border-box
+      font-size: $txt-medium
+      text-transform: uppercase
+      font-weight: bold
+      margin-top: 10px
+      top: -0.3rem
+      position: relative
+      float: left
+      width: 100%
+      +medium-up 
+        float: right
+        width: 30%
+        top: -1.3rem
+      +large-up
+        float: right
+        margin-left: 56px
+        width: 100px
+        margin-top: 0
+        top: -1.2rem
+      &:hover
+        text-decoration: underline
+  .required-label
+    margin: 1em 0 1.5em 0
+    font-weight: 600
+    +small
+      font-size: $txt-small
+      margin: 0.5em 0 1em 0
+  .address-label
+    width: 100%
+    display: block
+  .label
+    display: block
+    +medium-up
+      width: 48%!important
+      float: left
+    input
+      width: 95%
+  .checkbox-container
+    font-size: $txt-small
+    display: inline-block
+    margin: .5rem 3em 1.2em 0
+    z-index: 0
+    +medium-down
+      margin-top: 1.5%
+    p
+      display: inline
+      margin-left: 0.75em
+      &.invalid
+        color: $red
+      +small
+        font-size: $txt-small
+
+  // styling for react-autocomplete (address lookup)
+  .shipping-form
+    input[role="combobox"]
+      width: 100%
+      margin: 0 2.5% 1.5% 0
+      line-height: 20px
+      padding: 10px
+      border-radius: 5px
+      +small
+        width: 97.5% !important
+
+  div
+    width: 100% !important
+    position: relative
+    z-index: 2
+    +small
+      width: 97.5%
+    div
+      background: white !important
+      width: 93.5% !important
+      min-width: 30em !important
+      position: absolute !important
+      max-height: 40% !important
+      top: 2.65rem !important
+      left: 0 !important
+      padding: 0.2em 1em
+      overflow: unset !important
+      border-right: solid 1px $grey
+      border-left: solid 1px $grey
+      border-bottom: solid 1px $grey
+      box-shadow: none !important
+      margin-top: -1px
+      font-size: $txt-small
+      +small
+        width: 97.5% !important
+        min-width: 18em !important
+        font-size: $txt-xsmall
+      +ie
+        max-height: 30rem !important
+
+  ul
+    background-color: #fff
+    border: solid 1px #DEDEDE
+    width: 93.5%
+    top: 41px
+    margin-top: -19px
+    +small
+      width: 97.5% !important
+      
+    li.address-list-item
+      padding: 0.2em 1em
+      position: unset !important
+      display: inline-block !important
+      height: 10% !important
+      width: 100% !important
+      font-size: $txt-medium
+      &:nth-child(1)
+        margin-top: 21px
+      +ie
+        position: relative !important
+        top: 0 !important
+      &:hover,
+      &:focus
+        color: $primary
+        background: $light-grey !important
+      .address-manual-btn
+        float: right
+        color: $primary
+        margin-top: 0.3em
+        font-size: 100%
+        &:hover,
+        &:focus
+          text-decoration: underline
+        &.results-exist
+          float: left
+          margin-top: 0    
+          padding-bottom: 0.2em
+
+.text-me-container
+  font-size: $txt-small
+  display: inline
+  width: 97.5% !important
+  z-index: 0
+  margin-bottom: .5rem
+  +medium-up
+    width: 52% !important
+    float: right
+    margin: .8rem 0 0 0 
+  .text-me-label
+    +small
+      font-size: $txt-small
+  .radio-label
+    display: inline
+    margin-right: 0.5em

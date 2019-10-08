@@ -1,0 +1,105 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.step-container
+  font-size: $txt-small
+  +large-up
+    margin-left: 1.1rem
+  p
+    display: inline
+    &.invalid
+      height: 2rem
+  .rtg-input-container
+    margin-top: 1em
+    .label
+      display: block
+      width: 100%
+    .rtg-credit
+      width: 60% !important
+      margin-right: 40%
+      float: left
+      +medium
+        width: 70% !important
+        margin-right: 30%
+      +small
+        width: 100% !important
+    .rtg-zip
+      width: 30% !important
+      margin-right: 70%
+      float: left
+      +medium
+        width: 40% !important
+        margin-right: 60%
+      +small
+        width: 60% !important
+        margin-right: 40%
+  .checkbox-container
+    margin-top: 0.5em
+    display: inline-block
+    margin-right: 3em
+    margin-bottom: 0.5em
+    font-size: $txt-small
+    width: 95%
+    .accept-text
+      font-size: $txt-xsmall !important
+      +medium-up
+        font-size: $txt-small !important
+    p
+      display: inline
+    input[type="checkbox"]
+      float: left
+      -moz-appearance: none
+      -webkit-appearance: none
+      -o-appearance: none
+      transform: scale(1.5)
+      vertical-align: sub
+      width: 0.8125rem
+      height: 0.8125rem
+      margin-top: 0.5em
+    .text-container
+      display: block
+      width: 100%
+      margin-left: 1.75em
+  .link
+    color: $primary
+    display: inline
+    margin-left: 0.25em
+    font-size: $txt-small
+    +medium-down
+      font-size: $txt-xsmall
+    &.no-margin
+      margin-left: 0
+    &:hover
+      text-decoration: underline
+  p    
+    &.invalid
+      color: $red
+  .submit-btn-container
+    width: 100%
+    text-align: left
+    +small
+      text-align: center
+    .submit-rtg-btn
+      width: 9em
+      margin-right: 4%
+      margin-top: 0.5em
+      background-color: $primary
+      border-radius: 0
+      color: $primary-invert
+      border: 0px
+      padding: 15px
+      text-align: center
+      box-sizing: border-box
+      font-size: $txt-medium
+      text-transform: uppercase
+      font-weight: bold
+      &:hover
+        background-color: $light-blue
+      +focus-508
+      +small
+        margin-right: 0
+      .loader
+        height: 1.25rem
+        width: 1.25rem
+        margin: 0
+        float: unset

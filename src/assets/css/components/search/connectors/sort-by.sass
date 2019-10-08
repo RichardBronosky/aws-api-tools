@@ -1,0 +1,56 @@
+
+@import '../../../mixins'
+@import '../../../variables'
+
+.ais-SortBy
+  border: 0.0625rem solid $grey
+  overflow: hidden
+  background: $primary-invert
+  width: 69%
+  float: right
+  padding: 0.06rem
+  font-size: $txt-medium
+  outline: none
+  margin-top: 0.625rem
+  height: 2rem
+  text-transform: capitalize
+  +large-up
+    height: 2.5rem
+    position: absolute
+  select
+    display: flex
+    justify-content: center
+    height: 100%
+    padding-left: 0.25rem
+    border: none
+    border: none
+    background-color: transparent
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    +large-up
+      font-size: $txt-medium
+
+  &:after
+    content: " "
+    position: absolute
+    top: 50%
+    margin-top: -2px
+    right: 8px
+    width: 0
+    height: 0
+    border-left: 5px solid transparent
+    border-right: 5px solid transparent
+    border-top: 5px solid $dark-grey
+    +medium-down
+      top: 62%
+  +large-up
+    right: -11.1em
+    border: 0.0625rem solid $grey
+    width: 10.5rem
+    overflow: hidden
+    background: $primary-invert
+    position: absolute
+    top: -.6em
+    padding: 0.0625rem
+    margin: 0

@@ -1,0 +1,66 @@
+@import '../../../mixins'
+@import '../../../variables'
+    
+.plp-grid
+  &.card
+    height: 100%
+  .product-image
+    height: 100%
+    padding-top: 1em
+
+    +medium-up
+      padding: 1rem 0
+    img
+      max-height: 220px !important
+      +medium-up
+        max-height: 220px !important
+      +large-up
+        max-height: 312px !important
+      +large-wide
+        max-height: 385px !important
+  .product-details
+      margin-top: 0 !important
+  .product-pricing
+    +medium-up
+      margin-bottom: 1rem !important
+    .product-price
+      .price-tag
+        font-size: $txt-medium-up
+  .product-financing
+    height: 1rem
+    top: 0 !important
+  .product-info
+    display: flex
+    justify-content: center
+    align-items: center
+    min-height: 2rem
+    +medium
+      min-height: 5em
+    +large-up
+      min-height: 5em
+  h5 
+    font-size: .55rem
+  .product-variation-image-list
+    +landscape 
+      min-height: 6rem
+    +medium-up
+      min-height: 6rem
+.view-4-col,
+.product-collection-slider
+  .slick-list
+    .product-image
+      img
+        max-height: 288px !important
+
+.slick-slide
+  .product-tile
+    .small-image
+      max-height: 288px !important
+      min-height: 0px!important
+  .product-pricing
+    +medium-up
+    margin-bottom: 49px !important
+  .product-title
+    display: block!important
+  .product-variation-image-list
+    min-height: 0

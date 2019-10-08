@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddonSelection renders correctly with addon items, and with active addons 1`] = `
+<div
+  className="grid-x cart-addons small-12 medium-6 large-8 large-offset-4"
+>
+  <div
+    className="addon-header add small-12 "
+  >
+    Add:
+  </div>
+  <ul
+    className="addon-group grid-x"
+  >
+    <div
+      className="small-12 addon-row"
+    >
+      <span>
+        Twin Bunkie Boards
+         (
+        2
+        )
+         
+        $99.98
+      </span>
+      <input
+        checked={true}
+        name="Twin Bunkie Boards"
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </div>
+  </ul>
+</div>
+`;
+
+exports[`AddonSelection renders correctly with addon items, and without active addons 1`] = `
+<div
+  className="grid-x cart-addons small-12 medium-6 large-8 large-offset-4"
+>
+  <div
+    className="addon-header add small-12 "
+  >
+    Add:
+  </div>
+  <ul
+    className="addon-group grid-x"
+  >
+    <div
+      className="small-12 addon-row"
+    >
+      <span>
+        Twin Bunkie Boards
+         (
+        2
+        )
+         
+        $99.98
+      </span>
+      <input
+        checked={false}
+        name="Twin Bunkie Boards"
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </div>
+  </ul>
+</div>
+`;
+
+exports[`AddonSelection renders correctly without addons 1`] = `
+<div
+  className="grid-x cart-addons small-12 medium-6 large-8 large-offset-4"
+>
+  <div
+    className="addon-required"
+  >
+    <p>
+      Twin Bunkie Boards
+       (
+      2
+      ) 
+      <span
+        className="addon-declined"
+      >
+        Declined
+      </span>
+    </p>
+    <button
+      className="bunkie-board addon-learn-more"
+      gtm-action="click"
+      gtm-category="bunkie-board-modal"
+      gtm-label="cart"
+      onClick={[Function]}
+    >
+      What is a bunkie board? ⓘ
+    </button>
+  </div>
+  <div
+    className="addon-header add small-12 "
+  >
+    Add:
+  </div>
+  <ul
+    className="addon-group grid-x"
+  >
+    <div
+      className="small-12 addon-row"
+    >
+      <span>
+        Twin Bunkie Boards
+         (
+        2
+        )
+         
+        $99.98
+      </span>
+      <input
+        checked={false}
+        name="Twin Bunkie Boards"
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </div>
+  </ul>
+</div>
+`;

@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftCards renders correctly ability to add another card 1`] = `
+Array [
+  <input
+    aria-label="Use Gift Card"
+    checked={false}
+    name="Use Gift Card"
+    onChange={[Function]}
+    type="checkbox"
+  />,
+  "Use gift card",
+  <br />,
+]
+`;
+
+exports[`GiftCards renders correctly no other gift cards 1`] = `
+Array [
+  <input
+    aria-label="Use Gift Card"
+    checked={true}
+    name="Use Gift Card"
+    onChange={[Function]}
+    type="checkbox"
+  />,
+  "Use gift card",
+  <br />,
+  <p
+    className="note"
+  >
+    Note: Adding or removing gift cards may require you to re-enter other payment information below.
+  </p>,
+  <div
+    className="gift-card grid-x"
+  >
+    <div
+      className="small-12 medium-6"
+    >
+      <label
+        className=""
+        htmlFor="giftCardNumber"
+      >
+        <p>
+          *Gift Card Number
+        </p>
+        <input
+          aria-label="Gift Card Number"
+          className="gift-card-number"
+          name="Gift Card Number"
+          onChange={[Function]}
+          placeholder="Gift Card Number"
+          type="text"
+          value=""
+        />
+      </label>
+      <br />
+      <label
+        className=""
+        htmlFor="giftCardPin"
+      >
+        <p>
+          *Pin
+        </p>
+        <input
+          aria-label="Pin"
+          className="gift-card-pin"
+          name="Pin"
+          onChange={[Function]}
+          placeholder="Pin"
+          type="text"
+          value=""
+        />
+      </label>
+      <br />
+      <button
+        aria-label="Apply Gift Card"
+        className="apply-gift-card-btn small-12 medium-3"
+        onClick={[Function]}
+        tabIndex="0"
+        value="Apply Gift Card"
+      >
+        apply gift card
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`GiftCards renders correctly when not using gift card 1`] = `
+Array [
+  <input
+    aria-label="Use Gift Card"
+    checked={false}
+    name="Use Gift Card"
+    onChange={[Function]}
+    type="checkbox"
+  />,
+  "Use gift card",
+  <br />,
+]
+`;
+
+exports[`GiftCards renders correctly with default props 1`] = `
+Array [
+  <input
+    aria-label="Use Gift Card"
+    checked={true}
+    name="Use Gift Card"
+    onChange={[Function]}
+    type="checkbox"
+  />,
+  "Use gift card",
+  <br />,
+  <p
+    className="note"
+  >
+    Note: Adding or removing gift cards may require you to re-enter other payment information below.
+  </p>,
+  <div
+    className="grid-x"
+  >
+    <div
+      className="applied-gift-cards small-12"
+    >
+      <h4>
+        Applied Gift Cards
+      </h4>
+      <div
+        className="grid-x"
+      >
+        <div
+          className="small-12 medium-7 large-6 applied-gift-card-container"
+        >
+          <div
+            className="applied-gift-card card"
+          >
+            <button
+              aria-label="Remove Gift Card"
+              className="remove-card"
+              onClick={[Function]}
+              tabIndex="0"
+              value="Remove Gift Card"
+            >
+              <img
+                alt="close icon"
+                className="icon close"
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFFFFF' d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z' /%3E%3C/svg%3E"
+              />
+            </button>
+            <div
+              className="gift-card-info"
+            >
+              <p
+                className="bold left"
+              >
+                Gift Card
+              </p>
+              <p
+                className="number"
+              >
+                - 
+                1111111111111111
+              </p>
+              <br />
+              Will use
+              <p
+                className="bold"
+              >
+                $100
+              </p>
+              of your 
+              <br />
+              <p
+                className="bold left"
+              >
+                $200
+              </p>
+              balance
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`GiftCards renders correctly with invalid fields 1`] = `
+Array [
+  <input
+    aria-label="Use Gift Card"
+    checked={true}
+    name="Use Gift Card"
+    onChange={[Function]}
+    type="checkbox"
+  />,
+  "Use gift card",
+  <br />,
+  <p
+    className="note"
+  >
+    Note: Adding or removing gift cards may require you to re-enter other payment information below.
+  </p>,
+  " ",
+  <p
+    className="invalid-message"
+  >
+    *Invalid
+     
+    test field
+  </p>,
+  <div
+    className="grid-x"
+  >
+    <div
+      className="applied-gift-cards small-12"
+    >
+      <h4>
+        Applied Gift Cards
+      </h4>
+      <div
+        className="grid-x"
+      >
+        <div
+          className="small-12 medium-7 large-6 applied-gift-card-container"
+        >
+          <div
+            className="applied-gift-card card"
+          >
+            <button
+              aria-label="Remove Gift Card"
+              className="remove-card"
+              onClick={[Function]}
+              tabIndex="0"
+              value="Remove Gift Card"
+            >
+              <img
+                alt="close icon"
+                className="icon close"
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFFFFF' d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z' /%3E%3C/svg%3E"
+              />
+            </button>
+            <div
+              className="gift-card-info"
+            >
+              <p
+                className="bold left"
+              >
+                Gift Card
+              </p>
+              <p
+                className="number"
+              >
+                - 
+                1111111111111111
+              </p>
+              <br />
+              Will use
+              <p
+                className="bold"
+              >
+                $100
+              </p>
+              of your 
+              <br />
+              <p
+                className="bold left"
+              >
+                $200
+              </p>
+              balance
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

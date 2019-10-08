@@ -1,0 +1,35 @@
+@import '../../mixins'
+@import '../../variables'
+.collection-tile
+  background-color: $primary-invert
+  position: relative
+  text-align: center
+  &:hover, &:focus
+    transform: (scale(1.005))
+    box-shadow: 0 6px 20px #AFAFAF
+  .card
+    .collection-name
+      color: $dark-grey
+      font-weight: 600
+      padding: 1.3rem
+      font-size: $txt-medium-up
+      margin-left: auto
+      margin-right: auto
+      bottom: 25%
+      line-height: 1
+    .collection-description
+      color: $dark-grey
+      text-align: center
+      padding: 0 10%
+    .collection-link-text
+      color: $dark-grey
+      font-weight: 700
+      padding: 1.3rem
+      font-size: $txt-medium
+      margin-left: auto
+      margin-right: auto
+      bottom: 5%
+      line-height: 1
+      margin-bottom: 2%
+      padding-bottom: 5%
+      letter-spacing: 2px

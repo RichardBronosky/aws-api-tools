@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftCardInputs renders correctly when able to cancel adding card 1`] = `
+<div
+  className="gift-card grid-x"
+>
+  <div
+    className="small-12 medium-6"
+  >
+    <label
+      className=""
+      htmlFor="giftCardNumber"
+    >
+      <p
+        className="error"
+      >
+        *
+      </p>
+      <p>
+        *Gift Card Number
+      </p>
+      <input
+        aria-label="Gift Card Number"
+        className="gift-card-number"
+        name="Gift Card Number"
+        onChange={[Function]}
+        placeholder="Gift Card Number"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <label
+      className=""
+      htmlFor="giftCardPin"
+    >
+      <p>
+        *Pin
+      </p>
+      <input
+        aria-label="Pin"
+        className="gift-card-pin"
+        name="Pin"
+        onChange={[Function]}
+        placeholder="Pin"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <button
+      aria-label="Apply Gift Card"
+      className="apply-gift-card-btn small-12 medium-3"
+      onClick={[Function]}
+      tabIndex="0"
+      value="Apply Gift Card"
+    >
+      apply gift card
+    </button>
+    <button
+      aria-label="Cancel"
+      className="apply-gift-card-btn cancel small-12 medium-1"
+      onClick={[Function]}
+      tabIndex="0"
+      value="Cancel"
+    >
+      Cancel
+    </button>
+  </div>
+</div>
+`;
+
+exports[`GiftCardInputs renders correctly when loading 1`] = `
+<div
+  className="gift-card grid-x"
+>
+  <div
+    className="small-12 medium-6"
+  >
+    <label
+      className=""
+      htmlFor="giftCardNumber"
+    >
+      <p
+        className="error"
+      >
+        *
+      </p>
+      <p>
+        *Gift Card Number
+      </p>
+      <input
+        aria-label="Gift Card Number"
+        className="gift-card-number"
+        name="Gift Card Number"
+        onChange={[Function]}
+        placeholder="Gift Card Number"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <label
+      className=""
+      htmlFor="giftCardPin"
+    >
+      <p>
+        *Pin
+      </p>
+      <input
+        aria-label="Pin"
+        className="gift-card-pin"
+        name="Pin"
+        onChange={[Function]}
+        placeholder="Pin"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <button
+      aria-label="Apply Gift Card"
+      className="apply-gift-card-btn small-12 medium-3"
+      onClick={[Function]}
+      tabIndex="0"
+      value="Apply Gift Card"
+    >
+      <img
+        alt="Removing gift card"
+        className="loader"
+        src="test-file-stub"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`GiftCardInputs renders correctly with default props 1`] = `
+<div
+  className="gift-card grid-x"
+>
+  <div
+    className="small-12 medium-6"
+  >
+    <label
+      className=""
+      htmlFor="giftCardNumber"
+    >
+      <p
+        className="error"
+      >
+        *
+      </p>
+      <p>
+        *Gift Card Number
+      </p>
+      <input
+        aria-label="Gift Card Number"
+        className="gift-card-number"
+        name="Gift Card Number"
+        onChange={[Function]}
+        placeholder="Gift Card Number"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <label
+      className=""
+      htmlFor="giftCardPin"
+    >
+      <p>
+        *Pin
+      </p>
+      <input
+        aria-label="Pin"
+        className="gift-card-pin"
+        name="Pin"
+        onChange={[Function]}
+        placeholder="Pin"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <button
+      aria-label="Apply Gift Card"
+      className="apply-gift-card-btn small-12 medium-3"
+      onClick={[Function]}
+      tabIndex="0"
+      value="Apply Gift Card"
+    >
+      apply gift card
+    </button>
+  </div>
+</div>
+`;
+
+exports[`GiftCardInputs renders correctly with invalid fields 1`] = `
+<div
+  className="gift-card grid-x"
+>
+  <div
+    className="small-12 medium-6"
+  >
+    <label
+      className=""
+      htmlFor="giftCardNumber"
+    >
+      <p
+        className="error"
+      >
+        *
+      </p>
+      <p>
+        *Gift Card Number
+      </p>
+      <input
+        aria-label="Gift Card Number"
+        className="gift-card-number"
+        name="Gift Card Number"
+        onChange={[Function]}
+        placeholder="Gift Card Number"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <label
+      className=""
+      htmlFor="giftCardPin"
+    >
+      <p>
+        *Pin
+      </p>
+      <input
+        aria-label="Pin"
+        className="gift-card-pin"
+        name="Pin"
+        onChange={[Function]}
+        placeholder="Pin"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <button
+      aria-label="Apply Gift Card"
+      className="apply-gift-card-btn small-12 medium-3"
+      onClick={[Function]}
+      tabIndex="0"
+      value="Apply Gift Card"
+    >
+      apply gift card
+    </button>
+  </div>
+</div>
+`;
+
+exports[`GiftCardInputs renders correctly with unableToAddMessage 1`] = `
+<div
+  className="gift-card grid-x"
+>
+  <div
+    className="small-12 medium-6"
+  >
+    <label
+      className=""
+      htmlFor="giftCardNumber"
+    >
+      <p
+        className="error"
+      >
+        *
+        test message
+      </p>
+      <p>
+        *Gift Card Number
+      </p>
+      <input
+        aria-label="Gift Card Number"
+        className="gift-card-number"
+        name="Gift Card Number"
+        onChange={[Function]}
+        placeholder="Gift Card Number"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <label
+      className=""
+      htmlFor="giftCardPin"
+    >
+      <p>
+        *Pin
+      </p>
+      <input
+        aria-label="Pin"
+        className="gift-card-pin"
+        name="Pin"
+        onChange={[Function]}
+        placeholder="Pin"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <button
+      aria-label="Apply Gift Card"
+      className="apply-gift-card-btn small-12 medium-3"
+      onClick={[Function]}
+      tabIndex="0"
+      value="Apply Gift Card"
+    >
+      apply gift card
+    </button>
+  </div>
+</div>
+`;

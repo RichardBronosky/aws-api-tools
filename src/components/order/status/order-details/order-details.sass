@@ -1,0 +1,59 @@
+@import 'src/assets/css/mixins'
+@import 'src/assets/css/variables'
+  
+.order-details
+  padding: 1rem
+  h2
+    font-weight: 600
+    text-transform: none
+    margin-bottom: 0.25rem
+  h3
+    font-size: $txt-medium
+    font-weight: 600
+    width: 100%
+    border-top: solid
+    border-color: $primary
+    padding: 0.75rem 0
+    background: $grey
+    padding-left: 0.25rem
+    +large-up
+      font-size: $txt-medium-up
+  .primary
+    +large-up
+      float: right
+  .order-status-detailed-header
+    padding: 1rem 0
+    display: flex
+    .order-number
+      text-align: center
+      justify-content: center
+      +large-up
+        text-align: left
+      .ordered-on
+        font-size: $txt-small
+    button
+      display: flex
+      justify-content: center
+  .order-status-payment-history
+    a
+      color: $primary
+      &:hover
+        text-decoration: underline
+    .medium-6
+      padding: 0.5rem
+    .payment-section
+      padding: 0.35rem 0
+      width: 100%
+      button
+        color: $primary
+        &:hover
+          text-decoration: underline
+      #other-payment-details-accordion, #finance-details-accordion
+        .payment
+          padding-top: 0.5rem
+          .small-12
+            font-size: $txt-small
+  .order-status-delivery-setup
+    padding: 1rem 0
+    .medium-6
+      padding: 0.5rem

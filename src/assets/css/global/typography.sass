@@ -1,0 +1,84 @@
+
+@import '../mixins'
+@import '../variables'
+
+
+h1
+  color: $primary-invert
+  margin: 0 auto
+  padding: .5rem 0rem
+  font-size: $txt-small
+  max-width: 104rem
+  text-align: center
+  padding-left: .4rem
+  +large-wide
+      padding: 0.625rem 0
+  +large-up
+      text-align: left
+  &:focus
+    outline: none !important
+h2
+  color: $dark-grey
+  line-height: 1
+  font-size: $txt-large
+  font-weight: 300
+  text-transform: uppercase
+h3
+  color: $dark-grey
+  line-height: 1
+  font-size: $txt-medium
+  font-weight: 300 
+h5
+  font-size: $txt-xsmall
+  color: $dark-grey
+
+hr
+  margin: 1rem 0
+  width: 100%
+  border: none
+  border-top: 1px solid $grey
+
+p
+  color: $dark-grey
+  font-size: $txt-medium
+
+a
+  text-decoration: none
+  font-size: $txt-medium
+
+label
+  font-size: $txt-xsmall
+
+label
+  p
+   font-size: $txt-xsmall
+
+@font-face
+  font-family: 'Open Sans'
+  font-style: normal
+  font-weight: 300
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('../fonts/open-sans-v15-latin-300.woff2') format('woff2'), url('../fonts/open-sans-v15-latin-300.woff') format('woff'), url('../fonts/open-sans-v15-latin-300.ttf') format('truetype')
+
+@font-face
+  font-family: 'Open Sans'
+  font-style: normal
+  font-weight: 400
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'), url('../fonts/open-sans-v15-latin-regular.woff') format('woff'), url('../fonts/open-sans-v15-latin-regular.ttf') format('truetype')
+
+@font-face
+  font-family: 'Open Sans'
+  font-style: normal
+  font-weight: 600
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url('../fonts/open-sans-v15-latin-600.woff2') format('woff2'), url('../fonts/open-sans-v15-latin-600.woff') format('woff'), url('../fonts/open-sans-v15-latin-600.ttf') format('truetype')
+
+@font-face
+  font-family: 'Open Sans'
+  font-style: normal
+  font-weight: 700
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/open-sans-v15-latin-700.woff2') format('woff2'), url('../fonts/open-sans-v15-latin-700.woff') format('woff'), url('../fonts/open-sans-v15-latin-700.ttf') format('truetype')
+
+@font-face
+  font-family: 'Open Sans'
+  font-style: normal
+  font-weight: 800
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url('../fonts/open-sans-v15-latin-800.woff2') format('woff2'), url('../fonts/open-sans-v15-latin-800.woff') format('woff'), url('../fonts/open-sans-v15-latin-800.ttf') format('truetype')

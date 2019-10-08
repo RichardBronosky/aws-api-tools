@@ -1,0 +1,126 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.modal
+  .see-in-store-modal    
+    width: 100%
+    height: 85%
+    &.modal-content   
+      background-color: $light-grey
+      border: solid $grey 0.4rem
+      width: 70%
+      position: fixed
+      right: auto
+      bottom: auto
+      left: 50%
+      top: 50%
+      transform: translate(-50%,-50%)
+      min-width: 60rem
+      max-width: 60rem
+      +landscape
+        height: 90%
+        max-height: 90% !important
+      +medium-down
+        min-width: 10rem
+        width: 95%
+        max-height: 85%
+      .grid-x
+        height: 100%
+    .close-modal
+      position: absolute
+      top: -1.45em
+      right: -1.45em
+      background: $primary
+      width: 3em
+      height: 3em
+      border-radius: 50%
+      z-index: 4
+      &:hover
+        background: $light-blue
+      .close
+        position: absolute
+        top: 0
+        right: 0
+        left: 0
+        bottom: 0
+        width: 2.5em
+        height: 2.5em
+        margin: auto
+        background-size: 100% !important
+    .card
+      display: block 
+      padding: 0.5rem !important  
+      align-content: unset !important
+      justify-content: center
+      +medium-up
+        display: flex
+        padding: 0 !important    
+        overflow: hidden
+        flex-flow: unset 
+
+      +landscape
+        flex-flow: unset
+        overflow: auto
+      .leftScroll 
+        width: 100%
+        height: 100%
+        overflow: auto 
+        +medium-up      
+          margin: 0 auto        
+          text-align: center
+          width: 45%             
+        > img 
+          width: auto           
+          margin: 0px auto
+          margin-bottom: 11px
+          display: block     
+          max-height: 5rem     
+          +medium-up
+            height: auto
+            margin: 20px auto
+            max-height: 10rem   
+          +landscape
+            display: none   
+        .locations
+          overflow: unset
+          height: auto
+        .message
+          padding-bottom: 1rem
+          text-align: center
+        .title
+          color: $dark-grey
+          font-weight: bold
+          text-align: center
+          text-transform: uppercase
+          padding: 0px
+          font-size: 1.25em
+          margin: 10px 0px
+        >.heading
+          font-size: 1em
+          font-weight: bold
+          text-transform: uppercase
+          margin: 10px auto          
+          padding-top: 15px
+          border-top: 1px solid #ccc
+          display: none
+          +medium-up
+            display: block
+          +landscape
+            display: block
+      .map
+        width: 100%
+        height: 47%   
+        position: relative  
+        z-index: 0
+        display: none
+        +medium-up
+          height: 100% 
+          width: 55%
+          display: block  
+        +landscape
+          display: none
+        .mapHolder
+          height: 100%
+          h1
+            color: $dark-grey
+            padding-left: 0

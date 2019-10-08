@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DistributionCenterPopup renders correctly when popup is closed 1`] = `
+<div
+  className="distribution-center-popup"
+>
+  <button
+    alt="Lakeland Distribution Center"
+    className="distribution-center-button"
+    onClick={[Function]}
+    tabIndex="0"
+  >
+    Lakeland Distribution Center
+  </button>
+</div>
+`;
+
+exports[`DistributionCenterPopup renders correctly when popup is open 1`] = `
+<div
+  className="distribution-center-popup"
+>
+  <button
+    alt="Lakeland Distribution Center"
+    aria-expanded={true}
+    className="distribution-center-button"
+    onClick={[Function]}
+    tabIndex="0"
+  >
+    Lakeland Distribution Center
+  </button>
+  <div
+    className="popup container"
+  >
+    <p>
+      1475 AIRPORT RD, Lakeland, FL 33811
+    </p>
+    <div>
+      Contact:
+      <a
+        gtm-action="Call distribution center click"
+        gtm-category="cart/checkout"
+        gtm-label="Call distribution center"
+        gtm-value={null}
+        href="tel:863-686-3737"
+        onClick={[Function]}
+        title="Call distribution center"
+      >
+        863-686-3737
+      </a>
+    </div>
+  </div>
+</div>
+`;

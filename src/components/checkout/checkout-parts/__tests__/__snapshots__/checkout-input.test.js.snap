@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutInput renders correctly as a email type input 1`] = `
+<label
+  className="label testField"
+  htmlFor="testField"
+>
+  Test Label
+   
+  <input
+    aria-invalid={null}
+    aria-required={false}
+    checked={false}
+    className="test"
+    id="testField"
+    name="Test Label"
+    onChange={[Function]}
+    onClick={[Function]}
+    placeholder="Test Label"
+    type="email"
+  />
+  <span />
+</label>
+`;
+
+exports[`CheckoutInput renders correctly as a radio type input 1`] = `
+Array [
+  <input
+    aria-invalid={null}
+    aria-required={false}
+    checked={true}
+    className="test"
+    id="testField"
+    name="Test Name"
+    onChange={[Function]}
+    onClick={[Function]}
+    placeholder=""
+    type="radio"
+    value={null}
+  />,
+  <span />,
+]
+`;
+
+exports[`CheckoutInput renders correctly as a radio type input an after component 1`] = `
+<label
+  className="label testField"
+  htmlFor="testField"
+>
+  Test Label
+   
+  <input
+    aria-invalid={null}
+    aria-required={false}
+    checked={false}
+    className="test"
+    id="testField"
+    name="Test Label"
+    onChange={[Function]}
+    onClick={[Function]}
+    placeholder="Test Label"
+    type="text"
+  />
+  <span>
+    <p>
+      after component test
+    </p>
+  </span>
+</label>
+`;
+
+exports[`CheckoutInput renders correctly as a standard text input 1`] = `
+<label
+  className="label testField"
+  htmlFor="testField"
+>
+  Test Label
+   
+  <input
+    aria-invalid={null}
+    aria-required={false}
+    checked={false}
+    className="test"
+    id="testField"
+    name="Test Label"
+    onChange={[Function]}
+    onClick={[Function]}
+    placeholder="Test Label"
+    type="text"
+  />
+  <span />
+</label>
+`;
+
+exports[`CheckoutInput renders correctly as a tel type input 1`] = `
+<label
+  className="label testField"
+  htmlFor="testField"
+>
+  Test Label
+   
+  <input
+    aria-invalid={null}
+    aria-required={false}
+    checked={false}
+    className="test"
+    id="testField"
+    name="Test Label"
+    onChange={[Function]}
+    onClick={[Function]}
+    placeholder="Test Label"
+    type="tel"
+  />
+  <span />
+</label>
+`;
+
+exports[`CheckoutInput renders correctly as a text type input that is required 1`] = `
+<label
+  className="label testField"
+  htmlFor="testField"
+>
+  Test Label*
+   
+  <input
+    aria-invalid={true}
+    aria-required={true}
+    checked={false}
+    className="test"
+    id="testField"
+    name="Test Label"
+    onChange={[Function]}
+    onClick={[Function]}
+    placeholder="Test Label"
+    type="text"
+  />
+  <span />
+</label>
+`;
+
+exports[`CheckoutInput renders correctly as a text type input with invalid data 1`] = `
+<label
+  className="label testField"
+  htmlFor="testField"
+>
+  Test Label
+   
+  <input
+    aria-invalid={null}
+    aria-required={false}
+    checked={false}
+    className="test invalid"
+    id="testField"
+    name="Test Label"
+    onChange={[Function]}
+    onClick={[Function]}
+    placeholder="Test Label"
+    type="text"
+  />
+  <span />
+</label>
+`;

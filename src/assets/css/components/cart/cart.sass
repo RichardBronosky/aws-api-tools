@@ -1,0 +1,85 @@
+@import '../../mixins'
+@import '../../variables'
+
+.cart-page
+  margin-top: 1em
+  .bold
+    font-weight: 600
+  h1
+    color: $dark-grey
+    line-height: 1
+    font-size: $txt-xlarge
+    font-weight: 300
+    padding: 0
+    text-align: left
+    margin-bottom: 1.2rem
+    margin-top: 1.5rem
+    +medium-down
+      text-align: center
+  .cart-product-list-container
+    margin-right: 1em
+    +medium-down
+      margin-top: 0
+    .financing-disclaimer
+      color: $red
+      text-transform: uppercase
+    .slider
+      margin-top: 1.5em
+      +large-up
+        margin-top: 0
+      h2 
+        font-size: $txt-medium
+      .slick-slider
+        +large-up
+          margin-left: -2em
+          margin-right: -2em
+        .buy-now-popup
+          .buy-now
+            font-size: $txt-xsmall
+  
+  .checkout-sticky
+    .order-detail-expander
+      padding: 0
+
+  .checkout-container
+    position: fixed
+    bottom: 0
+    width: 100%!important
+    z-index: 1
+    border-top: 2px solid $grey
+    margin-left: 0 !important
+    +large-up
+      margin-top: 0 !important
+      position: -webkit-sticky
+      position: sticky
+      top: 10.375em!important
+      right: 0
+      height: 100%
+      width: 23%!important
+      z-index: 8
+      border: 0
+    .checkout-sticky
+      margin-top: 0
+.cart-bottom-checkout
+  margin: 1rem 0 .2rem 0
+  background-color: $primary-invert
+  .checkout-sticky
+    .checkout-info
+      &.bottom
+        margin: 0
+  .button-container
+    display: flex
+    .checkout-btn-container
+      width: 100% !important
+    .paypal-btn-container
+      margin-top: .5rem
+      padding: 0
+      +medium-up
+        display: none!important
+      .paypal
+        padding: 0 1rem
+        .loader
+          height: 2rem
+          width: 100%
+          +medium-down
+            width: 33.75%

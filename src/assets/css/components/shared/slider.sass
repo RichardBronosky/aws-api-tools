@@ -1,0 +1,127 @@
+@import '../../mixins'
+@import '../../variables'
+
+.slider
+  width: 100%
+  max-height: 611px
+
+  +large-up
+    max-height: 1000px
+  .category-tile
+    width: 90%
+    margin: auto
+    +medium-up
+      width: 100%
+  .product-tile
+    width: 90%
+    margin: auto
+    +medium-up
+      width: 100%
+.slick-slider
+  padding: 0
+  max-width: 104rem
+  margin: 0 auto!important
+  margin-top: 0.75rem
+  margin-bottom: 2rem !important
+  .product-location
+    display: none
+  +medium-up
+    padding: 0 4rem
+  button
+    &.slick-prev, &.slick-next
+      color: $dark-grey
+      font-size: 3rem
+      line-height: 0
+      top: 45%
+      height: 6.25rem
+      width: 1.75rem
+      +medium-up
+        top: 38%
+        width: 1.75rem
+      &:hover
+        color: $primary
+      &:before
+        display: none
+      .hide
+        display: none
+    &.slick-prev
+      left: 0
+      z-index: 1
+      +large-up
+        transform: scale(2,3)
+        fill: $medium-grey
+        left: 10px
+    &.slick-next
+      right: 0
+      z-index: 1
+      +large-up
+        fill: $medium-grey
+        transform: scale(2,3)
+        right: 10px
+
+  .slick-list
+    padding: 1.8rem 0
+    +large-up
+      width: 100%
+      padding: 1rem 0
+  .slick-slide
+    padding: 0 1rem
+    font-weight: bold
+  .slick-dots
+      position: inherit !important
+      bottom: 0
+      
+      li
+        button
+          &:before
+           font-size: 5.3rem
+           top: -27px
+  .product-tile
+    .item
+     +small
+        min-height: 24.438rem
+.slider-head
+  text-align: center
+  height: auto
+  width: 100%
+  max-width: 104rem
+  margin: 0 auto
+  position: relative
+  h2
+    text-align: center
+  .slider-link
+    display: inline
+    +large-up
+      position: absolute
+      top: 0.475rem
+      right: 5rem
+    a
+      font-size: $txt-medium
+      color: $dark-grey
+      text-transform: uppercase
+      &:hover
+        color: $primary !important
+
+
+.variation-slider, .small 
+    .slick-prev
+      -webkit-transform: scale(1, 1)!important
+      transform: scale(1, 1)!important
+    .slick-next
+      -webkit-transform: scale(1, 1)!important
+      transform: scale(1, 1)!important
+
+.product-collection-slider
+  .product-tile
+    max-width: 600px
+
+
+.small 
+  margin-top: 2em
+  .slick-prev, .slick-next
+      top: 18% !important
+
+
+.generated-page
+  .slider
+    margin: 1rem 0

@@ -1,0 +1,36 @@
+@import '../../mixins'
+@import '../../variables'
+
+.search-view-switcher
+  position: absolute
+  top: 1em
+  display: none
+  +large-up
+    display: inline
+  .view-label
+    display: inline
+    position: relative
+    left: .1em
+    font-size: $txt-medium
+    text-transform: uppercase
+    margin-right: 0.1em
+    color: $dark-grey
+    font-weight: 500
+  button
+    position: relative
+    top: 0.05em
+    margin-left: 0.75em
+.switcher-icon
+  color: $dark-grey
+  height: 25px !important
+  width: 25px !important
+  &.selected
+    color: $primary
+
+
+.grid-switcher
+  margin-top: -.3rem
+  width: 28px
+
+.grid4
+  width: 40px

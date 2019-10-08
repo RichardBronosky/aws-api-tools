@@ -1,0 +1,2143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShippingSection renders correctly when hiding addressLookup 1`] = `
+<form
+  className="shipping-form"
+>
+  <p
+    className="required-label"
+  >
+    *Asterisks indicate required fields in the form below
+  </p>
+  <label
+    className="label firstName"
+    htmlFor="firstName"
+  >
+    First Name*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="firstName"
+      name="First Name"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="First Name"
+      type="text"
+      value="Tester"
+    />
+    <span />
+  </label>
+  <label
+    className="label lastName"
+    htmlFor="lastName"
+  >
+    Last Name*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="lastName"
+      name="Last Name"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Last Name"
+      type="text"
+      value="Test"
+    />
+    <span />
+  </label>
+  <span
+    className="hide508"
+    id="addressInstructions"
+  >
+    Start typing to receive address suggestions.
+  </span>
+  <label
+    className="label address1"
+    htmlFor="address1"
+  >
+    Street Address*
+     
+    <input
+      aria-invalid={true}
+      aria-required={true}
+      checked={false}
+      className="street"
+      id="address1"
+      name="Street Address"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Street Address"
+      type="text"
+      value="103 seffner ave"
+    />
+    <span />
+  </label>
+  <label
+    className="label address2"
+    htmlFor="address2"
+  >
+    Apt, Suite, Etc
+     
+    <input
+      aria-invalid={null}
+      checked={false}
+      className="apt"
+      id="address2"
+      name="Apt, Suite, Etc"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Apt, Suite, Etc"
+      type="text"
+      value=""
+    />
+    <span />
+  </label>
+  <label
+    className="label city"
+    htmlFor="city"
+  >
+    City*
+     
+    <input
+      aria-invalid={true}
+      aria-required={true}
+      checked={false}
+      className="city"
+      id="city"
+      name="City"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="City"
+      type="text"
+      value="seffner"
+    />
+    <span />
+  </label>
+  <label
+    className="label state"
+    htmlFor="state"
+  >
+    State*
+    <select
+      className="state"
+      name="state"
+      onChange={[Function]}
+      value="FL"
+    >
+      <option
+        value="AZ"
+      >
+        AZ
+      </option>
+      <option
+        value="AL"
+      >
+        AL
+      </option>
+      <option
+        value="AK"
+      >
+        AK
+      </option>
+      <option
+        value="AR"
+      >
+        AR
+      </option>
+      <option
+        value="CA"
+      >
+        CA
+      </option>
+      <option
+        value="CO"
+      >
+        CO
+      </option>
+      <option
+        value="CT"
+      >
+        CT
+      </option>
+      <option
+        value="DC"
+      >
+        DC
+      </option>
+      <option
+        value="DE"
+      >
+        DE
+      </option>
+      <option
+        value="FL"
+      >
+        FL
+      </option>
+      <option
+        value="GA"
+      >
+        GA
+      </option>
+      <option
+        value="HI"
+      >
+        HI
+      </option>
+      <option
+        value="ID"
+      >
+        ID
+      </option>
+      <option
+        value="IL"
+      >
+        IL
+      </option>
+      <option
+        value="IN"
+      >
+        IN
+      </option>
+      <option
+        value="IA"
+      >
+        IA
+      </option>
+      <option
+        value="KS"
+      >
+        KS
+      </option>
+      <option
+        value="KY"
+      >
+        KY
+      </option>
+      <option
+        value="LA"
+      >
+        LA
+      </option>
+      <option
+        value="ME"
+      >
+        ME
+      </option>
+      <option
+        value="MD"
+      >
+        MD
+      </option>
+      <option
+        value="MA"
+      >
+        MA
+      </option>
+      <option
+        value="MI"
+      >
+        MI
+      </option>
+      <option
+        value="MN"
+      >
+        MN
+      </option>
+      <option
+        value="MS"
+      >
+        MS
+      </option>
+      <option
+        value="MO"
+      >
+        MO
+      </option>
+      <option
+        value="MT"
+      >
+        MT
+      </option>
+      <option
+        value="NE"
+      >
+        NE
+      </option>
+      <option
+        value="NV"
+      >
+        NV
+      </option>
+      <option
+        value="NH"
+      >
+        NH
+      </option>
+      <option
+        value="NJ"
+      >
+        NJ
+      </option>
+      <option
+        value="NM"
+      >
+        NM
+      </option>
+      <option
+        value="NY"
+      >
+        NY
+      </option>
+      <option
+        value="NC"
+      >
+        NC
+      </option>
+      <option
+        value="ND"
+      >
+        ND
+      </option>
+      <option
+        value="OH"
+      >
+        OH
+      </option>
+      <option
+        value="OK"
+      >
+        OK
+      </option>
+      <option
+        value="OR"
+      >
+        OR
+      </option>
+      <option
+        value="PA"
+      >
+        PA
+      </option>
+      <option
+        value="RI"
+      >
+        RI
+      </option>
+      <option
+        value="SC"
+      >
+        SC
+      </option>
+      <option
+        value="SD"
+      >
+        SD
+      </option>
+      <option
+        value="TN"
+      >
+        TN
+      </option>
+      <option
+        value="TX"
+      >
+        TX
+      </option>
+      <option
+        value="UT"
+      >
+        UT
+      </option>
+      <option
+        value="VT"
+      >
+        VT
+      </option>
+      <option
+        value="VA"
+      >
+        VA
+      </option>
+      <option
+        value="WA"
+      >
+        WA
+      </option>
+      <option
+        value="WV"
+      >
+        WV
+      </option>
+      <option
+        value="WI"
+      >
+        WI
+      </option>
+      <option
+        value="WY"
+      >
+        WY
+      </option>
+    </select>
+  </label>
+  <label
+    className="label zip"
+    htmlFor="zip"
+  >
+    Zip*
+     
+    <input
+      aria-invalid={true}
+      aria-required={true}
+      checked={false}
+      className="zip"
+      id="zip"
+      name="Zip"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Zip"
+      type="text"
+      value="33584"
+    />
+    <span />
+  </label>
+  <label
+    className="label phone"
+    htmlFor="phone"
+  >
+    Phone Number*
+     
+    <span
+      className="hide508"
+    >
+      Numbers and hyphens only
+    </span>
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="phone"
+      name="Phone Number"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Phone Number"
+      type="tel"
+      value="4040404040"
+    />
+    <span />
+  </label>
+  <label
+    className="label altPhone"
+    htmlFor="altPhone"
+  >
+    Alternate Phone
+     
+    <input
+      aria-invalid={null}
+      checked={false}
+      id="altPhone"
+      name="Alternate Phone"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Alternate Phone"
+      type="tel"
+      value=""
+    />
+    <span />
+  </label>
+  <label
+    className="label email"
+    htmlFor="email"
+  >
+    Email*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="email"
+      name="Email"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Email"
+      type="email"
+      value="test@test.com"
+    />
+    <span />
+  </label>
+  <fieldset
+    className="text-me-container"
+  >
+    <legend
+      className="text-me-label"
+    >
+      Text me delivery time frames
+    </legend>
+    <input
+      aria-invalid={null}
+      checked={true}
+      className="text-me"
+      id="deliveryTexts"
+      name="text-me"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="radio"
+      value={true}
+    />
+    <span>
+      <span
+        className="radio-label"
+      >
+        Yes
+      </span>
+    </span>
+    <input
+      aria-invalid={null}
+      checked={false}
+      className="text-me"
+      id="deliveryTexts"
+      name="text-me"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="radio"
+      value={false}
+    />
+    <span>
+      <span
+        className="radio-label"
+      >
+        No
+      </span>
+    </span>
+  </fieldset>
+  <br />
+  <div
+    className="checkbox-container"
+  >
+    <input
+      aria-invalid={null}
+      checked={true}
+      className="text-me"
+      id="emailCampaign"
+      name="Sign up for Rooms To Go email promotions and news letters"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="checkbox"
+      value=""
+    />
+    <span>
+      <p>
+        Sign up for Rooms To Go email promotions and news letters
+      </p>
+    </span>
+  </div>
+</form>
+`;
+
+exports[`ShippingSection renders correctly when showing pending addressLookup 1`] = `
+<form
+  className="shipping-form"
+>
+  <p
+    className="required-label"
+  >
+    *Asterisks indicate required fields in the form below
+  </p>
+  <label
+    className="label firstName"
+    htmlFor="firstName"
+  >
+    First Name*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="firstName"
+      name="First Name"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="First Name"
+      type="text"
+      value="Tester"
+    />
+    <span />
+  </label>
+  <label
+    className="label lastName"
+    htmlFor="lastName"
+  >
+    Last Name*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="lastName"
+      name="Last Name"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Last Name"
+      type="text"
+      value="Test"
+    />
+    <span />
+  </label>
+  <span
+    className="hide508"
+    id="addressInstructions"
+  >
+    Start typing to receive address suggestions.
+  </span>
+  <span
+    className="hide508"
+    id="addressInstructions"
+  >
+    Start typing to receive address suggestions.
+  </span>
+  <label
+    htmlFor="address"
+  >
+    <span
+      className="address-label"
+    >
+      Address
+      <span
+        className="hide508"
+      >
+         Lookup
+      </span>
+      *
+    </span>
+    <div
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    >
+      <input
+        aria-activedescendant=""
+        aria-autocomplete="list"
+        aria-controls="addressSuggest"
+        aria-describedby="addressInstructions"
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-label="Address Lookup"
+        aria-required={true}
+        autoComplete="new-password"
+        className="address-lookup-input"
+        name="address-lookup"
+        onBlur={[Function]}
+        onBlurCapture={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Address Lookup*"
+        role="combobox"
+        type="text"
+        value="Test Address"
+      />
+    </div>
+    <div
+      className="manual-address"
+    >
+      <a
+        onClick={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        Enter address manually.
+      </a>
+    </div>
+  </label>
+  <label
+    className="label phone"
+    htmlFor="phone"
+  >
+    Phone Number*
+     
+    <span
+      className="hide508"
+    >
+      Numbers and hyphens only
+    </span>
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="phone"
+      name="Phone Number"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Phone Number"
+      type="tel"
+      value="4040404040"
+    />
+    <span />
+  </label>
+  <label
+    className="label altPhone"
+    htmlFor="altPhone"
+  >
+    Alternate Phone
+     
+    <input
+      aria-invalid={null}
+      checked={false}
+      id="altPhone"
+      name="Alternate Phone"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Alternate Phone"
+      type="tel"
+      value=""
+    />
+    <span />
+  </label>
+  <label
+    className="label email"
+    htmlFor="email"
+  >
+    Email*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="email"
+      name="Email"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Email"
+      type="email"
+      value="test@test.com"
+    />
+    <span />
+  </label>
+  <fieldset
+    className="text-me-container"
+  >
+    <legend
+      className="text-me-label"
+    >
+      Text me delivery time frames
+    </legend>
+    <input
+      aria-invalid={null}
+      checked={true}
+      className="text-me"
+      id="deliveryTexts"
+      name="text-me"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="radio"
+      value={true}
+    />
+    <span>
+      <span
+        className="radio-label"
+      >
+        Yes
+      </span>
+    </span>
+    <input
+      aria-invalid={null}
+      checked={false}
+      className="text-me"
+      id="deliveryTexts"
+      name="text-me"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="radio"
+      value={false}
+    />
+    <span>
+      <span
+        className="radio-label"
+      >
+        No
+      </span>
+    </span>
+  </fieldset>
+  <br />
+  <div
+    className="checkbox-container"
+  >
+    <input
+      aria-invalid={null}
+      checked={true}
+      className="text-me"
+      id="emailCampaign"
+      name="Sign up for Rooms To Go email promotions and news letters"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="checkbox"
+      value=""
+    />
+    <span>
+      <p>
+        Sign up for Rooms To Go email promotions and news letters
+      </p>
+    </span>
+  </div>
+</form>
+`;
+
+exports[`ShippingSection renders correctly when showing successful addressLookup 1`] = `
+<form
+  className="shipping-form"
+>
+  <p
+    className="required-label"
+  >
+    *Asterisks indicate required fields in the form below
+  </p>
+  <label
+    className="label firstName"
+    htmlFor="firstName"
+  >
+    First Name*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="firstName"
+      name="First Name"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="First Name"
+      type="text"
+      value="Tester"
+    />
+    <span />
+  </label>
+  <label
+    className="label lastName"
+    htmlFor="lastName"
+  >
+    Last Name*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="lastName"
+      name="Last Name"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Last Name"
+      type="text"
+      value="Test"
+    />
+    <span />
+  </label>
+  <span
+    className="hide508"
+    id="addressInstructions"
+  >
+    Start typing to receive address suggestions.
+  </span>
+  <div
+    className="address-selected card"
+  >
+    <svg
+      className="checkmark-add-to-cart"
+      viewBox="0 0 52 52"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        className="checkmark-add-to-cart__circle"
+        cx="26"
+        cy="26"
+        fill="none"
+        r="25"
+      />
+      <path
+        className="checkmark-add-to-cart__check"
+        d="M14.1 27.2l7.1 7.2 16.7-16.8"
+        fill="none"
+      />
+    </svg>
+    <p>
+      Test Address
+    </p>
+    <p />
+    <button
+      aria-label="Change Address"
+      className="change-address-btn"
+      name="change_address"
+      onClick={[Function]}
+      value="Change Address"
+    >
+      Change
+    </button>
+  </div>
+  <label
+    className="label phone"
+    htmlFor="phone"
+  >
+    Phone Number*
+     
+    <span
+      className="hide508"
+    >
+      Numbers and hyphens only
+    </span>
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="phone"
+      name="Phone Number"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Phone Number"
+      type="tel"
+      value="4040404040"
+    />
+    <span />
+  </label>
+  <label
+    className="label altPhone"
+    htmlFor="altPhone"
+  >
+    Alternate Phone
+     
+    <input
+      aria-invalid={null}
+      checked={false}
+      id="altPhone"
+      name="Alternate Phone"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Alternate Phone"
+      type="tel"
+      value=""
+    />
+    <span />
+  </label>
+  <label
+    className="label email"
+    htmlFor="email"
+  >
+    Email*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="email"
+      name="Email"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Email"
+      type="email"
+      value="test@test.com"
+    />
+    <span />
+  </label>
+  <fieldset
+    className="text-me-container"
+  >
+    <legend
+      className="text-me-label"
+    >
+      Text me delivery time frames
+    </legend>
+    <input
+      aria-invalid={null}
+      checked={true}
+      className="text-me"
+      id="deliveryTexts"
+      name="text-me"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="radio"
+      value={true}
+    />
+    <span>
+      <span
+        className="radio-label"
+      >
+        Yes
+      </span>
+    </span>
+    <input
+      aria-invalid={null}
+      checked={false}
+      className="text-me"
+      id="deliveryTexts"
+      name="text-me"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="radio"
+      value={false}
+    />
+    <span>
+      <span
+        className="radio-label"
+      >
+        No
+      </span>
+    </span>
+  </fieldset>
+  <br />
+  <div
+    className="checkbox-container"
+  >
+    <input
+      aria-invalid={null}
+      checked={true}
+      className="text-me"
+      id="emailCampaign"
+      name="Sign up for Rooms To Go email promotions and news letters"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="checkbox"
+      value=""
+    />
+    <span>
+      <p>
+        Sign up for Rooms To Go email promotions and news letters
+      </p>
+    </span>
+  </div>
+</form>
+`;
+
+exports[`ShippingSection renders correctly with default props 1`] = `
+<form
+  className="shipping-form"
+>
+  <p
+    className="required-label"
+  >
+    *Asterisks indicate required fields in the form below
+  </p>
+  <label
+    className="label firstName"
+    htmlFor="firstName"
+  >
+    First Name*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="firstName"
+      name="First Name"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="First Name"
+      type="text"
+      value="Tester"
+    />
+    <span />
+  </label>
+  <label
+    className="label lastName"
+    htmlFor="lastName"
+  >
+    Last Name*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="lastName"
+      name="Last Name"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Last Name"
+      type="text"
+      value="Test"
+    />
+    <span />
+  </label>
+  <span
+    className="hide508"
+    id="addressInstructions"
+  >
+    Start typing to receive address suggestions.
+  </span>
+  <label
+    className="label address1"
+    htmlFor="address1"
+  >
+    Street Address*
+     
+    <input
+      aria-invalid={true}
+      aria-required={true}
+      checked={false}
+      className="street"
+      id="address1"
+      name="Street Address"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Street Address"
+      type="text"
+      value="103 seffner ave"
+    />
+    <span />
+  </label>
+  <label
+    className="label address2"
+    htmlFor="address2"
+  >
+    Apt, Suite, Etc
+     
+    <input
+      aria-invalid={null}
+      checked={false}
+      className="apt"
+      id="address2"
+      name="Apt, Suite, Etc"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Apt, Suite, Etc"
+      type="text"
+      value=""
+    />
+    <span />
+  </label>
+  <label
+    className="label city"
+    htmlFor="city"
+  >
+    City*
+     
+    <input
+      aria-invalid={true}
+      aria-required={true}
+      checked={false}
+      className="city"
+      id="city"
+      name="City"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="City"
+      type="text"
+      value="seffner"
+    />
+    <span />
+  </label>
+  <label
+    className="label state"
+    htmlFor="state"
+  >
+    State*
+    <select
+      className="state"
+      name="state"
+      onChange={[Function]}
+      value="FL"
+    >
+      <option
+        value="AZ"
+      >
+        AZ
+      </option>
+      <option
+        value="AL"
+      >
+        AL
+      </option>
+      <option
+        value="AK"
+      >
+        AK
+      </option>
+      <option
+        value="AR"
+      >
+        AR
+      </option>
+      <option
+        value="CA"
+      >
+        CA
+      </option>
+      <option
+        value="CO"
+      >
+        CO
+      </option>
+      <option
+        value="CT"
+      >
+        CT
+      </option>
+      <option
+        value="DC"
+      >
+        DC
+      </option>
+      <option
+        value="DE"
+      >
+        DE
+      </option>
+      <option
+        value="FL"
+      >
+        FL
+      </option>
+      <option
+        value="GA"
+      >
+        GA
+      </option>
+      <option
+        value="HI"
+      >
+        HI
+      </option>
+      <option
+        value="ID"
+      >
+        ID
+      </option>
+      <option
+        value="IL"
+      >
+        IL
+      </option>
+      <option
+        value="IN"
+      >
+        IN
+      </option>
+      <option
+        value="IA"
+      >
+        IA
+      </option>
+      <option
+        value="KS"
+      >
+        KS
+      </option>
+      <option
+        value="KY"
+      >
+        KY
+      </option>
+      <option
+        value="LA"
+      >
+        LA
+      </option>
+      <option
+        value="ME"
+      >
+        ME
+      </option>
+      <option
+        value="MD"
+      >
+        MD
+      </option>
+      <option
+        value="MA"
+      >
+        MA
+      </option>
+      <option
+        value="MI"
+      >
+        MI
+      </option>
+      <option
+        value="MN"
+      >
+        MN
+      </option>
+      <option
+        value="MS"
+      >
+        MS
+      </option>
+      <option
+        value="MO"
+      >
+        MO
+      </option>
+      <option
+        value="MT"
+      >
+        MT
+      </option>
+      <option
+        value="NE"
+      >
+        NE
+      </option>
+      <option
+        value="NV"
+      >
+        NV
+      </option>
+      <option
+        value="NH"
+      >
+        NH
+      </option>
+      <option
+        value="NJ"
+      >
+        NJ
+      </option>
+      <option
+        value="NM"
+      >
+        NM
+      </option>
+      <option
+        value="NY"
+      >
+        NY
+      </option>
+      <option
+        value="NC"
+      >
+        NC
+      </option>
+      <option
+        value="ND"
+      >
+        ND
+      </option>
+      <option
+        value="OH"
+      >
+        OH
+      </option>
+      <option
+        value="OK"
+      >
+        OK
+      </option>
+      <option
+        value="OR"
+      >
+        OR
+      </option>
+      <option
+        value="PA"
+      >
+        PA
+      </option>
+      <option
+        value="RI"
+      >
+        RI
+      </option>
+      <option
+        value="SC"
+      >
+        SC
+      </option>
+      <option
+        value="SD"
+      >
+        SD
+      </option>
+      <option
+        value="TN"
+      >
+        TN
+      </option>
+      <option
+        value="TX"
+      >
+        TX
+      </option>
+      <option
+        value="UT"
+      >
+        UT
+      </option>
+      <option
+        value="VT"
+      >
+        VT
+      </option>
+      <option
+        value="VA"
+      >
+        VA
+      </option>
+      <option
+        value="WA"
+      >
+        WA
+      </option>
+      <option
+        value="WV"
+      >
+        WV
+      </option>
+      <option
+        value="WI"
+      >
+        WI
+      </option>
+      <option
+        value="WY"
+      >
+        WY
+      </option>
+    </select>
+  </label>
+  <label
+    className="label zip"
+    htmlFor="zip"
+  >
+    Zip*
+     
+    <input
+      aria-invalid={true}
+      aria-required={true}
+      checked={false}
+      className="zip"
+      id="zip"
+      name="Zip"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Zip"
+      type="text"
+      value="33584"
+    />
+    <span />
+  </label>
+  <label
+    className="label phone"
+    htmlFor="phone"
+  >
+    Phone Number*
+     
+    <span
+      className="hide508"
+    >
+      Numbers and hyphens only
+    </span>
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="phone"
+      name="Phone Number"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Phone Number"
+      type="tel"
+      value="4040404040"
+    />
+    <span />
+  </label>
+  <label
+    className="label altPhone"
+    htmlFor="altPhone"
+  >
+    Alternate Phone
+     
+    <input
+      aria-invalid={null}
+      checked={false}
+      id="altPhone"
+      name="Alternate Phone"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Alternate Phone"
+      type="tel"
+      value=""
+    />
+    <span />
+  </label>
+  <label
+    className="label email"
+    htmlFor="email"
+  >
+    Email*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="email"
+      name="Email"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Email"
+      type="email"
+      value="test@test.com"
+    />
+    <span />
+  </label>
+  <fieldset
+    className="text-me-container"
+  >
+    <legend
+      className="text-me-label"
+    >
+      Text me delivery time frames
+    </legend>
+    <input
+      aria-invalid={null}
+      checked={true}
+      className="text-me"
+      id="deliveryTexts"
+      name="text-me"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="radio"
+      value={true}
+    />
+    <span>
+      <span
+        className="radio-label"
+      >
+        Yes
+      </span>
+    </span>
+    <input
+      aria-invalid={null}
+      checked={false}
+      className="text-me"
+      id="deliveryTexts"
+      name="text-me"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="radio"
+      value={false}
+    />
+    <span>
+      <span
+        className="radio-label"
+      >
+        No
+      </span>
+    </span>
+  </fieldset>
+  <br />
+  <div
+    className="checkbox-container"
+  >
+    <input
+      aria-invalid={null}
+      checked={true}
+      className="text-me"
+      id="emailCampaign"
+      name="Sign up for Rooms To Go email promotions and news letters"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="checkbox"
+      value=""
+    />
+    <span>
+      <p>
+        Sign up for Rooms To Go email promotions and news letters
+      </p>
+    </span>
+  </div>
+</form>
+`;
+
+exports[`ShippingSection renders correctly with invalid fields 1`] = `
+<form
+  className="shipping-form"
+>
+  <p
+    className="required-label"
+  >
+    *Asterisks indicate required fields in the form below
+  </p>
+  <p
+    className="invalid-message"
+  >
+    *Invalid
+     
+    phone
+  </p>
+  <label
+    className="label firstName"
+    htmlFor="firstName"
+  >
+    First Name*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="firstName"
+      name="First Name"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="First Name"
+      type="text"
+      value="Tester"
+    />
+    <span />
+  </label>
+  <label
+    className="label lastName"
+    htmlFor="lastName"
+  >
+    Last Name*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="lastName"
+      name="Last Name"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Last Name"
+      type="text"
+      value="Test"
+    />
+    <span />
+  </label>
+  <span
+    className="hide508"
+    id="addressInstructions"
+  >
+    Start typing to receive address suggestions.
+  </span>
+  <label
+    className="label address1"
+    htmlFor="address1"
+  >
+    Street Address*
+     
+    <input
+      aria-invalid={true}
+      aria-required={true}
+      checked={false}
+      className="street"
+      id="address1"
+      name="Street Address"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Street Address"
+      type="text"
+      value="103 seffner ave"
+    />
+    <span />
+  </label>
+  <label
+    className="label address2"
+    htmlFor="address2"
+  >
+    Apt, Suite, Etc
+     
+    <input
+      aria-invalid={null}
+      checked={false}
+      className="apt"
+      id="address2"
+      name="Apt, Suite, Etc"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Apt, Suite, Etc"
+      type="text"
+      value=""
+    />
+    <span />
+  </label>
+  <label
+    className="label city"
+    htmlFor="city"
+  >
+    City*
+     
+    <input
+      aria-invalid={true}
+      aria-required={true}
+      checked={false}
+      className="city"
+      id="city"
+      name="City"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="City"
+      type="text"
+      value="seffner"
+    />
+    <span />
+  </label>
+  <label
+    className="label state"
+    htmlFor="state"
+  >
+    State*
+    <select
+      className="state"
+      name="state"
+      onChange={[Function]}
+      value="FL"
+    >
+      <option
+        value="AZ"
+      >
+        AZ
+      </option>
+      <option
+        value="AL"
+      >
+        AL
+      </option>
+      <option
+        value="AK"
+      >
+        AK
+      </option>
+      <option
+        value="AR"
+      >
+        AR
+      </option>
+      <option
+        value="CA"
+      >
+        CA
+      </option>
+      <option
+        value="CO"
+      >
+        CO
+      </option>
+      <option
+        value="CT"
+      >
+        CT
+      </option>
+      <option
+        value="DC"
+      >
+        DC
+      </option>
+      <option
+        value="DE"
+      >
+        DE
+      </option>
+      <option
+        value="FL"
+      >
+        FL
+      </option>
+      <option
+        value="GA"
+      >
+        GA
+      </option>
+      <option
+        value="HI"
+      >
+        HI
+      </option>
+      <option
+        value="ID"
+      >
+        ID
+      </option>
+      <option
+        value="IL"
+      >
+        IL
+      </option>
+      <option
+        value="IN"
+      >
+        IN
+      </option>
+      <option
+        value="IA"
+      >
+        IA
+      </option>
+      <option
+        value="KS"
+      >
+        KS
+      </option>
+      <option
+        value="KY"
+      >
+        KY
+      </option>
+      <option
+        value="LA"
+      >
+        LA
+      </option>
+      <option
+        value="ME"
+      >
+        ME
+      </option>
+      <option
+        value="MD"
+      >
+        MD
+      </option>
+      <option
+        value="MA"
+      >
+        MA
+      </option>
+      <option
+        value="MI"
+      >
+        MI
+      </option>
+      <option
+        value="MN"
+      >
+        MN
+      </option>
+      <option
+        value="MS"
+      >
+        MS
+      </option>
+      <option
+        value="MO"
+      >
+        MO
+      </option>
+      <option
+        value="MT"
+      >
+        MT
+      </option>
+      <option
+        value="NE"
+      >
+        NE
+      </option>
+      <option
+        value="NV"
+      >
+        NV
+      </option>
+      <option
+        value="NH"
+      >
+        NH
+      </option>
+      <option
+        value="NJ"
+      >
+        NJ
+      </option>
+      <option
+        value="NM"
+      >
+        NM
+      </option>
+      <option
+        value="NY"
+      >
+        NY
+      </option>
+      <option
+        value="NC"
+      >
+        NC
+      </option>
+      <option
+        value="ND"
+      >
+        ND
+      </option>
+      <option
+        value="OH"
+      >
+        OH
+      </option>
+      <option
+        value="OK"
+      >
+        OK
+      </option>
+      <option
+        value="OR"
+      >
+        OR
+      </option>
+      <option
+        value="PA"
+      >
+        PA
+      </option>
+      <option
+        value="RI"
+      >
+        RI
+      </option>
+      <option
+        value="SC"
+      >
+        SC
+      </option>
+      <option
+        value="SD"
+      >
+        SD
+      </option>
+      <option
+        value="TN"
+      >
+        TN
+      </option>
+      <option
+        value="TX"
+      >
+        TX
+      </option>
+      <option
+        value="UT"
+      >
+        UT
+      </option>
+      <option
+        value="VT"
+      >
+        VT
+      </option>
+      <option
+        value="VA"
+      >
+        VA
+      </option>
+      <option
+        value="WA"
+      >
+        WA
+      </option>
+      <option
+        value="WV"
+      >
+        WV
+      </option>
+      <option
+        value="WI"
+      >
+        WI
+      </option>
+      <option
+        value="WY"
+      >
+        WY
+      </option>
+    </select>
+  </label>
+  <label
+    className="label zip"
+    htmlFor="zip"
+  >
+    Zip*
+     
+    <input
+      aria-invalid={true}
+      aria-required={true}
+      checked={false}
+      className="zip"
+      id="zip"
+      name="Zip"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Zip"
+      type="text"
+      value="33584"
+    />
+    <span />
+  </label>
+  <label
+    className="label phone"
+    htmlFor="phone"
+  >
+    Phone Number*
+     
+    <span
+      className="hide508"
+    >
+      Numbers and hyphens only
+    </span>
+    <input
+      aria-invalid={true}
+      aria-required={true}
+      checked={false}
+      className="invalid"
+      id="phone"
+      name="Phone Number"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Phone Number"
+      type="tel"
+      value="4040404040"
+    />
+    <span />
+  </label>
+  <label
+    className="label altPhone"
+    htmlFor="altPhone"
+  >
+    Alternate Phone
+     
+    <input
+      aria-invalid={null}
+      checked={false}
+      id="altPhone"
+      name="Alternate Phone"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Alternate Phone"
+      type="tel"
+      value=""
+    />
+    <span />
+  </label>
+  <label
+    className="label email"
+    htmlFor="email"
+  >
+    Email*
+     
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      checked={false}
+      id="email"
+      name="Email"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder="Email"
+      type="email"
+      value="test@test.com"
+    />
+    <span />
+  </label>
+  <fieldset
+    className="text-me-container"
+  >
+    <legend
+      className="text-me-label"
+    >
+      Text me delivery time frames
+    </legend>
+    <input
+      aria-invalid={null}
+      checked={true}
+      className="text-me"
+      id="deliveryTexts"
+      name="text-me"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="radio"
+      value={true}
+    />
+    <span>
+      <span
+        className="radio-label"
+      >
+        Yes
+      </span>
+    </span>
+    <input
+      aria-invalid={null}
+      checked={false}
+      className="text-me"
+      id="deliveryTexts"
+      name="text-me"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="radio"
+      value={false}
+    />
+    <span>
+      <span
+        className="radio-label"
+      >
+        No
+      </span>
+    </span>
+  </fieldset>
+  <br />
+  <div
+    className="checkbox-container"
+  >
+    <input
+      aria-invalid={null}
+      checked={true}
+      className="text-me"
+      id="emailCampaign"
+      name="Sign up for Rooms To Go email promotions and news letters"
+      onChange={[Function]}
+      onClick={[Function]}
+      placeholder=""
+      type="checkbox"
+      value=""
+    />
+    <span>
+      <p>
+        Sign up for Rooms To Go email promotions and news letters
+      </p>
+    </span>
+  </div>
+</form>
+`;
+
+exports[`ShippingSection renders shipping condensed when checkoutStep is not shipping 1`] = `
+<div
+  className="shipping-condensed"
+>
+  <div
+    className="left-info"
+  >
+    Tester Test
+    <br />
+    
+    103 seffner ave
+    <br />
+    seffner 
+    fl 
+    33584
+  </div>
+  <div
+    className="right-info"
+  >
+    test@test.com
+    <br />
+    4040404040
+    <br />
+    
+  </div>
+</div>
+`;

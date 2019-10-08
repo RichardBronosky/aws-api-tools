@@ -1,0 +1,92 @@
+
+@import '../../../mixins'
+@import '../../../variables'
+.ais-RefinementList-list
+  &.color_family
+    margin: 2%
+    display: flex
+    flex-wrap: wrap
+    +large-up
+      margin: 4%
+
+.ais-RefinementList-item
+  a
+    width: 100%
+    height: 100%
+    display: block
+    cursor: pointer
+    color: inherit
+  &.color_family
+    float: left
+    margin: 0.3125rem
+    input[type=checkbox]:checked:after
+      border: none !important
+
+.ais-RefinementList-input
+  display: inline-block
+  width: 22px
+  +large-up
+    position: absolute
+    margin-top: 6px
+.ais-RefinementList-labelText
+  cursor: pointer
+  display: inline-block
+  width: calc(95% - 1rem)
+  &.color_family
+    font-size: $txt-xsmall !important
+    display: block
+    margin-top: 0.625rem
+    margin-left: -0.5rem !important
+    width: 100%
+.color_family
+  .ais-RefinementList-input
+    position: relative !important
+
+
+.ais-RefinementList-checkbox
+  cursor: pointer
+  &:hover:before
+    background-color: red
+    height: 2.5rem
+  ::checked:after
+    height: 0 !important
+  &.selected
+    outline-color: -webkit-focus-ring-color
+    outline-width: 0.09rem
+    outline-style: auto
+    @media (-webkit-min-device-pixel-ratio:0)
+      .selected
+        outline-color: -webkit-focus-ring-color
+        outline-width: 0.2rem
+        outline-style: auto
+  &.color_family
+    height: 1.5em !important
+    width: 1.5rem !important
+    margin-bottom: -0.3125rem !important
+    &:hover
+      border: $primary
+
+    &.gray
+      background: gray !important
+    &.blue
+      background: blue !important
+    &.brown
+      background: brown !important
+    &.beige
+      background: beige !important
+    &.black
+      background: black !important
+    &.white
+      background: $primary-invert !important
+    &.red
+      background: red !important
+    &.green
+      background: green !important
+    &.ivory
+      background: ivory !important
+    &.orange
+      background: orange !important
+    &.yellow
+      background: yellow !important
+    &.pink
+      background: pink !important

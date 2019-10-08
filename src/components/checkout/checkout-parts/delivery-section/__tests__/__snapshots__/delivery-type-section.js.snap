@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeliveryTypeSection renders correctly when not ups 1`] = `
+<form
+  className="delivery-form grid-x"
+>
+  <h3
+    className="small-12"
+  >
+    Shipped to your door
+  </h3>
+  <h4
+    className="small-12"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      className="icon shipping-box"
+      role="presentation"
+      src="test-file-stub"
+    />
+    <p
+      className="bold"
+    >
+      FREE
+    </p>
+    <p>
+      shipping directly from vendor
+    </p>
+  </h4>
+  <div
+    className="delivery-product-container no-border small-12 medium-9 large-7"
+  >
+    <div
+      className="delivery-product separator"
+    >
+      <div
+        className="product-container grid-x"
+      >
+        <div
+          className="product-image-container small-2 large-4"
+        />
+        <div
+          className="product-info small-6 large-5"
+        >
+          <a
+            aria-label="Collins Point Brown Accent Chair"
+            gtm-action={null}
+            gtm-category={null}
+            gtm-label="/furniture/product/collins-point-brown-accent-chair/26043632"
+            gtm-value={null}
+            href="/furniture/product/collins-point-brown-accent-chair/26043632"
+            onClick={[Function]}
+            title="Collins Point Brown Accent Chair"
+          >
+            <p>
+              Collins Point Brown Accent Chair
+            </p>
+          </a>
+        </div>
+        <div
+          className="quantity small-2"
+        >
+          QTY: 
+           2
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-product separator"
+    >
+      <div
+        className="product-container grid-x"
+      >
+        <div
+          className="product-image-container small-2 large-4"
+        />
+        <div
+          className="product-info small-6 large-5"
+        >
+          <a
+            aria-label="Collins Point Brown Accent Chair2"
+            gtm-action={null}
+            gtm-category={null}
+            gtm-label="/furniture/product/collins-point-brown-accent-chair2/26043633"
+            gtm-value={null}
+            href="/furniture/product/collins-point-brown-accent-chair2/26043633"
+            onClick={[Function]}
+            title="Collins Point Brown Accent Chair2"
+          >
+            <p>
+              Collins Point Brown Accent Chair2
+            </p>
+          </a>
+        </div>
+        <div
+          className="quantity small-2"
+        >
+          QTY: 
+           2
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-product separator"
+    >
+      <div
+        className="product-container grid-x"
+      >
+        <div
+          className="product-image-container small-2 large-4"
+        />
+        <div
+          className="product-info small-6 large-5"
+        >
+          <a
+            aria-label="Collins Point Brown Accent Chair3"
+            gtm-action={null}
+            gtm-category={null}
+            gtm-label="/furniture/product/collins-point-brown-accent-chair3/26043634"
+            gtm-value={null}
+            href="/furniture/product/collins-point-brown-accent-chair3/26043634"
+            onClick={[Function]}
+            title="Collins Point Brown Accent Chair3"
+          >
+            <p>
+              Collins Point Brown Accent Chair3
+            </p>
+          </a>
+        </div>
+        <div
+          className="quantity small-2"
+        >
+          QTY: 
+           2
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-product"
+    >
+      <div
+        className="product-container grid-x"
+      >
+        <div
+          className="product-image-container small-2 large-4"
+        />
+        <div
+          className="product-info small-6 large-5"
+        >
+          <a
+            aria-label="Gift Card"
+            gtm-action={null}
+            gtm-category={null}
+            gtm-label="/furniture/product/gift-card/83333333"
+            gtm-value={null}
+            href="/furniture/product/gift-card/83333333"
+            onClick={[Function]}
+            title="Gift Card"
+          >
+            <p>
+              Gift Card
+            </p>
+          </a>
+        </div>
+        <div
+          className="quantity small-2"
+        >
+          QTY: 
+           1
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`DeliveryTypeSection renders correctly when ups 1`] = `
+<form
+  className="delivery-form grid-x"
+>
+  <h3
+    className="small-12"
+  >
+    Shipped to your door via UPS
+  </h3>
+  <h4
+    className="small-12"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      className="icon shipping-box"
+      role="presentation"
+      src="test-file-stub"
+    />
+    <p
+      className="bold"
+    >
+      FREE
+    </p>
+    <p>
+      ships via UPS
+    </p>
+  </h4>
+  <div
+    className="delivery-product-container no-border small-12 medium-9 large-7"
+  >
+    <div
+      className="delivery-product separator"
+    >
+      <div
+        className="product-container grid-x"
+      >
+        <div
+          className="product-image-container small-2 large-4"
+        />
+        <div
+          className="product-info small-6 large-5"
+        >
+          <a
+            aria-label="Collins Point Brown Accent Chair"
+            gtm-action={null}
+            gtm-category={null}
+            gtm-label="/furniture/product/collins-point-brown-accent-chair/26043632"
+            gtm-value={null}
+            href="/furniture/product/collins-point-brown-accent-chair/26043632"
+            onClick={[Function]}
+            title="Collins Point Brown Accent Chair"
+          >
+            <p>
+              Collins Point Brown Accent Chair
+            </p>
+          </a>
+        </div>
+        <div
+          className="quantity small-2"
+        >
+          QTY: 
+           2
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-product separator"
+    >
+      <div
+        className="product-container grid-x"
+      >
+        <div
+          className="product-image-container small-2 large-4"
+        />
+        <div
+          className="product-info small-6 large-5"
+        >
+          <a
+            aria-label="Collins Point Brown Accent Chair2"
+            gtm-action={null}
+            gtm-category={null}
+            gtm-label="/furniture/product/collins-point-brown-accent-chair2/26043633"
+            gtm-value={null}
+            href="/furniture/product/collins-point-brown-accent-chair2/26043633"
+            onClick={[Function]}
+            title="Collins Point Brown Accent Chair2"
+          >
+            <p>
+              Collins Point Brown Accent Chair2
+            </p>
+          </a>
+        </div>
+        <div
+          className="quantity small-2"
+        >
+          QTY: 
+           2
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-product separator"
+    >
+      <div
+        className="product-container grid-x"
+      >
+        <div
+          className="product-image-container small-2 large-4"
+        />
+        <div
+          className="product-info small-6 large-5"
+        >
+          <a
+            aria-label="Collins Point Brown Accent Chair3"
+            gtm-action={null}
+            gtm-category={null}
+            gtm-label="/furniture/product/collins-point-brown-accent-chair3/26043634"
+            gtm-value={null}
+            href="/furniture/product/collins-point-brown-accent-chair3/26043634"
+            onClick={[Function]}
+            title="Collins Point Brown Accent Chair3"
+          >
+            <p>
+              Collins Point Brown Accent Chair3
+            </p>
+          </a>
+        </div>
+        <div
+          className="quantity small-2"
+        >
+          QTY: 
+           2
+        </div>
+      </div>
+    </div>
+    <div
+      className="delivery-product"
+    >
+      <div
+        className="product-container grid-x"
+      >
+        <div
+          className="product-image-container small-2 large-4"
+        />
+        <div
+          className="product-info small-6 large-5"
+        >
+          <a
+            aria-label="Gift Card"
+            gtm-action={null}
+            gtm-category={null}
+            gtm-label="/furniture/product/gift-card/83333333"
+            gtm-value={null}
+            href="/furniture/product/gift-card/83333333"
+            onClick={[Function]}
+            title="Gift Card"
+          >
+            <p>
+              Gift Card
+            </p>
+          </a>
+        </div>
+        <div
+          className="quantity small-2"
+        >
+          QTY: 
+           1
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;

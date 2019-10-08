@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressSuggestionModal renders correctly with default props 1`] = `
+<div>
+  <div
+    id="content"
+  >
+    <div
+      className="ReactModal__Overlay ReactModal__Overlay--after-open modal-overlay"
+      onClick={[Function]}
+      onMouseDown={[Function]}
+      style={Object {}}
+    >
+      <div
+        aria-label="Address Suggestion Modal"
+        className="ReactModal__Content ReactModal__Content--after-open address-suggestion-modal"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+        role="dialog"
+        style={Object {}}
+        tabIndex="-1"
+      >
+        <div
+          className="modal-content"
+        >
+          <span
+            className="modal-title"
+          >
+            We are having trouble verifying the address as it was entered.
+          </span>
+          <div
+            className="grid-x"
+          >
+            <div
+              className="small-12 medium-6"
+            >
+              <span
+                className="modal-title"
+              >
+                Suggested address:
+              </span>
+              <span
+                className="address"
+              >
+                1234 Test Address
+              </span>
+              <span
+                className="address"
+              >
+                 Atlanta GA 30328
+              </span>
+              <button
+                aria-label="accept address suggestion"
+                className="accept-btn"
+                onClick={[Function]}
+                tabIndex="0"
+                value="accept address suggestion"
+              >
+                ACCEPT ADDRESS SUGGESTION
+              </button>
+            </div>
+            <div
+              className="small-12 medium-6"
+            >
+              <span
+                className="modal-title"
+              >
+                Address as entered:
+              </span>
+              <span
+                className="address"
+              >
+                103 seffner ave 
+              </span>
+              <span
+                className="address"
+              >
+                seffner FL 33584
+              </span>
+              <button
+                aria-label="keep address as entered"
+                className="keep-btn"
+                onClick={[Function]}
+                tabIndex="0"
+                value="keep address as entered"
+              >
+                KEEP ADDRESS AS ENTERED
+              </button>
+            </div>
+          </div>
+          <button
+            aria-label="Close"
+            className="go-back"
+            onClick={[MockFunction]}
+            tabIndex="0"
+            value="Close"
+          >
+            &lt; GO BACK AND EDIT THE ADDRESS PROVIDED
+          </button>
+          <button
+            aria-label="Close"
+            className="close-modal"
+            onClick={[MockFunction]}
+            tabIndex="0"
+            value="Close"
+          >
+            <img
+              alt="close icon"
+              className="icon close"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFFFFF' d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z' /%3E%3C/svg%3E"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-target-tag-name="DIV"
+    id="target"
+  />
+</div>
+`;

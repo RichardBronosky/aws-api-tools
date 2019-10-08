@@ -1,0 +1,41 @@
+@import '../../../mixins'
+@import '../../../variables'
+  
+.product-description 
+    height: 154px!important
+    overflow: hidden
+    position: relative
+    padding-bottom: 40px
+    padding: 1rem
+    margin: 0 auto
+    display: flex!important
+    &.read-more-expander
+        height: auto!important
+    +large-up
+        height: auto!important
+.background-white-cover    
+    height: 56px 
+    background-color: #fff 
+    position: absolute
+    width: 100%
+    bottom: 0
+    left: 0
+    +large-up
+        display: none
+.blue-action-btn-circle
+    background-color: #0053A0
+    color: #ffffff
+    border: 0px
+    width: 118px
+    padding: 12px 24px 37px 25px
+    text-align: center
+    box-sizing: border-box
+    font-size: .7em
+    text-transform: uppercase
+    border-radius: 48px
+    position: absolute
+    bottom: -30px
+    left: 0
+    right: 0
+    margin: 0 auto
+

@@ -1,0 +1,110 @@
+@import '../../../mixins'
+@import '../../../variables'
+
+.section
+  padding: 0.7em 0
+  background: $primary-invert
+  text-align: right
+  .section-header
+    margin: 0 1.5%
+    width: 97%
+    height: 3em
+    .circle
+      float: left
+      width: 2.5em
+      height: 2.5em
+      text-align: center
+      background-color: #000
+      border-radius: 50%
+      .section-number
+        font-size: 1.3rem
+        margin-top: 9%
+        font-weight: 600
+        color: $primary-invert
+    .section-title
+      font-weight: bold
+      font-size: $txt-medium-up
+      margin: 0.1em 0.5em
+      float: left
+      line-height: inherit
+    .edit-btn
+      float: right
+      margin: 0.45em calc(0.15em + 1%)
+      text-transform: uppercase
+      color: $primary
+      font-size: $txt-medium-up
+      font-weight: bold
+      &:hover
+        text-decoration: underline
+      &.disabled
+        color: $medium-grey
+        text-decoration: none
+  .section-content
+    width: 90%
+    margin: 0.5rem 5% 0 5%
+    +small
+      width: 100%
+      text-align: center
+      margin: 0
+    .btn-container
+      +small
+        position: sticky
+        bottom: 2.5rem
+        right: 0
+        z-index: 1
+        padding: 0.4rem 0.45rem 0 .45rem
+        background: $primary-invert
+        border-top: solid 1px $grey
+        width: 100%
+        height: 4rem
+      +landscape
+        position: sticky
+        bottom: 2.35rem
+        right: 0
+        z-index: 1
+        padding: 0.5em
+        background: $primary-invert
+        border-top: solid 1px $grey
+        width: 111%
+        margin: 0 -5.5%
+        text-align: center
+      .loader
+        height: 2.75rem
+        +medium-up
+          margin-right: 7%
+      .continue-btn, .place-order-btn
+        background-color: $primary
+        color: $primary-invert
+        border-radius: 0
+        padding: 12px
+        text-align: center
+        box-sizing: border-box
+        font-size: $txt-medium
+        text-transform: uppercase
+        font-weight: bold
+        position: relative
+        +medium-up
+          right: 1.5%
+        +landscape
+          right: 0
+        &:hover
+          background-color: $light-blue
+        +focus-508
+        .loader
+          height: 1.7rem
+          margin: -1rem
+          margin-top: -1.2rem
+      .continue-btn
+        width: 10em
+        +small
+          width: 97.5%
+        +landscape
+          width: 95%
+      .place-order-btn
+        width: 13em
+        +small
+          width: 97.5%
+        +landscape
+          width: 95%
+      .paypal-buttons-layout-horizontal
+        width: 250px !important

@@ -1,0 +1,59 @@
+@import '../../mixins'
+@import '../../variables'
+header
+  .head--navigation
+    .link-list
+      display: block
+      color: $dark-grey
+      width: 100%
+      +large-up
+        width: auto
+        z-index: 3
+        max-width: 200px
+      ul
+        display: flex
+        flex-flow: column wrap
+        justify-content: flex-start
+        +large-up
+          margin: 0
+          margin-right: 2rem
+        li
+          border-bottom: 0
+          text-align: left
+          text-transform: none
+          margin: 0 1rem
+          font-weight: normal
+          +large-up
+            border: none
+            max-width: 15rem
+          &:last-child
+            margin-bottom: 1rem
+          a
+            text-transform: none
+            cursor: pointer
+            display: block
+            padding: 0 1.5rem
+            line-height: 3.125rem
+            width: 100%
+            font-size: $txt-small
+            background: $primary-invert
+            border-top: 0.0625rem solid $light-grey
+            text-align: left
+            text-decoration: none
+            color: $dark-grey
+            font-weight: normal
+            +large-up
+              border: none
+              width: auto
+              line-height: inherit
+              padding: 0
+              display: inline-block
+              color: $dark-grey
+              text-decoration: none
+              &:hover
+                text-decoration: underline
+                color: $primary
+          h3
+            font-weight: bold
+            margin-top: 0
+            margin-bottom: 0.5rem

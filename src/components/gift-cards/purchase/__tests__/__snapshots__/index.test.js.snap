@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftCardPurchase renders correctly 1`] = `
+<div
+  className="gc-page card"
+>
+  <div>
+     
+    <h1
+      className="gc-header "
+    >
+      ROOMS TO GO GIFT CARDS
+    </h1>
+  </div>
+  <div
+    className="gc-wrapper grid-x"
+  >
+    <div
+      className="small-12 large-6 grid-x cell gc-right"
+    >
+      <p>
+        The Rooms To Go gift card is an ideal gift choice for weddings, graduations, anniversaries and so many other special occasions.
+      </p>
+      <p>
+        You will receive your Gift Card via certified mail, with no shipping or handling cost to you!
+      </p>
+      <p>
+        NOTE: For security purposes, Gift Cards will only be mailed to purchaser's billing address in the Contiguous U.S.
+      </p>
+      <a
+        className="link blue-action-btn"
+        gtm-action="click"
+        gtm-category="gift-card"
+        gtm-label="gift card balance"
+        gtm-value={null}
+        href="/gift-cards/balance"
+        onBlur={null}
+        onClick={[Function]}
+        onFocus={null}
+        onKeyDownCapture={null}
+        target="_blank"
+        title="Rooms To Go Gift Card Balance"
+      >
+        Check Gift Card Balance
+      </a>
+      <div
+        className="small-12"
+      >
+        <div
+          className="gc-accordions"
+        >
+          <div
+            className="contentful-accordion"
+          >
+            <div
+              aria-controls="gf-faqs"
+              aria-expanded={false}
+              className="contentful-accordion-heading"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex="0"
+            >
+              <span>
+                Gift Card FAQs
+              </span>
+              <i
+                className=""
+              />
+            </div>
+            <div
+              className="contentful-accordion-content"
+            >
+              <div
+                className="gc-faq-wrapper"
+              >
+                <span
+                  className="gc-faq-title"
+                >
+                  Can I buy Rooms To Go gift cards online?
+                </span>
+                <span>
+                  Yes, you may purchase Rooms To Go gift cards online at roomstogo.com.
+                </span>
+              </div>
+              <div
+                className="gc-faq-wrapper"
+              >
+                <span
+                  className="gc-faq-title"
+                >
+                  How do I redeem a Rooms To Go gift card online?
+                </span>
+                <span>
+                  Shop roomstogo.com, choose merchandise you wish to buy and add it to your shopping cart. At Checkout, a space is provided to enter the gift card number, which is located on the back of the gift card, as well as the PIN number, also provided on the back.
+                </span>
+              </div>
+              <div
+                className="gc-faq-wrapper"
+              >
+                <span
+                  className="gc-faq-title"
+                >
+                  Can I redeem a Rooms To Go gift card in a Rooms To Go showroom?
+                </span>
+                <span>
+                  Yes, your gift card may be redeemed in any Rooms To Go or Rooms To Go Kids showroom in the Contiguous U.S. Sorry, gift cards cannot be redeemed in showrooms outside the United States at this time.
+                </span>
+              </div>
+              <div
+                className="gc-faq-wrapper"
+              >
+                <span
+                  className="gc-faq-title"
+                >
+                  What are the shipping charges for Rooms To Go gift cards?
+                </span>
+                <span>
+                  Your gift card will be sent free of charge via certified mail. Please be aware that gift cards will only be mailed to the purchaser's billing address, not your intended recipient. This is for security purposes.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="contentful-accordion"
+          >
+            <div
+              aria-controls="gf-terms"
+              aria-expanded={false}
+              className="contentful-accordion-heading"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex="0"
+            >
+              <span>
+                Terms and conditions
+              </span>
+              <i
+                className=""
+              />
+            </div>
+            <div
+              className="contentful-accordion-content"
+            >
+              <div>
+                <p>
+                  The Rooms To Go gift card is easy to carry and easy to use. Once activated, this card is redeemable for merchandise at any Rooms To Go or Rooms To Go Kids showroom, or online at roomstogo.com. Please note that the pin number from the gift card is required to redeem online. Checking the gift card balance is simple, by calling 1-888-228-0144 or by
+                  <a
+                    gtm-action="click"
+                    gtm-category="gift-card"
+                    gtm-label="gift card balance"
+                    gtm-value={null}
+                    href="/gift-cards/balance"
+                    onBlur={null}
+                    onClick={[Function]}
+                    onFocus={null}
+                    onKeyDownCapture={null}
+                    title="Rooms To Go Gift Card Balance"
+                  >
+                     clicking here
+                  </a>
+                  . The Rooms To Go gift card will be mailed to you at no charge. It is our policy to mail the card to the purchaser's billing address. This card has no cash value and is not redeemable for cash, nor will it be replaced if lost or stolen. Gift cards may not be applied towards prior purchases or account balances or to purchase additional Gift cards. Gift cards are not returnable or refundable. Any balance remains on the Gift card until it is spent. The Rooms To Go gift card is an ideal gift choice for weddings, graduations, anniversaries and so many other special occasions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="gc-content-wrapper grid-x small-12 large-6"
+    >
+      <div
+        className="gift-card-tile grid-x small-12 large-6 card pop-out"
+      >
+        <div
+          className="small-12 gc-image"
+        >
+          <img
+            src={Object {}}
+          />
+        </div>
+        <div
+          className="gc-add-to-cart-wrapper small-12"
+        >
+          <span
+            className="gc-label"
+          >
+            $100 Gift Card
+          </span>
+          <button
+            className="blue-action-btn"
+            onClick={[Function]}
+          >
+            Add to cart
+          </button>
+        </div>
+      </div>
+    </div>
+    <div />
+  </div>
+</div>
+`;

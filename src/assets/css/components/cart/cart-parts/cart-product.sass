@@ -1,0 +1,243 @@
+@import '../../../mixins'
+@import '../../../variables'
+.float-right
+  float: right
+.cart-product
+  background: $primary-invert
+  height: auto
+  padding: 0 .5rem
+  &.separator
+    border-bottom: solid 0.1875rem $grey
+    .product-container
+      border: none
+  .not-available-msg
+    position: relative
+    background-color: $red
+    color: $primary-invert
+    text-transform: uppercase
+    font-weight: 700
+    font-size: $txt-mini
+    text-align: center
+    padding: .1rem
+    left: 0
+    width: 9rem
+    margin-bottom: -2.5em
+  .product-container
+    height: 100%
+    background: $primary-invert
+    height: auto
+    .addon-header
+      margin-top: 1rem
+      font-weight: 600
+      font-size: $txt-medium-up
+      color: $light-blue
+      width: 100%
+      +medium-down
+        text-align: center
+        font-size: $txt-small
+        display: flex
+        justify-content: center
+        padding: .5rem
+    .addon-list
+      width: 100%
+      +medium-down
+        display: flex
+        justify-content: center
+        text-algin: center
+      .addon
+        text-align: center
+        +large-up
+          text-align: left
+        .small-12
+          font-size: $txt-xsmall
+          +large-up
+            font-size: $txt-medium
+        .price
+          font-size: $txt-small !important
+          +large-up
+            color: $dark-grey
+            margin-left: 10%
+            font-size: $txt-medium !important
+  .cart-image-title-container
+    padding: 1rem 0
+    width: 100%
+    +large-up
+      border-bottom: 0em
+    .product-image-container
+      height: auto
+      float: left
+      margin-bottom: 0
+      text-align: center
+      padding: 0 .5rem
+      display: flex
+      justify-content: center
+      +large-up
+        margin-bottom: 2rem
+        height: 100%
+        margin-bottom: 0
+        max-height: 100%
+      .product-image
+        width: auto
+        height: auto
+        max-height: 9rem
+        +large-up
+          max-height: 9rem
+          max-width: 12rem
+    .product-bar
+      .dropdown-remove
+        display: flex
+        justify-content: center
+      .remove-btn
+        &:hover
+          color: $primary
+          text-decoration: underline
+      .quantity-select, .price-container, .remove-btn
+        +medium-down
+          display: none
+    .cart-shipping
+      .in-stock
+        margin-top: .2em
+        font-size: $txt-xsmall
+        color: $dark-grey
+        +large-up
+          font-size: $txt-small
+      .icon
+        float: left
+        padding: 0 9px
+        margin-top: -0.3rem
+        &.close
+          display: block
+          height: 2rem
+          width: 2rem
+          cursor: unset
+          font-size: 35px
+          margin-top: -0.3rem
+          &:after
+            background: none
+          &:before
+            font-size: 35px
+          &:hover:before
+            transform: scale(1) rotate(45deg)
+            color: $dark-grey
+            font-size: 35px
+      p
+        float: left
+    .product-info
+      line-height: 1
+      .product-bar
+        height: 3.5rem
+        +medium-down
+          height: auto
+      .product-title
+        display: block
+        span 
+          font-weight: 600
+          color: $dark-grey
+          font-size: $txt-xsmall
+          line-height: 1
+          +large-up
+            font-size: $txt-medium
+          &:hover
+            color: $primary
+            text-decoration: underline
+        &.not-available
+          span
+            color: $red
+            &:hover
+              text-decoration: underline
+      .sku-text
+        line-height: 2
+        font-size: $txt-xsmall
+      .checkmark
+        width: 1.875rem
+        margin-top: -0.5rem
+    .mobile
+      display: block
+      .price-container
+        padding: 1rem 1rem 0 1rem
+        .center
+          display: flex
+          justify-content: right
+          margin: 0
+          flex-direction: row-reverse
+          .product-price
+            text-align: center
+      .cart-shipping
+        display: none
+      .cart-icon
+        margin: .5rem 0
+        .icon
+          width: 2.75rem!important
+          &.close
+            height: 2.75rem
+            width: 2.5rem
+            cursor: unset
+            &:after
+              background: none
+            &:hover:before
+              transform: scale(1) rotate(45deg)
+              color: $dark-grey
+      .cart-shipping
+        margin: .5rem 0
+        .icon
+          height: 1.5rem
+          padding: 0 !important
+          &.close
+            height: 2.75rem
+            width: 2.5rem
+            cursor: unset
+            &:after
+              background: none
+            &:hover:before
+              transform: scale(1) rotate(45deg)
+              color: $dark-grey
+        .product-location
+          margin: 10px 0
+          .delivery-info
+            max-width: 193px
+            .icon
+              width: 60px
+            p
+              float: right
+      .remove-button
+        float: right
+    .quantity-dropdown
+      height: 2em
+    .quantity-select
+      min-width: 45px
+      margin-left: 0!important
+      select
+        padding: 2px 2px 2px 4px
+        font-size: .9rem
+    .price-container
+      width: auto
+      display: flex
+
+      +large-up
+        height: 3rem
+        justify-content: center
+      .pricing-box
+        float: left
+        .product-price
+          font-size: $txt-medium
+          
+          +large-up
+            text-align: center
+        .strikethrough
+          font-size: $txt-xsmall
+          text-decoration: line-through
+          margin-top: -0.5rem
+        .strikethrough-sale
+          color: $red
+        .product-financing
+          font-size: $txt-xsmall
+          text-align: center
+          color: $red
+          text-transform: uppercase
+    .quantity-select
+      margin-left: .5rem
+        
+
+
+
+

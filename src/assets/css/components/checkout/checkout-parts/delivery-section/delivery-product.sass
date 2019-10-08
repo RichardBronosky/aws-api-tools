@@ -1,0 +1,46 @@
+@import '../../../../mixins'
+@import '../../../../variables'
+
+.delivery-product
+  background: $primary-invert
+  width: 100%
+  margin: .5rem 0
+  min-height: 2rem
+  &.separator
+    border-bottom: solid 1px $grey
+  .card
+    display: flex
+    padding: .5rem 0
+  .product-container
+    height: auto
+    .product-image-container
+      height: auto
+      margin: 0 1em
+      text-align: center
+      .product-image
+        max-width: 3rem
+        max-height: 3rem
+        display: inline-block
+        width: auto
+        height: auto
+        +large-up
+          max-width: 8rem
+          max-height: 6rem
+          margin-bottom: .5rem
+    .product-info
+      a
+        display: block
+        height: 100%
+        font-weight: 400
+        font-size: $txt-xsmall
+        text-transform: unset
+        color: $dark-grey
+        margin-left: 0.5em
+        p
+          font-size: $txt-xsmall
+          &:hover
+            color: $primary
+            text-decoration: underline
+    .quantity
+      text-align: right
+      font-size: $txt-xsmall
