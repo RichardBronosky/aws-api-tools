@@ -5,9 +5,9 @@
   "author": "Jon Molinaro <jmolinaro@roomstogo.com",
   "dependencies": {
     "@sentry/browser": "^4.6.6",
-    "ajv": "^6.6.2",
+    "ajv": "^6.12.3",
     "algoliasearch": "^3.33.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.2",
     "classnames": "^2.2.6",
     "core-js": "^2.6.9",
     "deasync": "^0.1.15",
@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "aws-parameter-store-env": "0.0.4",
-    "aws-sdk": "^2.470.0",
+    "aws-sdk": "^2.814.0",
     "contentful-import": "^7.4.4",
     "contentful-management": "^5.7.2",
     "crypto": "^1.0.1",
